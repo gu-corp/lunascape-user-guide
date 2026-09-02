@@ -1,0 +1,22 @@
+{
+  "id": "lunascape-mobile-user-manual",
+  "title": "Lunascape Mobile User Manual",
+  "startPage": "introduction.md",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ja"
+  ],
+  "tree": {
+    "showFileNames": false,
+    "showDocumentIcons": false,
+    "showFolderIcons": false,
+    "showItemCounts": false,
+    "showGuides": true,
+    "density": "comfortable"
+  },
+  "editor": {
+    "defaultMode": "visual",
+    "showEditButton": true
+  }
+}
