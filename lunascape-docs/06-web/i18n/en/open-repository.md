@@ -4,7 +4,7 @@ In the Web viewer you open documents by naming a GitHub repository. Public repos
 
 ## Open from the screen
 
-1. Open <https://docs.gu-group.com/>.
+1. Open <https://docs.lunascape.org/>.
 2. Press the GitHub button in the toolbar ([GitHubのドキュメントを開く] (Open documents on GitHub)).
 3. Enter the repository under [リポジトリを直接指定] (Specify a repository) and press [開く] (Open).
    When you are signed in to GitHub, you can also pick from a list under [読めるリポジトリから選ぶ] (Choose from readable repositories).
@@ -14,7 +14,7 @@ In the Web viewer you open documents by naming a GitHub repository. Public repos
 The `source` URL parameter names the repository and the documentation root. Share the address and others open the same documents.
 
 ```text
-https://docs.gu-group.com/?source=github:owner/repo@main/docs
+https://docs.lunascape.org/?source=github:owner/repo@main/docs
 ```
 
 | What to specify | Form |
@@ -27,7 +27,7 @@ https://docs.gu-group.com/?source=github:owner/repo@main/docs
 To open a specific page directly, append `#/` and the path relative to the documentation root.
 
 ```text
-https://docs.gu-group.com/?source=github:owner/repo@main/docs#/01-product/vision.md
+https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
 ```
 
 The part after `#/` updates as you navigate, so you can copy a link from the address bar at any time. The browser's Back and Forward buttons work too.

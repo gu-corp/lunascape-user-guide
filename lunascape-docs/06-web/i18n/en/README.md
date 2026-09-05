@@ -1,6 +1,6 @@
 # What the Web viewer does
 
-The Web viewer of Lunascape Docs is available at <https://docs.gu-group.com/>. Without installing anything, you can read documents on GitHub as if they were a website.
+The Web viewer of Lunascape Docs is available at <https://docs.lunascape.org/>. Without installing anything, you can read documents on GitHub as if they were a website.
 
 ## Features
 

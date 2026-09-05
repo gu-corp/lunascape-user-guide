@@ -4,7 +4,7 @@ Web 版では、GitHub のリポジトリを指定して文書を開きます。
 
 ## 画面から開く
 
-1. <https://docs.gu-group.com/> を開きます。
+1. <https://docs.lunascape.org/> を開きます。
 2. ツールバーの GitHub ボタン（[GitHubのドキュメントを開く]）を押します。
 3. [リポジトリを直接指定] にリポジトリを入力し、[開く] を押します。
    GitHub にログインしているときは、[読めるリポジトリから選ぶ] で一覧から選ぶこともできます。
@@ -14,7 +14,7 @@ Web 版では、GitHub のリポジトリを指定して文書を開きます。
 URL の `source` パラメーターで、開くリポジトリと文書ルートを指定できます。このアドレスを共有すると、相手も同じ文書を開けます。
 
 ```text
-https://docs.gu-group.com/?source=github:owner/repo@main/docs
+https://docs.lunascape.org/?source=github:owner/repo@main/docs
 ```
 
 | 指定 | 書きかた |
@@ -27,7 +27,7 @@ https://docs.gu-group.com/?source=github:owner/repo@main/docs
 特定のページを直接開くには、URL の末尾に `#/` と文書ルートからの相対パスを付けます。
 
 ```text
-https://docs.gu-group.com/?source=github:owner/repo@main/docs#/01-product/vision.md
+https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
 ```
 
 ページを移動すると URL の `#/` 以降が更新されるため、ブラウザのアドレスバーからいつでもリンクをコピーできます。ブラウザの [戻る] [進む] も使えます。

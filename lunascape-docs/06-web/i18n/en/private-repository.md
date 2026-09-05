@@ -4,7 +4,7 @@ After signing in with GitHub, you can read the documents of private repositories
 
 ## Sign in and open
 
-1. Open <https://docs.gu-group.com/>.
+1. Open <https://docs.lunascape.org/>.
    When you name a private document or are not signed in yet, the sign-in screen appears.
 2. Press [GitHub でログイン] (Sign in with GitHub).
    The GitHub authorization screen opens in a pop-up.

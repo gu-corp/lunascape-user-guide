@@ -1,6 +1,6 @@
 # Web 版でできること
 
-Web ブラウザ版の Lunascape Docs は、<https://docs.gu-group.com/> で公開されています。インストールなしで、GitHub 上の文書を Web サイトのように読めます。
+Web ブラウザ版の Lunascape Docs は、<https://docs.lunascape.org/> で公開されています。インストールなしで、GitHub 上の文書を Web サイトのように読めます。
 
 ## できること
 
