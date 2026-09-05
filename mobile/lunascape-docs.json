@@ -1,6 +1,13 @@
 {
   "id": "lunascape-mobile-user-manual",
-  "title": "Lunascape Mobile User Manual",
+  "title": {
+    "en": "Lunascape Mobile User Guide",
+    "ja": "Lunascape Mobile ユーザガイド"
+  },
+  "description": {
+    "en": "The mobile browser for iPhone and Android: browsing, ad blocking, the news reader and the built-in Web3 wallet.",
+    "ja": "iPhone / Android 向けブラウザー。ブラウジング、広告ブロック、ニュース、内蔵の Web3 ウォレットの使いかた。"
+  },
   "startPage": "introduction.md",
   "defaultLocale": "en",
   "locales": [

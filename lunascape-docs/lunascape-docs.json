@@ -4,6 +4,10 @@
     "ja": "Lunascape Docs ヘルプガイド",
     "en": "Lunascape Docs Help Guide"
   },
+  "description": {
+    "ja": "GitHub の Markdown を、ビルドなしでそのままマニュアルサイトとして読み・書き・確かめるツール。VS Code 拡張機能と Web 版。",
+    "en": "Read, write and check the Markdown in a GitHub repository as a manual site, with no build. The VS Code extension and the web viewer."
+  },
   "startPage": "README.md",
   "defaultLocale": "ja",
   "locales": [
