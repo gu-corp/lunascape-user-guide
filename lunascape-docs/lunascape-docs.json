@@ -1,0 +1,25 @@
+{
+  "id": "lunascape-docs-help-guide",
+  "title": {
+    "ja": "Lunascape Docs ヘルプガイド",
+    "en": "Lunascape Docs Help Guide"
+  },
+  "startPage": "README.md",
+  "defaultLocale": "ja",
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "tree": {
+    "showFileNames": false,
+    "showDocumentIcons": false,
+    "showFolderIcons": false,
+    "showItemCounts": false,
+    "showGuides": true,
+    "density": "comfortable"
+  },
+  "editor": {
+    "defaultMode": "visual",
+    "showEditButton": true
+  }
+}
