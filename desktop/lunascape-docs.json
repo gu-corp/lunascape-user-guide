@@ -1,0 +1,29 @@
+{
+  "id": "lunascape-desktop-user-guide",
+  "title": {
+    "ja": "Lunascape Desktop ユーザガイド",
+    "en": "Lunascape Desktop User Guide"
+  },
+  "description": {
+    "ja": "Windows / macOS 向けデスクトップブラウザー。タブとブックマーク、広告ブロック、拡張機能、パスワードマネージャー、AI 連携、G.U. Wallet の使いかた。",
+    "en": "The desktop browser for Windows and macOS: tabs and bookmarks, ad blocking, extensions, the password manager, AI integration and G.U. Wallet."
+  },
+  "startPage": "introduction.md",
+  "defaultLocale": "ja",
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "tree": {
+    "showFileNames": false,
+    "showDocumentIcons": false,
+    "showFolderIcons": false,
+    "showItemCounts": false,
+    "showGuides": true,
+    "density": "comfortable"
+  },
+  "editor": {
+    "defaultMode": "visual",
+    "showEditButton": true
+  }
+}
