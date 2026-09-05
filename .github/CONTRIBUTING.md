@@ -4,10 +4,9 @@ Lunascape 製品群のユーザーマニュアルを 1 つのリポジトリで�
 
 | 製品 | 文書集合 | 読む |
 |---|---|---|
+| Lunascape Desktop | [desktop/](desktop/) | <https://docs.lunascape.org/?source=github:gu-corp/lunascape-user-guide@main/desktop> |
 | Lunascape Mobile | [mobile/](mobile/) | <https://docs.lunascape.org/?source=github:gu-corp/lunascape-user-guide@main/mobile> |
 | Lunascape Docs | [lunascape-docs/](lunascape-docs/) | <https://docs.lunascape.org/?source=github:gu-corp/lunascape-user-guide@main/lunascape-docs> |
-
-`desktop/`（Lunascape Desktop）は準備中です。
 
 - 各文書集合は自分の `lunascape-docs.json`・言語構成・INDEX を持ちます。翻訳は各フォルダー横の `i18n/<locale>/` に置きます。`title` と `description` は言語別に書け、ホームのカードと切替に使われます。
 - リポジトリ直下の `README.md` はホーム（製品を選ぶ画面）の本文です。見出しと一文だけにし、開発者向けの注記はこのファイルに書きます。
