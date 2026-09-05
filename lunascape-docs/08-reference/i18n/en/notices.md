@@ -2,7 +2,7 @@
 
 ## License
 
-Lunascape Docs is provided under the MIT license.
+Lunascape Docs is currently distributed by G.U.Corp as a private preview. No permission to redistribute it or to use it publicly has been granted yet; the license for the public release will be set when it is published.
 
 ## Trademarks
 
