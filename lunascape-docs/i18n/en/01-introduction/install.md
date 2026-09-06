@@ -23,7 +23,7 @@ The VS Code extension "Lunascape Docs" is distributed internally. It is not on t
 >
 > ```sh
 > gh release download -R gu-corp/lunascape-docs -p '*.vsix' -D /tmp \
->   && code --install-extension /tmp/lunascape-doc-editor-*.vsix
+>   && code --install-extension /tmp/lunascape-doc-*.vsix
 > ```
 
 ## Update

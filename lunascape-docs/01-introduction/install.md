@@ -23,7 +23,7 @@ VS Code 拡張機能「Lunascape Docs」は社内向けに配布しています�
 >
 > ```sh
 > gh release download -R gu-corp/lunascape-docs -p '*.vsix' -D /tmp \
->   && code --install-extension /tmp/lunascape-doc-editor-*.vsix
+>   && code --install-extension /tmp/lunascape-doc-*.vsix
 > ```
 
 ## 更新する
