@@ -2,7 +2,7 @@
 
 ## License
 
-Lunascape Docs is currently distributed by G.U.Corp as a private preview. No permission to redistribute it or to use it publicly has been granted yet; the license for the public release will be set when it is published.
+Lunascape Docs is provided free of charge by G.U.Corp under the Lunascape Docs Terms of Use: personal and commercial use are allowed; redistribution, modification and reverse engineering are not. The full text ships with the extension as `LICENSE`. Bundled third-party software is provided under its own licenses.
 
 ## Trademarks
 
