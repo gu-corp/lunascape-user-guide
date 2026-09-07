@@ -66,6 +66,41 @@
 | `translation.enabled` | Enables translation proposals and batch translation | `true` |
 | `translation.contextFiles` | Canonical Markdown files (relative to the documentation root) passed to translation as terminology and style references | `[]` |
 | `translation.maxContextCharacters` | Upper limit on the total size of reference documents (maximum 1048576) | `49152` |
+| `description` | A line about the documentation set, shown on the cards of a repository home. Like `title`, a string or an object per language | None |
+
+## Say where the documents are
+
+A `lunascape-docs.json` at the top of a repository can hold a **map of the repository** rather than settings for that folder. Writing any of the first two fields below makes it a map, and the folder holding it is then not a documentation root itself.
+
+| Field | What it does | Default |
+|---|---|---|
+| `defaultFolder` | Which folder holds the documents (a path relative to this folder). The folder it names needs no configuration of its own | None (`docs` applies) |
+| `roots` | The documentation sets, when there are several (paths relative to this folder, in display order). This folder then becomes the home | None |
+| `excludes` | Folders to keep out of root discovery (paths relative to this folder). Added to the built-in exclusions such as `node_modules` | `[]` |
+| `home.cards` | Whether a home shows the cards for its sets under its README. Set it to `false` if you write the links yourself | `true` |
+
+A documentation root is found in this order, first match wins.
+
+1. A folder named by a setting or by the command you ran
+2. Whatever `defaultFolder` or `roots` points at in the `lunascape-docs.json` at the top
+3. A folder that has a `lunascape-docs.json` (two or more under a common parent make that parent a home)
+4. A folder named `docs` (`lunascapeDocEditor.rootDirectoryNames`)
+5. The top of the repository itself
+
+> **Tip**
+>
+> With nothing written, step 4 applies, so an ordinary repository with a single `docs/` behaves exactly as before. Write `defaultFolder` only when the folder is called something else, such as `manual`.
+
+### An example map
+
+```json
+{
+  "title": "Lunascape Help",
+  "roots": ["desktop", "mobile"],
+  "excludes": ["third-party"],
+  "home": { "cards": true }
+}
+```
 
 ## Precedence
 

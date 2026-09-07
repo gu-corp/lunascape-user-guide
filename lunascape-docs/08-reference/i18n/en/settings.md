@@ -7,7 +7,7 @@ Search for "Lunascape Docs" in the VS Code settings (`⌘,` / `Ctrl+,`) to chang
 | Setting | Values | Default | Function |
 |---|---|---|---|
 | `lunascapeDocEditor.rootMode` | `auto` / `fixed` | `auto` | `auto` picks the documentation root nearest to the opened Markdown file and opens its parent folder temporarily when it belongs to none. `fixed` always opens the root in `root` |
-| `lunascapeDocEditor.rootDirectoryNames` | Array of strings | `["docs"]` | Folder names discovered as documentation roots in `auto` mode. A folder with `lunascape-docs.json` is discovered regardless of its name |
+| `lunascapeDocEditor.rootDirectoryNames` | Array of strings | `["docs"]` | Folder names discovered as documentation roots in `auto` mode. A folder with `lunascape-docs.json` is discovered regardless of its name. A `defaultFolder` or `roots` in the `lunascape-docs.json` at the top of the repository takes precedence |
 | `lunascapeDocEditor.root` | Path | `docs` | The workspace-relative documentation root for `fixed` mode and for the open command |
 | `lunascapeDocEditor.startPage` | Path | `README.md` | The start page relative to the documentation root |
 | `lunascapeDocEditor.title` | String | `Lunascape Docs` | Overrides the document tab title. It does not affect the documentation-root selector |

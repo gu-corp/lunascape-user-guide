@@ -7,7 +7,7 @@ VS Code の設定（`⌘,` / `Ctrl+,`）で「Lunascape Docs」を検索する�
 | 設定 | 値 | 既定 | 働き |
 |---|---|---|---|
 | `lunascapeDocEditor.rootMode` | `auto` / `fixed` | `auto` | `auto` は開いた Markdown に最も近い文書ルートを自動で選び、属さなければ親フォルダを一時的に開きます。`fixed` は常に `root` の文書ルートを開きます |
-| `lunascapeDocEditor.rootDirectoryNames` | 文字列の配列 | `["docs"]` | `auto` で文書ルートとして自動発見するフォルダ名です。`lunascape-docs.json` があるフォルダは名前に関係なく発見します |
+| `lunascapeDocEditor.rootDirectoryNames` | 文字列の配列 | `["docs"]` | `auto` で文書ルートとして自動発見するフォルダ名です。`lunascape-docs.json` があるフォルダは名前に関係なく発見します。リポジトリ直下の `lunascape-docs.json` に `defaultFolder` または `roots` があるときは、そちらが優先されます |
 | `lunascapeDocEditor.root` | パス | `docs` | `fixed` モード、またはコマンドから開くときの、ワークスペースからの相対文書ルートです |
 | `lunascapeDocEditor.startPage` | パス | `README.md` | 文書ルートからの相対開始ページです |
 | `lunascapeDocEditor.title` | 文字列 | `Lunascape Docs` | 文書タブのタイトルを上書きします。文書ルートの選択名には影響しません |
