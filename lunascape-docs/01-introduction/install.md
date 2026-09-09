@@ -1,6 +1,6 @@
 # 拡張機能をインストールする
 
-VS Code 拡張機能「Lunascape Docs」は社内向けに配布しています。Marketplace にはないため、リリースページから `.vsix` ファイルを取得してインストールします。
+VS Code 拡張機能「Lunascape Docs」は Visual Studio Marketplace で公開しています。
 
 ## 動作環境
 
@@ -9,13 +9,31 @@ VS Code 拡張機能「Lunascape Docs」は社内向けに配布しています�
 
 ## インストールする
 
-1. [リリースページ](https://github.com/gu-corp/lunascape-docs/releases) を開き、最新版の `.vsix` ファイルをダウンロードします。
+1. VS Code の拡張機能ビュー（`⇧⌘X` / `Ctrl+Shift+X`）を開き、「Lunascape Docs」を検索します。
+   [Marketplace のページ](https://marketplace.visualstudio.com/items?itemName=lunascape.lunascape-doc)から開いても構いません。
+2. [インストール] をクリックします。
+
+## 更新する
+
+Marketplace からインストールした場合、新しい版は自動更新されます。VS Code の設定で自動更新をオフにしているときは、拡張機能ビューに表示される [更新] から手動で更新します。
+
+## バージョンを確認する
+
+拡張機能ビューで「Lunascape Docs」を開くと、インストールされているバージョンが表示されます。不具合を報告するときに必要です。
+
+## VSIX から直接インストールする場合
+
+Marketplace 版の配信より前のリリースを試す、社内ネットワークから Marketplace に到達できない、といった事情があるときは、GitHub のリリースページから `.vsix` ファイルを取得してインストールできます。
+
+1. [リリースページ](https://github.com/gu-corp/lunascape-docs/releases) を開き、目的の版の `.vsix` ファイルをダウンロードします。
    GitHub にログインしていれば、リンクからそのままダウンロードできます。
 2. 次のいずれかの方法でインストールします。
    - **ドラッグ＆ドロップ**: VS Code の拡張機能ビュー（`⇧⌘X` / `Ctrl+Shift+X`）に `.vsix` ファイルをドロップします。
    - **メニュー**: 拡張機能ビュー右上の [⋯] から [VSIX からのインストール…] を選び、ファイルを指定します。
    - **コマンドライン**: `code --install-extension <ダウンロードしたファイル>` を実行します。
 3. インストール後に変化がないときは、コマンドパレット（`⇧⌘P` / `Ctrl+Shift+P`）で「Developer: Reload Window」を実行します。
+
+この方法でインストールした版は自動更新されません。Marketplace から入れ直すと、以後は自動更新に切り替わります。
 
 > **ヒント**
 >
@@ -25,14 +43,6 @@ VS Code 拡張機能「Lunascape Docs」は社内向けに配布しています�
 > gh release download -R gu-corp/lunascape-docs -p '*.vsix' -D /tmp \
 >   && code --install-extension /tmp/lunascape-doc-*.vsix
 > ```
-
-## 更新する
-
-本拡張機能は自動更新されません。新しい版が公開されたら、同じ手順でインストールし直します。上書きインストールになるため、事前のアンインストールは不要です。
-
-## バージョンを確認する
-
-拡張機能ビューで「Lunascape Docs」を開くと、インストールされているバージョンが表示されます。不具合を報告するときに必要です。
 
 ## 関連項目
 
