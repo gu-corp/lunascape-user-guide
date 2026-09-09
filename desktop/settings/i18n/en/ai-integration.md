@@ -1,6 +1,6 @@
 # Connect an external AI (MCP)
 
-**Settings** > **AI integration** lets an AI assistant outside the browser drive Lunascape through an MCP server. This is separate from the [AI sidebar](../../../features/extensions/i18n/en/ai-sidebar.md) inside the browser.
+**Settings** > **AI integration** lets an AI assistant outside the browser drive Lunascape through an MCP server.
 
 ## Turn it on
 
@@ -27,7 +27,3 @@ Permissions are granted one at a time. Turn on only what you need.
 ## Limit how much is read
 
 **Maximum characters per file read** caps how much of a file is handed to the AI. Long documents cost more to process, so this is the setting to turn down.
-
-## Related topics
-
-- [AI sidebar](../../../features/extensions/i18n/en/ai-sidebar.md)

@@ -36,7 +36,6 @@ Lunascape は Chrome 拡張機能に対応しています。Chrome ウェブス�
 | 名前 | 説明 |
 | --- | --- |
 | Lunascape Password Manager | [パスワードマネージャー](password-manager.md) |
-| Lunascape AI Sidebar | [AI サイドバー](ai-sidebar.md) |
 | G.U. Wallet | [G.U. Wallet](wallet.md) |
 
 ## 関連項目

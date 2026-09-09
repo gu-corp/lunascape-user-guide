@@ -31,7 +31,6 @@ Extension buttons sit in the toolbar; pressing one opens its popup.
 | Name | See |
 | --- | --- |
 | Lunascape Password Manager | [Password manager](password-manager.md) |
-| Lunascape AI Sidebar | [AI sidebar](ai-sidebar.md) |
 | G.U. Wallet | [G.U. Wallet](wallet.md) |
 
 ## Related topics

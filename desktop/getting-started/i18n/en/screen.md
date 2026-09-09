@@ -9,7 +9,7 @@ The window is made up of these parts, from top to bottom.
 | Address bar | Takes both a URL and a search term |
 | Search bar | Searches with a chosen search engine. You can hide it from the settings |
 | Bookmarks bar | Your frequently used bookmarks. Can be shown or hidden |
-| Side panel | Shows extension panels such as the AI sidebar |
+| Side panel | Shows extension panels |
 | Page area | Shows the web page |
 
 ## Toolbar buttons

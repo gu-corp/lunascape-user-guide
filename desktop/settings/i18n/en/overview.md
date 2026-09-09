@@ -13,7 +13,7 @@ Open **Settings** from the menu (≡) and pick a section on the left.
 | Bookmarks | The bookmarks bar, and managing bookmarks |
 | Extensions | Manage installed extensions |
 | Wallet | The built-in crypto wallet |
-| AI integration | AI sidebar tools, the MCP server, the audit log |
+| AI integration | The MCP server, what an AI may do, the audit log |
 | Theme | Colours, appearance and the dashboard background |
 | About | Version and release notes |
 
