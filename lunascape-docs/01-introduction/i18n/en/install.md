@@ -18,9 +18,15 @@ The VS Code extension "Lunascape Docs" is distributed as a VSIX file.
 
 ## Update
 
-When a newer version is published, the extension tells you. Press **Update** to fetch and install it, then reload the window. Your settings and documents are left as they are.
+When a newer version is published, the extension fetches and installs it. VS Code offers to reload the window, and that is when you start using it. Your settings and documents are left as they are.
 
-It checks once a day, and never replaces itself without you. To stop the notices, set `lunascapeDocEditor.update.check` to "Never check".
+It checks once a day. `lunascapeDocEditor.update.check` changes that.
+
+| Setting | What happens |
+|---|---|
+| Install a newer version when one is published | The default |
+| Tell me, and let me decide each time | A notice appears, and nothing changes until you press **Update** |
+| Never check | Nothing happens |
 
 ## Check the version
 
