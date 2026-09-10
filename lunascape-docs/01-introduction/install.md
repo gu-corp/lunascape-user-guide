@@ -20,7 +20,9 @@ VS Code 拡張機能「Lunascape Docs」は VSIX ファイルとして配布し�
 
 新しい版が公開されると、拡張機能が自分で取得して導入します。VS Code がウィンドウの再読み込みを促したら、そこで切り替わります。設定と文書はそのまま残ります。
 
-確認は 1 日に 1 回です。設定 `lunascapeDocEditor.update.check` で変えられます。
+確認は 1 日に 1 回です。すぐ確かめたいときは、コマンドパレット（`⇧⌘P` / `Ctrl+Shift+P`）から [Lunascape Docs: 更新を確認] を実行します。
+
+動きは設定 `lunascapeDocEditor.update.check` で変えられます。
 
 | 設定 | 動き |
 |---|---|
