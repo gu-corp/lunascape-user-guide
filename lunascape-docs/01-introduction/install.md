@@ -16,6 +16,25 @@ VS Code 拡張機能「Lunascape Docs」は VSIX ファイルとして配布し�
 2. VS Code の拡張機能ビュー（`⇧⌘X` / `Ctrl+Shift+X`）を開きます。
 3. 右上の `…` メニューから [VSIX からのインストール...] を選び、取得したファイルを指定します。
 
+### コマンドで入れる
+
+ターミナルから 1 行で済ませることもできます。取得と導入を続けて行います。
+
+macOS / Linux:
+
+```sh
+curl -L -o /tmp/lunascape-doc.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix && code --install-extension /tmp/lunascape-doc.vsix
+```
+
+Windows（PowerShell）:
+
+```powershell
+curl.exe -L -o "$env:TEMP\lunascape-doc.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix; code --install-extension "$env:TEMP\lunascape-doc.vsix"
+```
+
+> **ご注意**
+> `code` が見つからないときは、コマンドパレット（`⇧⌘P` / `Ctrl+Shift+P`）から [シェルコマンド: PATH 内に 'code' コマンドをインストールします] を実行してください。
+
 ## 更新する
 
 新しい版が公開されると、拡張機能が自分で取得して導入します。VS Code がウィンドウの再読み込みを促したら、そこで切り替わります。設定と文書はそのまま残ります。

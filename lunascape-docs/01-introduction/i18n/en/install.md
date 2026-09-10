@@ -16,6 +16,25 @@ The VS Code extension "Lunascape Docs" is distributed as a VSIX file.
 2. Open the Extensions view (`⇧⌘X` / `Ctrl+Shift+X`).
 3. Choose **Install from VSIX…** from the `…` menu at the top right, and pick the file you downloaded.
 
+### From the command line
+
+One line, if you would rather not leave the terminal. It downloads and installs.
+
+macOS / Linux:
+
+```sh
+curl -L -o /tmp/lunascape-doc.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix && code --install-extension /tmp/lunascape-doc.vsix
+```
+
+Windows (PowerShell):
+
+```powershell
+curl.exe -L -o "$env:TEMP\lunascape-doc.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix; code --install-extension "$env:TEMP\lunascape-doc.vsix"
+```
+
+> **Note**
+> If `code` is not found, run **Shell Command: Install 'code' command in PATH** from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`).
+
 ## Update
 
 When a newer version is published, the extension fetches and installs it. VS Code offers to reload the window, and that is when you start using it. Your settings and documents are left as they are.
