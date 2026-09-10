@@ -21,7 +21,7 @@ For a problem you cannot resolve, report it with the following information. Shar
 
 ## Where to report
 
-Open an issue in the internal Lunascape Docs repository (`gu-corp/lunascape-docs`).
+Open an issue in the [issue tracker](https://github.com/gu-corp/lunascape-user-guide/issues).
 
 ## Related topics
 

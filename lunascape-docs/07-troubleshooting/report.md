@@ -21,7 +21,7 @@
 
 ## 報告先
 
-社内の Lunascape Docs リポジトリ（`gu-corp/lunascape-docs`）の Issues に報告してください。
+[Issues](https://github.com/gu-corp/lunascape-user-guide/issues) に報告してください。
 
 ## 関連項目
 
