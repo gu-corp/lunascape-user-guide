@@ -41,13 +41,6 @@ VS Code の設定（`⌘,` / `Ctrl+,`）で「Lunascape Docs」を検索する�
 |---|---|---|---|
 | `lunascapeDocEditor.tikz.runtime` | `bundled` / `workspace` / `disabled` | `bundled` | TikZ の描画ランタイムです。`bundled` は同梱の承認済みランタイム（現在の配布版には同梱されていません）、`workspace` は信頼済みワークスペース直下の `node-tikzjax` 1.0.5（開発・評価専用）、`disabled` は描画しません |
 
-## 翻訳
-
-| 設定 | 値 | 既定 | 働き |
-|---|---|---|---|
-| `lunascapeDocEditor.translation.provider` | `auto` / `vscode` / `claude` | `auto` | 翻訳に使うプロバイダーです。未設定のときは初回の翻訳で一覧から選び、その結果をここに保存します |
-| `lunascapeDocEditor.translation.model` | 文字列 | なし | VS Code の言語モデルの名前または ID です。Claude CLI には適用しません |
-
 ## 非推奨の設定
 
 | 設定 | 代わりに使うもの |

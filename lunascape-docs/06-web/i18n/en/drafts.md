@@ -24,7 +24,7 @@ When you edit a document in the Web viewer, the changes are not written to the r
 >
 > - Drafts are stored in the browser (IndexedDB). They do not carry over to another browser or device, and clearing the site data deletes them.
 > - When the document in the repository changes after you made a draft, "上流が更新されています" (Upstream has changed) is shown. Check the content and decide whether to discard the draft or keep it.
-> - When editing a local folder opened with [ローカルフォルダの文書を開く] (Open documents in a local folder), changes are written straight to the file if the browser supports it. Otherwise they are kept for the current session only.
+> - When editing a local folder opened from [文書を開く] (Open documents), changes are written straight to the file if the browser supports it. Otherwise they are kept for the current session only.
 
 ## Related topics
 

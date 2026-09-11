@@ -41,13 +41,6 @@ Search for "Lunascape Docs" in the VS Code settings (`⌘,` / `Ctrl+,`) to chang
 |---|---|---|---|
 | `lunascapeDocEditor.tikz.runtime` | `bundled` / `workspace` / `disabled` | `bundled` | The TikZ rendering runtime. `bundled` uses an approved bundled runtime (not included in the current distributed build), `workspace` uses `node-tikzjax` 1.0.5 at the root of a trusted workspace (development and evaluation only), `disabled` renders nothing |
 
-## Translation
-
-| Setting | Values | Default | Function |
-|---|---|---|---|
-| `lunascapeDocEditor.translation.provider` | `auto` / `vscode` / `claude` | `auto` | The provider used for translation |
-| `lunascapeDocEditor.translation.model` | String | None | The name or ID of a VS Code language model. Not applied to the Claude CLI |
-
 ## Deprecated settings
 
 | Setting | Use instead |

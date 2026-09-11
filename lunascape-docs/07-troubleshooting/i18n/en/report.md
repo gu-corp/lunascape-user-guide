@@ -17,7 +17,7 @@ For a problem you cannot resolve, report it with the following information. Shar
 > **Hint**
 >
 > - For display problems, "Developer: Open Webview Developer Tools" in the Command Palette shows whether the console reports errors.
-> - For Web viewer problems, include the browser and its version and the URL you tried to open (the `?source=` value).
+> - For Web viewer problems, include the browser and its version and the URL you tried to open.
 
 ## Where to report
 

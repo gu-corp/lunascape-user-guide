@@ -8,7 +8,7 @@ After signing in with GitHub, you can read the documents of private repositories
    When you name a private document or are not signed in yet, the sign-in screen appears.
 2. Press [GitHub でログイン] (Sign in with GitHub).
    The GitHub authorization screen opens in a pop-up.
-3. After signing in, press the GitHub button in the toolbar and choose the repository under [読めるリポジトリから選ぶ] (Choose from readable repositories).
+3. After signing in, press [文書を開く] (Open documents) in the toolbar and choose the repository under [読めるリポジトリから選ぶ] (Choose from readable repositories).
 
 > **Hint**
 >

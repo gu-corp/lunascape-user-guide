@@ -33,9 +33,11 @@ The help ships in Japanese and English. You can switch at any time without leavi
 >
 > The help is read-only. Editing, translation, checks and similar actions are unavailable while the help is shown.
 
+<!-- ai-only:start -->
 > **Hint**
 >
 > VS Code agents can consult this help as the product specification. See [Use from AI agents](../08-reference/ai-agents.md).
+<!-- ai-only:end -->
 
 ## Related topics
 

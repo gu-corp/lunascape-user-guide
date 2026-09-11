@@ -8,7 +8,7 @@ The Web viewer of Lunascape Docs is available at <https://docs.lunascape.org/>. 
 |---|---|
 | Public repositories | Opens the documents of a public GitHub repository without signing in |
 | Private repositories | After signing in with GitHub, opens the repositories you have read access to |
-| Local folders | [ローカルフォルダの文書を開く] (Open documents in a local folder) opens a folder on your device (supported browsers only) |
+| Local folders | [文書を開く] (Open documents), then [ローカルフォルダの文書を開く] (Open documents in a local folder), opens a folder on your device (supported browsers only) |
 | Reading | INDEX, links, history, filtering, page outline, language switching and theme switching, the same as in VS Code |
 | Diagrams and math | Mermaid, Vega-Lite, Markmap, WaveDrom, Svgbob, Penrose and KaTeX math |
 | Drafts | Edit documents and keep the changes as drafts on your device. Nothing is written to the repository |

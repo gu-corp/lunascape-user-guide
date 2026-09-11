@@ -21,9 +21,9 @@ The boundaries Lunascape Docs maintains to protect your documents and your devic
 ## Sending data outside
 
 - Documents are never sent anywhere for reading, editing or checking. Document checks run locally and deterministically.
-- Only translation (of the current page or in batch) sends documents to a language model, after disclosing the destination and scope and only with explicit approval.
-- Translation proposals are presented as a diff, the revisions of the source and target are re-verified, and a proposal is applied only when a person saves it explicitly.
-- The specification tool for AI agents returns no document content, workspace names or local paths.
+- Only translation (of the current page or in batch) sends documents to a language model, after disclosing the destination and scope and only with explicit approval. <!-- ai-only -->
+- Translation proposals are presented as a diff, the revisions of the source and target are re-verified, and a proposal is applied only when a person saves it explicitly. <!-- ai-only -->
+- The specification tool for AI agents returns no document content, workspace names or local paths. <!-- ai-only -->
 
 ## Git
 
