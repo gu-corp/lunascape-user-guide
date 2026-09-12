@@ -1,6 +1,6 @@
 # Installing the extension
 
-The VS Code extension "Lunascape Docs" is distributed as a VSIX file.
+The VS Code extension "Lunascape Docs Pro" is distributed as a VSIX file. It is free of charge; "Pro" marks the edition that hands work to an AI and updates itself.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ The VS Code extension "Lunascape Docs" is distributed as a VSIX file.
 
 1. Get the VSIX file. This link always points at the current version.
 
-   [Download lunascape-doc.vsix](https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix)
+   [Download lunascape-docs-pro.vsix](https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix)
 
 2. Open the Extensions view (`⇧⌘X` / `Ctrl+Shift+X`).
 3. Choose **Install from VSIX…** from the `…` menu at the top right, and pick the file you downloaded.
@@ -23,13 +23,13 @@ One line, if you would rather not leave the terminal. It downloads and installs.
 macOS / Linux:
 
 ```sh
-curl -L -o /tmp/lunascape-doc.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix && code --install-extension /tmp/lunascape-doc.vsix
+curl -L -o /tmp/lunascape-docs-pro.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix && code --install-extension /tmp/lunascape-docs-pro.vsix
 ```
 
 Windows (PowerShell):
 
 ```powershell
-curl.exe -L -o "$env:TEMP\lunascape-doc.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix; code --install-extension "$env:TEMP\lunascape-doc.vsix"
+curl.exe -L -o "$env:TEMP\lunascape-docs-pro.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix; code --install-extension "$env:TEMP\lunascape-docs-pro.vsix"
 ```
 
 > **Note**
@@ -55,7 +55,7 @@ It checks once a day. To check right now, run **Lunascape Docs: Check for a newe
 
 ## Check the version
 
-Open "Lunascape Docs" in the Extensions view to see the installed version. You will need it when reporting a problem.
+Open "Lunascape Docs Pro" in the Extensions view to see the installed version. You will need it when reporting a problem.
 
 ## Related topics
 

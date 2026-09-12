@@ -1,6 +1,6 @@
 # 拡張機能をインストールする
 
-VS Code 拡張機能「Lunascape Docs」は VSIX ファイルとして配布しています。
+VS Code 拡張機能「Lunascape Docs Pro」は VSIX ファイルとして配布しています。無償です。「Pro」は、AI に作業を渡す機能と自己更新を持つ版であることを表します。
 
 ## 動作環境
 
@@ -11,7 +11,7 @@ VS Code 拡張機能「Lunascape Docs」は VSIX ファイルとして配布し�
 
 1. VSIX ファイルを取得します。このリンクは常に最新版を指します。
 
-   [lunascape-doc.vsix をダウンロード](https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix)
+   [lunascape-docs-pro.vsix をダウンロード](https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix)
 
 2. VS Code の拡張機能ビュー（`⇧⌘X` / `Ctrl+Shift+X`）を開きます。
 3. 右上の `…` メニューから [VSIX からのインストール...] を選び、取得したファイルを指定します。
@@ -23,13 +23,13 @@ VS Code 拡張機能「Lunascape Docs」は VSIX ファイルとして配布し�
 macOS / Linux:
 
 ```sh
-curl -L -o /tmp/lunascape-doc.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix && code --install-extension /tmp/lunascape-doc.vsix
+curl -L -o /tmp/lunascape-docs-pro.vsix https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix && code --install-extension /tmp/lunascape-docs-pro.vsix
 ```
 
 Windows（PowerShell）:
 
 ```powershell
-curl.exe -L -o "$env:TEMP\lunascape-doc.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-doc.vsix; code --install-extension "$env:TEMP\lunascape-doc.vsix"
+curl.exe -L -o "$env:TEMP\lunascape-docs-pro.vsix" https://github.com/gu-corp/lunascape-user-guide/releases/latest/download/lunascape-docs-pro.vsix; code --install-extension "$env:TEMP\lunascape-docs-pro.vsix"
 ```
 
 > **ご注意**
@@ -55,7 +55,7 @@ curl.exe -L -o "$env:TEMP\lunascape-doc.vsix" https://github.com/gu-corp/lunasca
 
 ## バージョンを確認する
 
-拡張機能ビューで「Lunascape Docs」を開くと、インストールされているバージョンが表示されます。不具合を報告するときに必要です。
+拡張機能ビューで「Lunascape Docs Pro」を開くと、インストールされているバージョンが表示されます。不具合を報告するときに必要です。
 
 ## 関連項目
 
