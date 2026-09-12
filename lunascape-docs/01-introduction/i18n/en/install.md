@@ -49,6 +49,10 @@ It checks once a day. To check right now, run **Lunascape Docs: Check for a newe
 | Tell me, and let me decide each time | A notice appears, and nothing changes until you press **Update** |
 | Never check | Nothing happens |
 
+### When it cannot update
+
+"The update could not be fetched: No Servers" means the installed version is 0.22.18 or earlier. Its update path fails at the last step every time, so it cannot get itself to a newer version. Install once by hand, as above; from then on it updates itself.
+
 ## Check the version
 
 Open "Lunascape Docs" in the Extensions view to see the installed version. You will need it when reporting a problem.
