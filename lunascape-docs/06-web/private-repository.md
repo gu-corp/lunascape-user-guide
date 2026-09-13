@@ -33,6 +33,8 @@
 > - 新しくインストールする場合、要求する権限はインストール画面に一覧で表示され、「Install」を押した時点で承認したことになります。追加の操作はありません。
 > - 権限が増える前からインストールしていた組織には、管理者に確認のメールが届き、組織の Settings → GitHub Apps → Lunascape Docs → Configure の上部に承認ボタンが表示されます。承認するまで、その組織では閲覧だけができ、公開依頼を送ると「書き込み権限の付与が必要です」と表示されます。
 > - 今どの権限で入っているかは、同じ Configure 画面で確認できます。個人アカウントの場合は Settings → Applications → Installed GitHub Apps です。
+> - 対象リポジトリを誤って外したりアンインストールした場合は、[インストールページ](https://github.com/apps/lunascape-docs/installations/new)から入れ直せば元に戻ります。公開依頼の拒否メッセージには、直す画面へのリンクが付きます。
+> - リポジトリ側で公開依頼を受け付けたくない場合は、`lunascape-docs.json` に `"publish": { "enabled": false }` と書きます。閲覧はそのまま使えます。
 
 ## 関連項目
 

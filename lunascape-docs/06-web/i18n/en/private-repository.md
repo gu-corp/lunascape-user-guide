@@ -33,6 +33,8 @@ Even when the app is installed for a whole organization, each member sees only t
 > - On a new installation the requested permissions are listed on the install screen, and pressing "Install" approves them. Nothing else is needed.
 > - An organization that installed the app before a permission was added gets an email to its administrators and an approval button at the top of Organization Settings → GitHub Apps → Lunascape Docs → Configure. Until it approves, that organization can read but a pull request answers that write permission is needed.
 > - The same Configure page shows which permissions are in effect. For a personal account it is Settings → Applications → Installed GitHub Apps.
+> - If repository access was narrowed by mistake or the app uninstalled, installing again from the [installation page](https://github.com/apps/lunascape-docs/installations/new) puts it back. A refused pull request links to the page where it is fixed.
+> - A repository that should not take pull requests from the viewer writes `"publish": { "enabled": false }` in `lunascape-docs.json`. Reading is unaffected.
 
 ## Related topics
 
