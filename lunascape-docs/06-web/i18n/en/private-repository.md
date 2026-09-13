@@ -19,7 +19,7 @@ After signing in with GitHub, you can read the documents of private repositories
 
 If the repository does not appear in the list, the repository owner or an organization administrator must install the GitHub App "Lunascape Docs".
 
-- The only permission requested is Contents: Read.
+- The permissions requested are Contents (read and write) and Pull requests (read and write). Reading is for viewing; writing is for sending a pull request from the web. Lunascape Docs never stores the documents.
 - The app is installed per account (organization or user). Choose "All repositories" (which includes repositories created later) or only selected repositories.
 
 | Situation | Steps |
@@ -27,7 +27,12 @@ If the repository does not appear in the list, the repository owner or an organi
 | Installing on a new organization or user account | Use the [installation page](https://github.com/apps/lunascape-docs/installations/new) |
 | Adding repositories in an organization that already has it | Organization Settings → GitHub Apps → Lunascape Docs → Configure → Repository access |
 
-Even when the app is installed for a whole organization, each member sees only the repositories they can read.
+Even when the app is installed for a whole organization, each member sees only the repositories they can read, and can send a pull request only to repositories they can write to.
+
+> **Tips**
+> - On a new installation the requested permissions are listed on the install screen, and pressing "Install" approves them. Nothing else is needed.
+> - An organization that installed the app before a permission was added gets an email to its administrators and an approval button at the top of Organization Settings → GitHub Apps → Lunascape Docs → Configure. Until it approves, that organization can read but a pull request answers that write permission is needed.
+> - The same Configure page shows which permissions are in effect. For a personal account it is Settings → Applications → Installed GitHub Apps.
 
 ## Related topics
 
