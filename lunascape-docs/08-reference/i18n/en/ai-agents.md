@@ -15,7 +15,7 @@ Ask in VS Code chat with `#lunascapeDocs`, or simply ask about Lunascape Docs co
 | Argument | Meaning |
 |---|---|
 | `topic` | The section to fetch: `all`, `usage` (Basic operations), `structure` (Documentation roots and file conventions), `editing` (Editing a document), `configuration` (Project configuration), `security` (Security and write boundaries) or `ai` (Use from AI agents) |
-| `locale` | The help language (`ja` or `en`). When omitted, the VS Code display language is used, falling back to the Japanese help |
+| `locale` | The help language (a tag of a bundled help language, such as `ja` or `en`). When omitted, the VS Code display language is used, falling back to the Japanese help |
 
 > **Note**
 >

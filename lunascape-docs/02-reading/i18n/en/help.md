@@ -17,10 +17,10 @@ Press [ヘルプ] (Help) in the toolbar again, or the [×] shown next to it. You
 
 ## Switch the help language
 
-The help ships in Japanese and English. You can switch at any time without leaving the page you are reading.
+The help ships in Japanese, English and the other languages VS Code offers as display languages. You can switch at any time without leaving the page you are reading.
 
 1. Press the language menu (globe) in the toolbar.
-2. Choose [日本語] (Japanese) or [English].
+2. Choose the language you want to read.
    The same page appears in that language, at the same reading position.
 
 > **Hint**
