@@ -2,13 +2,15 @@
 
 **Settings** > **AI Integration** lets an AI assistant outside the browser drive Lunascape through an MCP server. AI clients that speak MCP — Claude Code, Claude Desktop, Cursor, VS Code and others — can read and operate pages in the tabs you already have open, signed in as you are. No extension is needed.
 
+The **AI Integration** page has three tabs: **Tool permissions**, **MCP** and **Audit log**. The MCP server is set up on the **MCP** tab. **Tool permissions** is for the AI sidebar built into Lunascape, and is separate from what MCP clients may do.
+
 ## Turn it on
 
-Switch on **Enable MCP server** to start listening. The port is shown while it runs. It is off until you turn it on.
+On the **MCP** tab, switch on **Enable MCP server** to start listening. The port is shown while it runs. It is off until you turn it on.
 
 ## Choose what it may do
 
-Permissions are granted one at a time. Turn on only what you need.
+Permissions are granted one at a time under **Permissions** on the **MCP** tab. Turn on only what you need.
 
 | Permission | What it allows |
 | --- | --- |

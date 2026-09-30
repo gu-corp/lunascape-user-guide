@@ -16,6 +16,7 @@ Right-click the group name for these actions.
 
 | Action | What it does |
 | --- | --- |
+| Add new tab to group | Opens a new tab inside the group |
 | Ungroup | Removes the group. The tabs stay open |
 | Close group | Closes every tab in the group |
 | Move group to new window | Moves the whole group into a window of its own |

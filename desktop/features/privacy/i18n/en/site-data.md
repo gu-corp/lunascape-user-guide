@@ -2,7 +2,7 @@
 
 ## One site at a time
 
-The icon at the left of the address bar opens **Manage site data**, where you can see and delete what that site has stored, cookies included. Deleting it usually signs you out of the site.
+Press the shield icon at the left end of the address bar and choose **Manage site data** at the bottom of the panel. There you can see and delete what that site has stored, cookies included. Deleting it usually signs you out of the site.
 
 ## How long history is kept
 

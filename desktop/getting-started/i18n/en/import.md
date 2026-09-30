@@ -9,7 +9,12 @@ Bring bookmarks, history and passwords over from Chrome and other browsers.
 3. Pick the browser and the profile to import from.
 4. Choose what to import — bookmarks, history, passwords — and run it.
 
-> **Note:** Passwords are not stored per profile. They are shared across every profile.
+`Ctrl+I` / `Cmd+I` also opens the screen where you pick the browser to import from.
+
+> **Note:**
+>
+> - Close the browser you are importing from before you start.
+> - Passwords are not stored per profile. They are shared across every profile.
 
 ## What can be imported
 

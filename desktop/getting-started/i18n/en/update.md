@@ -12,7 +12,15 @@ If you are already up to date, it says so instead.
 
 ## Update channel
 
-**Settings** > **General** > **Update channel** decides which kind of build you receive. Leave it on the stable channel unless you have a reason not to.
+**Settings** > **About** > **Update channel** decides which kind of build you receive.
+
+| Channel | Builds you receive |
+| --- | --- |
+| stable | Stable releases (the default) |
+| beta | Beta releases, with new features earlier |
+| dev | Development builds |
+
+Leave it on stable unless you have a reason not to. After changing the channel, run **Check for updates**.
 
 ## What changed
 
