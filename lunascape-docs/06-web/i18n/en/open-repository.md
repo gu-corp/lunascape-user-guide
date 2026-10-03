@@ -1,17 +1,48 @@
 # Opening a GitHub repository
 
-In the Web viewer you open documents by naming a GitHub repository. Public repositories need no sign-in.
+In the Web viewer and in Lunascape you can open a GitHub repository and read it as it is, without cloning it. Public repositories need no sign-in.
 
 ## Open from the screen
 
-1. Open <https://docs.lunascape.org/>.
-2. Press [文書を開く] (Open documents), the folder icon in the toolbar.
-3. Enter the repository under [リポジトリを直接指定] (Specify a repository) and press [開く] (Open).
-   When you are signed in to GitHub, you can also pick from a list under [読めるリポジトリから選ぶ] (Choose from readable repositories).
+1. Press [文書を開く] (Open documents), the folder icon in the toolbar. The Open documents screen appears.
+2. Choose where to look in the list on the left.
+
+   | Place | What it lists |
+   |---|---|
+   | [すべて] (All) | Everything below, with what you opened recently first |
+   | [最近開いた] (Recently opened) | The repositories and folders you have opened |
+   | [おすすめ] (Featured) | The manuals the site features |
+   | [GitHub のリポジトリ] (GitHub repositories) | When you are signed in to GitHub, the repositories you can read |
+   | [このパソコン] (This computer) | Folders on this device. In Lunascape, repositories you cloned are listed here too |
+
+3. Press [開く] (Open) on the row you want. Type in [文書名・リポジトリ名で絞り込み] (Filter by document or repository) at the top to narrow the rows.
+
+For a repository that is not listed, use [owner/repo を入力して開く] (Open owner/repo) on the left.
 
 > **Tip**
 >
-> - The GitHub mark beside it opens the document you are reading on github.com. It does not open documents here.
+> - The GitHub repositories listed are those the GitHub App "Lunascape Docs" is installed on and that you can read. If one is missing, ask its owner to add the App.
+
+## Check where a document is
+
+The small icon near the left of the toolbar (the location chip) shows where the document you are reading is.
+
+| Icon | Location |
+|---|---|
+| The GitHub mark | Read from GitHub. Nothing is stored on this device |
+| A laptop | A folder on this device that Lunascape manages. The Git branch and the number of changed files are shown too |
+| A folder | A folder on this device |
+
+Press the icon to see the location, its status, and what you can do from there, such as [GitHub で見る] (View on GitHub) and [リンクをコピー] (Copy link).
+
+## Clone a repository in Lunascape
+
+In Lunascape you can clone a GitHub repository to this device, then edit and commit with Git.
+
+- On the Open documents screen, press [複製] (Clone) on the repository's row.
+- While reading a repository opened from GitHub, press the location chip, then [このパソコンに複製] (Clone to this computer). When the clone is done, the same document opens from the copy on this device.
+
+A cloned repository is marked [このパソコンにあり] (On this computer) in the list, with [このパソコンで開く] (Open on this computer) first.
 
 ## Open by URL
 
@@ -43,7 +74,7 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 ## Open documents in a local folder
 
-Press [文書を開く] (Open documents) in the toolbar, then [ローカルフォルダの文書を開く] (Open documents in a local folder) below the list, and choose a folder on your device. Files are processed inside the browser and never sent anywhere. This works in browsers that support folder selection (Chrome, Edge and others).
+Press [文書を開く] (Open documents) in the toolbar, then [ローカルフォルダの文書を開く] (Open documents in a local folder) on the left, and choose a folder on your device. Files are processed inside the browser and never sent anywhere. This works in browsers that support folder selection (Chrome, Edge and others).
 
 ## Related topics
 
