@@ -1,37 +1,36 @@
 # Mikä Lunascape Docs on
 
-Lunascape Docs on työkalu, jolla Git-säilössä olevia Markdown-dokumentteja käsitellään sellaisinaan "määrittelysivustona". Erillistä käännösvaihetta, dokumenttipalvelinta tai omaa tietokantaa ei tarvita.
+Lunascape Docs on työkalu, jolla Git-säilöön tallennettuja Markdown-dokumentteja käsitellään sellaisinaan ”määrittelysivustona”. Etukäteen tehtävää koontia, dokumenttipalvelinta tai erillistä tietokantaa ei tarvita.
 
-## Mitä sillä voi tehdä
+## Mitä voit tehdä
 
-| Tarkoitus | Päätoiminnot |
+| Tarkoitus | Tärkeimmät toiminnot |
 |---|---|
-| Lukeminen | INDEX (sisällysluettelo), tekstin linkit, navigointipolku, takaisin ja eteenpäin, sivun sisältöluettelo, rajaava haku |
-| Katselu | Taulukot, koodilohkot, kuvien automaattinen sovitus, KaTeX-matematiikka, Mermaid-, Vega-Lite-, Markmap-, WaveDrom- ja Svgbob-kaaviot, dokumentinhallintataulukoiden tiivistetty näyttö |
-| Kirjoittaminen | Vaihto visuaalisen muokkauksen ja Markdown-lähdemuokkauksen välillä, luonti, monistus, uudelleennimeäminen ja järjestäminen INDEX-paneelista |
-| Tarkistaminen | docs-lint-dokumenttitarkistus, Standard Packin mukaisten pakollisten dokumenttien, lukujen ja termien tarkistus, luonti mallista |
-| Kääntäminen | Käännösehdotusten luonti sivu kerrallaan tai erässä. Tallennus vasta tarkistuksen jälkeen <!-- ai-only --> |
-| Käyttö tekoälystä | Vain luku -muotoinen määrittelytyökalu, jota VS Coden agentit voivat käyttää <!-- ai-only --> |
+| Lukeminen | INDEX (sisällysluettelo), tekstin linkit, navigointipolku, siirtyminen taakse- ja eteenpäin, sivun sisällysluettelo, suodatushaku |
+| Katselu | Taulukot, koodilohkot, kuvien automaattinen sovitus, KaTeX-matematiikka, Mermaid-, Vega-Lite-, Markmap-, WaveDrom- ja Svgbob-kaaviot, dokumentinhallintataulukoiden kokoontaitettu näyttö |
+| Kirjoittaminen | Vaihto visuaalisen muokkauksen ja Markdown-lähdekoodin muokkauksen välillä, luonti, monistaminen, uudelleennimeäminen ja järjestyksen muuttaminen INDEX-paneelista |
+| Tarkistaminen | docs-lint-tarkistukset, pakollisten dokumenttien, lukujen ja termien tarkistus Standard Packin perusteella, luonti mallista |
+| Kääntäminen | Käännösehdotusten luonti sivu kerrallaan tai useille sivuille kerralla. Tarkistus ennen tallentamista <!-- ai-only --> |
+| Käyttö tekoälystä | Vain luku -tilassa toimiva määrittelytyökalu, jota VS Coden agentit voivat käyttää <!-- ai-only --> |
 
-## Käytettävissä olevat ympäristöt
+## Käyttöympäristöt
 
 | Ympäristö | Käyttötarkoitus |
 |---|---|
-| VS Code -laajennus | Oman koneen säilön lukeminen, muokkaus, tarkistus ja kääntäminen. Tämä ohje keskittyy siihen |
-| Selainversio | GitHubissa olevien dokumenttien (julkisten ja yksityisten) lukeminen, luonnokset laitteessa, paikallisen kansion selaus |
-| Chromium-laajennus | Avaa selainversion selaimen välilehdellä |
-| Lunascape-selain | Samaa dokumenttimallia ollaan liittämässä siihen |
+| VS Code -laajennus | Omalla koneella olevan säilön lukeminen, muokkaus, tarkistus ja kääntäminen. Tämä ohje keskittyy siihen |
+| Verkkoselainversio | GitHubissa olevien dokumenttien (julkisten ja yksityisten) lukeminen, luonnokset laitteella, paikallisen kansion lukeminen |
+| Chromium-laajennus | Avaa verkkoselainversion selaimen välilehteen |
 
 ## Perusperiaatteet
 
-- **Markdown on alkuperäisdokumentti.** Dokumentit pysyvät Gitillä hallittuina Markdown-tiedostoina. Lunascape Docs ei säilytä niistä muuhun muotoon muunnettua kopiota.
-- **Tallennuksen tekee käyttäjä.** Muokkaukset kirjoitetaan tiedostoon vasta, kun painat [Tallenna]. Gitin stagingia tai committeja ei tehdä automaattisesti.
-- **Dokumentit käsitellään laitteessa.** Dokumentteja ei lähetetä ulkopuolelle lukemista tai muokkausta varten. Vain kääntäminen lähettää dokumentin, ja silloinkin vastaanottaja ja sisältö näytetään etukäteen ja lähetys tapahtuu vasta hyväksynnän jälkeen.
-- **Käännökset sijaitsevat kansiossa `i18n/<kieli>/`.** Oletuskielen dokumentit pysyvät paikallaan, käännökset tulevat samalla suhteellisella polulla kansioon `i18n/en/` ja vastaaviin.
-- **Tekoäly vain ehdottaa.** Käännösehdotukset tallennetaan vasta, kun olet tarkistanut erot. Dokumentteja ei muuteta huomaamatta. <!-- ai-only -->
+- **Markdown on ensisijainen lähde.** Dokumentit pysyvät Gitillä hallittuina Markdown-tiedostoina. Lunascape Docs ei muunna niitä toiseen muotoon eikä säilytä niitä sellaisena.
+- **Käyttäjä tallentaa itse.** Muokkaukset kirjoitetaan tiedostoon vain, kun painat [Tallenna]. Muutoksia ei lisätä Gitin valmistelualueelle eikä commitoida automaattisesti.
+- **Dokumentit käsitellään laitteellasi.** Dokumentteja ei lähetetä minnekään lukemista tai muokkausta varten. Vain käännettäessä vastaanottaja ja sisältö näytetään etukäteen, ja dokumentti lähetetään vasta hyväksyntäsi jälkeen.
+- **Käännökset sijoitetaan kansioon `i18n/<kieli>/`.** Oletuskielen dokumentit pysyvät paikallaan, ja käännökset sijoitetaan samaan suhteelliseen polkuun esimerkiksi kansioon `i18n/en/`.
+- **Tekoäly vain ehdottaa.** Käännösehdotukset tallennetaan vasta, kun olet tarkistanut erot. Dokumentteja ei koskaan muuteta huomaamatta. <!-- ai-only -->
 
 ## Aiheeseen liittyvää
 
-- [Näytön osat ja niiden tehtävät](screen.md)
+- [Näytön osien nimet ja toiminnot](screen.md)
 - [Laajennuksen asentaminen](install.md)
 - [Perustoiminnot](../02-reading/README.md)

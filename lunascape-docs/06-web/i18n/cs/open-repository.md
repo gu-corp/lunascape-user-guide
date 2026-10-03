@@ -1,52 +1,42 @@
 # Otevření úložiště GitHub
 
-Ve webové verzi a v Lunascape můžete úložiště GitHub otevřít a číst přímo, aniž byste ho duplikovali. U veřejných úložišť není přihlášení nutné.
+Ve webové verzi můžete úložiště GitHub otevřít a číst přímo, aniž byste ho klonovali. U veřejných úložišť není přihlášení nutné.
 
 ## Otevření z obrazovky
 
 1. Na panelu nástrojů stiskněte [Otevřít dokumenty] (ikona složky). Otevře se obrazovka „Otevřít dokumenty“.
-2. V levém sloupci vyberte, odkud chcete dokumenty otevřít.
+2. V levém sloupci vyberte umístění, ze kterého chcete otevírat.
 
-   | Místo | Co se zobrazí |
+   | Umístění | Co se zobrazí |
    |---|---|
-   | Vše | Všechno, co je uvedeno níže. Nedávno otevřené položky jsou na začátku |
+   | Vše | Vše níže uvedené. Nedávno otevřené položky jsou na začátku |
    | Nedávno otevřené | Úložiště a složky, které jste dříve otevřeli |
    | Doporučené | Příručky, které web doporučuje |
-   | Úložiště GitHub | Úložiště, která můžete číst, pokud jste přihlášeni ke službě GitHub |
-   | Tento počítač | Složky v tomto zařízení. V Lunascape se zde zobrazují i duplikovaná úložiště |
+   | Úložiště GitHub | Pokud jste přihlášeni přes GitHub, úložiště, která můžete číst |
+   | Tento počítač | Složky v tomto zařízení |
 
-3. U řádku, který chcete otevřít, stiskněte [Otevřít]. Řádky můžete vyfiltrovat zadáním textu do pole [Filtrovat podle názvu dokumentu nebo úložiště] nahoře.
+3. U požadovaného řádku stiskněte [Otevřít]. Zadáním textu do pole [Filtrovat podle názvu dokumentu nebo úložiště] nahoře můžete řádky zúžit.
 
-Úložiště, které v seznamu není, zadáte v levém sloupci pomocí [Otevřít zadáním owner/repo].
+Úložiště, které v seznamu není, zadejte pomocí [Zadat owner/repo a otevřít] v levém sloupci.
 
 > **Tip**
 >
-> - V seznamu se zobrazují úložiště GitHub, do kterých je nainstalována aplikace GitHub App „Lunascape Docs“ a ke kterým máte oprávnění ke čtení. Pokud úložiště v seznamu nenajdete, požádejte jeho vlastníka, aby aplikaci přidal.
+> - V seznamu se zobrazují úložiště GitHub, do kterých je nainstalována aplikace GitHub App „Lunascape Docs“ a ke kterým máte oprávnění ke čtení. Pokud některé chybí, požádejte vlastníka úložiště, aby aplikaci přidal.
 
 ## Ověření umístění dokumentu
 
-Malá ikona v levé části panelu nástrojů (štítek umístění) ukazuje, kde je dokument, který právě čtete.
+Malá ikona v levé části panelu nástrojů (čip umístění) ukazuje, kde se právě čtený dokument nachází.
 
 | Ikona | Umístění |
 |---|---|
-| Logo GitHub | Čtete ze služby GitHub. Dokument není uložen v tomto zařízení |
-| Počítač | Složka v tomto zařízení, kterou spravuje Lunascape. Zobrazuje se také název větve Gitu a počet změněných souborů |
+| Logo GitHub | Čtete ze služby GitHub. V tomto zařízení se nic neukládá |
 | Složka | Složka v tomto zařízení |
 
-Po stisknutí ikony se zobrazí umístění, stav a akce, které jsou odtud k dispozici (například [Zobrazit ve službě GitHub] nebo [Kopírovat odkaz]).
-
-## Duplikování úložiště v Lunascape
-
-V Lunascape můžete úložiště GitHub duplikovat do tohoto zařízení a pak v něm pomocí Gitu upravovat soubory a vytvářet commity.
-
-- Na obrazovce „Otevřít dokumenty“ stiskněte u řádku úložiště [Duplikovat].
-- Pokud čtete úložiště otevřené ze služby GitHub, stiskněte štítek umístění a potom [Duplikovat do tohoto počítače]. Po dokončení duplikování se stejný dokument otevře z kopie v tomto zařízení.
-
-Duplikované úložiště je v seznamu označeno „V tomto počítači“ a jako první je u něj uvedeno [Otevřít v tomto počítači].
+Stisknutím ikony zobrazíte umístění, jeho stav a operace, které odtud můžete provést ([Zobrazit ve službě GitHub], [Kopírovat odkaz] apod.).
 
 ## Otevření pomocí adresy URL
 
-Adresa obsahuje úložiště a umístění dokumentu v tom pořadí, v jakém jdou za sebou. Cesta udává umístění v rámci úložiště, proto má stejné pořadí jako adresa URL ve službě GitHub.
+Adresa obsahuje úložiště a umístění dokumentu v tomto pořadí. Cesta udává umístění uvnitř úložiště, takže pořadí odpovídá adrese URL na GitHubu.
 
 ```text
 https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
@@ -56,11 +46,11 @@ https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
 |---|---|
 | Pouze úložiště (výchozí větev) | `/github/owner/repo` |
 | Dokument v úložišti | `/github/owner/repo/docs/01-product/vision.md` |
-| Určitá větev nebo značka | Na konec připojte `?ref=v1.2.0` |
+| Určení větve nebo značky | Na konec připojte `?ref=v1.2.0` |
 
-Při přechodu na jinou stránku se změní i adresa. Stisknutím [Sdílet tento dokument] na panelu nástrojů můžete předat odkaz na stránku, kterou právě čtete. Můžete také používat tlačítka prohlížeče [Zpět] a [Vpřed].
+Při přechodu na jinou stránku se změní i adresa. Stisknutím [Sdílet tento dokument] na panelu nástrojů můžete předat odkaz na právě čtenou stránku. Fungují i tlačítka prohlížeče [Zpět] a [Vpřed].
 
-Adresy ve starším tvaru `?source=` lze otevřít stejně jako dosud. Po otevření se adresa přepíše do nového tvaru.
+Starší tvar `?source=` lze otevřít i nadále. Po otevření se adresa přepíše do nového tvaru.
 
 ```text
 https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
@@ -68,13 +58,13 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 > **Upozornění**
 >
-> - Bez přihlášení platí omezení počtu požadavků na GitHub API (60 za hodinu). U úložišť s mnoha dokumenty nebo při opakovaném čtení stiskněte [Přihlásit se přes GitHub].
-> - Názvy větví, které obsahují `/` (například `feature/xxx`), lze zadat pomocí `?ref=` v tvaru adresy uvedeném výše. V tvaru `?source=` je zapsat nelze.
-> - Dokumenty se načítají s oprávněními, která má čtenář ve službě GitHub. Lidé bez oprávnění ke čtení je neuvidí.
+> - Bez přihlášení platí omezení rozhraní GitHub API (60 požadavků za hodinu). U úložišť s mnoha dokumenty nebo při opakovaném čtení použijte [Přihlásit se přes GitHub].
+> - Název větve obsahující `/` (např. `feature/xxx`) lze zadat pomocí `?ref=` v tvaru adresy uvedeném výše. V tvaru `?source=` jej zapsat nelze.
+> - Dokumenty se načítají s oprávněními čtenáře na GitHubu. Kdo nemá oprávnění ke čtení, dokumenty neuvidí.
 
 ## Otevření dokumentů z místní složky
 
-Na panelu nástrojů stiskněte [Otevřít dokumenty], v levém sloupci stiskněte [Otevřít dokumenty z místní složky] a vyberte složku v zařízení. Soubory se zpracovávají v prohlížeči a nikam se neodesílají. Tato funkce je k dispozici v prohlížečích, které podporují výběr složky (Chrome, Edge a další).
+Na panelu nástrojů stiskněte [Otevřít dokumenty], v levém sloupci zvolte [Otevřít dokumenty z místní složky] a vyberte složku v zařízení. Soubory se zpracovávají v prohlížeči a nikam se neodesílají. Funguje v prohlížečích, které podporují výběr složky (Chrome, Edge apod.).
 
 ## Související témata
 

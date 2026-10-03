@@ -1,6 +1,6 @@
 # Opening a GitHub repository
 
-In the Web viewer and in Lunascape you can open a GitHub repository and read it as it is, without cloning it. Public repositories need no sign-in.
+In the Web viewer you can open a GitHub repository and read it as it is, without cloning it. Public repositories need no sign-in.
 
 ## Open from the screen
 
@@ -13,7 +13,7 @@ In the Web viewer and in Lunascape you can open a GitHub repository and read it 
    | [最近開いた] (Recently opened) | The repositories and folders you have opened |
    | [おすすめ] (Featured) | The manuals the site features |
    | [GitHub のリポジトリ] (GitHub repositories) | When you are signed in to GitHub, the repositories you can read |
-   | [このパソコン] (This computer) | Folders on this device. In Lunascape, repositories you cloned are listed here too |
+   | [このパソコン] (This computer) | Folders on this device |
 
 3. Press [開く] (Open) on the row you want. Type in [文書名・リポジトリ名で絞り込み] (Filter by document or repository) at the top to narrow the rows.
 
@@ -30,19 +30,9 @@ The small icon near the left of the toolbar (the location chip) shows where the 
 | Icon | Location |
 |---|---|
 | The GitHub mark | Read from GitHub. Nothing is stored on this device |
-| A laptop | A folder on this device that Lunascape manages. The Git branch and the number of changed files are shown too |
 | A folder | A folder on this device |
 
 Press the icon to see the location, its status, and what you can do from there, such as [GitHub で見る] (View on GitHub) and [リンクをコピー] (Copy link).
-
-## Clone a repository in Lunascape
-
-In Lunascape you can clone a GitHub repository to this device, then edit and commit with Git.
-
-- On the Open documents screen, press [複製] (Clone) on the repository's row.
-- While reading a repository opened from GitHub, press the location chip, then [このパソコンに複製] (Clone to this computer). When the clone is done, the same document opens from the copy on this device.
-
-A cloned repository is marked [このパソコンにあり] (On this computer) in the list, with [このパソコンで開く] (Open on this computer) first.
 
 ## Open by URL
 

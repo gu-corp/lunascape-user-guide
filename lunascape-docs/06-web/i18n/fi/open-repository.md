@@ -1,66 +1,56 @@
 # GitHub-säilön avaaminen
 
-Verkkoversiossa ja Lunascapessa voit avata GitHub-säilön ja lukea sitä sellaisenaan kloonaamatta sitä. Julkiset säilöt eivät vaadi kirjautumista.
+Verkkoversiossa voit avata GitHub-säilön ja lukea sitä sellaisenaan kloonaamatta sitä. Julkisiin säilöihin ei tarvitse kirjautua sisään.
 
-## Avaaminen näkymästä
+## Avaaminen näytöltä
 
-1. Paina työkalurivin painiketta [Avaa dokumentteja] (kansiokuvake). ”Avaa dokumentteja” -näkymä avautuu.
+1. Paina työkalurivin [Avaa dokumentteja] -painiketta (kansiokuvake). ”Avaa dokumentteja” -näkymä avautuu.
 2. Valitse vasemmasta sarakkeesta paikka, josta avaat.
 
-   | Paikka | Mitä luettelossa on |
+   | Paikka | Mitä näkyy |
    |---|---|
-   | Kaikki | Kaikki alla olevat. Viimeksi avatut ovat ensimmäisinä |
-   | Viimeksi avatut | Säilöt ja kansiot, jotka olet avannut aiemmin |
+   | Kaikki | Kaikki alla olevat. Viimeksi avatut näkyvät ensimmäisinä |
+   | Viimeksi avatut | Aiemmin avaamasi säilöt ja kansiot |
    | Suositellut | Sivuston esittelemät käyttöoppaat |
-   | GitHub-säilöt | Kun olet kirjautunut sisään GitHubilla, säilöt, joita voit lukea |
-   | Tämä tietokone | Tämän laitteen kansiot. Lunascapessa myös kloonatut säilöt näkyvät tässä |
+   | GitHub-säilöt | Kun olet kirjautunut sisään GitHubiin: säilöt, joita voit lukea |
+   | Tämä tietokone | Tämän laitteen kansiot |
 
-3. Paina avattavan rivin painiketta [Avaa]. Voit rajata rivejä kirjoittamalla yläreunan kenttään [Suodata dokumentin tai säilön nimellä].
+3. Paina avattavan rivin [Avaa] -painiketta. Voit rajata rivejä kirjoittamalla yläreunan kenttään [Suodata dokumentin tai säilön nimellä].
 
-Luettelosta puuttuvan säilön voit avata vasemman sarakkeen kohdasta [Kirjoita owner/repo ja avaa].
+Jos säilö ei ole luettelossa, määritä se vasemman sarakkeen kohdasta [Avaa owner/repo].
 
 > **Vihje**
 >
-> - Luettelossa näkyvät ne GitHub-säilöt, joihin GitHub-sovellus ”Lunascape Docs” on asennettu ja joihin sinulla on lukuoikeus. Jos säilö puuttuu, pyydä sen omistajaa lisäämään sovellus.
+> - Luettelossa näkyvät ne GitHub-säilöt, joihin GitHub App ”Lunascape Docs” on asennettu ja joihin sinulla on lukuoikeus. Jos säilöä ei löydy, pyydä säilön omistajaa lisäämään sovellus.
 
 ## Dokumentin sijainnin tarkistaminen
 
-Työkalurivin vasemmassa reunassa oleva pieni kuvake (sijaintisiru) näyttää, missä lukemasi dokumentti on.
+Työkalurivin vasemmassa reunassa oleva pieni kuvake (sijaintimerkki) näyttää, missä parhaillaan lukemasi dokumentti on.
 
 | Kuvake | Sijainti |
 |---|---|
-| GitHubin logo | Luet dokumenttia GitHubista. Sitä ei ole tallennettu tähän laitteeseen |
-| Tietokone | Lunascapen hallitsema kansio tässä laitteessa. Myös Git-haara ja muutettujen tiedostojen määrä näytetään |
-| Kansio | Kansio tässä laitteessa |
+| GitHub-merkki | Luet dokumenttia GitHubista. Sitä ei ole tallennettu tälle laitteelle |
+| Kansio | Tämän laitteen kansio |
 
-Kun painat kuvaketta, näet sijainnin, sen tilan ja toiminnot, jotka ovat sieltä käytettävissä (esimerkiksi [Näytä GitHubissa] ja [Kopioi linkki]).
-
-## Säilön kloonaaminen Lunascapessa
-
-Lunascapessa voit kloonata GitHub-säilön tähän laitteeseen ja muokata sitä ja tehdä committeja Gitin avulla.
-
-- Paina ”Avaa dokumentteja” -näkymässä säilön rivin painiketta [Monista].
-- Kun luet GitHubista avattua säilöä, paina sijaintisirua ja sitten [Monista tälle tietokoneelle]. Kun kloonaus on valmis, sama dokumentti avautuu tämän laitteen kopiosta.
-
-Kloonattu säilö merkitään luettelossa tekstillä ”Tällä tietokoneella”, ja sen rivillä [Avaa tällä tietokoneella] on ensimmäisenä.
+Kun painat kuvaketta, näkyviin tulevat sijainti, tila ja toiminnot, jotka sieltä voi tehdä (esimerkiksi [Näytä GitHubissa] ja [Kopioi linkki]).
 
 ## Avaaminen URL-osoitteella
 
-Osoitteessa ovat peräkkäin säilö ja dokumentin sijainti. Polku on sijainti säilön sisällä, joten järjestys on sama kuin GitHubin URL-osoitteessa.
+Osoitteessa säilö ja dokumentin sijainti ovat sellaisinaan peräkkäin. Polku on sijainti säilön sisällä, joten järjestys on sama kuin GitHubin URL-osoitteessa.
 
 ```text
 https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
 ```
 
-| Määritys | Muoto |
+| Määritys | Kirjoitustapa |
 |---|---|
 | Vain säilö (oletushaara) | `/github/owner/repo` |
-| Säilön sisällä oleva dokumentti | `/github/owner/repo/docs/01-product/vision.md` |
-| Haara tai tagi | Lisää loppuun `?ref=v1.2.0` |
+| Dokumentti säilön sisällä | `/github/owner/repo/docs/01-product/vision.md` |
+| Haaran tai tagin määrittäminen | Lisää loppuun `?ref=v1.2.0` |
 
-Osoite muuttuu, kun siirryt sivulta toiselle. Painamalla työkalurivin painiketta [Jaa tämä dokumentti] voit antaa linkin lukemaasi sivuun. Voit käyttää myös selaimen painikkeita [Takaisin] ja [Eteenpäin].
+Kun siirryt sivulta toiselle, myös osoite muuttuu. Painamalla työkalurivin [Jaa tämä dokumentti] -painiketta voit antaa linkin parhaillaan lukemaasi sivuun. Voit käyttää myös selaimen painikkeita [Takaisin] ja [Eteenpäin].
 
-Vanha `?source=`-muoto avautuu edelleen. Avaamisen jälkeen osoite muutetaan uuteen muotoon.
+Myös aiempi `?source=`-muoto avautuu edelleen. Avaamisen jälkeen osoite muutetaan uuteen muotoon.
 
 ```text
 https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
@@ -68,15 +58,15 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 > **Huomio**
 >
-> - Kirjautumattomana GitHub API:n käyttöraja on 60 pyyntöä tunnissa. Jos säilössä on paljon dokumentteja tai luet sitä toistuvasti, kirjaudu sisään painamalla [Kirjaudu sisään GitHubilla].
-> - `/`-merkin sisältävät haaranimet (kuten `feature/xxx`) voi määrittää yllä olevan osoitemuodon `?ref=`-parametrilla. `?source=`-muodossa niitä ei voi kirjoittaa.
-> - Dokumentit ladataan lukijan omilla GitHub-oikeuksilla. Ne eivät näy henkilöille, joilla ei ole lukuoikeutta.
+> - Kun et ole kirjautunut sisään, GitHub API:n käyttörajoitus (60 pyyntöä tunnissa) on voimassa. Jos säilössä on paljon dokumentteja tai luet niitä toistuvasti, kirjaudu sisään valitsemalla [Kirjaudu sisään GitHubilla].
+> - Haaranimet, joissa on `/` (esimerkiksi `feature/xxx`), voi määrittää yllä olevan osoitemuodon `?ref=`-parametrilla. `?source=`-muodossa niitä ei voi kirjoittaa.
+> - Dokumentit ladataan lukijan GitHub-oikeuksilla. Ne eivät näy henkilöille, joilla ei ole lukuoikeutta.
 
-## Dokumenttien avaaminen paikallisesta kansiosta
+## Paikallisen kansion dokumenttien avaaminen
 
-Paina työkalurivin painiketta [Avaa dokumentteja], valitse vasemmasta sarakkeesta [Avaa dokumentteja paikallisesta kansiosta] ja valitse kansio laitteestasi. Tiedostot käsitellään selaimessa, eikä niitä lähetetä minnekään. Toiminto on käytettävissä selaimissa, jotka tukevat kansion valintaa (esimerkiksi Chrome ja Edge).
+Paina työkalurivin [Avaa dokumentteja] -painiketta ja valitse laitteen kansio vasemman sarakkeen kohdasta [Avaa dokumentteja paikallisesta kansiosta]. Tiedostot käsitellään selaimessa, eikä niitä lähetetä minnekään. Toiminto on käytettävissä selaimissa, jotka tukevat kansion valintaa (esimerkiksi Chrome ja Edge).
 
-## Aiheeseen liittyvää
+## Liittyvät aiheet
 
 - [Yksityisen säilön lukeminen](private-repository.md)
-- [Verkkoversio ei avaudu tai sisäänkirjautuminen ei onnistu](../07-troubleshooting/web.md)
+- [Verkkoversio ei avaudu tai kirjautuminen ei onnistu](../07-troubleshooting/web.md)

@@ -1,27 +1,27 @@
 # Åbn et GitHub-lager
 
-I webversionen og i Lunascape kan du åbne og læse et GitHub-lager direkte uden at duplikere det. Du behøver ikke at logge ind for at åbne et offentligt lager.
+I webversionen kan du åbne et GitHub-lager og læse det direkte uden at klone det. Offentlige lagre kræver ikke, at du logger ind.
 
 ## Åbn fra skærmen
 
 1. Tryk på [Åbn dokumenter] (mappeikonet) på værktøjslinjen. Skærmen »Åbn dokumenter« åbnes.
-2. Vælg i feltet til venstre, hvorfra du vil åbne.
+2. Vælg i listen til venstre, hvor du vil åbne fra.
 
-   | Sted | Det vises her |
+   | Sted | Det, der vises |
    |---|---|
    | Alle | Alt nedenfor. Det, du senest har åbnet, står øverst |
-   | Senest åbnet | De lagre og mapper, du tidligere har åbnet |
-   | Udvalgte | De vejledninger, som webstedet fremhæver |
-   | GitHub-lagre | Når du er logget ind med GitHub: de lagre, du kan læse |
-   | Denne computer | Mapper på denne enhed. I Lunascape vises duplikerede lagre også her |
+   | Senest åbnet | De lagre og mapper, du har åbnet |
+   | Anbefalet | De vejledninger, som webstedet anbefaler |
+   | GitHub-lagre | De lagre, du kan læse, når du er logget ind med GitHub |
+   | Denne computer | Mapper på denne enhed |
 
-3. Tryk på [Åbn] i den række, du vil åbne. Skriv i [Filtrér efter dokument- eller lagernavn] øverst for at begrænse rækkerne.
+3. Tryk på [Åbn] i den række, du vil åbne. Skriv i [Filtrér efter dokument- eller lagernavn] øverst for at indsnævre rækkerne.
 
-Et lager, der ikke er på listen, angiver du med [Åbn owner/repo] i feltet til venstre.
+Et lager, der ikke står på listen, angiver du med [Indtast owner/repo for at åbne] i listen til venstre.
 
 > **Tip**
 >
-> - Listen viser de GitHub-lagre, hvor GitHub-appen »Lunascape Docs« er installeret, og som du har læseadgang til. Hvis et lager mangler, skal du bede lagerets ejer om at tilføje appen.
+> - De GitHub-lagre, der står på listen, er dem, hvor GitHub-appen »Lunascape Docs« er installeret, og som du har læseadgang til. Hvis et lager mangler, så bed lagerets ejer om at tilføje appen.
 
 ## Se, hvor dokumentet ligger
 
@@ -29,38 +29,28 @@ Det lille ikon i venstre side af værktøjslinjen (placeringschippen) viser, hvo
 
 | Ikon | Placering |
 |---|---|
-| GitHub-logoet | Du læser fra GitHub. Dokumentet er ikke gemt på denne enhed |
-| Computer | En mappe på denne enhed, som Lunascape administrerer. Navnet på Git-grenen og antallet af ændrede filer vises også |
+| GitHub-logoet | Læses fra GitHub. Det er ikke gemt på denne enhed |
 | Mappe | En mappe på denne enhed |
 
-Tryk på ikonet for at se placeringen, status og de handlinger, du kan udføre derfra, f.eks. [Vis på GitHub] og [Kopiér link].
-
-## Dupliker et lager i Lunascape
-
-I Lunascape kan du duplikere et GitHub-lager til denne enhed og derefter redigere og lave commits med Git.
-
-- Tryk på [Dupliker] i lagerets række på skærmen »Åbn dokumenter«.
-- Når du læser et lager, der er åbnet fra GitHub, skal du trykke på placeringschippen og derefter på [Dupliker til denne computer]. Når duplikeringen er færdig, åbnes det samme dokument fra kopien på denne enhed.
-
-Et duplikeret lager er markeret med »På denne computer« på listen, og [Åbn på denne computer] står først.
+Tryk på ikonet for at se placeringen, status og det, du kan gøre derfra (fx [Vis på GitHub] og [Kopiér link]).
 
 ## Åbn med en URL
 
-Adressen består af lageret efterfulgt af dokumentets placering. Stien er placeringen i lageret, så rækkefølgen er den samme som i GitHub-URL'en.
+Adressen består af lageret og dokumentets placering i rækkefølge. Stien er placeringen i lageret, så den følger samme rækkefølge som GitHub-URL'en.
 
 ```text
 https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
 ```
 
-| Det skal åbnes | Skrivemåde |
+| Hvad der angives | Skrivemåde |
 |---|---|
 | Kun lageret (standardgren) | `/github/owner/repo` |
 | Et dokument i lageret | `/github/owner/repo/docs/01-product/vision.md` |
-| En bestemt gren eller et bestemt tag | Tilføj `?ref=v1.2.0` til sidst |
+| En bestemt gren eller et tag | Tilføj `?ref=v1.2.0` til sidst |
 
-Adressen skifter, når du går til en anden side. Tryk på [Del dette dokument] på værktøjslinjen for at give andre et link til den side, du læser. Du kan også bruge browserens [Tilbage] og [Frem].
+Adressen skifter, når du går til en anden side. Tryk på [Del dette dokument] på værktøjslinjen for at give andre et link til den side, du læser. Browserens [Tilbage] og [Frem] virker også.
 
-Adresser i den ældre `?source=`-form kan stadig åbnes. Når siden er åbnet, omskrives adressen til den nye form.
+Den tidligere `?source=`-form kan stadig åbnes som før. Når siden er åbnet, skrives adressen om til den nye form.
 
 ```text
 https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
@@ -68,13 +58,13 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 > **Bemærk**
 >
-> - Når du ikke er logget ind, gælder GitHub API's forbrugsgrænse (60 kald i timen). Brug [Log ind med GitHub], hvis lageret har mange dokumenter, eller hvis du læser i det mange gange.
-> - Grennavne med `/` (f.eks. `feature/xxx`) kan angives med `?ref=` i adresseformen ovenfor. De kan ikke angives i `?source=`-formen.
+> - Når du ikke er logget ind, gælder GitHub API'ets begrænsning (60 forespørgsler i timen). Til lagre med mange dokumenter eller gentagen læsning skal du trykke på [Log ind med GitHub].
+> - Grennavne, der indeholder `/` (fx `feature/xxx`), kan angives med `?ref=` i adresseformen ovenfor. De kan ikke skrives i `?source=`-formen.
 > - Dokumenterne indlæses med læserens egne GitHub-rettigheder. Personer uden læseadgang kan ikke se dem.
 
 ## Åbn dokumenter fra en lokal mappe
 
-Tryk på [Åbn dokumenter] på værktøjslinjen, og vælg en mappe på enheden via [Åbn dokumenter fra en lokal mappe] i feltet til venstre. Filerne behandles i browseren og sendes aldrig videre. Det virker i browsere, der understøtter valg af mapper (Chrome, Edge m.fl.).
+Tryk på [Åbn dokumenter] på værktøjslinjen, og vælg en mappe på enheden med [Åbn dokumenter fra en lokal mappe] i listen til venstre. Filerne behandles i browseren og sendes aldrig ud. Det virker i browsere, der understøtter valg af mapper (fx Chrome og Edge).
 
 ## Relaterede emner
 

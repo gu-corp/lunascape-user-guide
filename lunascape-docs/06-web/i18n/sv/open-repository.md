@@ -1,66 +1,56 @@
 # Öppna en lagringsplats på GitHub
 
-I webbversionen och i Lunascape kan du öppna en lagringsplats på GitHub och läsa den direkt, utan att duplicera den. Offentliga lagringsplatser kräver ingen inloggning.
+I webbversionen kan du öppna och läsa en lagringsplats på GitHub direkt, utan att klona den. Publika lagringsplatser kräver ingen inloggning.
 
 ## Öppna från skärmen
 
 1. Tryck på [Öppna dokument] (mappikonen) i verktygsfältet. Skärmen ”Öppna dokument” öppnas.
-2. Välj i den vänstra kolumnen var du vill öppna från.
+2. Välj en plats att öppna från i den vänstra kolumnen.
 
-   | Plats | Vad som visas |
+   | Plats | Det som visas |
    |---|---|
-   | Alla | Allt nedan. Det du har öppnat nyligen visas först |
-   | Nyligen öppnade | Lagringsplatser och mappar som du har öppnat tidigare |
-   | Utvalda | Handböcker som webbplatsen rekommenderar |
-   | GitHub-lagringsplatser | När du är inloggad med GitHub: de lagringsplatser som du kan läsa |
-   | Den här datorn | Mappar på den här enheten. I Lunascape visas även duplicerade lagringsplatser här |
+   | Alla | Allt nedan. Det du har öppnat senast visas först |
+   | Senast öppnade | Lagringsplatser och mappar som du har öppnat tidigare |
+   | Rekommenderade | Handböcker som webbplatsen tipsar om |
+   | Lagringsplatser på GitHub | Lagringsplatser som du kan läsa, när du är inloggad med GitHub |
+   | Den här datorn | Mappar på den här enheten |
 
-3. Tryck på [Öppna] på raden som du vill öppna. Skriv i [Filtrera på dokument- eller lagringsplatsnamn] längst upp om du vill begränsa raderna.
+3. Tryck på [Öppna] på raden som du vill öppna. Skriv i [Filtrera på dokument- eller lagringsplatsnamn] högst upp om du vill begränsa antalet rader.
 
-Om en lagringsplats inte finns i listan anger du den med [Ange owner/repo och öppna] i den vänstra kolumnen.
+En lagringsplats som inte finns i listan anger du via [Ange owner/repo och öppna] i den vänstra kolumnen.
 
 > **Tips**
 >
-> - Listan visar de GitHub-lagringsplatser där GitHub-appen ”Lunascape Docs” är installerad och där du har läsbehörighet. Om en lagringsplats saknas ber du ägaren att lägga till appen.
+> - De lagringsplatser på GitHub som visas i listan är de där GitHub-appen ”Lunascape Docs” är installerad och som du har läsbehörighet till. Om du inte hittar en lagringsplats ber du dess ägare att lägga till appen.
 
-## Kontrollera var dokumentet finns
+## Se var dokumentet finns
 
-Den lilla ikonen till vänster i verktygsfältet (platsetiketten) visar var dokumentet som du läser finns.
+Den lilla ikonen till vänster i verktygsfältet (platsetiketten) visar var dokumentet som du läser just nu finns.
 
 | Ikon | Plats |
 |---|---|
-| GitHub-märket | Dokumentet läses från GitHub. Inget sparas på den här enheten |
-| En dator | En mapp på den här enheten som Lunascape hanterar. Git-grenens namn och antalet ändrade filer visas också |
-| En mapp | En mapp på den här enheten |
+| GitHub-märket | Dokumentet läses från GitHub. Det är inte sparat på den här enheten |
+| Mapp | En mapp på den här enheten |
 
-Tryck på ikonen om du vill se platsen, statusen och vad du kan göra därifrån, till exempel [Visa på GitHub] och [Kopiera länk].
+Tryck på ikonen så visas platsen, dess status och vad du kan göra därifrån (till exempel [Visa på GitHub] och [Kopiera länk]).
 
-## Duplicera en lagringsplats i Lunascape
+## Öppna via URL
 
-I Lunascape kan du duplicera en lagringsplats från GitHub till den här enheten. Därefter kan du redigera och checka in ändringar med Git.
-
-- På skärmen ”Öppna dokument” trycker du på [Duplicera] på lagringsplatsens rad.
-- Om du läser en lagringsplats som du har öppnat från GitHub trycker du på platsetiketten och sedan på [Duplicera till den här datorn]. När dupliceringen är klar öppnas samma dokument från kopian på den här enheten.
-
-En duplicerad lagringsplats markeras med ”Finns på den här datorn” i listan, och [Öppna på den här datorn] visas först på raden.
-
-## Öppna med en URL
-
-Adressen består av lagringsplatsen följd av dokumentets plats. Platsen anges som den är i lagringsplatsen, så ordningen blir densamma som i GitHub-URL:en.
+Adressen består av lagringsplatsen och dokumentets plats, i den ordningen. Sökvägen anger platsen i lagringsplatsen, så den följer samma ordning som GitHub-URL:en.
 
 ```text
 https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
 ```
 
-| Vad du anger | Skrivsätt |
+| Vad som anges | Skrivsätt |
 |---|---|
 | Endast lagringsplatsen (standardgren) | `/github/owner/repo` |
 | Ett dokument i lagringsplatsen | `/github/owner/repo/docs/01-product/vision.md` |
 | En gren eller tagg | Lägg till `?ref=v1.2.0` sist |
 
-Adressen ändras när du byter sida. Tryck på [Dela det här dokumentet] i verktygsfältet om du vill skicka en länk till sidan som du läser. Webbläsarens [Tillbaka] och [Framåt] fungerar också.
+Adressen ändras när du går till en annan sida. Tryck på [Dela det här dokumentet] i verktygsfältet för att dela en länk till sidan som du läser. Webbläsarens [Tillbaka] och [Framåt] fungerar också.
 
-Den äldre formen med `?source=` går fortfarande att öppna. När sidan har öppnats skrivs adressen om till den nya formen.
+Det äldre formatet `?source=` går fortfarande att öppna som tidigare. När sidan har öppnats skrivs adressen om till det nya formatet.
 
 ```text
 https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
@@ -68,15 +58,15 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 > **Observera**
 >
-> - Utan inloggning gäller användningsgränsen för GitHub API (60 anrop per timme). Använd [Logga in med GitHub] för lagringsplatser med många dokument eller om du läser upprepade gånger.
-> - Grennamn som innehåller `/` (till exempel `feature/xxx`) kan anges med `?ref=` i adressformen ovan. De kan inte skrivas i formen med `?source=`.
-> - Dokumenten läses in med läsarens egna GitHub-behörigheter. Den som saknar läsbehörighet ser dem inte.
+> - Utan inloggning gäller användningsgränsen för GitHub API (60 anrop per timme). För lagringsplatser med många dokument eller vid upprepad läsning bör du välja [Logga in med GitHub].
+> - Grennamn som innehåller `/` (till exempel `feature/xxx`) kan anges med `?ref=` i adressformatet ovan. De kan inte skrivas i formatet `?source=`.
+> - Dokumenten läses in med läsarens egna GitHub-behörigheter. De visas inte för personer som saknar läsbehörighet.
 
 ## Öppna dokument från en lokal mapp
 
-Tryck på [Öppna dokument] i verktygsfältet. Tryck sedan på [Öppna dokument från en lokal mapp] i den vänstra kolumnen och välj en mapp på enheten. Filerna bearbetas i webbläsaren och skickas aldrig någon annanstans. Funktionen fungerar i webbläsare som kan välja mappar (Chrome, Edge med flera).
+Tryck på [Öppna dokument] i verktygsfältet och välj en mapp på enheten via [Öppna dokument från en lokal mapp] i den vänstra kolumnen. Filerna behandlas i webbläsaren och skickas aldrig vidare. Funktionen kan användas i webbläsare som har stöd för val av mapp (Chrome, Edge med flera).
 
 ## Relaterade avsnitt
 
-- [Visa en privat lagringsplats](private-repository.md)
+- [Läsa en privat lagringsplats](private-repository.md)
 - [Det går inte att öppna eller logga in i webbversionen](../07-troubleshooting/web.md)
