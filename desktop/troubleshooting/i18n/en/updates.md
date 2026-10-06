@@ -2,7 +2,7 @@
 
 ## It says you are already up to date
 
-Check **Settings** > **General** > **Update channel**. Different channels receive different builds.
+Check **Settings** > **About** > **Update channel**. Different channels receive different builds.
 
 ## The download never finishes
 

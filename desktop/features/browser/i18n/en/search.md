@@ -17,7 +17,7 @@ Show or hide it in **Settings** > **Appearance** > **Show the search bar in the 
 
 ## Change the search engine
 
-1. Open **Settings** > **Search engines**.
+1. Open **Settings** > **Search**.
 2. Press **Make default** on the engine you want.
 
 The same screen adds and removes engines. **Reset search engines** puts the defaults back and deletes the ones you added.

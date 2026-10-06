@@ -14,7 +14,8 @@ Reload the page, then press the button again. If that does not help, reinstall t
 
 ## It will not install
 
-An extension that needs an API Lunascape does not support cannot be installed, and the reason is shown when you try.
+- **Cannot add extension**: **Chrome Extension Support** under **Settings** > **Extensions** is off. Turn it on and try again.
+- **Extension Not Supported**: the extension needs an API Lunascape does not support, so it cannot be used.
 
 ## A site looks broken
 

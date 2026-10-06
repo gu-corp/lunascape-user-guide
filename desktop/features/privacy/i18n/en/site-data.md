@@ -2,15 +2,15 @@
 
 ## One site at a time
 
-The icon at the left of the address bar opens **Manage site data**, where you can see and delete what that site has stored, cookies included. Deleting it usually signs you out of the site.
+Press the shield icon at the left end of the address bar and choose **Manage site data** at the bottom of the panel. There you can see and delete what that site has stored, cookies included. Deleting it usually signs you out of the site.
 
-## How long history is kept
+## Clear your browsing history
 
-**Settings** > **Privacy** > **History retention** sets the number of days.
+Delete browsing history by period from the history screen. See [History](../../../browser/i18n/en/history.md).
 
-## Clear it in bulk
+**Settings** > **Privacy** > **History retention days** sets how many days are kept (365 by default).
 
-**Settings** > **Privacy** clears history, cookies and the cache together. Profiles are independent, so this affects the profile you are using.
+Site data and history belong to each profile, so deleting affects only the profile you are using.
 
 ## Related topics
 

@@ -1,27 +1,35 @@
 # Import your data
 
-Bring bookmarks, history and passwords over from Chrome and other browsers.
+Bring bookmarks, passwords and cookies (your logins) over from Chrome and other browsers.
 
 ## Import
 
-1. Open **Bookmark Manager** from the menu (≡).
-2. Choose **Import**.
-3. Pick the browser and the profile to import from.
-4. Choose what to import — bookmarks, history, passwords — and run it.
+1. Press **Import from a browser** under **Settings** > **Bookmarks**. `Ctrl+I` / `Cmd+I` opens it too.
+2. In **Import from another browser**, choose the browser and profile under **Import from**.
+3. Under **What to import**, tick what you want. The number of items appears on the right.
+4. Under **Import into**, choose the Lunascape profile to import into. **New profile** creates one and imports into it.
+5. Press **Import**.
 
-> **Note:** Passwords are not stored per profile. They are shared across every profile.
+> **Note:**
+>
+> - Close the browser you are importing from before you start.
+> - Passwords are not stored per profile. They are shared across every profile.
 
 ## What can be imported
 
 | Item | Notes |
 | --- | --- |
 | Bookmarks | Imported with their folder structure |
-| History | Your browsing history |
-| Passwords | Saved logins. The other browser may ask for its own permission first |
+| Passwords | Saved logins |
+| Cookies (stay logged in) | Keeps you signed in to sites |
 
-## Import from an HTML file
+Some browsers only let bookmarks be imported.
 
-Bookmark files exported from another browser as HTML can also be imported. Choose the file from **Import** in the Bookmark Manager.
+## When something cannot be imported
+
+- **Cookies**: newer versions of Chrome protect cookies so other apps cannot read them, and then they cannot be imported.
+- **Passwords**: if Chrome's saved passwords cannot be decrypted, you are told they were not imported. You can run the import again from Settings.
+- **No other browsers were found on this computer.**: no browser to import from is installed on this computer.
 
 ## Related topics
 

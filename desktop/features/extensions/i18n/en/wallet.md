@@ -4,7 +4,7 @@ G.U. Wallet is the Web3 wallet bundled with the browser. It works with EVM-compa
 
 ## Get started
 
-Press the G.U. Wallet button in the toolbar and follow the prompts to create a wallet or restore an existing one.
+Press the G.U. Wallet button in the toolbar and the wallet opens in a panel on the right of the window. Follow the prompts to create a wallet or restore an existing one. Press the button again, or the **×** at the top right of the panel, to close it.
 
 > **Note:** Anyone with your recovery phrase can take your assets. Do not photograph it or send it in a chat — keep it somewhere safe. Lunascape support will never ask for it.
 

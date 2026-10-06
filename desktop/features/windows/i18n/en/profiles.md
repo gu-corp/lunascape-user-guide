@@ -4,19 +4,28 @@ Separate profiles keep bookmarks, history, cookies and extension state apart —
 
 ## Add a profile
 
-1. Choose **Manage profiles…** from the menu (≡).
-2. Press **Add profile**.
-3. Give it a name. Two profiles cannot share a name.
+1. Press the person icon at the right end of the toolbar and choose **Manage profiles…**.
+2. The **Profiles** page of the settings opens. Press **Add profile**.
+3. Type a name and press `Enter`. Two profiles cannot share a name.
 
 ## Switch
 
-Pick a profile from the list to open a window for it. Each window belongs to one profile.
+Pick a profile from the person icon's list, or press **Open** next to it on the **Profiles** settings page, to open a window for it. Each window belongs to one profile, and its name appears in the title bar.
 
 ## Delete
 
-Delete a profile from the same list. Its browsing data is removed from this computer for good, so export any bookmarks you want to keep first.
+Press **Delete** next to the profile on the **Profiles** settings page. Its browsing data is removed from this computer for good, so export any bookmarks you want to keep first.
 
 > **Note:** Passwords saved in the password manager are shared across every profile.
+
+## Choose the profile a site opens in
+
+Links opened by other apps or by an outside AI (MCP) normally open in the profile you are using. To send a site to a particular profile, add a rule:
+
+1. Go to **Profile for links** under **Settings** > **Profiles**.
+2. Enter the site's host name (for example `figma.com`), choose the profile and press **Add**.
+
+Links that Lunascape AI opens ignore these rules and open in the window you are chatting in.
 
 ## Related topics
 

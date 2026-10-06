@@ -17,17 +17,17 @@
 
 ## Right-click a tab
 
-Right-clicking a tab offers actions such as:
+Right-clicking a tab offers these actions:
 
-- Duplicate the tab, or reload it
+- Open a new tab, or open this tab in a new window
+- Reload, duplicate or mute the tab
 - Add the tab to a group ([Tab groups](tab-groups.md))
-- Close the other tabs
-- Pin the tab
+- Close the tab, or close the other tabs
 
 ## Appearance
 
 - **Settings** > **Appearance** > **Show icons on tabs** controls the site icon on each tab.
-- The same screen decides whether an address typed into the address bar opens in a new tab.
+- Whether an address typed into the address bar opens in a new tab is set under **Settings** > **General** > **Tabs**.
 
 ## Related topics
 

@@ -4,7 +4,13 @@ Once Lunascape is the default browser, links from other applications open in it.
 
 ## From Lunascape
 
-Press **Set Lunascape as the default browser** in the bar that appears at the top of the window at startup. Press **Later** to dismiss the bar.
+While Lunascape is not the default browser, a bar at the top of the window says: "Make Lunascape your default browser and links from other apps will open here."
+
+- **Set as default**: makes Lunascape the default browser. On Windows, Windows Settings opens — choose Lunascape there.
+- **Remind me later**: hides the bar for a while.
+- **Dismiss**: closes the bar.
+
+To do it later, press **Set Lunascape as the default browser** under **Settings** > **General** > **Default browser**.
 
 ## From the operating system
 

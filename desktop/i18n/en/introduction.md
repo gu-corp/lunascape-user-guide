@@ -7,9 +7,10 @@ Lunascape Desktop is a desktop browser for Windows and macOS. It combines everyd
 - Blocks advertisements and trackers, and reduces the data a page pulls in.
 - Runs extensions from the Chrome Web Store.
 - Includes a password manager protected by Touch ID or Windows Hello.
+- Has Lunascape AI built in: ask about the page you are on, or hand it tasks.
 - Lets an external AI assistant drive the browser through an MCP server.
 - Ships with G.U. Wallet for connecting to Web3 sites.
-- Opens each new tab as a dashboard with search and your most-used sites.
+- Opens each new tab as a dashboard with search and your apps.
 
 ## How to read this guide
 
