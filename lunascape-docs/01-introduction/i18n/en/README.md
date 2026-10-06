@@ -20,7 +20,6 @@ Lunascape Docs turns the Markdown documents in a Git repository into a "specific
 | VS Code extension | Read, edit, check and translate the repository on your machine. This help focuses on it |
 | Web viewer | Read documents on GitHub (public or private), keep drafts on your device, open a local folder |
 | Chromium extension | Opens the Web viewer in a browser tab |
-| Lunascape browser | Will embed the same document model |
 
 ## Basic principles
 

@@ -1,37 +1,36 @@
-# Hvad Lunascape Docs er
+# Hvad er Lunascape Docs
 
-Lunascape Docs gør Markdown-dokumenterne i et Git-lager til et "specifikationssted", som de er. Der kræves ingen byggetrin, ingen dokumentserver og ingen særskilt database.
+Lunascape Docs er et værktøj, der behandler Markdown-dokumenter i et Git-lager som et »specifikationswebsted«, præcis som de er. Der er ikke brug for et forudgående byggetrin, en dokumentserver eller en særlig database.
 
-## Det kan du gøre
+## Hvad du kan gøre
 
 | Formål | Vigtigste funktioner |
 |---|---|
-| Læse | INDEX (indholdsfortegnelse), links i teksten, brødkrummesti, Tilbage/Frem, sideoversigt, filtrerende søgning |
-| Se | Tabeller, kodeblokke, automatisk tilpassede billeder, KaTeX-matematik, diagrammer fra Mermaid, Vega-Lite, Markmap, WaveDrom og Svgbob, sammenfoldede dokumentstyringstabeller |
-| Skrive | Skift mellem visuel redigering og redigering af Markdown-kilden; opret, kopier, omdøb og omarrangér fra INDEX |
-| Kontrollere | Dokumentkontrol med docs-lint, kontrol af påkrævede dokumenter, kapitler og termer efter en Standard Pack, oprettelse ud fra skabeloner |
-| Oversætte | Generér oversættelsesforslag for én side ad gangen eller samlet. Gennemse dem, før du gemmer <!-- ai-only --> |
+| Læse | INDEX (indholdsfortegnelse), links i teksten, brødkrummesti, Tilbage/Frem, indholdsfortegnelse for siden, filtersøgning |
+| Se | Tabeller, kodeblokke, automatisk tilpassede billeder, KaTeX-matematik, Mermaid-, Vega-Lite-, Markmap-, WaveDrom- og Svgbob-diagrammer, sammenklappet visning af dokumentstyringstabeller |
+| Skrive | Skift mellem visuel redigering og redigering af Markdown-kilden; opret, dupliker, omdøb og omarranger fra INDEX |
+| Kontrollere | Kontrol af dokumenter med docs-lint, kontrol af påkrævede dokumenter, afsnit og termer ud fra en Standard Pack, oprettelse ud fra skabeloner |
+| Oversætte | Oversættelsesforslag for én side ad gangen eller for flere på én gang. Gennemse dem, før de gemmes <!-- ai-only --> |
 | Bruge fra AI | Et skrivebeskyttet specifikationsværktøj, som agenter i VS Code kan slå op i <!-- ai-only --> |
 
 ## Hvor du kan bruge det
 
-| Miljø | Formål |
+| Miljø | Anvendelse |
 |---|---|
-| VS Code-udvidelse | Læs, redigér, kontrollér og oversæt lageret på din egen maskine. Denne hjælp handler først og fremmest om den |
-| Webvisning | Læs dokumenter på GitHub (offentlige og private), hold kladder på enheden, åbn en lokal mappe |
-| Chromium-udvidelse | Åbner webvisningen i en browserfane |
-| Lunascape-browseren | Får den samme dokumentmodel indbygget |
+| VS Code-udvidelse | Læse, redigere, kontrollere og oversætte et lager på din egen computer. Denne hjælp handler primært om den |
+| Webbrowserversion | Læse dokumenter på GitHub (offentlige og private), kladder på enheden, læse en lokal mappe |
+| Chromium-udvidelse | Åbner webbrowserversionen i en fane i browseren |
 
-## Grundtanken
+## Grundprincipper
 
-- **Markdown er originalen.** Dokumenterne bliver ved med at være de Markdown-filer, Git styrer. Lunascape Docs beholder dem aldrig i et andet format.
-- **Du bestemmer, hvornår der gemmes.** Det, du har redigeret, skrives kun til filen, når du trykker på [Gem]. Der sker aldrig automatisk staging eller commit i Git.
-- **Dokumenterne behandles på din enhed.** Intet sendes ud af huset, for at du kan læse eller redigere et dokument. Kun ved oversættelse sendes noget, og først efter at modtager og indhold er vist, og du har godkendt det.
-- **Oversættelserne ligger under `i18n/<sprog>/`.** Dokumenterne på standardsproget bliver liggende, hvor de er; oversættelserne får den samme relative sti under fx `i18n/en/`.
-- **AI foreslår kun.** Oversættelsesforslag gemmes, efter at du har gennemset forskellene. Dokumenter bliver aldrig ændret i stilhed. <!-- ai-only -->
+- **Markdown-filerne er originaldokumenterne.** Dokumenterne forbliver de Markdown-filer, der styres med Git. Lunascape Docs konverterer dem aldrig til et andet format for at gemme dem.
+- **Du gemmer selv.** Redigeringer skrives kun til filen, når du trykker på [Gem]. Git-staging og commits sker aldrig automatisk.
+- **Dokumenterne behandles på din enhed.** Dokumenter sendes aldrig ud for at blive læst eller redigeret. Kun ved oversættelse vises modtager og indhold på forhånd, og der sendes først, når du har godkendt det.
+- **Oversættelser placeres i `i18n/<sprog>/`.** Dokumenter på standardsproget bliver, hvor de er; oversættelser placeres med samme relative sti under `i18n/en/` osv.
+- **AI kommer kun med forslag.** Oversættelsesforslag gemmes, efter at du har gennemset forskellene. Dokumenter omskrives aldrig i det skjulte. <!-- ai-only -->
 
 ## Relaterede emner
 
 - [Skærmens dele og deres funktion](screen.md)
-- [Installér udvidelsen](install.md)
+- [Installer udvidelsen](install.md)
 - [Grundlæggende betjening](../02-reading/README.md)

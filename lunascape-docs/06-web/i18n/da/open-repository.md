@@ -1,35 +1,56 @@
 # Åbn et GitHub-lager
 
-I Web-visningen åbner du dokumenter ved at angive et GitHub-lager. Offentlige lagre kræver ikke login.
+I webversionen kan du åbne et GitHub-lager og læse det direkte uden at klone det. Offentlige lagre kræver ikke, at du logger ind.
 
 ## Åbn fra skærmen
 
-1. Åbn <https://docs.lunascape.org/>.
-2. Tryk på [Åbn dokumenter] (mappeikonet) på værktøjslinjen.
-3. Indtast lageret under [Angiv et lager], og tryk på [Åbn].
-   Når du er logget ind på GitHub, kan du også vælge fra en liste under [Vælg blandt lagre, du kan læse].
+1. Tryk på [Åbn dokumenter] (mappeikonet) på værktøjslinjen. Skærmen »Åbn dokumenter« åbnes.
+2. Vælg i listen til venstre, hvor du vil åbne fra.
+
+   | Sted | Det, der vises |
+   |---|---|
+   | Alle | Alt nedenfor. Det, du senest har åbnet, står øverst |
+   | Senest åbnet | De lagre og mapper, du har åbnet |
+   | Anbefalet | De vejledninger, som webstedet anbefaler |
+   | GitHub-lagre | De lagre, du kan læse, når du er logget ind med GitHub |
+   | Denne computer | Mapper på denne enhed |
+
+3. Tryk på [Åbn] i den række, du vil åbne. Skriv i [Filtrér efter dokument- eller lagernavn] øverst for at indsnævre rækkerne.
+
+Et lager, der ikke står på listen, angiver du med [Indtast owner/repo for at åbne] i listen til venstre.
 
 > **Tip**
 >
-> - GitHub-ikonet ved siden af åbner det dokument, du læser nu, på github.com. Det åbner ikke dokumenter her.
+> - De GitHub-lagre, der står på listen, er dem, hvor GitHub-appen »Lunascape Docs« er installeret, og som du har læseadgang til. Hvis et lager mangler, så bed lagerets ejer om at tilføje appen.
 
-## Åbn via URL
+## Se, hvor dokumentet ligger
 
-Adressen angiver lageret og dokumentets placering i den rækkefølge, de står i lageret. Stien er placeringen inde i lageret, så den følger samme rækkefølge som GitHub-URL'en.
+Det lille ikon i venstre side af værktøjslinjen (placeringschippen) viser, hvor det dokument, du læser, ligger.
+
+| Ikon | Placering |
+|---|---|
+| GitHub-logoet | Læses fra GitHub. Det er ikke gemt på denne enhed |
+| Mappe | En mappe på denne enhed |
+
+Tryk på ikonet for at se placeringen, status og det, du kan gøre derfra (fx [Vis på GitHub] og [Kopiér link]).
+
+## Åbn med en URL
+
+Adressen består af lageret og dokumentets placering i rækkefølge. Stien er placeringen i lageret, så den følger samme rækkefølge som GitHub-URL'en.
 
 ```text
 https://docs.lunascape.org/github/owner/repo/docs/01-product/vision.md
 ```
 
-| Angivelse | Sådan skrives det |
+| Hvad der angives | Skrivemåde |
 |---|---|
 | Kun lageret (standardgren) | `/github/owner/repo` |
-| Et dokument inde i lageret | `/github/owner/repo/docs/01-product/vision.md` |
-| Angiv en gren eller et mærkat | tilføj `?ref=v1.2.0` til sidst |
+| Et dokument i lageret | `/github/owner/repo/docs/01-product/vision.md` |
+| En bestemt gren eller et tag | Tilføj `?ref=v1.2.0` til sidst |
 
-Adressen ændrer sig, når du navigerer. Tryk på [Del dette dokument] på værktøjslinjen for at give nogen et link til den side, du læser nu. Browserens knapper [Tilbage] og [Frem] virker også.
+Adressen skifter, når du går til en anden side. Tryk på [Del dette dokument] på værktøjslinjen for at give andre et link til den side, du læser. Browserens [Tilbage] og [Frem] virker også.
 
-Den ældre `?source=`-form kan stadig åbnes som hidtil. Efter åbningen skrives den om til den nye form.
+Den tidligere `?source=`-form kan stadig åbnes som før. Når siden er åbnet, skrives adressen om til den nye form.
 
 ```text
 https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/vision.md
@@ -37,15 +58,15 @@ https://docs.lunascape.org/?source=github:owner/repo@main/docs#/01-product/visio
 
 > **Bemærk**
 >
-> - Når du ikke er logget ind, gælder der en grænse for brug af GitHub API (60 gange i timen). Log ind med [Log ind med GitHub] ved lagre med mange dokumenter eller ved gentagen læsning.
-> - Grennavne, der indeholder `/` (som `feature/xxx`), kan angives med `?ref=` i adresseformen ovenfor. De kan ikke skrives i `?source=`-formen.
-> - Dokumenter indlæses med læserens egne GitHub-rettigheder. De vises ikke for personer uden læserettigheder.
+> - Når du ikke er logget ind, gælder GitHub API'ets begrænsning (60 forespørgsler i timen). Til lagre med mange dokumenter eller gentagen læsning skal du trykke på [Log ind med GitHub].
+> - Grennavne, der indeholder `/` (fx `feature/xxx`), kan angives med `?ref=` i adresseformen ovenfor. De kan ikke skrives i `?source=`-formen.
+> - Dokumenterne indlæses med læserens egne GitHub-rettigheder. Personer uden læseadgang kan ikke se dem.
 
 ## Åbn dokumenter fra en lokal mappe
 
-Tryk på [Åbn dokumenter] på værktøjslinjen, og vælg en mappe på enheden via [Åbn dokumenter fra en lokal mappe] under listen. Filerne behandles inde i browseren og sendes aldrig ud. Det virker i browsere, der understøtter valg af mappe (Chrome, Edge med flere).
+Tryk på [Åbn dokumenter] på værktøjslinjen, og vælg en mappe på enheden med [Åbn dokumenter fra en lokal mappe] i listen til venstre. Filerne behandles i browseren og sendes aldrig ud. Det virker i browsere, der understøtter valg af mapper (fx Chrome og Edge).
 
 ## Relaterede emner
 
 - [Læs et privat lager](private-repository.md)
-- [Web-visningen kan ikke åbne eller logge ind](../07-troubleshooting/web.md)
+- [Kan ikke åbne eller logge ind i webversionen](../07-troubleshooting/web.md)

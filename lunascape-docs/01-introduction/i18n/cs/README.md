@@ -1,37 +1,36 @@
 # Co je Lunascape Docs
 
-Lunascape Docs umožňuje pracovat s dokumenty ve formátu Markdown uloženými v úložišti Git přímo jako se „stránkami se specifikací“. Není potřeba žádné předchozí sestavení, dokumentační server ani zvláštní databáze.
+Lunascape Docs je nástroj, který s dokumenty Markdown uloženými v úložišti Git pracuje přímo jako s „webem specifikací“. Není potřeba předchozí sestavení, server dokumentace ani vyhrazená databáze.
 
-## Co umí
+## Co můžete dělat
 
 | Účel | Hlavní funkce |
 |---|---|
-| Čtení | INDEX (obsah), odkazy v textu, popis cesty, zpět a vpřed, obsah stránky, filtrované hledání |
-| Zobrazení | Tabulky, bloky kódu, automatické přizpůsobení obrázků, vzorce KaTeX, diagramy Mermaid, Vega-Lite, Markmap, WaveDrom a Svgbob, sbalené zobrazení tabulek pro správu dokumentu |
-| Psaní | Přepínání mezi vizuální úpravou a úpravou zdroje Markdown, vytváření, kopírování, přejmenování a změna pořadí z panelu INDEX |
-| Kontrola | Kontrola dokumentu nástrojem docs-lint, ověření povinných dokumentů, kapitol a termínů podle Standard Pack, vytváření ze šablony |
-| Překlad | Vytvoření návrhu překladu pro jednu stránku nebo pro všechny najednou. Uložení až po kontrole <!-- ai-only --> |
-| Použití z AI | Nástroj pro specifikace jen pro čtení, na který se může odkazovat agent ve VS Code <!-- ai-only --> |
+| Číst | INDEX (obsah), odkazy v textu, popis cesty, zpět a vpřed, obsah stránky, vyhledávání s filtrem |
+| Prohlížet | Tabulky, bloky kódu, automatické přizpůsobení obrázků, vzorce KaTeX, diagramy Mermaid, Vega-Lite, Markmap, WaveDrom a Svgbob, sbalené zobrazení tabulek správy dokumentů |
+| Psát | Přepínání mezi vizuálními úpravami a úpravami zdroje Markdown; vytváření, duplikování, přejmenování a změna pořadí v panelu INDEX |
+| Ověřovat | Kontrola dokumentů pomocí docs-lint, ověření povinných dokumentů, kapitol a termínů podle Standard Pack, vytváření ze šablon |
+| Překládat | Generování návrhů překladu po jednotlivých stránkách nebo hromadně. Uložení až po kontrole <!-- ai-only --> |
+| Používat s AI | Nástroj pro specifikace jen pro čtení, který mohou využívat agenti ve VS Code <!-- ai-only --> |
 
-## Dostupná prostředí
+## Kde lze Lunascape Docs používat
 
 | Prostředí | Použití |
 |---|---|
-| Rozšíření pro VS Code | Prohlížení, úpravy, kontrola a překlad úložiště ve vašem počítači. Tato nápověda se věnuje především jemu |
-| Verze pro webový prohlížeč | Prohlížení dokumentů na GitHubu (veřejných i neveřejných), koncepty v zařízení, prohlížení místní složky |
+| Rozšíření pro VS Code | Prohlížení, úpravy, kontrola a překlad úložiště ve vašem počítači. Tato nápověda se zaměřuje hlavně na něj |
+| Verze pro webový prohlížeč | Prohlížení dokumentů na GitHubu (veřejných i soukromých), koncepty ve vašem zařízení, prohlížení místní složky |
 | Rozšíření pro Chromium | Otevře verzi pro webový prohlížeč na kartě prohlížeče |
-| Prohlížeč Lunascape | Chystá se v něm použít stejný model dokumentu |
 
 ## Základní principy
 
-- **Originálem je Markdown.** Dokumenty zůstávají soubory Markdown spravovanými v Gitu. Lunascape Docs je nepřevádí do jiného formátu a takovou kopii si neuchovává.
-- **O uložení rozhoduje uživatel.** Upravený obsah se zapíše do souboru pouze při stisknutí tlačítka [Uložit]. Přidání do fronty ani potvrzení změn v Gitu neproběhne automaticky.
-- **Dokumenty se zpracovávají v zařízení.** Kvůli prohlížení ani úpravám se dokumenty nikam neodesílají. Pouze při překladu se předem zobrazí cíl odeslání a obsah a odeslání proběhne až po vašem schválení.
-- **Překlady se ukládají do `i18n/<jazyk>/`.** Dokumenty ve výchozím jazyce zůstávají na svém místě, překlady se ukládají se stejnou relativní cestou například do `i18n/en/`.
-- **AI pouze navrhuje.** Návrh překladu se ukládá až po kontrole rozdílů. Dokument se nikdy nepřepíše bez upozornění. <!-- ai-only -->
+- **Originálem je Markdown.** Dokumenty zůstávají soubory Markdown spravovanými v Gitu. Lunascape Docs je nepřevádí do jiného formátu ani je v jiném formátu neuchovává.
+- **Ukládáte vy.** Upravený obsah se zapíše do souboru, jen když stisknete [Uložit]. Stage ani commit v Gitu se neprovádějí automaticky.
+- **Dokumenty se zpracovávají ve vašem zařízení.** Kvůli prohlížení ani úpravám se dokumenty nikam neodesílají. Pouze při překladu se předem zobrazí cíl a obsah odesílaných dat a odešlou se až po vašem schválení.
+- **Překlady se ukládají do `i18n/<locale>/`.** Dokumenty ve výchozím jazyce zůstávají na svém místě, překlady se ukládají se stejnou relativní cestou například do `i18n/en/`.
+- **AI pouze navrhuje.** Návrhy překladu se ukládají až po kontrole rozdílů. Dokumenty se nikdy nepřepisují bez vašeho vědomí. <!-- ai-only -->
 
 ## Související témata
 
 - [Názvy a funkce částí obrazovky](screen.md)
 - [Instalace rozšíření](install.md)
-- [Základní操作](../02-reading/README.md)
+- [Základní ovládání](../02-reading/README.md)
