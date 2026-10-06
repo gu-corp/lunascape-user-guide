@@ -29,7 +29,7 @@ At the bottom left of the input box, choose which tabs the AI reads (for example
 
 ## Choose what the AI may do
 
-Decide what the AI may do in the browser, item by item, on the **Tool permissions** tab of **Settings** > **AI Integration**. Interacting with pages (clicking, typing and so on) and the permissions for downloaded files are off by default.
+Decide what the AI may do in the browser, item by item, on the **Tool permissions** tab of **Settings** > **AI Integration**. Interacting with pages (clicking, typing and so on), the permissions for downloaded files, and reading debug data are off by default.
 
 **Confirmation frequency**, under **General** in the AI Sidebar settings, sets which actions ask you first. Read-only actions never ask; opening a downloaded file always does.
 
