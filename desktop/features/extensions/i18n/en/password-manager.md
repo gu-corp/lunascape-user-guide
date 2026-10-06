@@ -23,7 +23,7 @@ If you use 1Password or Bitwarden, which replace the browser's own credential UI
 
 ## Bring passwords over
 
-The [import](../../../../getting-started/i18n/en/import.md) in the Bookmark Manager brings passwords across too. Passwords are shared across profiles.
+**Import from a browser** under **Settings** > **Bookmarks** ([Import your data](../../../../getting-started/i18n/en/import.md)) brings passwords across too. Passwords are shared across profiles.
 
 ## Related topics
 

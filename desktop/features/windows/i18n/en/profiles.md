@@ -18,6 +18,15 @@ Press **Delete** next to the profile on the **Profiles** settings page. Its brow
 
 > **Note:** Passwords saved in the password manager are shared across every profile.
 
+## Choose the profile a site opens in
+
+Links opened by other apps or by an outside AI (MCP) normally open in the profile you are using. To send a site to a particular profile, add a rule:
+
+1. Go to **Profile for links** under **Settings** > **Profiles**.
+2. Enter the site's host name (for example `figma.com`), choose the profile and press **Add**.
+
+Links that Lunascape AI opens ignore these rules and open in the window you are chatting in.
+
 ## Related topics
 
 - [Import your data](../../../../getting-started/i18n/en/import.md)

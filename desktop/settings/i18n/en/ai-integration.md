@@ -25,6 +25,15 @@ Permissions are granted one at a time under **Permissions** on the **MCP** tab. 
 | Open downloaded files | Open a file in its default application — confirmed every time |
 | Read debug data | Read a page's console output, network requests and screenshots |
 
+Two more permissions cover Lunascape Docs:
+
+| Permission | What it allows |
+| --- | --- |
+| Read and search Lunascape Docs documents | Read and search the documents open in Lunascape Docs |
+| Propose changes to Lunascape Docs documents | Suggest edits to a document — you decide whether to save them |
+
+**Capture file:// requests** adds requests for files on your computer (`file://`) to the network traffic in the debug data.
+
 > **Note:** Opening a file asks for confirmation on every attempt. Allow it only when it matches something you asked for.
 
 ## Connect your AI client
@@ -53,11 +62,11 @@ The **Audit log** records every tool the AI called, with what it asked for and w
 
 ## Restore your bookmarks
 
-Before an AI changes your bookmarks, the whole bookmark tree is saved automatically. Under **Backups**, pick one of the last five and **Restore** it.
+Before an AI changes your bookmarks, the whole bookmark tree is backed up automatically. See [Bookmarks](../../../features/browser/i18n/en/bookmarks.md#restore-from-a-backup) for how to go back.
 
-## Limit how much is read
+## Profile for links
 
-**Max characters per file read** caps how much of a file is handed to the AI. Long documents cost more to process, so this is the setting to turn down.
+Links an outside AI opens go to the profile you are using. To send a site to a particular profile, add a rule under **Settings** > **Profiles** > **Profile for links**. See [Profiles](../../../features/windows/i18n/en/profiles.md).
 
 ## How it stays safe
 

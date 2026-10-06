@@ -5,10 +5,15 @@ Lunascape checks for a new version on its own and tells you when it finds one.
 ## Check by hand
 
 1. Choose **Check for updates** from the menu (≡).
-2. If a newer version exists, a confirmation appears. Choose **Yes** to start the download.
-3. When the download finishes, **A new version is available** appears. **Restart now** applies the update immediately; **Later** applies it the next time you start Lunascape.
+2. If a newer version exists, you are asked whether to update. Choose **Yes** to start the download, which can take a minute or two.
+3. When the download finishes, **New Version Available** appears. **Restart now** applies the update immediately; **Later** applies it the next time you start Lunascape.
 
 If you are already up to date, it says so instead.
+
+> **Note:**
+>
+> - **New Version Available** appears small, at the top left of the window. Miss it and the update is not applied.
+> - On macOS, Lunascape cannot update itself while it runs from the downloaded disk image (`.dmg`). Move it to the Applications folder and start it from there.
 
 ## Update channel
 
