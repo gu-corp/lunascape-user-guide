@@ -7,7 +7,7 @@ The window is made up of these parts.
 | Toolbar | The top of the window: back / forward / reload, the navigation buttons, the address bar, the search bar and the buttons |
 | Address bar | Takes both a URL and a search term. The shield icon at its left end controls ad blocking and site data |
 | Search bar | Searches with a chosen search engine. You can hide it from the settings |
-| Sidebar | The left side of the window: **Navigation** (Dashboard, Web, Downloads, Agents, Settings) and your favorites (bookmarks) |
+| Sidebar | The left side of the window: **Navigation** (Dashboard, Web, Downloads, Settings) and your favorites (bookmarks) |
 | Tab bar | Holds the open tabs, just above the page area. **+** at its right end opens a new tab. Drag to reorder, or drag out of the window to detach |
 | Bookmarks bar | Your frequently used bookmarks. Can be shown or hidden |
 | Side panel | The right side of the window, for panels such as Lunascape AI and G.U. Wallet |
@@ -19,7 +19,6 @@ Next to back, forward and reload, the same entries as the sidebar's **Navigation
 
 - **Dashboard** (house icon): opens the new-tab dashboard.
 - **Web** (branching icon): goes back to your open tabs.
-- **Agents** (robot icon): opens the Lunascape AI agents screen. See [Lunascape AI](../../../features/ai/i18n/en/lunascape-ai.md).
 - **Sidebar** (list icon): shows or hides the sidebar on the left.
 
 Change their order in **Settings** > **Appearance** > **Order of the navigation entries**; the sidebar follows the same order.
