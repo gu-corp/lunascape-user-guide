@@ -2,7 +2,7 @@
 
 Keep related tabs together under a name and a colour — one group per thing you are working on.
 
-The tab bar shows only the tabs of the group you have chosen; the others appear when you switch to their group. Two groups are there from the start: **Web** for your everyday tabs, and **Agents** for the tabs Lunascape AI uses.
+The tab bar shows only the tabs of the group you have chosen; the others appear when you switch to their group. The **Web** group, for your everyday tabs, is there from the start.
 
 ## Create a group
 

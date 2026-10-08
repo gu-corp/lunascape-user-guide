@@ -7,7 +7,6 @@ Lunascape AI is the AI assistant built into the browser. Ask it about the page y
 | Where | How to open it | What it is for |
 | --- | --- | --- |
 | Page chat | The robot icon on the right of the toolbar | Ask about the page you are on. A panel opens on the right of the window |
-| Agents | The robot icon on the left of the toolbar, or **Agents** in the sidebar | Talk to the AI full-screen and hand it tasks. The tabs it is using appear on the right |
 
 ## Set it up first
 
@@ -35,7 +34,7 @@ Decide what the AI may do in the browser, item by item, on the **Tool permission
 
 ## Turn it off
 
-Turn off **Lunascape AI** under **System Extensions** in **Settings** > **Extensions**, and the page chat, the agents and their toolbar buttons all go away.
+Turn off **Lunascape AI** under **System Extensions** in **Settings** > **Extensions**, and the page chat and its toolbar button go away.
 
 ## Related topics
 
