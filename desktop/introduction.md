@@ -3,7 +3,7 @@ navigation:
   order: 100
 ---
 
-# Lunascape Desktop ユーザガイド
+# Lunascape Desktop ユーザガイドvgggg
 
 Lunascape Desktop は、Windows と macOS で動くデスクトップブラウザーです。日常のブラウジングに、広告ブロック、Chrome 拡張機能、パスワードマネージャー、AI 連携、Web3 ウォレットを組み合わせて使えます。
 
