@@ -10,7 +10,7 @@ The window is made up of these parts.
 | Sidebar | The left side of the window: **Navigation** (Dashboard, Web, Downloads, Settings) and your favorites (bookmarks) |
 | Tab bar | Holds the open tabs, just above the page area. **+** at its right end opens a new tab. Drag to reorder, or drag out of the window to detach |
 | Bookmarks bar | Your frequently used bookmarks. Can be shown or hidden |
-| Side panel | The right side of the window, for panels such as Lunascape AI and G.U. Wallet |
+| Side panel | The right side of the window, for panels such as Lunascape AI and Lunascape Wallet |
 | Page area | Shows the web page |
 
 ## Buttons on the left of the toolbar
@@ -27,7 +27,7 @@ Change their order in **Settings** > **Appearance** > **Order of the navigation 
 
 - **Lunascape AI** (robot icon): opens a panel on the right where you can ask an AI about the page you are on.
 - **Password manager** (key icon): opens your saved logins.
-- **G.U. Wallet**: opens the wallet panel on the right.
+- **Lunascape Wallet**: opens the wallet panel on the right.
 - **Extensions**: the buttons of extensions you have added.
 - **Menu (≡)**: file, bookmarks, history, downloads, profiles, settings, checking for updates and more.
 - **Profile** (person icon): switches profiles and opens the profile settings.

@@ -10,7 +10,7 @@ Open **Settings** from the menu (≡) or from the sidebar on the left, and pick 
 | Privacy | Ad blocking, site permissions, how long history is kept |
 | Downloads | Where downloaded files are saved |
 | Bookmarks | Exporting and importing bookmarks, and backups |
-| Wallet | The built-in crypto wallet (G.U. Wallet) |
+| Wallet | The built-in crypto wallet (Lunascape Wallet) |
 | Extensions | The built-in extensions and the ones you added |
 | Theme | The dashboard background and the apps on the dashboard |
 | Profiles | Managing profiles, and which profile opens links |
@@ -55,11 +55,11 @@ Set the **Location** to save to, and **Ask where to save each file before downlo
 
 ## Wallet
 
-Shows the **Current Version** of G.U. Wallet and its **Extension Source**. Normally leave it on **Chrome Web Store (recommended)** with **Enable auto-update** on.
+Shows the **Current Version** of Lunascape Wallet and its **Extension Source**. Normally leave it on **Chrome Web Store (recommended)** with **Enable auto-update** on.
 
 ## Extensions
 
-- **System Extensions**: turn the built-in extensions (Lunascape AI, G.U. Wallet, Lunascape Password Manager) on or off one by one.
+- **System Extensions**: turn the built-in extensions (Lunascape AI, Lunascape Wallet, Lunascape Password Manager) on or off one by one.
 - **Chrome Extension Support**: lets you add extensions from the Chrome Web Store (experimental).
 - **Installed Extensions**: enable, disable or remove the extensions you added.
 

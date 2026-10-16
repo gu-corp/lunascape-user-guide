@@ -1,10 +1,14 @@
-# G.U. Wallet
+# Lunascape Wallet
 
-G.U. Wallet is the Web3 wallet bundled with the browser. It works with EVM-compatible chains and connects to Web3 sites (DApps).
+Lunascape Wallet is the Web3 wallet bundled with the browser. It works with EVM-compatible chains and connects to Web3 sites (DApps).
 
 ## Get started
 
-Press the G.U. Wallet button in the toolbar and the wallet opens in a panel on the right of the window. Follow the prompts to create a wallet or restore an existing one. Press the button again, or the **×** at the top right of the panel, to close it.
+Press the Lunascape Wallet button in the toolbar and the wallet opens in a panel on the right of the window. Follow the prompts to create a wallet or restore an existing one. Press the button again, or the **×** at the top right of the panel, to close it.
+
+The wallet shows the chain (network) at the top, then your account and total balance, the **Send** and **Receive** buttons, and the list of assets you hold. From the second time on, enter the password you set when you created the wallet and press **Unlock**.
+
+<img src="img/wallet-panel.png" alt="Pressing the Lunascape Wallet button in the toolbar opens the wallet panel on the right, showing the chain, the account and total balance, the Send and Receive buttons, and the assets held (the address is blurred)" width="300" />
 
 > **Note:** Anyone with your recovery phrase can take your assets. Do not photograph it or send it in a chat — keep it somewhere safe. Lunascape support will never ask for it.
 
@@ -15,6 +19,8 @@ When a Web3 site asks to connect, the wallet shows a confirmation. Check that yo
 ## Settings
 
 **Settings** > **Wallet** controls where the wallet extension comes from. Leave it on the default, which keeps it updated from the Chrome Web Store.
+
+<img src="img/wallet-settings.png" alt="The Wallet page in Settings shows the current version, with Extension Source set to Chrome Web Store (recommended) and Enable auto-update on" width="560" />
 
 ## Related topics
 

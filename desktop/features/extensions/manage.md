@@ -49,7 +49,7 @@ Chrome ウェブストアの拡張機能を追加するには、**設定** > **�
 | 名前 | 説明 |
 | --- | --- |
 | Lunascape AI | [Lunascape AI](../ai/lunascape-ai.md) |
-| G.U. Wallet | [G.U. Wallet](wallet.md) |
+| Lunascape Wallet | [Lunascape Wallet](wallet.md) |
 | Lunascape Password Manager | [パスワードマネージャー](password-manager.md) |
 
 ## 関連項目
