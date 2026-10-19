@@ -42,7 +42,7 @@ Registering an untrustworthy RPC URL can cause problems such as wrong balances.
 
 ## When a site asks to add or switch a network
 
-A Web3 site may ask the wallet to add or switch to a network. A confirmation screen opens — check the network name and chain ID before you allow it. See [Connect to a site](../dapps/connect.md).
+A Web3 site may ask the wallet to add or switch to a network. A confirmation screen opens — check the network name and chain ID before you allow it. See [Connect to a site](../../../dapps/i18n/en/connect.md).
 
 ## Edit or delete a network
 

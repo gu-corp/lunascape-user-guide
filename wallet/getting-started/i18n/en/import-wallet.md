@@ -26,4 +26,4 @@ If you've forgotten the master password, or want to set the wallet up again, use
 
 ## Import just one account
 
-You can also import a single account with its private key instead of the seed phrase. See [Manage accounts](../features/accounts.md).
+You can also import a single account with its private key instead of the seed phrase. See [Manage accounts](../../../features/i18n/en/accounts.md).

@@ -25,4 +25,4 @@ The first time, the wallet shows the create screen.
 
 The wallet opens on the lock screen (**Welcome back!**). Enter the master password you set when you created it and press **Unlock**. The wallet locks again when, for example, you restart the browser.
 
-If you've forgotten the password, see [Forgot your password](../troubleshooting/password.md).
+If you've forgotten the password, see [Forgot your password](../../../troubleshooting/i18n/en/password.md).

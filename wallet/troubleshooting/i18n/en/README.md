@@ -15,11 +15,11 @@ Passwords, sending, connecting to sites — what to do for each problem. If noth
 
 | Question | Answer |
 | --- | --- |
-| I lost my seed phrase | While you can still unlock the wallet, [export it](../getting-started/backup.md) at once and write it down again. If you can't unlock the wallet either, it can't be restored |
+| I lost my seed phrase | While you can still unlock the wallet, [export it](../../../getting-started/i18n/en/backup.md) at once and write it down again. If you can't unlock the wallet either, it can't be restored |
 | I sent to the wrong address | Blockchain transactions can't be reversed, and Lunascape can't get them back. If you know who received it, the only option is to ask them to return it |
 | Can I give support my seed phrase? | No. Lunascape will never ask for your seed phrase, private key or password. Anyone who asks is a scammer |
-| I want to use it on another computer | Import the same seed phrase into Lunascape Wallet on the other computer. See [Import a wallet](../getting-started/import-wallet.md) |
-| Which networks does it support? | EVM-compatible networks. Ethereum and Japan Open Chain work from the start. See [Switch networks](../features/networks.md) |
+| I want to use it on another computer | Import the same seed phrase into Lunascape Wallet on the other computer. See [Import a wallet](../../../getting-started/i18n/en/import-wallet.md) |
+| Which networks does it support? | EVM-compatible networks. Ethereum and Japan Open Chain work from the start. See [Switch networks](../../../features/i18n/en/networks.md) |
 | How do I switch the wallet to English? | Under the wallet's **Settings** > **General** > **Language**. It's separate from the browser's language |
 
 ## Before you contact us

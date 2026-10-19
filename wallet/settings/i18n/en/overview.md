@@ -39,7 +39,7 @@ Choose a section on the left.
 
 ## Accounts
 
-The accounts in the wallet. **Add Account** adds one. See [Manage accounts](../features/accounts.md).
+The accounts in the wallet. **Add Account** adds one. See [Manage accounts](../../../features/i18n/en/accounts.md).
 
 ## Address Book
 
@@ -49,12 +49,12 @@ Your saved contacts. **Add Contact** saves a name and address.
 
 <img src="img/settings-networks.png" alt="The Networks page of the wallet's settings, with four networks, an Add Network button and a Show Testnets switch" width="560" />
 
-- Press a network to edit or delete it. **Add Network** adds one. See [Switch networks](../features/networks.md).
+- Press a network to edit or delete it. **Add Network** adds one. See [Switch networks](../../../features/i18n/en/networks.md).
 - **Show Testnets**: when on, testnets appear in the network list.
 
 ## Connections
 
-Sites you've allowed to connect, listed by account. Removing a site disconnects it. **Add to list** lets you add a site by hand. See [Connect to a site](../dapps/connect.md).
+Sites you've allowed to connect, listed by account. Removing a site disconnects it. **Add to list** lets you add a site by hand. See [Connect to a site](../../../dapps/i18n/en/connect.md).
 
 ## Security & Privacy
 
@@ -62,7 +62,7 @@ Sites you've allowed to connect, listed by account. Removing a site disconnects 
 
 | Item | What it does |
 | --- | --- |
-| Export Seed Phrase | Shows the seed phrase. See [Back up your seed phrase](../getting-started/backup.md) |
+| Export Seed Phrase | Shows the seed phrase. See [Back up your seed phrase](../../../getting-started/i18n/en/backup.md) |
 | Change Master Password | Enter the current and new passwords to change it |
 | Allow camera permission for QR code capture | Lets the wallet scan recipient and WalletConnect QR codes with your camera |
 
@@ -72,6 +72,6 @@ Sites you've allowed to connect, listed by account. Removing a site disconnects 
 
 | Item | What it does | Default |
 | --- | --- | --- |
-| WalletConnect | Allows sites to connect through WalletConnect. See [Connect with WalletConnect](../dapps/walletconnect.md) | Off |
+| WalletConnect | Allows sites to connect through WalletConnect. See [Connect with WalletConnect](../../../dapps/i18n/en/walletconnect.md) | Off |
 | Enable ethereum.is MetaMask | Makes sites see the wallet as MetaMask, so it also connects to sites that only support MetaMask | On |
 | Sending transactions via the Tor network | An experimental feature that sends transactions through the Tor network to make your IP address harder to see. Sending may take longer | Off |

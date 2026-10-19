@@ -41,4 +41,4 @@ For a new recipient, it's safer to send a small amount first, confirm it arrived
 
 ## If something goes wrong
 
-See [Sending and transaction problems](../troubleshooting/transactions.md).
+See [Sending and transaction problems](../../../troubleshooting/i18n/en/transactions.md).

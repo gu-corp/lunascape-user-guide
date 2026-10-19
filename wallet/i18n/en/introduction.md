@@ -17,7 +17,7 @@ It comes built into Lunascape Desktop. In Google Chrome and other browsers that 
 
 Lunascape Wallet keeps access to your assets **only on your computer**. Nobody — including the company behind Lunascape — holds it for you.
 
-- If you lose your **seed phrase**, the wallet cannot be restored. [Back it up](getting-started/backup.md) as soon as you create the wallet.
+- If you lose your **seed phrase**, the wallet cannot be restored. [Back it up](../../getting-started/i18n/en/backup.md) as soon as you create the wallet.
 - Never tell anyone your seed phrase, private key or password. Support will never ask for them.
 - A transaction sent to the blockchain cannot be reversed. Check the recipient, network and amount before you send.
 
@@ -31,10 +31,10 @@ Lunascape Wallet keeps access to your assets **only on your computer**. Nobody �
 
 | I want to | See |
 | --- | --- |
-| Open the wallet | [Get and open the wallet](getting-started/install.md) |
-| Create a new wallet | [Create a wallet](getting-started/create-wallet.md) |
-| Use a wallet from another computer or browser | [Import a wallet](getting-started/import-wallet.md) |
-| Write down my seed phrase | [Back up your seed phrase](getting-started/backup.md) |
-| Learn the screen | [The wallet screen](getting-started/screen.md) |
-| Send or receive | [Send](features/send.md) / [Receive](features/receive.md) |
-| Fix a problem | [Troubleshooting](troubleshooting/README.md) |
+| Open the wallet | [Get and open the wallet](../../getting-started/i18n/en/install.md) |
+| Create a new wallet | [Create a wallet](../../getting-started/i18n/en/create-wallet.md) |
+| Use a wallet from another computer or browser | [Import a wallet](../../getting-started/i18n/en/import-wallet.md) |
+| Write down my seed phrase | [Back up your seed phrase](../../getting-started/i18n/en/backup.md) |
+| Learn the screen | [The wallet screen](../../getting-started/i18n/en/screen.md) |
+| Send or receive | [Send](../../features/i18n/en/send.md) / [Receive](../../features/i18n/en/receive.md) |
+| Fix a problem | [Troubleshooting](../../troubleshooting/i18n/en/README.md) |

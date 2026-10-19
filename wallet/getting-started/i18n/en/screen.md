@@ -6,14 +6,14 @@ The main wallet screen is made up of the following parts, from top to bottom.
 
 | Part | What it does |
 | --- | --- |
-| Connection icon | The plug icon at the top left. Shows whether the current site can connect to the wallet. See [Connect to a site](../dapps/connect.md) |
-| Network | Switches the network (chain) you use. See [Switch networks](../features/networks.md) |
+| Connection icon | The plug icon at the top left. Shows whether the current site can connect to the wallet. See [Connect to a site](../../../dapps/i18n/en/connect.md) |
+| Network | Switches the network (chain) you use. See [Switch networks](../../../features/i18n/en/networks.md) |
 | Display currency | Chooses the fiat currency for balances (USD, JPY, EUR and so on) |
 | Menu (⋮) | Switches **Accounts** and opens the wallet's **Settings** |
 | Account | The account name and the start and end of its address. Press **∨** next to the name to switch or add accounts, and the copy icon to copy the address. The refresh icon on the right reloads the balance |
 | Total Balance | The total of your assets in the display currency. The eye icon hides or shows the amount |
-| Send / Receive | [Send](../features/send.md) / [Receive](../features/receive.md) |
-| Assets in possession | The tokens you hold and their balances. **View all** opens the full list (tokens and NFTs). See [Check your assets](../features/assets.md) |
+| Send / Receive | [Send](../../../features/i18n/en/send.md) / [Receive](../../../features/i18n/en/receive.md) |
+| Assets in possession | The tokens you hold and their balances. **View all** opens the full list (tokens and NFTs). See [Check your assets](../../../features/i18n/en/assets.md) |
 | Transaction History | The record of this account's sends and receipts |
 
 ## Locking

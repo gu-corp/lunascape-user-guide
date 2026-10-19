@@ -2,7 +2,7 @@
 
 ## "Fees (gas) are insufficient." appears
 
-Fees are paid in the network's own currency, separately from the token you send (ETH on Ethereum, JOC on Japan Open Chain). Receive a little of that currency, then try again. See [Send](../features/send.md).
+Fees are paid in the network's own currency, separately from the token you send (ETH on Ethereum, JOC on Japan Open Chain). Receive a little of that currency, then try again. See [Send](../../../features/i18n/en/send.md).
 
 ## "Cannot estimate gas" appears
 
@@ -28,7 +28,7 @@ The transaction's number (nonce) clashes with an earlier one from the same accou
 
 1. Check the network (for example, the sender used Japan Open Chain but you're looking at an Ethereum token).
 2. Press the refresh icon on the main screen.
-3. If the token isn't in your list, [add the token](../features/assets.md#add-a-token).
+3. If the token isn't in your list, [add the token](../../../features/i18n/en/assets.md#add-a-token).
 4. Ask the sender for the transaction ID (transaction hash) and check in a block explorer that it completed.
 
 ## "Can't connect to the network" appears

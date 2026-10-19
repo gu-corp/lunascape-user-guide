@@ -32,4 +32,4 @@ The steps for using Lunascape Wallet for the first time. It takes a few minutes.
 
 - [Back up your seed phrase](backup.md)
 - [The wallet screen](screen.md)
-- [Receive](../features/receive.md) — have crypto sent to your address
+- [Receive](../../../features/i18n/en/receive.md) — have crypto sent to your address

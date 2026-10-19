@@ -9,7 +9,7 @@ Set the wallet up again with the seed phrase and choose a new password. Your ass
 1. On the lock screen, press **Restore Wallet**.
 2. Enter the seed phrase and a new master password (twice), then press **Restore**.
 
-See [Import a wallet](../getting-started/import-wallet.md) for details.
+See [Import a wallet](../../../getting-started/i18n/en/import-wallet.md) for details.
 
 ## If you don't have the seed phrase
 

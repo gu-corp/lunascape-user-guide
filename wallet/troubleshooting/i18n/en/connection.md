@@ -17,7 +17,7 @@ Another wallet extension is taking priority. As above, turn off the other wallet
 
 ## Disconnect a site you connected
 
-Remove the site under the wallet's **Settings** > **Connections**. See [Connect to a site](../dapps/connect.md#disconnect-a-site).
+Remove the site under the wallet's **Settings** > **Connections**. See [Connect to a site](../../../dapps/i18n/en/connect.md#disconnect-a-site).
 
 ## Watch out for fake sites
 
