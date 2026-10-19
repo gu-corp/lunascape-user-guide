@@ -1,6 +1,6 @@
 # Receive
 
-Give someone your address so they can send you crypto. It's fine for others to know your address — they can't take anything with it.
+Give someone your address so they can send you crypto. It's fine for others to know your address — they can't take your assets with it.
 
 ## Steps
 

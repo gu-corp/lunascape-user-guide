@@ -4,7 +4,7 @@ The master password unlocks the wallet in this browser. Lunascape doesn't keep a
 
 ## If you have the seed phrase
 
-Set the wallet up again with the seed phrase and choose a new password. Your assets are on the blockchain, so setting the wallet up again doesn't lose them.
+Set the wallet up again with the seed phrase and choose a new password. Your assets are on the blockchain, so setting the wallet up again doesn't lose them. Accounts added with a private key or a Ledger don't come back, though — add them again.
 
 1. On the lock screen, press **Restore Wallet**.
 2. Enter the seed phrase and a new master password (twice), then press **Restore**.
@@ -13,9 +13,9 @@ See [Import a wallet](../../../getting-started/i18n/en/import-wallet.md) for det
 
 ## If you don't have the seed phrase
 
-There is no way to unlock the wallet. Try the passwords you might have used, minding upper and lower case.
+There is no way to unlock the wallet. Try the passwords you might have used, paying attention to upper and lower case.
 
-> **Caution:** **Reset Wallet** on the lock screen sets a new password and **erases the wallet to start over**. It's erased with no confirmation step. If you haven't written down the wallet's seed phrase, you lose access to its assets. Don't press it without the seed phrase.
+> **Caution:** **Reset Wallet** on the lock screen sets a new password, then erases the wallet so you can start over. There's no "Are you sure?" step — pressing **Reset** erases it at once. If you haven't written down the wallet's seed phrase, you lose access to its assets. Don't press it unless you're giving up those assets and starting fresh.
 
 <img src="img/reset-wallet.png" alt="The Reset a master password screen, with Reset Password and Confirm password fields, a Reset button and a Back button" width="300" />
 

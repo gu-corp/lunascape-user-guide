@@ -1,6 +1,6 @@
 # Import a wallet
 
-Bring in a wallet you used on another computer, in another browser or in another wallet app, using its 12-word seed phrase. The same seed phrase shows the same addresses and assets.
+Bring in a wallet you used on another computer, in another browser or in another wallet app, using its 12-word seed phrase. The same seed phrase shows the same addresses and assets. Accounts added with a private key or a Ledger don't come back with the seed phrase, though.
 
 ## When you first open the wallet
 
@@ -20,7 +20,7 @@ If you've forgotten the master password, or want to set the wallet up again, use
 
 ## Notes
 
-- If a single word is misspelled or out of order, the import fails (**Invalid secret recovery phrase**).
+- If a single word is misspelled or out of order, the import fails (**Invalid secret recovery phrase** — the secret recovery phrase is the seed phrase).
 - Importing replaces the wallet that was in this browser. To keep that wallet, write down its seed phrase first.
 - Only ever type your seed phrase into Lunascape Wallet itself. A website, email or chat that asks you to "enter your seed phrase" is a scam.
 

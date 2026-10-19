@@ -9,15 +9,15 @@ Creating and backing up a wallet, sending and receiving, connecting to sites, se
 
 Press the Lunascape Wallet button (the wallet shape) in the toolbar and the wallet opens in a panel on the right of the window. Press the button again, or the **×** at the top right of the panel, to close it.
 
-<img src="img/wallet-panel.png" alt="Pressing the Lunascape Wallet button in the toolbar opens the wallet panel on the right, showing the chain, the account and total balance, the Send and Receive buttons, and the assets held (the address is blurred)" width="300" />
+<img src="img/wallet-panel.png" alt="Pressing the Lunascape Wallet button in the toolbar opens the wallet panel on the right, showing the network, the account and total balance, the Send and Receive buttons, and the assets held (the address is blurred)" width="300" />
 
 The first time, the wallet shows the create screen; after that, it opens on the lock screen.
 
-> **Note:** Anyone with your recovery phrase can take your assets. Do not photograph it or send it in a chat — keep it somewhere safe. Lunascape support will never ask for it.
+> **Note:** Anyone who learns your seed phrase (recovery phrase) can take your assets. Don't keep it in a screenshot or photo, or send it in a chat — keep it somewhere safe. Lunascape support will never ask for it.
 
 ## Browser settings
 
-**Settings** > **Wallet** shows the wallet extension's **Current Version** and **Extension Source**. Leave it on the default — **Chrome Web Store (recommended)** with **Enable auto-update** on.
+**Settings** > **Wallet** shows the wallet extension's **Current Version** and lets you change its **Extension Source**. Leave it on the default — **Chrome Web Store (recommended)** with **Enable auto-update** on.
 
 <img src="img/wallet-settings.png" alt="The Wallet page in Settings shows the current version, with Extension Source set to Chrome Web Store (recommended) and Enable auto-update on" width="560" />
 

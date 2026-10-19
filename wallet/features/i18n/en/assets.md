@@ -20,7 +20,7 @@ Press a token in the list to open its detail screen.
 <img src="img/token-detail.png" alt="The detail screen for Ether, with the balance, price and a small chart, Send, Receive and Trade buttons, and Transaction History" width="300" />
 
 - Press **∨** next to **Price** to open the price chart and see 24H / 7D / 30D movements.
-- **Send** / **Receive** start a send or receipt for this token.
+- **Send** / **Receive** start sending or receiving this token.
 - **Trade** lists exchanges that handle this token ([Trade a token](#trade-a-token)).
 - The **⋮** at the top right lets you edit how the token is shown or remove it from the list. Removing it doesn't touch your assets — it only hides the token from the list.
 
@@ -48,11 +48,11 @@ The **NFT** tab of the list shows the NFTs you hold. Use the network button at t
 
 ## Transaction history
 
-**Transaction History** on the main screen, or on a token's detail screen, lists your sends and receipts. Press an entry to see its details, such as from, to, amount and fee.
+**Transaction History** on the main screen, or on a token's detail screen, lists what you have sent and received. Press an entry to see its details, such as from, to, amount and fee.
 
 ## Trade a token
 
-Press **Trade** on a token's detail screen to see exchanges that handle it. Pressing one takes you to that exchange's site, where the trade happens.
+Press **Trade** on a token's detail screen to see exchanges that handle it. Pressing an exchange takes you to its site, where the trade happens.
 
 <img src="img/trade.png" alt="The Trade Token screen, showing X-Swap under Decentralized exchange, Zaif under Centralized exchange, and Alchemy Pay under Buy with card" width="300" />
 
@@ -60,6 +60,6 @@ Press **Trade** on a token's detail screen to see exchanges that handle it. Pres
 | --- | --- |
 | Decentralized exchange | Connect your wallet to the site and swap tokens |
 | Centralized exchange | Trade through an account at the exchange (you need to open one) |
-| Buy with card | Buy with a credit or debit card and similar |
+| Buy with card | Buy with a credit card, debit card or similar |
 
 Which exchanges appear depends on **Region** (Japan / Outside Japan) under the wallet's **Settings** > **General**. Each exchange's service is provided by its own operator.

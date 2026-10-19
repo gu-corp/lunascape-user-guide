@@ -17,7 +17,7 @@ Choose a section on the left.
 | [Advanced Options](#advanced-options) | WalletConnect, MetaMask compatibility and experimental features |
 | Help | Opens the Lunascape Wallet website |
 
-> **Note:** **Settings** > **Wallet** in Lunascape Desktop is a browser setting (the extension's version and how it's updated). It's a different screen from the wallet's own settings described here.
+> **Tip:** **Settings** > **Wallet** in Lunascape Desktop is a browser setting (the extension's version and how it's updated). It's a different screen from the wallet's own settings described here.
 
 ## General
 
@@ -29,13 +29,13 @@ Choose a section on the left.
 | Color mode | Switches between light, dark and system (follow your computer) | Light |
 | New Tab | Opens the wallet in a browser tab instead of the popup | Off |
 | Side Panel | Shows the wallet in the browser's side panel | On |
-| Language | Chooses the wallet's language (日本語 / English) | — |
+| Language | Chooses the wallet's language (日本語 / 英語 (English)) | — |
 | Region | Decides which exchanges are offered when you trade a token (Japan / Outside Japan) | Japan |
 | Currency | Chooses the fiat currency for balances | USD |
 
 <img src="img/settings-general-2.png" alt="The rest of General, with Language, Region and Currency under Locale" width="560" />
 
-> **Note:** The wallet's language is set separately from the browser's. Switching the browser to English doesn't change the wallet.
+> **Tip:** The wallet's language is set separately from the browser's. Switching the browser to English doesn't change the wallet.
 
 ## Accounts
 
@@ -63,7 +63,7 @@ Sites you've allowed to connect, listed by account. Removing a site disconnects 
 | Item | What it does |
 | --- | --- |
 | Export Seed Phrase | Shows the seed phrase. See [Back up your seed phrase](../../../getting-started/i18n/en/backup.md) |
-| Change Master Password | Enter the current and new passwords to change it |
+| Change Master Password | Enter the **Old Password** and a new one to change it |
 | Allow camera permission for QR code capture | Lets the wallet scan recipient and WalletConnect QR codes with your camera |
 
 ## Advanced Options
@@ -74,4 +74,4 @@ Sites you've allowed to connect, listed by account. Removing a site disconnects 
 | --- | --- | --- |
 | WalletConnect | Allows sites to connect through WalletConnect. See [Connect with WalletConnect](../../../dapps/i18n/en/walletconnect.md) | Off |
 | Enable ethereum.is MetaMask | Makes sites see the wallet as MetaMask, so it also connects to sites that only support MetaMask | On |
-| Sending transactions via the Tor network | An experimental feature that sends transactions through the Tor network to make your IP address harder to see. Sending may take longer | Off |
+| Sending transactions via the Tor network | An experimental feature that sends transactions through the Tor network to make your IP address harder for others to see. Sending may take longer | Off |

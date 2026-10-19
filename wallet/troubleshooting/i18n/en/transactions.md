@@ -2,7 +2,7 @@
 
 ## "Fees (gas) are insufficient." appears
 
-Fees are paid in the network's own currency, separately from the token you send (ETH on Ethereum, JOC on Japan Open Chain). Receive a little of that currency, then try again. See [Send](../../../features/i18n/en/send.md).
+Fees are paid in the network's own currency, separately from the token you send (ETH on Ethereum, JOC on Japan Open Chain). Receive a little of that currency, or [buy it on an exchange](../../../features/i18n/en/assets.md#trade-a-token), then try again. See [Send](../../../features/i18n/en/send.md).
 
 ## "Cannot estimate gas" appears
 
@@ -17,16 +17,16 @@ Something is wrong with the transaction, or the network is too busy to estimate 
 When the network is busy, transactions with low fees are processed later.
 
 - Waiting a while often lets it finish.
-- Open the pending transaction from Transaction History to raise its fee and speed it up, or to cancel it. Cancelling also costs a fee, and other pending transactions may be cancelled too.
-- Switching networks while a transaction is pending may cancel it.
+- Open the pending transaction from **Transaction History** to raise its fee and speed it up, or to cancel it. Canceling also costs a fee, and other pending transactions may be canceled too.
+- Switching networks while a transaction is pending cancels all pending transactions.
 
 ## "Nonce is too low." appears
 
-The transaction's number (nonce) clashes with an earlier one from the same account. Check Transaction History for pending transactions, and send again once they finish.
+The transaction's number (nonce) clashes with an earlier one from the same account. Check **Transaction History** for pending transactions, and send again once they finish.
 
 ## Received, but the balance doesn't appear
 
-1. Check the network (for example, the sender used Japan Open Chain but you're looking at an Ethereum token).
+1. Check that the network the sender used matches the network shown for the token in your asset list (USDT on Ethereum and USDT on Japan Open Chain are different tokens).
 2. Press the refresh icon on the main screen.
 3. If the token isn't in your list, [add the token](../../../features/i18n/en/assets.md#add-a-token).
 4. Ask the sender for the transaction ID (transaction hash) and check in a block explorer that it completed.

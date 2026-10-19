@@ -2,9 +2,11 @@
 
 A network (chain) is the blockchain your crypto moves on. Lunascape Wallet works with EVM-compatible networks. It doesn't support networks that aren't EVM-compatible, such as Bitcoin or Solana.
 
+The network you choose at the top is mainly the one used when you connect to sites. Your assets and the tokens you can send are shown for every network, whichever one you choose (each token shows its network name).
+
 ## Switch
 
-Press the network name at the top and choose from **Networks**. The current network has a tick.
+Press the network name at the top and choose from **Networks**. The current network has a check mark.
 
 <img src="img/networks.png" alt="The Networks list with Ethereum, Japan Open Chain, Sepolia Test Network, Japan Open Chain Testnet and an Add Network button" width="300" />
 
@@ -19,7 +21,7 @@ These networks are available from the start:
 
 Testnets appear in the list only when **Show Testnets** is on under the wallet's **Settings** > **Networks**. Assets on testnets have no value.
 
-> **Note:** Switching networks may cancel transactions that are still pending. Wait for a send to finish before you switch.
+> **Note:** Switching networks cancels all transactions that are still pending. Wait for a send to finish before you switch.
 
 ## Add a network
 

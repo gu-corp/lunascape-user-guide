@@ -6,7 +6,7 @@ One wallet can hold several accounts. Each account has its own address, so you c
 
 Press **∨** next to the account name on the main screen to open the list of accounts. Press an account to switch to it.
 
-<img src="img/accounts.png" alt="The account list, with a tick next to Account 1 and an Add Account button below (the address is blurred)" width="300" />
+<img src="img/accounts.png" alt="The account list, with a check mark next to Account 1 and an Add Account button below (the address is blurred)" width="300" />
 
 Press **Add Account** to choose how to add one.
 
@@ -38,7 +38,7 @@ In the account list, press **⋮** to the right of an account for these options.
 - **Show Private Key**: shows this account's private key. You need the master password. As with the seed phrase, never tell anyone.
 - **Copy Address**: copies the address.
 
-You can also see and add accounts under the wallet's **Settings** > **Accounts**. The last remaining account can't be deleted.
+You can also see and add accounts under the wallet's **Settings** > **Accounts**.
 
 ## Address book
 

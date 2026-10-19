@@ -10,7 +10,7 @@ When you press **Connect Wallet** or a similar button on a Web3 site (DApp), the
 
 <img src="img/connect-request.png" alt="The confirmation screen The site is requesting your wallet address, with the site's URL, the account to connect, and Cancel and Approve buttons (the address is blurred)" width="300" />
 
-Connecting tells the site only your account's address. Connecting alone never sends anything.
+Connecting tells the site only your account's address. Connecting alone never sends any crypto.
 
 ## Requests a site can make
 
@@ -33,12 +33,12 @@ Press the plug icon at the top left of the wallet to see the connection status o
 
 ## Disconnect a site
 
-Sites you've allowed are listed by account under the wallet's **Settings** > **Connections**. Remove sites you no longer use from here.
+Sites you've allowed are listed by account under the wallet's **Settings** > **Connections**. Remove sites you no longer use here with **Delete from list**.
 
-<img src="img/settings-connections.png" alt="The Connections page of the wallet's settings, with the Permitted websites list and an Add to list button" width="560" />
+<img src="img/settings-connections.png" alt="The Connections page of the wallet's settings, with an empty Permitted websites list and an Add to list button" width="560" />
 
 ## Using other wallet extensions alongside it
 
-If another wallet extension such as MetaMask is installed, Lunascape Wallet may not connect to sites properly (it shows **Lunascape Wallet has detected another Ethererum wallet.**). Turn one of them off.
+If another wallet extension such as MetaMask is installed, Lunascape Wallet doesn't work (it shows **Lunascape Wallet has detected another Ethererum wallet.**). Turn one of them off.
 
 Many sites see Lunascape Wallet as MetaMask (**Settings** > **Advanced Options** > **Enable ethereum.is MetaMask**). If a site doesn't list Lunascape Wallet, choosing MetaMask may work.

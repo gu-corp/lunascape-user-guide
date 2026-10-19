@@ -2,10 +2,10 @@
 
 ## The connect button does nothing
 
-1. Unlock the wallet, then press it again.
+1. Unlock the wallet, then press the site's connect button again.
 2. Reload the page.
 3. If the site's wallet list doesn't include Lunascape Wallet, try **MetaMask** or **Browser Wallet**.
-4. In Lunascape Desktop, check that Lunascape Wallet is on under **Settings** > **Extensions**.
+4. In Lunascape Desktop, check that Lunascape Wallet is on under **Settings** > **Extensions** > **System Extensions**.
 
 ## "Lunascape Wallet has detected another Ethererum wallet." appears
 
