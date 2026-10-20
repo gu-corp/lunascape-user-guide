@@ -14,7 +14,7 @@ Lunascape Mobile は、従来の Web ブラウジングと最先端の Web3 機�
 - **iOS** — [App Store で入手](http://itunes.apple.com/app/ilunascape/id380065805?mt=8)
 - **Android** — [Google Play で入手](https://play.google.com/store/apps/details?id=jp.co.lunascape.android.ilunascape)
 
-手順は [ダウンロードとインストール](getting-started/download.md)、うまくいかないときは [トラブルシューティング](getting-started/troubleshooting.md) を参照してください。
+手順は [ダウンロードとインストール](../../getting-started/i18n/ja/download.md)、うまくいかないときは [トラブルシューティング](../../getting-started/i18n/ja/troubleshooting.md) を参照してください。
 
 ## Lunascape Mobile v15 の特長
 
@@ -88,10 +88,10 @@ Lunascape Mobile は、従来の Web ブラウジングと Web3 ウォレット�
 
 ### クイックスタート
 
-1. **ダウンロードとインストール** — 端末のアプリストアから Lunascape Mobile を入手します（[ダウンロードとインストール](getting-started/download.md)）
-2. **ウォレットの設定** — 新しいウォレットを作成するか、既存のウォレットをインポートします（[ウォレットの作成](features/wallet/create-wallet.md)）
-3. **好みに合わせて設定** — ニュースソース、プライバシー、表示を設定します（[設定](features/settings/overview.md)）
-4. **ブラウジング開始** — Web と Web3 を安心して楽しみます（[ブラウザ](features/browser/overview.md)）
+1. **ダウンロードとインストール** — 端末のアプリストアから Lunascape Mobile を入手します（[ダウンロードとインストール](../../getting-started/i18n/ja/download.md)）
+2. **ウォレットの設定** — 新しいウォレットを作成するか、既存のウォレットをインポートします（[ウォレットの作成](../../features/wallet/i18n/ja/create-wallet.md)）
+3. **好みに合わせて設定** — ニュースソース、プライバシー、表示を設定します（[設定](../../features/settings/i18n/ja/overview.md)）
+4. **ブラウジング開始** — Web と Web3 を安心して楽しみます（[ブラウザ](../../features/browser/i18n/ja/overview.md)）
 
 ### このガイドの構成
 
@@ -99,65 +99,65 @@ Lunascape Mobile は、従来の Web ブラウジングと Web3 ウォレット�
 
 ## カテゴリ
 
-### [ホーム](features/home/overview.md)
+### [ホーム](../../features/home/i18n/ja/overview.md)
 
 Lunascape Mobile のメイン画面と基本機能を紹介します。
 
-- [クイック検索](features/home/quick-search.md) — 高速な Web／Web3 検索
-- [ツールメニュー](features/home/tool-menu.md) — すべてのブラウザツールと機能へのアクセス
-- [ニュース統合](features/home/news.md) — 統合ニュースフィードで最新情報を入手
-- [ブラウザショートカット](features/home/browser-shortcuts.md) — よく使う機能へのクイックアクセス
-- [ウォレット統合](features/home/wallets.md) — Web3 ウォレットへのシームレスなアクセス
+- [クイック検索](../../features/home/i18n/ja/quick-search.md) — 高速な Web／Web3 検索
+- [ツールメニュー](../../features/home/i18n/ja/tool-menu.md) — すべてのブラウザツールと機能へのアクセス
+- [ニュース統合](../../features/home/i18n/ja/news.md) — 統合ニュースフィードで最新情報を入手
+- [ブラウザショートカット](../../features/home/i18n/ja/browser-shortcuts.md) — よく使う機能へのクイックアクセス
+- [ウォレット統合](../../features/home/i18n/ja/wallets.md) — Web3 ウォレットへのシームレスなアクセス
 
-### [ニュース](features/news/overview.md)
+### [ニュース](../../features/news/i18n/ja/overview.md)
 
 ニュースの読み方をカスタマイズ・管理します。
 
-- [ニュース設定](features/news/news-setting.md) — ニュースの設定とソースの構成
-- [ソースの選択](features/news/news-sources-selection.md) — 好みのニュース提供元を選択
-- [既定の RSS ソース](features/news/default-rss-sources.md) — リアルタイム更新のための RSS フィードを設定
+- [ニュース設定](../../features/news/i18n/ja/news-setting.md) — ニュースの設定とソースの構成
+- [ソースの選択](../../features/news/i18n/ja/news-sources-selection.md) — 好みのニュース提供元を選択
+- [既定の RSS ソース](../../features/news/i18n/ja/default-rss-sources.md) — リアルタイム更新のための RSS フィードを設定
 
-### [ブラウザ](features/browser/overview.md)
+### [ブラウザ](../../features/browser/i18n/ja/overview.md)
 
 強力なブラウジング機能と Web3 機能を使いこなします。
 
-- [広告ブロック](features/browser/ad-blocking.md) — 強化されたプライバシーと広告なしのブラウジング
-- [検索](features/browser/search.md) — 高度な検索機能とオプション
-- [ブックマーク](features/browser/bookmarks.md) — お気に入りサイトの整理と管理
-- [リーディングリスト](features/browser/reading-list.md) — 後で読む記事の保存
-- [閲覧履歴](features/browser/browsing-history.md) — 閲覧の追跡と管理
-- [タブ操作](features/browser/tab-operations.md) — 効率的なタブ管理
-- [ダウンロード管理](features/browser/download-file.md) — ファイルのダウンロードと共有
-- [共有機能](features/browser/share.md) — プラットフォームをまたいだ共有
-- [Web3 DApp 対応](features/browser/web3-dapp-support.md) — 分散アプリケーションとのやり取り
-- [プライベートモード](features/browser/private-mode.md) — プライベートで安全なブラウジング
-- [ブラウザツール](features/browser/browser-tool-menu.md) — すべてのブラウザユーティリティへのアクセス
+- [広告ブロック](../../features/browser/i18n/ja/ad-blocking.md) — 強化されたプライバシーと広告なしのブラウジング
+- [検索](../../features/browser/i18n/ja/search.md) — 高度な検索機能とオプション
+- [ブックマーク](../../features/browser/i18n/ja/bookmarks.md) — お気に入りサイトの整理と管理
+- [リーディングリスト](../../features/browser/i18n/ja/reading-list.md) — 後で読む記事の保存
+- [閲覧履歴](../../features/browser/i18n/ja/browsing-history.md) — 閲覧の追跡と管理
+- [タブ操作](../../features/browser/i18n/ja/tab-operations.md) — 効率的なタブ管理
+- [ダウンロード管理](../../features/browser/i18n/ja/download-file.md) — ファイルのダウンロードと共有
+- [共有機能](../../features/browser/i18n/ja/share.md) — プラットフォームをまたいだ共有
+- [Web3 DApp 対応](../../features/browser/i18n/ja/web3-dapp-support.md) — 分散アプリケーションとのやり取り
+- [プライベートモード](../../features/browser/i18n/ja/private-mode.md) — プライベートで安全なブラウジング
+- [ブラウザツール](../../features/browser/i18n/ja/browser-tool-menu.md) — すべてのブラウザユーティリティへのアクセス
 
-### [設定](features/settings/overview.md)
+### [設定](../../features/settings/i18n/ja/overview.md)
 
 Lunascape Mobile を好みに合わせてカスタマイズします。
 
-- [一般設定](features/settings/general.md) — 基本的なアプリ設定
-- [既定のブラウザ](features/settings/default-browser.md) — メインのブラウザとして設定
-- [表示オプション](features/settings/display.md) — 外観とレイアウトのカスタマイズ
-- [ブックマーク管理](features/settings/bookmarks.md) — 保存したサイトの整理
-- [検索設定](features/settings/search.md) — 検索エンジンと設定のセットアップ
-- [履歴設定](features/settings/history.md) — 閲覧履歴とプライバシーの管理
-- [ウォレット設定](features/settings/wallet.md) — Web3 ウォレットの設定
-- [プライバシーコントロール](features/settings/privacy.md) — 高度なプライバシーとセキュリティのオプション
-- [サポート](features/settings/support.md) — ヘルプの入手とサポートへの連絡
-- [リセット](features/settings/reset-to-default.md) — 既定の設定に戻す
+- [一般設定](../../features/settings/i18n/ja/general.md) — 基本的なアプリ設定
+- [既定のブラウザ](../../features/settings/i18n/ja/default-browser.md) — メインのブラウザとして設定
+- [表示オプション](../../features/settings/i18n/ja/display.md) — 外観とレイアウトのカスタマイズ
+- [ブックマーク管理](../../features/settings/i18n/ja/bookmarks.md) — 保存したサイトの整理
+- [検索設定](../../features/settings/i18n/ja/search.md) — 検索エンジンと設定のセットアップ
+- [履歴設定](../../features/settings/i18n/ja/history.md) — 閲覧履歴とプライバシーの管理
+- [ウォレット設定](../../features/settings/i18n/ja/wallet.md) — Web3 ウォレットの設定
+- [プライバシーコントロール](../../features/settings/i18n/ja/privacy.md) — 高度なプライバシーとセキュリティのオプション
+- [サポート](../../features/settings/i18n/ja/support.md) — ヘルプの入手とサポートへの連絡
+- [リセット](../../features/settings/i18n/ja/reset-to-default.md) — 既定の設定に戻す
 
-### [ウォレット](features/wallet/overview.md)
+### [ウォレット](../../features/wallet/i18n/ja/overview.md)
 
 統合 Web3 ウォレットで暗号資産を管理する方法を説明します。
 
-- [ウォレットの作成](features/wallet/create-wallet.md) — 新しいウォレットの作成、または既存ウォレットのインポート
-- [ウォレットダッシュボード](features/wallet/wallet-dashboard.md) — 資産と取引の概要
-- [資産管理](features/wallet/asset-list.md) — トークンと暗号資産の管理
-- [ウォレット設定](features/wallet/wallet-settings.md) — アカウント、ネットワーク、セキュリティの設定
-- [WalletConnect](features/wallet/walletconnect.md) — 外部ウォレットや DApp への接続
-- [ウォレット操作](features/wallet/wallet-operations.md) — 取引の実行と資産の管理
+- [ウォレットの作成](../../features/wallet/i18n/ja/create-wallet.md) — 新しいウォレットの作成、または既存ウォレットのインポート
+- [ウォレットダッシュボード](../../features/wallet/i18n/ja/wallet-dashboard.md) — 資産と取引の概要
+- [資産管理](../../features/wallet/i18n/ja/asset-list.md) — トークンと暗号資産の管理
+- [ウォレット設定](../../features/wallet/i18n/ja/wallet-settings.md) — アカウント、ネットワーク、セキュリティの設定
+- [WalletConnect](../../features/wallet/i18n/ja/walletconnect.md) — 外部ウォレットや DApp への接続
+- [ウォレット操作](../../features/wallet/i18n/ja/wallet-operations.md) — 取引の実行と資産の管理
 
 ## 目標
 
@@ -182,11 +182,11 @@ Lunascape Mobile は iOS と Android の両方でシームレスに動作し、�
 ### ヘルプの入手
 
 - **このガイド** — すべての機能と操作を網羅しています。
-- **サポート** — アプリ内のサポートからお問い合わせください（[サポート](features/settings/support.md)）。
+- **サポート** — アプリ内のサポートからお問い合わせください（[サポート](../../features/settings/i18n/ja/support.md)）。
 - **コミュニティ** — [X（Twitter）](https://x.com/Lunascape) でユーザーと開発者のコミュニティに参加できます。
 
 ### 定期的な更新
 
 Lunascape Mobile は、新機能、セキュリティの改善、性能向上を含む更新を定期的に行っています。最良の体験のために、最新版をお使いください。
 
-準備はできましたか？ 上のカテゴリから選ぶか、まず [ホームの概要](features/home/overview.md) からメイン画面について知ることから始めましょう。
+準備はできましたか？ 上のカテゴリから選ぶか、まず [ホームの概要](../../features/home/i18n/ja/overview.md) からメイン画面について知ることから始めましょう。

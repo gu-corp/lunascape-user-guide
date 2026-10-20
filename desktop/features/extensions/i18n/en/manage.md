@@ -42,7 +42,7 @@ These come with Lunascape. Turn any of them off under **System Extensions** in *
 | Name | See |
 | --- | --- |
 | Lunascape AI | [Lunascape AI](../../../ai/i18n/en/lunascape-ai.md) |
-| G.U. Wallet | [G.U. Wallet](wallet.md) |
+| Lunascape Wallet | [Lunascape Wallet](wallet.md) |
 | Lunascape Password Manager | [Password manager](password-manager.md) |
 
 ## Related topics

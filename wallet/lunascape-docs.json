@@ -1,0 +1,29 @@
+{
+  "id": "lunascape-wallet-user-guide",
+  "title": {
+    "ja": "Lunascape Wallet ユーザガイド",
+    "en": "Lunascape Wallet User Guide"
+  },
+  "description": {
+    "ja": "Web3 ウォレット拡張機能。作成とバックアップ、送金と受け取り、トークンと NFT、サイトとの接続、設定、困ったときの対処。",
+    "en": "The Web3 wallet extension: creating and backing up a wallet, sending and receiving, tokens and NFTs, connecting to sites, settings and troubleshooting."
+  },
+  "startPage": "introduction.md",
+  "defaultLocale": "ja",
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "tree": {
+    "showFileNames": false,
+    "showDocumentIcons": false,
+    "showFolderIcons": false,
+    "showItemCounts": false,
+    "showGuides": true,
+    "density": "comfortable"
+  },
+  "editor": {
+    "defaultMode": "visual",
+    "showEditButton": true
+  }
+}
