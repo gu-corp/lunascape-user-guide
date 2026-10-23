@@ -89,7 +89,7 @@ Customize your experience with extensive configuration options and privacy contr
 ### Quick start
 
 1. **Download and install** — get Lunascape Mobile from your device's app store ([Download and install](getting-started/download.md))
-2. **Set up your wallet** — create a new wallet or import an existing one ([Create a wallet](features/wallet/create-wallet.md))
+2. **Set up your wallet** — create a new wallet or import an existing one ([Create a wallet](features/wallet/README.md))
 3. **Customize your experience** — configure news sources, privacy settings and display preferences ([Settings](features/settings/overview.md))
 4. **Start browsing** — explore the web and Web3 with confidence ([Browser](features/browser/overview.md))
 
@@ -148,16 +148,9 @@ Tailor Lunascape Mobile to your preferences.
 - [Support](features/settings/support.md) — get help and contact support
 - [Reset Options](features/settings/reset-to-default.md) — restore default settings
 
-### [Wallet](features/wallet/overview.md)
+### [Wallet](features/wallet/README.md)
 
-Learn how to use the integrated Web3 wallet to manage cryptocurrency.
-
-- [Create Wallet](features/wallet/create-wallet.md) — set up a new wallet or import an existing one
-- [Wallet Dashboard](features/wallet/wallet-dashboard.md) — an overview of your assets and transactions
-- [Asset Management](features/wallet/asset-list.md) — manage your tokens and cryptocurrency
-- [Wallet Settings](features/wallet/wallet-settings.md) — configure accounts, networks and security
-- [WalletConnect](features/wallet/walletconnect.md) — connect to external wallets and DApps
-- [Wallet Operations](features/wallet/wallet-operations.md) — perform transactions and manage assets
+Learn how to use the integrated Web3 wallet to manage cryptocurrency. Setting it up and using it are covered in the Lunascape Wallet User Guide; see [Wallet](features/wallet/README.md) for the link.
 
 ## Goals
 

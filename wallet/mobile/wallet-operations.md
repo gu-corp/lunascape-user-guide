@@ -1,5 +1,6 @@
 ---
 navigation:
+  order: 400
   title: "ウォレット操作"
 ---
 

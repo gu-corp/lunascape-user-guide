@@ -23,5 +23,4 @@ navigation:
 
 ## 関連項目
 
-- [ウォレットを作成する](../../../wallet/i18n/ja/create-wallet.md)
-- [ウォレットダッシュボード](../../../wallet/i18n/ja/wallet-dashboard.md)
+- [ウォレット](../../../wallet/i18n/ja/README.md)

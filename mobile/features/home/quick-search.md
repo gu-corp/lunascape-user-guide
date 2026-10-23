@@ -31,4 +31,4 @@ Quick Search recognizes plain text, web addresses, deep links, and WalletConnect
 ## Related topics
 
 - [Search settings](../settings/search.md)
-- [WalletConnect](../wallet/walletconnect.md)
+- [Wallet](../wallet/README.md)

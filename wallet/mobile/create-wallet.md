@@ -1,5 +1,6 @@
 ---
 navigation:
+  order: 900
   title: "ウォレット作成"
 ---
 

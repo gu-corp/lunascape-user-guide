@@ -23,5 +23,4 @@ navigation:
 
 ## 関連項目
 
-- [ウォレットの概要](../../../wallet/i18n/ja/overview.md)
-- [ウォレット設定](../../../wallet/i18n/ja/wallet-settings.md)
+- [ウォレット](../../../wallet/i18n/ja/README.md)
