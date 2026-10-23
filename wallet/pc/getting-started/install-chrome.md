@@ -3,18 +3,18 @@ navigation:
   order: 100
 ---
 
-# Chrome に追加する
+# Add to Chrome
 
-**対象：** Windows / Mac の Google Chrome
+**For:** Google Chrome on Windows / Mac
 
-1. Google Chrome で [Lunascape Wallet（Chrome ウェブストア）](https://chromewebstore.google.com/detail/lunascape-wallet/nfinomegcaccbhchhgflladpfbajihdf) を開きます。
-2. **Chrome に追加** を押し、確認画面で **拡張機能を追加** を押します。
-3. Chrome のツールバーにある拡張機能のボタン（パズルのアイコン）を押し、Lunascape Wallet の横のピンのアイコンを押してピン留めします。ツールバーに Lunascape Wallet のアイコンが表示され、押すとすぐに開けるようになります。
-4. Lunascape Wallet を開くと、ウォレットの作成画面が表示されます。[ウォレットを作成する](create-wallet.md) の手順で作成してください。
-5. 作成が終わったら、[シードフレーズをバックアップする](backup.md) の手順で、必ずシードフレーズを控えてください。パソコン版では、シードフレーズを控える画面は自動では表示されません。
+1. In Google Chrome, open [Lunascape Wallet (Chrome Web Store)](https://chromewebstore.google.com/detail/lunascape-wallet/nfinomegcaccbhchhgflladpfbajihdf).
+2. Press **Add to Chrome**, then **Add extension** in the confirmation.
+3. Press the extensions button (the puzzle piece) in Chrome's toolbar, then the pin next to Lunascape Wallet. The Lunascape Wallet button now stays in the toolbar, one click away.
+4. When you open Lunascape Wallet, it shows the create screen. Follow [Create a wallet](create-wallet.md).
+5. When that's done, be sure to write down your seed phrase by following [Back up your seed phrase](backup.md). On a computer, the wallet does not show the seed phrase screen on its own.
 
-## 次に読む
+## Read next
 
-- [画面の見かた](screen.md)
-- [受け取る](../features/receive.md) — 自分のアドレスに暗号資産を送ってもらう
-- [Lunascape Desktop で使う](install-desktop.md) — Lunascape Desktop には最初から入っています
+- [The wallet screen](screen.md)
+- [Receive](../features/receive.md) — Have crypto sent to your address
+- [Use it in Lunascape Desktop](install-desktop.md) — Lunascape Desktop already includes it

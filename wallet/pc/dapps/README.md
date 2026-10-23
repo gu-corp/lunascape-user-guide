@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "サイトとつなぐ"
+  title: "Connecting to sites"
   order: 400
 ---
 
-# サイトとつなぐ
+# Connecting to sites
 
-Web3 サイト（DApp）への接続と、サイトから届く署名や取引の確認について説明します。
+Connecting to Web3 sites (DApps), and checking the signatures and transactions they ask for.
 
-- [サイトと接続する](connect.md) — Web3 サイトで「Connect Wallet」などのボタンを押すと、ウォレットに確認画面が表示されます。
-- [WalletConnect で接続する](walletconnect.md) — WalletConnect に対応したサイトやアプリと、QR コードや URI で接続します。
+- [Connect to a site](connect.md) — When you press "Connect Wallet" or similar on a Web3 site, the wallet shows a confirmation screen.
+- [Connect with WalletConnect](walletconnect.md) — Connect to sites and apps that support WalletConnect with a QR code or URI.

@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: "パソコン版（拡張機能）"
+  title: "Computer (extension)"
   order: 200
 ---
 
-# パソコン版（拡張機能）
+# Computer (extension)
 
-Windows / Mac で使う Lunascape Wallet です。Google Chrome に追加する拡張機能と、Lunascape Desktop に最初から入っているものは同じで、画面と操作も同じです。
+Lunascape Wallet on Windows / Mac. The extension you add to Google Chrome and the one built into Lunascape Desktop are the same, with the same screens and operations.
 
-画面の例は Lunascape Desktop のサイドパネルで表示したものです。Chrome では、ツールバーの拡張機能のボタンから開くと、同じ画面が表示されます。
+The screenshots show the wallet in the Lunascape Desktop side panel. In Chrome, the same screens open from the extension button in the toolbar.
 
-- [はじめに](getting-started/README.md) — インストールから、ウォレットの作成、シードフレーズを控えるまで。
-- [使いかた](features/README.md) — 送金、受け取り、資産の確認、ネットワークとアカウントの切り替え。
-- [サイトとつなぐ](dapps/README.md) — Web3 サイトへの接続と、署名や取引の確認。
-- [設定](settings/README.md) — ウォレットの設定のすべての項目。
-- [困ったときは](troubleshooting/README.md) — パスワード、送金、サイトとの接続のトラブル。
+- [Getting started](getting-started/README.md) — From installing to creating a wallet and writing down the seed phrase.
+- [Using the wallet](features/README.md) — Sending, receiving, checking your assets, and switching networks and accounts.
+- [Connecting to sites](dapps/README.md) — Connecting to Web3 sites and checking signatures and transactions.
+- [Settings](settings/README.md) — Every item in the wallet's settings.
+- [Troubleshooting](troubleshooting/README.md) — Problems with passwords, sending and connecting to sites.

@@ -9,10 +9,10 @@
     "en": "Lunascape's Web3 wallet, as a Chrome extension, in Lunascape Desktop and in the smartphone app: creating and backing up a wallet, sending and receiving, connecting to sites, settings and troubleshooting."
   },
   "startPage": "introduction.md",
-  "defaultLocale": "ja",
+  "defaultLocale": "en",
   "locales": [
-    "ja",
-    "en"
+    "en",
+    "ja"
   ],
   "tree": {
     "showFileNames": false,

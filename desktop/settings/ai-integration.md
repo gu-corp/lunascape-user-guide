@@ -3,79 +3,80 @@ navigation:
   order: 200
 ---
 
-# 外部の AI と連携する（MCP）
+# Connect an external AI (MCP)
 
-**設定** > **AI連携** では、MCP サーバーを通じて外部の AI アシスタントから Lunascape を操作させられます。Claude Code、Claude Desktop、Cursor、VS Code など MCP に対応した AI クライアントが、いつも使っているタブやログイン状態のまま、ページを読んだり操作したりできます。拡張機能を追加する必要はありません。
+**Settings** > **AI Integration** lets an AI assistant outside the browser drive Lunascape through an MCP server. AI clients that speak MCP — Claude Code, Claude Desktop, Cursor, VS Code and others — can read and operate pages in the tabs you already have open, signed in as you are. No extension is needed.
 
-**AI連携** の画面は、**ツール権限**・**MCP**・**監査ログ** の 3 つのタブに分かれています。MCP サーバーの設定は **MCP** タブにあります。**ツール権限** タブは、Lunascape に内蔵の [Lunascape AI](../features/ai/lunascape-ai.md) に許可する操作の設定で、MCP の権限とは別です。
+The **AI Integration** page has three tabs: **Tool permissions**, **MCP** and **Audit log**. The MCP server is set up on the **MCP** tab. **Tool permissions** is for the AI sidebar built into Lunascape, and is separate from what MCP clients may do.
 
-## 有効にする
+## Turn it on
 
-**MCP** タブの **MCPサーバを有効化** をオンにすると、接続を待ち受けます。動作中はポート番号が表示されます。初期状態ではオフです。
+On the **MCP** tab, switch on **Enable MCP server** to start listening. The port is shown while it runs. It is off until you turn it on.
 
-<img src="img/ai-mcp-enable.png" alt="AI連携の MCP タブ。MCPサーバを有効化がオンで、ポート 7332 で実行中と表示され、下に権限の一覧が並ぶ" width="560" />
+## Choose what it may do
 
-## 渡す権限を選ぶ
+Permissions are granted one at a time under **Permissions** on the **MCP** tab. Turn on only what you need.
 
-AI に許可する操作を、**MCP** タブの **権限** で項目ごとに選べます。必要なものだけを有効にしてください。
-
-| 権限 | できること |
+| Permission | What it allows |
 | --- | --- |
-| ブックマークの読み取り / 編集 | ブックマークを読む、追加・変更する |
-| 開いているタブの読み取り | 開いているタブの一覧を読む |
-| タブを開く・閉じる・切り替える | タブを操作する |
-| ページ移動（URL・戻る/進む） | 指定した URL へ移動する |
-| ページ内容の読み取り | 表示中のページの内容を読む |
-| ページを操作（クリック・入力など） | ページ上の要素を操作する |
-| 閲覧履歴の読み取り | 履歴を読む |
-| ダウンロードしたファイルの読み取り | ダウンロード済みファイルの内容を読む |
-| ダウンロードしたファイルを開く | 既定のアプリでファイルを開く（実行のたびに確認が表示されます） |
-| デバッグデータの読み取り | ページのコンソール出力、ネットワーク通信、スクリーンショットを読む |
-| Lunascape Docs の文書の読み取りと検索 | Lunascape Docs で開いている文書を読む、検索する |
-| Lunascape Docs の文書への変更の提案 | 文書の変更を提案する（保存するかどうかはあなたが決めます） |
+| Read / edit bookmarks | Read bookmarks, and add or change them |
+| Read open tabs | List the tabs you have open |
+| Open, close and switch tabs | Control tabs |
+| Navigate pages (URL, back/forward) | Send a tab to an address |
+| Read page content | Read the page being shown |
+| Interact with page (click, type, etc.) | Operate elements on the page |
+| Read browsing history | Read your history |
+| Read downloaded files | Read the contents of files you downloaded |
+| Open downloaded files | Open a file in its default application — confirmed every time |
+| Read debug data | Read a page's console output, network requests and screenshots |
 
-**file:// リクエストも記録する** をオンにすると、デバッグデータのネットワーク通信に、パソコン上のファイル（`file://`）の読み込みも含めます。
+Two more permissions cover Lunascape Docs:
 
-> **注意:** ファイルを開く操作は、実行のたびに確認画面が表示されます。自分で依頼した操作かどうかを確かめてから許可してください。
-
-## AI クライアントとつなぐ
-
-**接続情報** に、接続先の **サーバURL** と **アクセストークン** が表示されます。**セットアップ** で使っている AI クライアントを選ぶと、そのまま貼り付けられる設定が表示されます。コピーして AI クライアント側に追加してください。
-
-<img src="img/ai-mcp-connection.png" alt="接続情報にサーバURLとアクセストークン、セットアップに AI クライアントごとのタブと貼り付け用のコマンドが表示されている（トークンはぼかしてある）" width="560" />
-
-| AI クライアント | 追加する場所 |
+| Permission | What it allows |
 | --- | --- |
-| Claude Code | 表示されたコマンドをターミナルで実行する |
-| Claude Desktop | 設定ファイルに追記する（Node.js の `npx` が必要です） |
-| Cursor | `~/.cursor/mcp.json` に追記する |
-| VS Code | プロジェクトの `.vscode/mcp.json` に追記する |
-| そのほか | **汎用 JSON** を、その AI クライアントの MCP 設定に追記する |
+| Read and search Lunascape Docs documents | Read and search the documents open in Lunascape Docs |
+| Propose changes to Lunascape Docs documents | Suggest edits to a document — you decide whether to save them |
 
-Claude Code の場合は、次のようなコマンドになります。URL とトークンは画面に表示された値を使ってください。
+**Capture file:// requests** adds requests for files on your computer (`file://`) to the network traffic in the debug data.
+
+> **Note:** Opening a file asks for confirmation on every attempt. Allow it only when it matches something you asked for.
+
+## Connect your AI client
+
+**Connection** shows the **Server URL** and **Access token** to connect with. Under **Setup**, pick the AI client you use and a ready-to-paste configuration appears. Copy it and add it to your AI client.
+
+| AI client | Where it goes |
+| --- | --- |
+| Claude Code | Run the command shown in a terminal |
+| Claude Desktop | Add it to the config file (requires Node.js `npx`) |
+| Cursor | Add it to `~/.cursor/mcp.json` |
+| VS Code | Add it to the project's `.vscode/mcp.json` |
+| Anything else | Add the **Generic JSON** to that client's MCP settings |
+
+For Claude Code the command looks like this. Use the URL and token shown on screen.
 
 ```sh
-claude mcp add --transport http lunascape http://127.0.0.1:7332/mcp --header "Authorization: Bearer <アクセストークン>"
+claude mcp add --transport http lunascape http://127.0.0.1:7332/mcp --header "Authorization: Bearer <access token>"
 ```
 
-> **注意:** アクセストークンは Lunascape を操作するための鍵です。人に教えたり、公開の場所に貼ったりしないでください。漏れたと思ったら **トークンを再生成** を押すと、それまでのトークンは使えなくなります。その後、AI クライアント側の設定も貼り直してください。
+> **Note:** The access token is the key to operating Lunascape. Do not share it or paste it anywhere public. If you think it has leaked, press **Regenerate token** — the old token stops working at once. Then paste the new configuration into your AI client.
 
-## 何をしたかを確かめる
+## See what it did
 
-**監査ログ** には、AI が呼んだ操作が、依頼の内容と結果とともに記録されます。**保存件数** で残す件数を変えられ、**CSVエクスポート** で書き出せます。
+The **Audit log** records every tool the AI called, with what it asked for and what came back. **Entries to keep** sets how much is kept, and **Export CSV** writes it out.
 
-## ブックマークを元に戻す
+## Restore your bookmarks
 
-AI がブックマークを変更する前に、ブックマーク全体が自動でバックアップされます。戻しかたは[ブックマーク](../features/browser/bookmarks.md#バックアップから戻す)を参照してください。
+Before an AI changes your bookmarks, the whole bookmark tree is backed up automatically. See [Bookmarks](../features/browser/bookmarks.md#restore-from-a-backup) for how to go back.
 
-## リンクを開くプロファイル
+## Profile for links
 
-外部の AI が開いたリンクは、いま使っているプロファイルで開きます。サイトごとに開くプロファイルを決めたいときは、**設定** > **プロファイル** の **リンクを開くプロファイル** に規則を追加します。詳しくは[プロファイル](../features/windows/profiles.md)を参照してください。
+Links an outside AI opens go to the profile you are using. To send a site to a particular profile, add a rule under **Settings** > **Profiles** > **Profile for links**. See [Profiles](../features/windows/profiles.md).
 
-## 安全のしくみ
+## How it stays safe
 
-- MCP サーバーは、お使いのコンピューターの中（`127.0.0.1`）からの接続だけを受け付けます。ほかのコンピューターからはつながりません
-- すべての接続にアクセストークンが必要です
-- AI にできるのは、許可した権限の範囲だけです
+- The MCP server accepts connections only from your own computer (`127.0.0.1`). Other computers cannot reach it
+- Every connection needs the access token
+- The AI can do only what you have granted
 
-> **ヒント:** Lunascape から受け取った内容を AI クライアントがどう扱うかは、その AI クライアント次第です。多くの場合、AI のサービスに送られて回答の生成に使われます。見せたくないページを開いているときは、MCP サーバーをオフにするか、ページ内容の読み取りを許可しないでください。
+> **Tip:** What an AI client does with what it receives from Lunascape is up to that client — usually it is sent to the AI service to produce a reply. When you have a page open that you would rather not share, switch the MCP server off or do not grant reading page content.

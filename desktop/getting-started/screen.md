@@ -3,51 +3,49 @@ navigation:
   order: 200
 ---
 
-# 画面各部の名称
+# The browser window
 
-Lunascape のウィンドウは、次の要素で構成されています。
+The window is made up of these parts.
 
-<img src="img/screen-overview.png" alt="Lunascape のウィンドウ。上にツールバー、左にサイドバー、右にタブバーとページ領域がある" width="760" />
-
-| 名称 | 説明 |
+| Part | What it does |
 | --- | --- |
-| ツールバー | ウィンドウの一番上です。戻る／進む／再読み込み、ナビゲーションのボタン、アドレスバー、検索バー、各種ボタンが並びます |
-| アドレスバー | URL の入力と、検索キーワードの入力を兼ねます。左端の盾のアイコンから、広告ブロックとサイトデータを操作できます |
-| 検索バー | 検索エンジンを選んで検索します。ツールバーに表示するかどうかは設定で変更できます |
-| サイドバー | ウィンドウの左側です。**ナビゲーション**（ダッシュボード・ウェブ・ダウンロード・設定）と、お気に入り（ブックマーク）が並びます |
-| タブバー | ページ領域のすぐ上に、開いているタブが並びます。右端の **+** で新しいタブを開きます。ドラッグで並べ替え、ウィンドウ外へ引き出して分離できます |
-| ブックマークバー | よく使うブックマークが並びます。表示・非表示を切り替えられます |
-| サイドパネル | ウィンドウの右側に、Lunascape AI や Lunascape Wallet などのパネルを表示します |
-| ページ領域 | Web ページを表示します |
+| Toolbar | The top of the window: back / forward / reload, the navigation buttons, the address bar, the search bar and the buttons |
+| Address bar | Takes both a URL and a search term. The shield icon at its left end controls ad blocking and site data |
+| Search bar | Searches with a chosen search engine. You can hide it from the settings |
+| Sidebar | The left side of the window: **Navigation** (Dashboard, Web, Downloads, Settings) and your favorites (bookmarks) |
+| Tab bar | Holds the open tabs, just above the page area. **+** at its right end opens a new tab. Drag to reorder, or drag out of the window to detach |
+| Bookmarks bar | Your frequently used bookmarks. Can be shown or hidden |
+| Side panel | The right side of the window, for panels such as Lunascape AI and Lunascape Wallet |
+| Page area | Shows the web page |
 
-## ツールバー左のボタン
+## Buttons on the left of the toolbar
 
-戻る・進む・再読み込みの右に、サイドバーの **ナビゲーション** と同じ項目がボタンで並びます。
+Next to back, forward and reload, the same entries as the sidebar's **Navigation** appear as buttons.
 
-- **ダッシュボード**（家のアイコン）: 新しいタブのダッシュボードを開きます。
-- **ウェブ**（枝分かれのアイコン）: 開いているタブの画面に戻ります。
-- **サイドバー**（リストのアイコン）: 左のサイドバーを表示・非表示にします。
+- **Dashboard** (house icon): opens the new-tab dashboard.
+- **Web** (branching icon): goes back to your open tabs.
+- **Sidebar** (list icon): shows or hides the sidebar on the left.
 
-ボタンの並び順は **設定** > **外観** の **ナビゲーションの並び順** で変えられます。サイドバーの並びも同じ順になります。
+Change their order in **Settings** > **Appearance** > **Order of the navigation entries**; the sidebar follows the same order.
 
-## ツールバー右のボタン
+## Buttons on the right of the toolbar
 
-- **Lunascape AI**（ロボットのアイコン）: 表示中のページについて AI に質問できるパネルを右側に開きます。
-- **パスワードマネージャー**（鍵のアイコン）: 保存したログイン情報を開きます。
-- **Lunascape Wallet**: ウォレットのパネルを右側に開きます。
-- **拡張機能**: 追加した拡張機能のボタンが並びます。
-- **メニュー（≡）**: ファイル、ブックマーク、履歴、ダウンロード、プロファイル、設定、アップデートの確認などをまとめて開きます。
-- **プロファイル**（人型のアイコン）: プロファイルを切り替えたり、管理画面を開いたりします。
+- **Lunascape AI** (robot icon): opens a panel on the right where you can ask an AI about the page you are on.
+- **Password manager** (key icon): opens your saved logins.
+- **Lunascape Wallet**: opens the wallet panel on the right.
+- **Extensions**: the buttons of extensions you have added.
+- **Menu (≡)**: file, bookmarks, history, downloads, profiles, settings, checking for updates and more.
+- **Profile** (person icon): switches profiles and opens the profile settings.
 
-## ダッシュボード
+## The dashboard
 
-新しいタブを開くとダッシュボードが表示されます。検索ボックス、今日の日付、アプリ（ブックマークへのショートカット）、背景画像で構成されています。
+Every new tab opens a dashboard: a search box, today's date, apps (shortcuts to bookmarks) and a background image.
 
-- 背景は **設定** > **テーマ** の **ダッシュボード背景** から選びます。手持ちの画像は **カスタム画像を選択…** で使えます。
-- 右上の点が並んだボタンでアプリの一覧を開きます。表示するブックマークフォルダーは **設定** > **テーマ** の **アプリ** で選びます。
+- Choose the background in **Settings** > **Theme** > **Dashboard Background**, or use your own with **Choose custom image…**.
+- The dotted button at the top right opens the apps. Pick which bookmark folder they come from in **Settings** > **Theme** > **Apps**.
 
-## 関連項目
+## Related topics
 
-- [タブを操作する](../features/browser/tabs.md)
+- [Tabs](../features/browser/tabs.md)
 - [Lunascape AI](../features/ai/lunascape-ai.md)
-- [設定一覧](../settings/overview.md)
+- [Settings](../settings/overview.md)

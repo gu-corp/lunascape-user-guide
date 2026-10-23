@@ -3,32 +3,32 @@ navigation:
   order: 100
 ---
 
-# パスワードを忘れた・ロックを解除できない
+# Forgot your password or can't unlock
 
-マスターパスワードは、このブラウザーでウォレットのロックを解除するためのものです。Lunascape にも記録されていないため、問い合わせても教えられません。
+The master password unlocks the wallet in this browser. Lunascape doesn't keep a copy, so we can't tell you what it is.
 
-## シードフレーズがある場合
+## If you have the seed phrase
 
-シードフレーズでウォレットを入れ直し、新しいパスワードを決めます。資産はブロックチェーン上にあるので、入れ直しても失われません。ただし、秘密鍵や Ledger で追加したアカウントは戻らないので、もう一度追加してください。
+Set the wallet up again with the seed phrase and choose a new password. Your assets are on the blockchain, so setting the wallet up again doesn't lose them. Accounts added with a private key or a Ledger don't come back, though — add them again.
 
-1. ロック画面で **ウォレットを復元** を押します。
-2. シードフレーズと、新しいマスターパスワード（2 回）を入力して **リストア** を押します。
+1. On the lock screen, press **Restore Wallet**.
+2. Enter the seed phrase and a new master password (twice), then press **Restore**.
 
-詳しくは [ウォレットをインポートする](../getting-started/import-wallet.md) を参照してください。
+See [Import a wallet](../getting-started/import-wallet.md) for details.
 
-## シードフレーズがない場合
+## If you don't have the seed phrase
 
-ロックを解除する方法はありません。思い当たるパスワードを、大文字・小文字、全角・半角に気をつけて試してください。
+There is no way to unlock the wallet. Try the passwords you might have used, paying attention to upper and lower case.
 
-> **注意:** ロック画面の **ウォレットをリセット** は、新しいパスワードを決めて、ウォレットを消して最初からやり直す操作です。「本当に消しますか」といった確認はなく、**リセット** を押すとすぐに消えます。シードフレーズを控えていないウォレットでは、資産にアクセスできなくなります。資産をあきらめて新しく始める場合以外は、押さないでください。
+> **Caution:** **Reset Wallet** on the lock screen sets a new password, then erases the wallet so you can start over. There's no "Are you sure?" step — pressing **Reset** erases it at once. If you haven't written down the wallet's seed phrase, you lose access to its assets. Don't press it unless you're giving up those assets and starting fresh.
 
-<img src="img/reset-wallet.png" alt="マスターパスワードのリセット画面。パスワードをリセットとパスワードの確認の欄、リセットボタンと戻るボタンがある" width="300" />
+<img src="img/reset-wallet.png" alt="The Reset a master password screen, with Reset Password and Confirm password fields, a Reset button and a Back button" width="300" />
 
-## パスワードを変えたい
+## Change your password
 
-ロックを解除できる場合は、ウォレットの **設定** > **セキュリティ** > **マスターパスワードの変更** で変えられます。
+If you can unlock the wallet, change it under the wallet's **Settings** > **Security & Privacy** > **Change Master Password**.
 
-## 「無効なパスワードです」と表示される
+## "Invalid password" appears
 
-- キーボードの入力モード（日本語入力がオンになっていないか）と、Caps Lock を確かめてください。
-- 別のパソコンやブラウザーで決めたパスワードは使えません。パスワードは、ウォレットを入れたブラウザーごとに別々です。
+- Check your keyboard's input mode and Caps Lock.
+- A password set on another computer or in another browser won't work. Each browser where you set up the wallet has its own password.

@@ -3,45 +3,45 @@ navigation:
   order: 200
 ---
 
-# 送金・取引のトラブル
+# Sending and transaction problems
 
-## 「手数料（ガス代）が不足しています」と表示される
+## "Fees (gas) are insufficient." appears
 
-手数料は、送るトークンとは別に、そのネットワークの基本の通貨で払います（Ethereum では ETH、Japan Open Chain では JOC）。その通貨を少し受け取るか、[取引所で購入](../features/assets.md#トークンを取引する) してから、もう一度送ってください。[送金する](../features/send.md) を参照してください。
+Fees are paid in the network's own currency, separately from the token you send (ETH on Ethereum, JOC on Japan Open Chain). Receive a little of that currency, or [buy it on an exchange](../features/assets.md#trade-a-token), then try again. See [Send](../features/send.md).
 
-## 「ガスを推定できません」と表示される
+## "Cannot estimate gas" appears
 
-取引の内容に問題があるか、ネットワークが混雑していて手数料を見積もれない状態です。
+Something is wrong with the transaction, or the network is too busy to estimate the fee.
 
-- 残高と送金量、送金先を確かめてください。
-- 時間をおいて、もう一度試してください。
-- 手数料の値を入力して進める画面が表示されることがありますが、値がわからないときは進めないでください。
+- Check your balance, the amount and the recipient.
+- Wait a while and try again.
+- A screen may let you enter a gas value and continue, but don't continue if you don't know what value to use.
 
-## 送金が終わらない（保留中のまま）
+## A send won't finish (stays pending)
 
-ネットワークが混雑していると、手数料が低い取引は処理が後回しになります。
+When the network is busy, transactions with low fees are processed later.
 
-- しばらく待つと完了することがあります。
-- 利用履歴から保留中の取引を開くと、手数料を上げて処理を早めたり、取引をキャンセルしたりできます。キャンセルにも手数料がかかります。また、ほかの保留中の取引もキャンセルされることがあります。
-- 保留中にネットワークを切り替えると、保留中の取引はすべてキャンセルされます。
+- Waiting a while often lets it finish.
+- Open the pending transaction from **Transaction History** to raise its fee and speed it up, or to cancel it. Canceling also costs a fee, and other pending transactions may be canceled too.
+- Switching networks while a transaction is pending cancels all pending transactions.
 
-## 「ノンスが低すぎる」と表示される
+## "Nonce is too low." appears
 
-同じアカウントの前の取引と番号（ノンス）が重なっています。保留中の取引がないか利用履歴で確かめ、完了してから送り直してください。
+The transaction's number (nonce) clashes with an earlier one from the same account. Check **Transaction History** for pending transactions, and send again once they finish.
 
-## 受け取ったのに残高が表示されない
+## Received, but the balance doesn't appear
 
-1. 相手が送ったネットワークと、保有資産のトークンのネットワーク名が同じか確かめます（同じ USDT でも、Ethereum 上と Japan Open Chain 上は別のトークンです）。
-2. メイン画面の更新のアイコンを押します。
-3. 一覧にないトークンは、[トークンを追加](../features/assets.md#トークンを追加する) します。
-4. 相手に取引 ID（トランザクションハッシュ）を聞き、ブロックエクスプローラーで完了しているか確かめます。
+1. Check that the network the sender used matches the network shown for the token in your asset list (USDT on Ethereum and USDT on Japan Open Chain are different tokens).
+2. Press the refresh icon on the main screen.
+3. If the token isn't in your list, [add the token](../features/assets.md#add-a-token).
+4. Ask the sender for the transaction ID (transaction hash) and check in a block explorer that it completed.
 
-## 「ネットワークに接続できません」と表示される
+## "Can't connect to the network" appears
 
-- インターネットに接続できているか確かめてください。
-- 自分で追加したネットワークの場合は、ネットワーク URL（RPC URL）が正しいか確かめてください。
-- 時間をおいて、もう一度試してください。
+- Check your internet connection.
+- For a network you added yourself, check that the Network URL (RPC URL) is right.
+- Wait a while and try again.
 
-## 取引の取り消し・返金
+## Reversing or refunding a transaction
 
-ブロックチェーンに記録された取引は、誰にも取り消せません。Lunascape でも返金や取り戻しはできません。
+No one can reverse a transaction recorded on the blockchain. Lunascape can't refund or recover it either.

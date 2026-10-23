@@ -3,25 +3,25 @@ navigation:
   order: 100
 ---
 
-# シークレットウィンドウ
+# Private windows
 
-シークレットウィンドウで開いたページは、閲覧履歴・Cookie・フォームの入力内容が端末に残りません。
+Pages opened in a private window leave no history, cookies or form entries on the computer.
 
-## 開く
+## Open one
 
-メニュー（≡）から **新しいシークレットウィンドウ** を選ぶか、`Ctrl+Shift+N` / `Cmd+Shift+N` を押します。シークレットウィンドウは通常のウィンドウと見分けられるように表示されます。
+Choose **New private window** from the menu (≡), or press `Ctrl+Shift+N` / `Cmd+Shift+N`. A private window is marked so you can tell it apart from a normal one.
 
-## 残るもの・残らないもの
+## What is kept and what is not
 
-| 残らないもの | 残るもの |
+| Not kept | Kept |
 | --- | --- |
-| 閲覧履歴 | ダウンロードしたファイル本体 |
-| Cookie とサイトデータ（ウィンドウを閉じると破棄） | 追加したブックマーク |
-| フォームの入力内容 | 設定の変更 |
+| Browsing history | Files you downloaded |
+| Cookies and site data (discarded when the window closes) | Bookmarks you added |
+| Form entries | Settings you changed |
 
-> **注意:** シークレットウィンドウは、アクセス先のサイトや職場・学校のネットワーク、プロバイダーからの見えかたを変えるものではありません。
+> **Note:** A private window does not change how you appear to the sites you visit, to your workplace or school network, or to your internet provider.
 
-## 関連項目
+## Related topics
 
-- [履歴](../browser/history.md)
-- [プロファイル](profiles.md)
+- [History](../browser/history.md)
+- [Profiles](profiles.md)

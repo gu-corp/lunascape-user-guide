@@ -3,53 +3,53 @@ navigation:
   order: 500
 ---
 
-# アカウントを管理する
+# Manage accounts
 
-1 つのウォレットに、複数のアカウントを持てます。アカウントごとにアドレスが別になるので、用途で使い分けられます（普段用と保管用など）。
+One wallet can hold several accounts. Each account has its own address, so you can keep them for different purposes (everyday and savings, for example).
 
-## 切り替える・追加する
+## Switch or add accounts
 
-メイン画面のアカウント名の横の **∨** を押すと、アカウントの一覧が開きます。使うアカウントを押すと切り替わります。
+Press **∨** next to the account name on the main screen to open the list of accounts. Press an account to switch to it.
 
-<img src="img/accounts.png" alt="アカウント一覧。Account 1 にチェックが付き、下にアカウントを追加のボタンがある（アドレスはぼかしてある）" width="300" />
+<img src="img/accounts.png" alt="The account list, with a check mark next to Account 1 and an Add Account button below (the address is blurred)" width="300" />
 
-**アカウントを追加** を押すと、追加のしかたを選べます。
+Press **Add Account** to choose how to add one.
 
-<img src="img/add-account.png" alt="アカウント追加方法を選択のダイアログ。秘密鍵をインポート、AWS KMS キーを利用、ハードウェアウォレットを利用、新しいアカウントを作成、キャンセルのボタンがある" width="300" />
+<img src="img/add-account.png" alt="The Choose how to add an account dialog, with Import Secret Key, Use AWS KMS Key, Use Hardware Wallet, Create New Account and Cancel buttons" width="300" />
 
-| 方法 | 説明 |
+| Option | What it does |
 | --- | --- |
-| 新しいアカウントを作成 | 同じシードフレーズから、新しいアカウントを作ります。シードフレーズで復元すると、このアカウントも戻ります |
-| 秘密鍵をインポート | ほかのウォレットのアカウントを、秘密鍵で取り込みます。シードフレーズからは復元されないので、秘密鍵も別に控えてください |
-| ハードウェアウォレットを利用 | Ledger を USB で接続して使います（下記） |
-| AWS KMSキーを利用 | 企業などで、AWS KMS で管理する鍵を使うための上級者向けの機能です |
+| Create New Account | Creates a new account from the same seed phrase. Restoring from the seed phrase brings this account back too |
+| Import Secret Key | Imports an account from another wallet with its private key. It isn't restored from the seed phrase, so keep a separate copy of the private key |
+| Use Hardware Wallet | Uses a Ledger connected by USB (below) |
+| Use AWS KMS Key | An advanced feature for using keys managed in AWS KMS, mainly for businesses |
 
-### Ledger をつなぐ
+### Connect a Ledger
 
-1. Ledger を USB でパソコンにつなぎ、ロックを解除します。
-2. Ledger で Ethereum アプリを開きます。
-3. **ハードウェアウォレットを利用** を押し、画面の案内に従って Ledger を選びます。
-4. 取り込むアカウントを選びます。
+1. Connect the Ledger to your computer by USB and unlock it.
+2. Open the Ethereum app on the Ledger.
+3. Press **Use Hardware Wallet** and follow the screens to choose the Ledger.
+4. Choose the accounts to import.
 
-Ledger のアカウントで送金や署名をするときは、Ledger 本体での承認が必要です。ハードウェアウォレットとの連携では、外部のサーバーと通信するため、IP アドレスなどが送られる場合があります。
+Sending or signing with a Ledger account needs approval on the Ledger itself. The hardware wallet connection talks to external servers, so your IP address and similar information may be sent to them.
 
-## アカウントのメニュー
+## The account menu
 
-アカウント一覧で、アカウントの右の **⋮** を押すと次の操作ができます。
+In the account list, press **⋮** to the right of an account for these options.
 
-<img src="img/account-menu.png" alt="アカウントのメニュー。アカウントを編集、秘密鍵を表示、アドレスをコピーが並ぶ" width="300" />
+<img src="img/account-menu.png" alt="The account menu with Edit Account, Show Private Key and Copy Address" width="300" />
 
-- **アカウントを編集**: アカウント名を変えます。
-- **秘密鍵を表示**: このアカウントの秘密鍵を表示します。マスターパスワードが必要です。シードフレーズと同じく、誰にも教えないでください。
-- **アドレスをコピー**: アドレスをコピーします。
+- **Edit Account**: rename the account.
+- **Show Private Key**: shows this account's private key. You need the master password. As with the seed phrase, never tell anyone.
+- **Copy Address**: copies the address.
 
-ウォレットの **設定** > **アカウント** でも、アカウントの一覧の確認と追加ができます。
+You can also see and add accounts under the wallet's **Settings** > **Accounts**.
 
-## アドレス帳
+## Address book
 
-よく送る相手のアドレスを、名前を付けて保存できます。送金先を選ぶときに、**あなたの連絡先** から選べます。
+Save the addresses of people you often send to, with a name. When choosing a recipient, pick them from **Your Contacts**.
 
-1. ウォレットの **設定** > **アドレス帳** で **連絡先を追加** を押します。
-2. 名前とアドレス、必要なら説明を入力して保存します。
+1. Under the wallet's **Settings** > **Address Book**, press **Add Contact**.
+2. Enter a name, the address and, if you like, a description, and save.
 
-アドレス帳にないアドレスへ送ると、送金のあとに連絡先へ追加するかを尋ねられることがあります。
+After you send to an address that isn't in the address book, the wallet may ask whether to add it as a contact.

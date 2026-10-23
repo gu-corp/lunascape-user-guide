@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: "使いかた"
+  title: "Using the wallet"
   order: 300
 ---
 
-# 使いかた
+# Using the wallet
 
-送金、受け取り、資産の確認、ネットワークとアカウントの切り替えについて説明します。
+Sending, receiving, checking your assets, and switching networks and accounts.
 
-- [送金する](send.md) — 暗号資産を、ほかのアドレスへ送ります。
-- [受け取る](receive.md) — 自分のアドレスを相手に伝えて、送ってもらいます。
-- [資産を確認する](assets.md) — 持っているトークンと NFT、価格、利用履歴を確認します。
-- [ネットワークを切り替える](networks.md) — 使うネットワーク（チェーン）を選びます。
-- [アカウントを管理する](accounts.md) — 1 つのウォレットに、複数のアカウント（アドレス）を持てます。
+- [Send](send.md) — Send crypto to another address.
+- [Receive](receive.md) — Give someone your address so they can send to you.
+- [Check your assets](assets.md) — See your tokens and NFTs, prices and history.
+- [Switch networks](networks.md) — Choose the network (chain) you use.
+- [Manage accounts](accounts.md) — Keep several accounts (addresses) in one wallet.

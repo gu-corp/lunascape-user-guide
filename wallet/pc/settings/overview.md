@@ -3,80 +3,80 @@ navigation:
   order: 100
 ---
 
-# 設定一覧
+# All settings
 
-## 開きかた
+## Opening the settings
 
-ウォレットのパネル右上の **⋮** を押し、**設定** を選びます。ウォレットの設定がブラウザーのタブで開きます。閉じるときは右上の **閉じる** を押します。
+Press **⋮** at the top right of the wallet panel and choose **Settings**. The wallet's settings open in a browser tab. Press **Close** at the top right to close them.
 
-左のメニューで項目を選びます。
+Choose a section on the left.
 
-| 項目 | 内容 |
+| Section | What's in it |
 | --- | --- |
-| [一般](#一般) | 表示、言語、地域、表示通貨 |
-| [アカウント](#アカウント) | アカウントの一覧と追加 |
-| [アドレス帳](#アドレス帳) | 保存した連絡先 |
-| [ネットワーク一覧](#ネットワーク一覧) | ネットワークの追加・編集・削除、テストネットの表示 |
-| [接続許可リスト](#接続許可リスト) | 接続を許可したサイト |
-| [セキュリティ](#セキュリティ) | シードフレーズ、マスターパスワード、カメラ |
-| [高度な設定](#高度な設定) | WalletConnect、MetaMask 互換、実験的な機能 |
-| ヘルプ | Lunascape Wallet の Web サイトを開きます |
+| [General](#general) | Display, language, region and display currency |
+| [Accounts](#accounts) | The list of accounts, and adding one |
+| [Address Book](#address-book) | Saved contacts |
+| [Networks](#networks) | Adding, editing and deleting networks; showing testnets |
+| [Connections](#connections) | Sites you've allowed to connect |
+| Security & Privacy | Seed phrase, master password and camera |
+| [Advanced Options](#advanced-options) | WalletConnect, MetaMask compatibility and experimental features |
+| Help | Opens the Lunascape Wallet website |
 
-> **ヒント:** Lunascape Desktop の **設定** > **ウォレット** は、ブラウザー側の設定（拡張機能のバージョンと更新方法）です。ここで説明するウォレットの設定とは別の画面です。
+> **Tip:** **Settings** > **Wallet** in Lunascape Desktop is a browser setting (the extension's version and how it's updated). It's a different screen from the wallet's own settings described here.
 
-## 一般
+## General
 
-<img src="img/settings-general.png" alt="ウォレットの設定の一般。表示にテーマ、カラー、新しいタブ、サイドパネルの項目が並ぶ" width="560" />
+<img src="img/settings-general.png" alt="The General page of the wallet's settings, with Theme, Color mode, New Tab and Side Panel under Display" width="560" />
 
-| 項目 | 内容 | 初期値 |
+| Item | What it does | Default |
 | --- | --- | --- |
-| テーマ | ウォレット全体の見た目を選びます | デフォルト |
-| カラー | ライト / ダーク / システム（パソコンの設定に合わせる）を切り替えます | ライト |
-| 新しいタブ | ポップアップではなく、ブラウザーのタブでウォレットを開きます | オフ |
-| サイドパネル | ブラウザーのサイドパネルにウォレットを表示します | オン |
-| 言語 | ウォレットの表示言語（日本語 / 英語 (English)）を選びます | — |
-| 地域 | トークンを取引するときに表示する取引所を決めます（日本 / 日本以外） | 日本 |
-| 通貨 | 残高を表示する法定通貨を選びます | USD |
+| Theme | Chooses the overall look of the wallet | Default |
+| Color mode | Switches between light, dark and system (follow your computer) | Light |
+| New Tab | Opens the wallet in a browser tab instead of the popup | Off |
+| Side Panel | Shows the wallet in the browser's side panel | On |
+| Language | Chooses the wallet's language (日本語 / 英語 (English)) | — |
+| Region | Decides which exchanges are offered when you trade a token (Japan / Outside Japan) | Japan |
+| Currency | Chooses the fiat currency for balances | USD |
 
-<img src="img/settings-general-2.png" alt="一般の続き。ロケールに言語、地域、通貨の項目が並ぶ" width="560" />
+<img src="img/settings-general-2.png" alt="The rest of General, with Language, Region and Currency under Locale" width="560" />
 
-> **ヒント:** ウォレットの言語は、ブラウザーの言語とは別に設定します。ブラウザーを英語にしても、ウォレットの表示は変わりません。
+> **Tip:** The wallet's language is set separately from the browser's. Switching the browser to English doesn't change the wallet.
 
-## アカウント
+## Accounts
 
-ウォレット内のアカウントの一覧です。**アカウントを追加** で追加できます。詳しくは [アカウントを管理する](../features/accounts.md) を参照してください。
+The accounts in the wallet. **Add Account** adds one. See [Manage accounts](../features/accounts.md).
 
-## アドレス帳
+## Address Book
 
-保存した連絡先の一覧です。**連絡先を追加** で、名前とアドレスを登録します。
+Your saved contacts. **Add Contact** saves a name and address.
 
-## ネットワーク一覧
+## Networks
 
-<img src="img/settings-networks.png" alt="ウォレットの設定のネットワーク一覧。4 つのネットワークと、ネットワークを追加のボタン、テストネットを表示のスイッチがある" width="560" />
+<img src="img/settings-networks.png" alt="The Networks page of the wallet's settings, with four networks, an Add Network button and a Show Testnets switch" width="560" />
 
-- ネットワークを押すと編集・削除できます。**ネットワークを追加** で追加します。詳しくは [ネットワークを切り替える](../features/networks.md) を参照してください。
-- **テストネットを表示**: オンにすると、ネットワークの一覧にテストネットが表示されます。
+- Press a network to edit or delete it. **Add Network** adds one. See [Switch networks](../features/networks.md).
+- **Show Testnets**: when on, testnets appear in the network list.
 
-## 接続許可リスト
+## Connections
 
-ウォレットへの接続を許可したサイトが、アカウントごとに並びます。サイトを削除すると、そのサイトとの接続が解除されます。**リストに追加** で、サイトを手動で追加することもできます。詳しくは [サイトと接続する](../dapps/connect.md) を参照してください。
+Sites you've allowed to connect, listed by account. Removing a site disconnects it. **Add to list** lets you add a site by hand. See [Connect to a site](../dapps/connect.md).
 
-## セキュリティ
+## Security & Privacy
 
-<img src="img/settings-security.png" alt="ウォレットの設定のセキュリティ。シードフレーズをエクスポート、マスターパスワードの変更、QR コード撮影のためにカメラの起動を許可するがある" width="560" />
+<img src="img/settings-security.png" alt="The Security & Privacy page of the wallet's settings, with Export Seed Phrase, Change Master Password and Allow camera permission for QR code capture" width="560" />
 
-| 項目 | 内容 |
+| Item | What it does |
 | --- | --- |
-| シードフレーズをエクスポート | シードフレーズを表示します。[シードフレーズをバックアップする](../getting-started/backup.md) を参照してください |
-| マスターパスワードの変更 | **旧パスワード** と新しいパスワードを入力して変更します |
-| QRコード撮影のためにカメラの起動を許可する | 送金先や WalletConnect の QR コードをカメラで読み取れるようにします |
+| Export Seed Phrase | Shows the seed phrase. See [Back up your seed phrase](../getting-started/backup.md) |
+| Change Master Password | Enter the **Old Password** and a new one to change it |
+| Allow camera permission for QR code capture | Lets the wallet scan recipient and WalletConnect QR codes with your camera |
 
-## 高度な設定
+## Advanced Options
 
-<img src="img/settings-advanced.png" alt="ウォレットの設定の高度な設定。WalletConnect、ethereum.isMetaMask、Tor ネットワーク経由でトランザクションを送信するのスイッチがある" width="560" />
+<img src="img/settings-advanced.png" alt="The Advanced Options page of the wallet's settings, with WalletConnect, Enable ethereum.is MetaMask and Sending transactions via the Tor network switches" width="560" />
 
-| 項目 | 内容 | 初期値 |
+| Item | What it does | Default |
 | --- | --- | --- |
-| WalletConnect | WalletConnect でのサイトとの接続を許可します。[WalletConnect で接続する](../dapps/walletconnect.md) | オフ |
-| ethereum.isMetaMaskを有効にします | サイトに MetaMask として認識させます。MetaMask にしか対応していないサイトにも接続しやすくなります | オン |
-| Torネットワーク経由でトランザクションを送信する | 取引の送信を Tor ネットワーク経由にして、IP アドレスを相手に知られにくくする実験的な機能です。送信に時間がかかることがあります | オフ |
+| WalletConnect | Allows sites to connect through WalletConnect. See [Connect with WalletConnect](../dapps/walletconnect.md) | Off |
+| Enable ethereum.is MetaMask | Makes sites see the wallet as MetaMask, so it also connects to sites that only support MetaMask | On |
+| Sending transactions via the Tor network | An experimental feature that sends transactions through the Tor network to make your IP address harder for others to see. Sending may take longer | Off |

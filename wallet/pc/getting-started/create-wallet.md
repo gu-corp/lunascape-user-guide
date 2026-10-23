@@ -3,38 +3,38 @@ navigation:
   order: 200
 ---
 
-# ウォレットを作成する
+# Create a wallet
 
-はじめて Lunascape Wallet を使うときの手順です。数分で終わります。
+The steps for using Lunascape Wallet for the first time. It takes a few minutes.
 
-## 手順
+## Steps
 
-1. **ローカルウォレットの作成** で **新しいウォレットを作成** を選び、**次** を押します。
+1. On **Create a local wallet**, choose **Create a new wallet** and press **Next**.
 
-   <img src="img/create-local-wallet.png" alt="ローカルウォレットの作成画面。新しいウォレットを作成と、ウォレットをインポートの 2 つの選択肢と、次ボタンがある" width="300" />
+   <img src="img/create-local-wallet.png" alt="The Create a local wallet screen, with two choices — Create a new wallet and Import your wallet — and a Next button" width="300" />
 
-2. **マスターパスワードの登録** で、パスワードを 2 回入力して **作成** を押します。8 文字以上にしてください。
+2. On **Registering a master password**, enter a password twice and press **Create**. Use at least 8 characters.
 
-   <img src="img/create-password.png" alt="マスターパスワードの登録画面。新しいパスワードとパスワードの確認の欄、作成ボタンがある" width="300" />
+   <img src="img/create-password.png" alt="The Registering a master password screen, with New Password and Confirm Password fields and a Create button" width="300" />
 
-3. **利用規約** の 3 つの項目を読み、すべてにチェックを入れて **アカウントを作成** を押します。
+3. Read the three items on **Terms of Use**, select all three and press **Create Account**.
 
-   <img src="img/create-terms.png" alt="利用規約画面。3 つのチェック項目と、アカウントを作成ボタンがある" width="300" />
+   <img src="img/create-terms.png" alt="The Terms of Use screen, with three items to select and a Create Account button" width="300" />
 
-4. ウォレットのメイン画面が表示されたら完了です。**Account 1** というアカウントができています。
+4. When the main wallet screen appears, you're done. An account named **Account 1** has been created.
 
-   <img src="img/main-new.png" alt="作成直後のメイン画面。ネットワークは Ethereum、Account 1 の合計残高は 0 ドルで、保有資産に Ether、JOC Coin、Wrapped BTC が並ぶ（アドレスはぼかしてある）" width="300" />
+   <img src="img/main-new.png" alt="The main screen right after creating the wallet. The network is Ethereum, Account 1 has a total balance of 0 dollars, and the assets list shows Ether, JOC Coin and Wrapped BTC (the address is blurred)" width="300" />
 
-> **重要:** 作成が終わっても、シードフレーズを控える画面は自動では表示されません。続けて [シードフレーズをバックアップする](backup.md) の手順で、必ず控えてください。控えないままパソコンが壊れたり、ブラウザーのデータを消したりすると、ウォレットを二度と復元できません。
+> **Important:** The wallet does not show you the seed phrase automatically when you create it. Go straight on to [Back up your seed phrase](backup.md). If your computer breaks or the browser's data is deleted before you write it down, the wallet can never be restored.
 
-## マスターパスワードについて
+## About the master password
 
-- マスターパスワードは、このパソコンのこのブラウザーでウォレットのロックを解除するためのものです。
-- 忘れても、シードフレーズがあればウォレットを入れ直せます（パスワードは新しく決め直します）。シードフレーズもない場合は、誰にも解除できません（[パスワードを忘れた](../troubleshooting/password.md)）。
-- あとから **設定** > **セキュリティ** > **マスターパスワードの変更** で変えられます。
+- The master password unlocks the wallet in this browser on this computer.
+- If you forget it, you can set the wallet up again with the seed phrase (and choose a new password). Without the seed phrase, no one can unlock it (see [Forgot your password](../troubleshooting/password.md)).
+- Change it any time under **Settings** > **Security & Privacy** > **Change Master Password**.
 
-## 次に読む
+## Read next
 
-- [シードフレーズをバックアップする](backup.md)
-- [画面の見かた](screen.md)
-- [受け取る](../features/receive.md) — 自分のアドレスに暗号資産を送ってもらう
+- [Back up your seed phrase](backup.md)
+- [The wallet screen](screen.md)
+- [Receive](../features/receive.md) — have crypto sent to your address

@@ -3,68 +3,68 @@ navigation:
   order: 300
 ---
 
-# 資産を確認する
+# Check your assets
 
-持っているトークンと NFT、価格、利用履歴を確認します。
+See the tokens and NFTs you hold, prices and your transaction history.
 
-## 保有資産の一覧
+## The asset list
 
-メイン画面の **保有資産** に、トークンと残高、表示通貨での金額、ネットワーク名が並びます。**すべて表示** を押すと、**トークン** と **NFT** のタブがある一覧が開きます。
+**Assets in possession** on the main screen lists your tokens with their balance, value in the display currency and network. Press **View all** to open the full list, with **Token** and **NFT** tabs.
 
-<img src="img/assets.png" alt="保有資産の一覧。トークンと NFT のタブ、検索と並び替えのアイコン、トークン数、残高ゼロを非表示のスイッチ、トークンの一覧、通貨（トークン）を追加のボタンがある（アドレスはぼかしてある）" width="300" />
+<img src="img/assets.png" alt="The asset list, with Token and NFT tabs, search and sort icons, the token count, a Hide zero balances switch, the token list and an Add Currency button (the address is blurred)" width="300" />
 
-- 虫めがねのアイコンでトークンを検索します。
-- 矢印のアイコンで並び替えます（**デフォルト** / **アルファベット順（A〜Z）** / **残高順（高い順）**）。
-- **残高ゼロを非表示** をオンにすると、残高が 0 のトークンを隠します。
-- **戻る** でメイン画面に戻ります。
+- The magnifier icon searches your tokens.
+- The arrows icon sorts the list (**Default** / **Alphabetically (A-Z)** / **Declining balance ($ high-low)**).
+- Turn on **Hide zero balances** to hide tokens with a balance of 0.
+- **Back** returns to the main screen.
 
-## トークンの詳細
+## Token details
 
-一覧のトークンを押すと、詳細画面が開きます。
+Press a token in the list to open its detail screen.
 
-<img src="img/token-detail.png" alt="JOC Coin の詳細画面。残高、価格と小さなチャート、送信・受け取る・取引のボタン、利用履歴が並ぶ" width="300" />
+<img src="img/token-detail.png" alt="The detail screen for Ether, with the balance, price and a small chart, Send, Receive and Trade buttons, and Transaction History" width="300" />
 
-- **価格** の右の **∨** で価格チャートを開き、24 時間 / 7 日 / 30 日の値動きを見られます。
-- **送信** / **受け取る** で、このトークンの送金と受け取りを始めます。
-- **取引** で、このトークンを扱う取引所を表示します（[トークンを取引する](#トークンを取引する)）。
-- 右上の **⋮** から、トークンの表示名などの編集と、一覧からの削除ができます。削除しても資産は消えません（一覧に表示されなくなるだけです）。
+- Press **∨** next to **Price** to open the price chart and see 24H / 7D / 30D movements.
+- **Send** / **Receive** start sending or receiving this token.
+- **Trade** lists exchanges that handle this token ([Trade a token](#trade-a-token)).
+- The **⋮** at the top right lets you edit how the token is shown or remove it from the list. Removing it doesn't touch your assets — it only hides the token from the list.
 
-## トークンを追加する
+## Add a token
 
-受け取ったのに一覧に表示されないトークンは、追加すると表示されます。
+A token you received but can't see in the list appears once you add it.
 
-1. 一覧の下の **通貨（トークン）を追加** を押します。
-2. **探す** タブで名前を検索して選び、**次** を押します。
+1. Press **Add Currency** below the list.
+2. On the **Search** tab, search by name, select it and press **Next**.
 
-   <img src="img/add-token.png" alt="通貨（トークン）を追加の画面。探すとカスタムのタブ、検索欄、トークンの候補一覧、次ボタンがある" width="300" />
+   <img src="img/add-token.png" alt="The add token screen, with Search and Custom tabs, a search box, a list of token candidates and a Next button" width="300" />
 
-3. 候補にないときは **カスタム** タブで、ネットワーク・トークンタイプ・コントラクトアドレスなどを入力して **通貨（トークン）を追加** を押します。
+3. If it's not among the candidates, open the **Custom** tab, enter the network, token type, contract address and so on, and press **Add Currency**.
 
-コントラクトアドレスは、トークンの公式サイトなど信頼できる情報源で確かめてください。偽のトークンを追加させて詐欺サイトに誘導する手口があります。
+Check the contract address against a trustworthy source such as the token's official site. Scammers get people to add fake tokens to lure them to phishing sites.
 
-## NFT
+## NFTs
 
-一覧の **NFT** タブに、持っている NFT が表示されます。右上のネットワークのボタンで、表示するネットワークを切り替えます。
+The **NFT** tab of the list shows the NFTs you hold. Use the network button at the top right to switch which network is shown.
 
-- 表示されない NFT は、**NFTを追加** からコントラクトアドレスとトークン ID を入力して追加します。
-- NFT を押すと詳細が開き、ほかのアドレスへ **転送** できます。転送も取り消せません。
+- To show an NFT that's missing, press **Add NFT** and enter its contract address and token ID.
+- Press an NFT to open its details, where you can **Transfer** it to another address. Transfers cannot be reversed either.
 
-<img src="img/nft.png" alt="NFT タブ。検索欄とネットワークの選択、NFT が見つかりませんという表示、NFT を追加のボタンがある" width="300" />
+<img src="img/nft.png" alt="The NFT tab, with a search box and network selector, the message NFTs not found, and an Add NFT button" width="300" />
 
-## 利用履歴
+## Transaction history
 
-メイン画面の **利用履歴**、またはトークンの詳細画面に、送金や受け取りの記録が並びます。記録を押すと、送金元・送金先・金額・手数料などの詳細を確認できます。
+**Transaction History** on the main screen, or on a token's detail screen, lists what you have sent and received. Press an entry to see its details, such as from, to, amount and fee.
 
-## トークンを取引する
+## Trade a token
 
-トークンの詳細画面の **取引** を押すと、そのトークンを扱う取引所が表示されます。取引所を押すと、その取引所のサイトに移動します。取引は各取引所のサイトで行います。
+Press **Trade** on a token's detail screen to see exchanges that handle it. Pressing an exchange takes you to its site, where the trade happens.
 
-<img src="img/trade.png" alt="トークンを取引の画面。分散型取引所に X-Swap、中央集権型取引所に Zaif、カードで購入に Alchemy Pay が表示されている" width="300" />
+<img src="img/trade.png" alt="The Trade Token screen, showing X-Swap under Decentralized exchange, Zaif under Centralized exchange, and Alchemy Pay under Buy with card" width="300" />
 
-| 種類 | 説明 |
+| Kind | What it is |
 | --- | --- |
-| 分散型取引所 | ウォレットをサイトに接続して、トークンを交換します |
-| 中央集権型取引所 | 取引所の口座で売買します。口座の開設が必要です |
-| カードで購入 | クレジットカード・デビットカードなどで購入します |
+| Decentralized exchange | Connect your wallet to the site and swap tokens |
+| Centralized exchange | Trade through an account at the exchange (you need to open one) |
+| Buy with card | Buy with a credit card, debit card or similar |
 
-表示される取引所は、ウォレットの **設定** > **一般** の **地域**（日本 / 日本以外）で変わります。取引所のサービスは、それぞれの運営会社が提供しています。
+Which exchanges appear depends on **Region** (Japan / Outside Japan) under the wallet's **Settings** > **General**. Each exchange's service is provided by its own operator.

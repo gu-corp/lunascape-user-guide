@@ -3,26 +3,26 @@ navigation:
   order: 200
 ---
 
-# アップデートできない
+# Lunascape will not update
 
-## 「既に最新版です。」と表示される
+## It says you are already up to date
 
-**設定** > **About** の **更新チャンネル** を確認してください。チャンネルによって配信されるバージョンが異なります。
+Check **Settings** > **About** > **Update channel**. Different channels receive different builds.
 
-## ダウンロードが終わらない
+## The download never finishes
 
-ネットワークが不安定な場合、ダウンロードに時間がかかることがあります。しばらく待っても進まないときは、Lunascape を再起動してから **アップデートを確認** をもう一度実行してください。
+A slow or unstable connection can drag the download out. If it makes no progress, restart Lunascape and run **Check for updates** again.
 
-## 更新後に元のバージョンで起動する
+## It starts on the old version after updating
 
-**今すぐ再起動** を選ばずに終了した場合、更新は次の起動時に適用されます。適用されていないときは、いったんすべてのウィンドウを閉じてから起動し直してください。
+If you did not choose **Restart now**, the update is applied the next time Lunascape starts. If it still has not been applied, close every window and start it again.
 
-## 手動で入れ直す
+## Install it by hand
 
-どうしても更新できないときは、公式サイトから最新版をダウンロードして、そのままインストールしてください。設定やブックマークは引き継がれます。
+If the update refuses to go through, download the latest version from the official site and install it over the current one. Settings and bookmarks are kept.
 
-- [Lunascape をダウンロード](https://www.lunascape.org/ja/download)
+- [Download Lunascape](https://www.lunascape.org/en/download)
 
-## 関連項目
+## Related topics
 
-- [アップデートする](../getting-started/update.md)
+- [Update](../getting-started/update.md)

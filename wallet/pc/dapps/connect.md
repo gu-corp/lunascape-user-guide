@@ -3,47 +3,47 @@ navigation:
   order: 100
 ---
 
-# サイトと接続する
+# Connect to a site
 
-Web3 サイト（DApp）で **Connect Wallet** などのボタンを押すと、ウォレットに確認画面が表示されます。
+When you press **Connect Wallet** or a similar button on a Web3 site (DApp), the wallet shows a confirmation screen.
 
-## 接続を許可する
+## Allow the connection
 
-1. サイトの接続ボタンを押します。サイトによっては、ウォレットの一覧から Lunascape Wallet（または MetaMask などのブラウザーウォレット）を選びます。
-2. ウォレットに **サイトがお使いのウォレットのアドレスを要求しています** と表示されます。
-3. 表示されたサイトの URL と、接続するアカウントを確かめて **許可する** を押します。やめるときは **キャンセル** を押します。
+1. Press the site's connect button. Some sites ask you to choose a wallet — pick Lunascape Wallet (or a browser wallet such as MetaMask).
+2. The wallet shows **The site is requesting your wallet address**.
+3. Check the site's URL and the account to connect, then press **Approve**. To stop, press **Cancel**.
 
-<img src="img/connect-request.png" alt="サイトがお使いのウォレットのアドレスを要求していますという確認画面。サイトの URL と接続するアカウント、キャンセルと許可するのボタンがある（アドレスはぼかしてある）" width="300" />
+<img src="img/connect-request.png" alt="The confirmation screen The site is requesting your wallet address, with the site's URL, the account to connect, and Cancel and Approve buttons (the address is blurred)" width="300" />
 
-接続で相手に伝わるのは、アカウントのアドレスだけです。接続しただけで送金されることはありません。
+Connecting tells the site only your account's address. Connecting alone never sends any crypto.
 
-## サイトから届く確認
+## Requests a site can make
 
-接続したサイトは、次のような確認を求めてくることがあります。どれも、内容を確かめてから許可してください。
+A connected site may ask for the following. In every case, check the details before you allow it.
 
-| 確認の種類 | 内容 | 許可すると |
+| Request | What it is | If you allow it |
 | --- | --- | --- |
-| 署名リクエスト / イーサリアムでサインイン | アドレスの持ち主であることの証明として、署名を求めます | 送金は発生せず、秘密鍵も伝わりません |
-| 取引（トランザクション）の承認 | 送金、トークンの交換、NFT の購入など | 取引が実行され、手数料（ガス代）がかかります。取り消せません |
-| ネットワークの追加・切り替え | サイトが使うネットワークを、ウォレットに追加・選択させます | ウォレットのネットワークが切り替わります |
-| トークンの追加 | サイトのトークンを、ウォレットの一覧に追加させます | 一覧に表示されるだけです |
+| Signature Request / Sign In With Ethereum | A signature proving you own the address | Nothing is sent and your private key isn't shared |
+| Transaction approval | Sending, swapping tokens, buying NFTs and so on | The transaction runs and costs a fee (gas). It cannot be reversed |
+| Add or switch a network | Adds or selects the network the site uses | The wallet's network changes |
+| Add a token | Adds the site's token to your list | It only appears in the list |
 
-> **注意:** 署名の内容が理解できないとき、サイトを信頼できないときは許可しないでください。サインインのドメインがサイトと一致しない、アドレスがアカウントと一致しないといった警告が出たときは、偽サイトの可能性があります。
+> **Note:** Don't approve a signature you don't understand, or a request from a site you don't trust. A warning that the sign-in domain doesn't match the site, or that the address doesn't match your account, may mean a fake site.
 
-## 接続状態を確かめる
+## Check the connection status
 
-ウォレットの左上のプラグのアイコンを押すと、表示中のサイトの接続状態が表示されます。接続していないサイトは、**リストに追加** で接続を許可できます。
+Press the plug icon at the top left of the wallet to see the connection status of the current site. For a site that isn't connected, **Add To Whitelist** allows it to connect.
 
-<img src="img/site-connection.png" alt="接続状態の画面。アカウントとアドレス、表示中のサイトのドメイン、このドメインは許可されていませんという表示と、リストに追加のボタンがある（アドレスはぼかしてある）" width="300" />
+<img src="img/site-connection.png" alt="The connection status screen, with the account and address, the current site's domain, the message This domain is not permitted, and an Add To Whitelist button (the address is blurred)" width="300" />
 
-## 接続を解除する
+## Disconnect a site
 
-接続を許可したサイトは、ウォレットの **設定** > **接続許可リスト** にアカウントごとに並びます。使わなくなったサイトは、ここで **リストから削除** を押して削除してください。
+Sites you've allowed are listed by account under the wallet's **Settings** > **Connections**. Remove sites you no longer use here with **Delete from list**.
 
-<img src="img/settings-connections.png" alt="ウォレットの設定の接続許可リスト。Account 1 の許可されたウェブサイトに 2 つのサイトが並び、リストに追加のボタンがある" width="560" />
+<img src="img/settings-connections.png" alt="The Connections page of the wallet's settings, with an empty Permitted websites list and an Add to list button" width="560" />
 
-## ほかのウォレット拡張機能と一緒に使う
+## Using other wallet extensions alongside it
 
-MetaMask など、ほかのウォレット拡張機能が入っていると、Lunascape Wallet は動きません（**Lunascape Walletが別のウォレットを検出しました。** と表示されます）。どちらかを無効にしてください。
+If another wallet extension such as MetaMask is installed, Lunascape Wallet doesn't work (it shows **Lunascape Wallet has detected another Ethererum wallet.**). Turn one of them off.
 
-Lunascape Wallet は、多くのサイトで MetaMask として認識されます（**設定** > **高度な設定** の **ethereum.isMetaMaskを有効にします**）。サイトに Lunascape Wallet の選択肢がないときは、MetaMask を選ぶと接続できることがあります。
+Many sites see Lunascape Wallet as MetaMask (**Settings** > **Advanced Options** > **Enable ethereum.is MetaMask**). If a site doesn't list Lunascape Wallet, choosing MetaMask may work.

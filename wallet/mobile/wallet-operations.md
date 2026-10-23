@@ -1,136 +1,136 @@
 ---
 navigation:
+  title: "Wallet Operations"
   order: 400
-  title: "ウォレット操作"
 ---
 
-# DAppでのウォレット操作
+# Wallet operations with DApps
 
-DAppからLunascapeへ送られる接続、署名、取引などの要求について説明します。承認前に、必ず確認画面を読んでください。
+This page explains requests a DApp can send to Lunascape. Read every confirmation screen before approving it.
 
-> **重要:** ウォレットを接続すると、アカウント情報がWebサイトへ伝わります。署名は権限を与える場合があり、取引は資産を移動させる場合があります。DAppのURL、アカウント、ネットワーク、要求内容、手数料を確認し、理解できない要求は拒否してください。
+> **Important:** Connecting a wallet identifies your account to the site. Signing a message can authorize actions, and sending a transaction can move assets. Verify the DApp URL, selected account, network, request details, and fee. Reject anything you do not understand.
 
-## ウォレットを接続
+## Connect Wallet
 
-1. DAppを開き、ウォレット接続ボタンをタップします。
-2. ウォレット一覧から**Lunascape**を選びます。
-3. LunascapeでDAppのドメイン、アカウント、接続要求を確認します。
-4. 内容が正しい場合だけ承認します。
+1. Open the DApp and select its wallet connection button.
+2. Select **Lunascape** from the wallet list.
+3. In Lunascape, verify the DApp domain, account, and requested connection.
+4. Approve the request only if the details are correct.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.29.24.png" alt="DAppでのウォレット操作の画面 1" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.29.24.png" alt="Wallet operations with DApps screen 1" width="360" />
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.29.30.png" alt="DAppでのウォレット操作の画面 2" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.29.30.png" alt="Wallet operations with DApps screen 2" width="360" />
 
-Lunascapeが一覧にない場合、DAppがMetaMask互換プロバイダーだけを検出している可能性があります。[ウォレット設定](wallet-settings.md#ethereumismetamaskを有効にする)で**ethereum.isMetaMask**を有効にし、DApp側でMetaMaskを選んでください。
+If Lunascape is not listed, the DApp may only detect wallets that identify through the MetaMask-compatible provider. Enable **ethereum.isMetaMask** in [Wallet Settings](wallet-settings.md#enable-ethereumismetamask), then select the MetaMask option in the DApp.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.32.35.png" alt="DAppでのウォレット操作の画面 3" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.32.35.png" alt="Wallet operations with DApps screen 3" width="360" />
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.33.47.png" alt="DAppでのウォレット操作の画面 4" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_17.33.47.png" alt="Wallet operations with DApps screen 4" width="360" />
 
-## トークンを追加
+## Add a token
 
-トークンは手動で追加するか、DAppからの追加要求を承認できます。
+You can add a token manually or accept an add-token request from a DApp.
 
-### 手動でトークンを追加する
+### Add a token manually
 
-1. アセット一覧で**追加**をタップします。
-2. トークンの種類を選びます。
+1. On the Asset List screen, tap **Add**.
+2. Select the token type.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.49.21.png" alt="DAppでのウォレット操作の画面 5" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.49.21.png" alt="Wallet operations with DApps screen 5" width="360" />
 
-**ベース通貨**の場合は、ネットワークを選んで、そのネットワークのネイティブトークンを追加します。
+For **Base Currency**, select the network to add its native token.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.52.47.png" alt="DAppでのウォレット操作の画面 6" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.52.47.png" alt="Wallet operations with DApps screen 6" width="360" />
 
-**ERC-20**の場合は、対応するEVMネットワークを選び、コントラクトアドレスを入力またはスキャンします。トークン名、シンボル、小数点以下桁数が取得されます。
+For **ERC-20**, select the matching EVM network and enter or scan the contract address. Lunascape then retrieves the token name, symbol, and decimals.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.56.57.png" alt="DAppでのウォレット操作の画面 7" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_10.56.57.png" alt="Wallet operations with DApps screen 7" width="360" />
 
-3. トークン発行元の公式情報でコントラクトアドレスを確認し、選択中のネットワーク用であることを確かめます。同じ名称のトークンでも、ネットワークごとにアドレスが異なる場合があります。
-4. 取得されたトークン名、シンボル、小数点以下桁数を確認します。
-5. **アセットを追加**をタップします。
+3. Verify the contract address against the token issuer's official source and make sure it belongs to the selected network. The same token can use different contract addresses on different networks.
+4. Check the detected token name, symbol, and decimals.
+5. Tap **Add Assets**.
 
-> **注意:** トークン名やシンボルは偽装できます。名称、ロゴ、知らない相手から届いたアドレスだけを根拠に追加しないでください。
+> **Caution:** Token names and symbols are not unique and can be copied by scam tokens. Do not add a token based only on its name, logo, or an address supplied in an unsolicited message.
 
-### DAppからトークンを追加する
+### Add a token from a DApp
 
-DAppはトークンの追加を要求できます。次の画面はCoinMarketCapを使った例です。現在のURLとコントラクト情報は、必ず別途確認してください。
+A DApp can request that a token be added. The following screens show one example using CoinMarketCap. Always verify the current site URL and contract information independently.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.15.03.png" alt="DAppでのウォレット操作の画面 8" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.15.03.png" alt="Wallet operations with DApps screen 8" width="360" />
 
-1. Lunascapeで選択中のネットワークに対応するコントラクトアドレスを探します。
-2. Webサイトが表示するウォレット／トークン追加アイコンをタップします。
+1. Find the contract address that matches the network selected in Lunascape.
+2. Select the wallet/add-token icon presented by the site.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.16.03.png" alt="DAppでのウォレット操作の画面 9" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.16.03.png" alt="Wallet operations with DApps screen 9" width="360" />
 
-3. 接続要求が表示されたら、ドメインとアカウントを確認してから承認します。
+3. If a connection request appears, check the domain and account before approving it.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.21.09.png" alt="DAppでのウォレット操作の画面 10" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.21.09.png" alt="Wallet operations with DApps screen 10" width="360" />
 
-4. トークン追加要求に表示されたトークンとネットワークを確認します。
+4. Check the token and network shown in the add-token request.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.21.16.png" alt="DAppでのウォレット操作の画面 11" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_11.21.16.png" alt="Wallet operations with DApps screen 11" width="360" />
 
-5. 公式情報と一致している場合だけ**トークンを追加**をタップします。
+5. Tap **Add Tokens** only when the details match the official token information.
 
-## ネットワークを追加
+## Add a network
 
-ネットワークは、**ウォレット設定** > **ネットワーク** > **ネットワークを追加**から手動で追加できます。詳しくは[ウォレット設定](wallet-settings.md#ネットワーク)を参照してください。
+You can add a network manually from **Wallet Settings** > **Network** > **Add Network**. See [Wallet Settings](wallet-settings.md#network).
 
-### DAppからネットワークを追加する
+### Add a network requested by a DApp
 
-DAppが未登録のネットワークを要求すると、Lunascapeに追加確認が表示されます。承認前に、ネットワーク名、RPC URL、チェーンID、通貨シンボル、ブロックエクスプローラーを確認してください。
+When a DApp requests a network that is not yet available, Lunascape shows a confirmation. Verify the network name, RPC URL, chain ID, currency symbol, and block explorer before approving it.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.15.12.png" alt="DAppでのウォレット操作の画面 12" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.15.12.png" alt="Wallet operations with DApps screen 12" width="360" />
 
-ネットワークを追加すると、そのネットワークのネイティブトークンも追加されます。
+The network's native token is added at the same time.
 
-## ネットワークを切り替え
+## Switch networks
 
-DAppが別のネットワークを要求すると、Lunascapeに切り替え確認が表示されます。
+When a DApp requests a different network, Lunascape shows a confirmation before switching.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.15.25.png" alt="DAppでのウォレット操作の画面 13" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.15.25.png" alt="Wallet operations with DApps screen 13" width="360" />
 
-ウォレット側で切り替えた場合、接続中のDAppも同じネットワークへ切り替わり、追加の確認は表示されません。
+When you switch networks from the wallet, the connected DApp follows the selected network without an additional DApp confirmation.
 
-ネットワークが登録済みでも、そのネイティブトークンをアセット一覧から削除している場合は、トークンの追加確認後にネットワークの切り替え確認が表示されます。
+If the network exists but its native token was removed from the Asset List, Lunascape first asks to add that token and then asks to switch networks.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.31.33.png" alt="DAppでのウォレット操作の画面 14" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.31.33.png" alt="Wallet operations with DApps screen 14" width="360" />
 
-## メッセージに署名する
+## Sign a message
 
-DAppによっては、ログインや操作の承認にウォレット署名を使います。署名は必ずしもブロックチェーン取引ではありませんが、権限を与える場合があります。
+Some DApps use a wallet signature to sign in or authorize an action. A signature is not always a blockchain transaction, but it can still grant permissions.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.43.40.png" alt="DAppでのウォレット操作の画面 15" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.43.40.png" alt="Wallet operations with DApps screen 15" width="360" />
 
-DAppで**署名**を選ぶと、Lunascapeにメッセージと要求元サイトが表示されます。
+When you select **Sign** in the DApp, Lunascape displays the message and requesting site for confirmation.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.45.03.png" alt="DAppでのウォレット操作の画面 16" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.45.03.png" alt="Wallet operations with DApps screen 16" width="360" />
 
-承認する場合はウォレットパスワードを入力します。
+Enter the wallet password to approve the signature.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.45.15.png" alt="DAppでのウォレット操作の画面 17" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_14.45.15.png" alt="Wallet operations with DApps screen 17" width="360" />
 
-LunascapeはPersonal Sign、Sign Typed Data、Sign Typed Data V3、Sign Typed Data V4に対応しています。
+Lunascape supports Personal Sign, Sign Typed Data, Sign Typed Data V3, and Sign Typed Data V4.
 
-> **警告:** 内容を読めない署名や、予期していない署名は承認しないでください。送金額が表示されていなくても、悪意ある署名が資産へのアクセスを許可する場合があります。
+> **Warning:** Do not sign an unreadable or unexpected message. A malicious signature can authorize asset access even when no transfer amount is shown.
 
-## 取引を送信
+## Send a transaction
 
-DAppが送金やコントラクト操作を要求すると、Lunascapeに取引確認が表示されます。
+When a DApp requests a transfer or contract interaction, Lunascape displays a transaction confirmation.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.30.30.png" alt="DAppでのウォレット操作の画面 18" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.30.30.png" alt="Wallet operations with DApps screen 18" width="360" />
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.30.46.png" alt="DAppでのウォレット操作の画面 19" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.30.46.png" alt="Wallet operations with DApps screen 19" width="360" />
 
-スワップの場合も取引確認が表示されます。
+A swap also produces a transaction confirmation.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.33.55.png" alt="DAppでのウォレット操作の画面 20" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.33.55.png" alt="Wallet operations with DApps screen 20" width="360" />
 
-承認前に、ネットワーク、送信先またはコントラクト、数量、トークン承認、手数料を確認してください。手数料は**低速**、**平均**、**高速**から選べ、初期状態では**平均**です。上級者は詳細設定で手動指定できます。
+Before confirming, verify the network, destination or contract, amount, token approval, and total fee. Choose **Slow**, **Average**, or **Fast**; **Average** is selected by default. Advanced Settings lets experienced users enter fee values manually.
 
-<img src="img/Screenshot_2025-09-29_at_15.39.10.png" alt="DAppでのウォレット操作の画面 21" width="360" />
+<img src="img/Screenshot_2025-09-29_at_15.39.10.png" alt="Wallet operations with DApps screen 21" width="360" />
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.36.47.png" alt="DAppでのウォレット操作の画面 22" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-29_at_15.36.47.png" alt="Wallet operations with DApps screen 22" width="360" />
 
-> **重要:** 確定したブロックチェーン取引は通常キャンセル・取り消しできません。詳細設定で不適切な手数料を指定すると、取引が遅延または失敗する場合があります。
+> **Important:** A confirmed blockchain transaction usually cannot be canceled or reversed. An incorrect advanced fee can delay or fail a transaction.

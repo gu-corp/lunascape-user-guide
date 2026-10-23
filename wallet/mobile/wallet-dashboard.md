@@ -3,67 +3,67 @@ navigation:
   order: 200
 ---
 
-# ウォレットダッシュボード
+# Wallet Dashboard
 
-選択中のアカウント、ネットワーク、推定残高、アセット、最近の送信取引をまとめて確認できます。
+The Dashboard summarizes the selected account, network, estimated balance, assets, and recent outgoing transactions.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-16_at_17.36.39.png" alt="ウォレットダッシュボードの画面 1" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-16_at_17.36.39.png" alt="Wallet Dashboard screen 1" width="360" />
 
-## アカウントを切り替える・ロックする
+## Switch or lock the account
 
-上部のアカウント名をタップすると、アカウントの切り替え・追加、ウォレットのロックができます。
+Tap the account name at the top to switch accounts, add an account, or lock the wallet.
 
-<img src="img/Screenshot_2025-09-16_at_17.44.58.png" alt="ウォレットダッシュボードの画面 2" width="560" />
+<img src="img/Screenshot_2025-09-16_at_17.44.58.png" alt="Wallet Dashboard screen 2" width="560" />
 
-## ネットワーク
+## Switch networks
 
-右上のネットワークアイコンをタップすると、ネットワークの切り替え・追加ができます。選択したネットワークによって、表示する資産や利用できるDAppが変わります。
+Tap the network icon at the top right to switch or add a network. The selected network determines which assets and DApps are available.
 
-<img src="img/Screenshot_2025-09-16_at_17.47.14.png" alt="ウォレットダッシュボードの画面 3" width="360" />
+<img src="img/Screenshot_2025-09-16_at_17.47.14.png" alt="Wallet Dashboard screen 3" width="360" />
 
-## 総残高
+## Total Balance
 
-ウォレット設定で選んだ法定通貨による推定合計額を表示します。表示切り替えボタンで金額を隠すことができます。
+The estimated account total appears in the fiat currency selected in Wallet Settings. Tap the visibility control to hide or show the value.
 
-## アセット
+## Assets
 
-初期状態では、最近使ったトークンが上に表示されます。[アセット一覧](asset-list.md)では、表示するトークンを管理できます。
+Recently used tokens appear first by default. Open the [Asset List](asset-list.md) to see and manage all displayed tokens.
 
-<img src="img/Screenshot_2025-09-18_at_15.40.26.png" alt="ウォレットダッシュボードの画面 4" width="560" />
+<img src="img/Screenshot_2025-09-18_at_15.40.26.png" alt="Wallet Dashboard screen 4" width="560" />
 
-## 取引履歴
+## Transaction History
 
-選択中のアカウントから送信した最近の取引を表示します。受信取引はこの一覧に含まれないため、完全なオンチェーン履歴が必要な場合は信頼できるブロックエクスプローラーで確認してください。
+The latest outgoing transactions for the selected account are shown. Incoming transactions are not included in this list; use a trusted block explorer when you need complete on-chain history.
 
-<img src="img/Screenshot_2025-09-18_at_15.42.43.png" alt="ウォレットダッシュボードの画面 5" width="560" />
+<img src="img/Screenshot_2025-09-18_at_15.42.43.png" alt="Wallet Dashboard screen 5" width="560" />
 
-## アセットを送信する
+## Send assets
 
-1. 画面下部の**送信**をタップします。
-2. トークンを選び、送信先アドレスを入力またはスキャンします。アドレス帳からも選べます。
-3. 数量を入力します。
-4. ネットワーク、送信先、トークン、数量、手数料を確認します。
-5. ウォレットパスワード、または有効にした生体認証で確定します。
+1. Tap **Send** in the footer.
+2. Select the token and enter or scan the recipient address. You can also choose a saved Address Book entry.
+3. Enter the amount.
+4. Review the network, recipient, token, amount, and fee.
+5. Confirm with the wallet password or enabled biometric authentication.
 
-<img src="img/Screenshot_2025-09-18_at_15.50.24.png" alt="ウォレットダッシュボードの画面 6" width="360" />
+<img src="img/Screenshot_2025-09-18_at_15.50.24.png" alt="Wallet Dashboard screen 6" width="360" />
 
-手数料は**低速**、**平均**、**高速**から選べます。ネットワーク手数料を理解している場合は、詳細設定で指定できます。
+Choose **Slow**, **Average**, or **Fast** for the transaction fee, or use the advanced settings when you understand the network's fee rules.
 
-<img src="img/Screenshot_2025-09-18_at_15.51.06.png" alt="ウォレットダッシュボードの画面 7" width="360" />
+<img src="img/Screenshot_2025-09-18_at_15.51.06.png" alt="Wallet Dashboard screen 7" width="360" />
 
-## アセットを受信する
+## Receive assets
 
-1. 正しいアカウントとネットワークを選びます。
-2. **受信**をタップします。
-3. アドレスをコピーするか、相手にQRコードを提示します。
-4. 相手が同じ互換ネットワークを使うことを確認します。
+1. Select the correct account and network.
+2. Tap **Receive**.
+3. Copy the address or show its QR code to the sender.
+4. Confirm that the sender will use the same compatible network.
 
-<img src="img/Screenshot_2025-09-18_at_15.54.08.png" alt="ウォレットダッシュボードの画面 8" width="360" />
+<img src="img/Screenshot_2025-09-18_at_15.54.08.png" alt="Wallet Dashboard screen 8" width="360" />
 
-## QRコードをスキャンする
+## Scan a QR code
 
-画面下部のQRアイコンをタップすると、送信先アドレスやWalletConnectの接続コードを読み取れます。続行前に、読み取られた操作内容を確認してください。
+Tap the QR icon in the footer to scan a recipient address or a WalletConnect connection code. Check the recognized action before continuing.
 
-<img src="img/Screenshot_2025-09-24_at_17.09.42.png" alt="ウォレットダッシュボードの画面 9" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.09.42.png" alt="Wallet Dashboard screen 9" width="560" />
 
-> **重要:** ブロックチェーン上の取引は通常取り消せません。初めて使うアドレスやネットワークでは少額でテストし、アドレス帳の名前だけを信用しないでください。
+> **Important:** Blockchain transactions are usually irreversible. Send a small test amount when using a new address or network, and never rely on the address label alone.

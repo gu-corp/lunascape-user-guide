@@ -3,36 +3,36 @@ navigation:
   order: 400
 ---
 
-# シードフレーズをバックアップする
+# Back up your seed phrase
 
-シードフレーズは、ウォレットと資産の「マスターキー」となる 12 語の英単語です。パソコンが壊れたとき、別のパソコンで使うとき、パスワードを忘れたときに、このフレーズでウォレットを復元します。
+The seed phrase is 12 English words that act as the master key to your wallet and assets. Use it to restore the wallet when your computer breaks, when you move to another computer, or when you forget the password.
 
-ウォレットを作成したら、すぐに控えてください。Lunascape Wallet は作成時にシードフレーズを自動では表示しません。
+Write it down as soon as you create the wallet. Lunascape Wallet does not show you the seed phrase automatically when you create the wallet.
 
-## 控えかた
+## How to write it down
 
-1. ウォレットのパネル右上の **⋮** を押し、**設定** を選びます。ウォレットの設定がタブで開きます。
-2. 左のメニューで **セキュリティ** を選び、**シードフレーズをエクスポート** を押します。
+1. Press **⋮** at the top right of the wallet panel and choose **Settings**. The wallet's settings open in a tab.
+2. Choose **Security & Privacy** on the left, then press **Export Seed Phrase**.
 
-   <img src="img/settings-security.png" alt="ウォレットの設定のセキュリティ画面。シードフレーズをエクスポートとマスターパスワードの変更の項目、QR コード撮影のためのカメラの許可がある" width="560" />
+   <img src="img/settings-security.png" alt="The Security & Privacy page of the wallet's settings, with Export Seed Phrase, Change Master Password and the camera permission for QR codes" width="560" />
 
-3. **シードフレーズを表示** を押し、マスターパスワードを入力して **Ok** を押します。
+3. Press **Show Seed phrase**, enter your master password and press **Ok**.
 
-   <img src="img/export-seed.png" alt="シードフレーズをエクスポートの画面で、パスワードを入力してくださいというダイアログが開いている" width="560" />
+   <img src="img/export-seed.png" alt="The Export Seed Phrase page with the Please enter your password dialog open" width="560" />
 
-4. 表示された 12 語を、順番どおりに紙に書き写します。
+4. Copy the 12 words onto paper, in order.
 
-## 保管のしかた
+## Keeping it safe
 
-- 紙に書いて、自分だけがわかる安全な場所にしまいます。複数の場所に分けて保管すると、紛失や災害に備えられます。
-- スクリーンショット、写真、クラウドのメモ、メール、チャットには残さないでください。パソコンやアカウントが乗っ取られると、資産を失うおそれがあります。
-- 誰にも教えないでください。Lunascape のサポートがシードフレーズを尋ねることはありません。
-- シードフレーズは再発行できません。
+- Write it on paper and keep it somewhere safe that only you know. Storing copies in more than one place protects against loss and disasters.
+- Don't keep it in a screenshot, photo, cloud note, email or chat. If your computer or account is taken over, you could lose your assets.
+- Never tell anyone. Lunascape support will never ask for your seed phrase.
+- A seed phrase cannot be reissued.
 
-## シードフレーズと秘密鍵とパスワードの違い
+## Seed phrase, private key and password
 
-| 名前 | 何のためのものか | なくしたら |
+| Name | What it's for | If you lose it |
 | --- | --- | --- |
-| シードフレーズ（12 語） | ウォレットと、シードフレーズから作ったアカウントを復元する | 復元できません |
-| 秘密鍵 | 1 つのアカウントだけを取り込む | シードフレーズから作ったアカウントなら、シードフレーズで復元できます。秘密鍵でインポートしたアカウントは復元できません |
-| マスターパスワード | このブラウザーでロックを解除する | シードフレーズで入れ直し、新しく決め直します |
+| Seed phrase (12 words) | Restores the wallet and the accounts created from the seed phrase | The wallet cannot be restored |
+| Private key | Imports one account only | An account created from the seed phrase can be restored with the seed phrase. An account imported with a private key cannot |
+| Master password | Unlocks the wallet in this browser | Set the wallet up again with the seed phrase and choose a new one |

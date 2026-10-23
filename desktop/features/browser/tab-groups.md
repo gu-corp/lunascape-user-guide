@@ -3,49 +3,42 @@ navigation:
   order: 300
 ---
 
-# タブグループ
+# Tab groups
 
-関連するタブをまとめて、色と名前を付けて管理できます。調べ物や作業の単位でタブを分けたいときに使います。
+Keep related tabs together under a name and a colour — one group per thing you are working on.
 
-タブバーには、いま選んでいるグループのタブだけが並びます。ほかのグループのタブは、グループを切り替えると表示されます。初めから、ふだんのタブの **ウェブ** のグループがあります。
+The tab bar shows only the tabs of the group you have chosen; the others appear when you switch to their group. The **Web** group, for your everyday tabs, is there from the start.
 
-## グループを作る
+## Create a group
 
-1. まとめたいタブを右クリックします。
-2. **タブをグループに追加** > **新しいグループ** を選びます。
+1. Right-click a tab you want to group.
+2. Choose **Add Tab to Group** > **New Group**.
+3. The group name (at first **Unnamed Group**) appears at the left end of the tab bar. Press it, choose **Change name and color…**, and set a name and a colour.
 
-   <img src="img/tab-context-menu.png" alt="タブの右クリックメニューで、タブをグループに追加の先に新しいグループが表示されている" width="480" />
+You can also create a group with the **+** next to **Tab groups** in the sidebar on the left.
 
-3. タブバーの左端にグループ名（初めは **名称未設定のグループ**）が表示されます。グループ名を押して **名前と色を変える…** を選び、名前と色を設定します。
+To add a tab to a group that already exists, right-click the tab and pick the group from **Add Tab to Group**.
 
-   <img src="img/tab-group-edit.png" alt="グループの名前を入力する欄と色の選択肢、その下にグループの操作が並ぶ" width="320" />
+## Switch groups
 
-左のサイドバーの **タブグループ** の **+** からも、新しいグループを作れます。
+Press the group name at the left end of the tab bar to list the groups, then choose one. **Tab groups** in the sidebar on the left switches them too.
 
-すでにあるグループに加えるときは、タブを右クリックして **タブをグループに追加** から対象のグループを選びます。
+## Work with a group
 
-## グループを切り替える
+Press the group name and choose **Change name and color…** for these actions as well:
 
-タブバー左端のグループ名を押すと、グループの一覧が表示されます。切り替えたいグループを選びます。左のサイドバーの **タブグループ** からも切り替えられます。
-
-<img src="img/tab-group-switcher.png" alt="グループ名を押すと、ウェブ・調べ物のグループと、それぞれのタブ数が一覧で表示される" width="360" />
-
-## グループを操作する
-
-グループ名を押して **名前と色を変える…** を選ぶと、次の操作もできます。
-
-| 操作 | 説明 |
+| Action | What it does |
 | --- | --- |
-| グループに新しいタブを追加 | グループの中に新しいタブを開きます |
-| グループ解除 | グループを解除します。タブはそのまま残ります |
-| グループを閉じる | グループ内のタブをまとめて閉じます |
-| グループを新しいウィンドウに移動 | グループごと別ウィンドウへ移します |
+| New tab in group | Opens a new tab inside the group |
+| Ungroup | Removes the group. The tabs stay open |
+| Close group | Closes every tab in the group |
+| Move group to new window | Moves the whole group into a window of its own |
 
-## グループから外す
+## Take a tab out
 
-タブを右クリックして **タブをグループから削除** を選びます。タブは閉じずにグループの外へ出ます。
+Right-click the tab and choose **Remove Tab from Group**. The tab leaves the group without closing.
 
-## 関連項目
+## Related topics
 
-- [タブを操作する](tabs.md)
+- [Tabs](tabs.md)
 - [Lunascape AI](../ai/lunascape-ai.md)

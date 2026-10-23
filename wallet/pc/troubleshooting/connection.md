@@ -3,31 +3,31 @@ navigation:
   order: 300
 ---
 
-# サイトに接続できない
+# Can't connect to a site
 
-## 接続ボタンを押しても反応しない
+## The connect button does nothing
 
-1. ウォレットのロックを解除してから、もう一度押してください。
-2. ページを再読み込みします。
-3. サイトのウォレットの一覧に Lunascape Wallet がないときは、**MetaMask** や **Browser Wallet** を選んでみてください。
-4. Lunascape Desktop では、**設定** > **拡張機能** の **システム拡張** で Lunascape Wallet がオンになっているか確かめてください。
+1. Unlock the wallet, then press the site's connect button again.
+2. Reload the page.
+3. If the site's wallet list doesn't include Lunascape Wallet, try **MetaMask** or **Browser Wallet**.
+4. In Lunascape Desktop, check that Lunascape Wallet is on under **Settings** > **Extensions** > **System Extensions**.
 
-## 「Lunascape Walletが別のウォレットを検出しました。」と表示される
+## "Lunascape Wallet has detected another Ethererum wallet." appears
 
-MetaMask など、ほかのウォレット拡張機能が入っていると、Lunascape Wallet は動きません。ブラウザーの拡張機能の管理画面で、ほかのウォレットを無効にするか削除して、ページを再読み込みしてください。
+Lunascape Wallet doesn't work while another wallet extension such as MetaMask is installed. Turn off or remove the other wallet in the browser's extension manager, then reload the page.
 
-## ほかのウォレットが開いてしまう
+## Another wallet opens instead
 
-ほかのウォレット拡張機能が優先されています。上と同じく、ほかのウォレットを無効にしてください。
+Another wallet extension is taking priority. As above, turn off the other wallet.
 
-## 接続したサイトとのつながりを切りたい
+## Disconnect a site you connected
 
-ウォレットの **設定** > **接続許可リスト** から、そのサイトを削除します。[サイトと接続する](../dapps/connect.md#接続を解除する) を参照してください。
+Remove the site under the wallet's **Settings** > **Connections**. See [Connect to a site](../dapps/connect.md#disconnect-a-site).
 
-## 偽サイトに注意する
+## Watch out for fake sites
 
-本物そっくりのサイトに接続させて、署名や取引を承認させる詐欺があります。
+Some scams get you to connect to a look-alike site and approve a signature or transaction.
 
-- サイトは、ブックマークや公式の案内から開いてください。検索広告やメッセージのリンクは避けてください。
-- 確認画面の URL が、開いているサイトと同じか確かめてください。
-- 「無料で受け取れる」「今すぐ承認しないと資産が凍結される」などとあおるサイトでは、承認しないでください。
+- Open sites from your bookmarks or official links. Avoid search ads and links in messages.
+- Check that the URL on the confirmation screen matches the site you have open.
+- Don't approve anything on a site that pressures you ("claim for free", "approve now or your assets will be frozen").

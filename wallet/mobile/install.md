@@ -3,103 +3,103 @@ navigation:
   order: 100
 ---
 
-# インストールしてはじめる
+# Install and get started
 
-**対象：** iPhone / Android
+**For:** iPhone / Android
 
-Lunascape Browser アプリには Lunascape Wallet が最初から入っています。
+Lunascape Wallet is built into the Lunascape Browser app.
 
-- iPhone：[App Store](https://apps.apple.com/jp/app/lunascape-browser/id380065805)
-- Android：[Google Play](https://play.google.com/store/apps/details?id=jp.co.lunascape.android.ilunascape)
+- iPhone: [App Store](https://apps.apple.com/app/lunascape-browser/id380065805)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=jp.co.lunascape.android.ilunascape)
 
-以下の画面は iPhone のものです。Android でも同じ流れで進められます。
+The screens below are from an iPhone. Android works the same way.
 
-## 1. アプリをインストールする
+## 1. Install the app
 
-上のリンクからストアを開き、**入手**（iPhone）または **インストール**（Android）を押します。
+Open the store from a link above and press **Get** (iPhone) or **Install** (Android).
 
-<img src="img/mobile-app-store.png" alt="App Store の Lunascape Browser のページ。入手ボタンがある" width="300" />
+<img src="img/mobile-app-store.png" alt="The Lunascape Browser page in the App Store, with a Get button" width="300" />
 
-<img src="img/mobile-google-play.png" alt="Google Play の Lunascape Browser のページ。提供元は G.U.Group Inc.。インストールボタンがある" width="300" />
+<img src="img/mobile-google-play.png" alt="The Lunascape Browser page in Google Play, offered by G.U.Group Inc., with an Install button" width="300" />
 
-## 2. アプリを開く
+## 2. Open the app
 
-アプリを開くと、はじめに案内の画面がいくつか表示されます。**次へ** を押して進めてください。
+When you open the app, a few welcome screens appear first. Press **Next** to go through them.
 
-## 3. ウォレットを開く
+## 3. Open the wallet
 
-ホーム画面の **ウォレット** をタップします。
+On the home screen, tap **Wallet**.
 
-<img src="img/mobile-home.png" alt="Lunascape Browser のホーム画面。検索欄の下に、ブックマーク、履歴、ウォレット、ダウンロード、シークレット、設定のアイコンが並ぶ" width="300" />
+<img src="img/mobile-home.png" alt="The Lunascape Browser home screen. Below the search box are icons for Bookmark, History, Wallet, Downloads, Private and Settings" width="300" />
 
-## 4. ウォレットの設定をはじめる
+## 4. Start setting up the wallet
 
-**ウォレットの設定** をタップします。タップすると、プライバシーポリシーと利用規約に同意したことになります。
+Tap **Set up wallet**. Tapping it means you agree to the Privacy Policy and Terms of Use.
 
-<img src="img/mobile-wallet-start.png" alt="Wallet のロゴの下に、ウォレットの設定ボタンがある。その下に、プライバシーポリシーと利用規約への同意についての説明がある" width="300" />
+<img src="img/mobile-wallet-start.png" alt="Below the Wallet logo is a Set up wallet button, and under it a note about agreeing to the Privacy Policy and Terms of Use" width="300" />
 
-**「ウォレット復旧」と表示されたら:** 以前このスマートフォンで Lunascape Wallet を使っていた場合に表示されます。前のウォレットを使う場合は **OK**、新しく作る場合は **キャンセル** を押します。はじめて使う場合は表示されません。
+**If "Recover wallet" appears:** this happens if you used Lunascape Wallet on this phone before. Press **OK** to keep using that wallet, or **Cancel** to create a new one. It doesn't appear the first time you use the wallet.
 
-<img src="img/mobile-restore-dialog.png" alt="ウォレット復旧のダイアログ。キーチェーンに Seed Phrase が保存されています。復旧しますか？ 復旧しない場合は新しいウォレットを新規作成します、と表示され、キャンセルと OK のボタンがある" width="300" />
+<img src="img/mobile-restore-dialog.png" alt="The Recover wallet dialog: You have a seed phrase in the keychain. Recover your wallet from the keychain? If not, a new wallet is created. It has Cancel and OK buttons" width="300" />
 
-## 5. マスターパスワードを登録する
+## 5. Register a master password
 
-**新しいパスワード** と **パスワードの確認** に同じパスワードを入力し、**作成** を押します。パスワードは 8 文字以上 64 文字以下です。
+Enter the same password in **New Password** and **Confirm password**, then press **Create**. The password must be 8 to 64 characters.
 
-iPhone で **Face IDでロックを解除しますか？** が表示された場合は、オンにしておくと、次からは Face ID でウォレットを開けます。
+On an iPhone, if a switch for unlocking with Face ID appears, turn it on to open the wallet with Face ID from then on.
 
-<img src="img/mobile-password.png" alt="マスターパスワードの登録画面。新しいパスワードとパスワードの確認の欄、Face ID でロックを解除するかのスイッチ、作成ボタンがある" width="300" />
+<img src="img/mobile-password.png" alt="The Registering a master password screen, with New Password and Confirm password fields and a Create button" width="300" />
 
-> **重要:** マスターパスワードを忘れると、誰も解除できません。忘れたときは、シードフレーズを使ってウォレットを入れ直すことになります。
+> **Important:** If you forget the master password, no one can unlock the wallet. You would have to set the wallet up again with your seed phrase.
 
-## 6. 管理方法を選ぶ
+## 6. Choose how to manage keys
 
-**自己管理** が選ばれていることを確認し、**開始** を押します。
+Check that **Self-Custody** is selected, then press **Start**.
 
-<img src="img/mobile-key-management.png" alt="プライベートキーの管理方法の画面。自己管理が選ばれていて、その下に開始ボタンがある" width="300" />
+<img src="img/mobile-key-management.png" alt="The How to manage private keys screen. Self-Custody is selected, with a Start button below" width="300" />
 
-## 7. 新しいウォレットを作成する
+## 7. Create a new wallet
 
-**新しいウォレットを作成** が選ばれていることを確認します。画面を下にスクロールし、**開始** を押します。
+Check that **Create a new wallet** is selected. Scroll down and press **Start**.
 
-<img src="img/mobile-create-local-wallet.png" alt="ローカルウォレットを作成の画面。新しいウォレットを作成が選ばれている。下に、ウォレットをインポートの欄と、開始とキャンセルのボタンがある" width="300" />
+<img src="img/mobile-create-local-wallet.png" alt="The Create a local wallet screen with Create a new wallet selected. Below are the Import your wallet box and the Start and Cancel buttons" width="300" />
 
-## 8. 内容を確認して同意する
+## 8. Read and agree
 
-3 つの項目を読み、すべてにチェックを入れて **新規作成** を押します。すべてにチェックを入れるまで、**新規作成** は押せません。
+Read the three items, check all of them and press **Create Account**. You can't press **Create Account** until all three are checked.
 
-<img src="img/mobile-terms.png" alt="警告の画面。3 つのチェック項目すべてにチェックが入り、新規作成ボタンが押せる状態になっている" width="300" />
+<img src="img/mobile-terms.png" alt="The Warning screen. All three items are checked and the Create Account button can be pressed" width="300" />
 
-## 9. シードフレーズを控える
+## 9. Write down your seed phrase
 
-**Account Created !!** と表示されたら、ウォレットの作成は完了です。続けて、シードフレーズを控えます。
+When **Account Created !!** appears, your wallet is ready. Next, write down the seed phrase.
 
-1. **シードフレーズのバックアップ** を押します。
+1. Press **Backup Seed Phrase**.
 
-   <img src="img/mobile-account-created.png" alt="Account Created の画面。必ずシードフレーズのバックアップを行ってください、という注意と、シードフレーズのバックアップボタンがある" width="300" />
+   <img src="img/mobile-account-created.png" alt="The Account Created screen, with the note Be sure to backup your seed phrase without fail and a Backup Seed Phrase button" width="300" />
 
-2. **Seed Phraseの表示** を押します。周りの人から画面が見えないことを確認してから押してください。
+2. Press **Show Seed Phrase**. Make sure no one around you can see your screen first.
 
-   <img src="img/mobile-seed-export.png" alt="Seed Phrase のエクスポート画面。Seed Phrase の表示ボタンがある" width="300" />
+   <img src="img/mobile-seed-export.png" alt="The Export Seed Phrase screen with a Show Seed Phrase button" width="300" />
 
-3. 表示された 12 個の英単語を、**順番どおりに紙に書き写します**。書き終えたら、左上の **戻る** を押します。
+3. Copy the 12 English words onto paper, **in order**. When you're done, press **Back** at the top left.
 
-   <img src="img/mobile-seed-shown.png" alt="12 個の英単語が表示された画面（単語はぼかしてある）。下にクリップボードにコピーのボタンがある" width="300" />
+   <img src="img/mobile-seed-shown.png" alt="The screen showing the 12 words (blurred), with a Copy to Clipboard button below" width="300" />
 
-> **重要:** シードフレーズは紙に書いて、誰にも見せずに保管してください。**クリップボードにコピー** やスクリーンショットは使わないでください。ほかのアプリやクラウドに残り、盗まれるおそれがあります。シードフレーズを知られると、ウォレットの資産をすべて送金されてしまいます。
+> **Important:** Write the seed phrase on paper and keep it where no one else can see it. Don't use **Copy to Clipboard** or take a screenshot: it can stay in other apps or the cloud and be stolen. Anyone who knows your seed phrase can send away everything in your wallet.
 
-## 10. ウォレットアドレスを確認する
+## 10. Check your wallet address
 
-ウォレットのメイン画面が表示されます。**受け取る** を押すと、自分のウォレットアドレス（`0x` で始まる文字列）と QR コードが表示されます。ここまでできたら、準備は完了です。
+The wallet's main screen appears. Press **Receive** to see your wallet address (a string starting with `0x`) and its QR code. You're ready.
 
-<img src="img/mobile-main.png" alt="ウォレットのメイン画面。Account 1 の合計残高は 0 円で、送る と 受け取る のボタン、保有資産に Ether、JOC Coin、Tether USD が並ぶ" width="300" />
+<img src="img/mobile-main.png" alt="The wallet's main screen. Account 1 has a total balance of $0.00, with Send and Receive buttons, and Ether, JOC Coin and Tether USD under Assets in possession" width="300" />
 
-<img src="img/mobile-receive.png" alt="受け取る画面。QR コードとウォレットアドレス（どちらもぼかしてある）、コピーのボタン、完了ボタンがある" width="300" />
+<img src="img/mobile-receive.png" alt="The Receive screen with a QR code and the Wallet Address (both blurred), a copy button and a Done button" width="300" />
 
-ウォレットアドレスは、暗号資産を受け取るときに相手に伝えるものです。人に教えても、資産を盗まれることはありません。
+Your wallet address is what you give others so they can send you crypto. Sharing it doesn't let anyone take your assets.
 
-## 2 回目からは
+## After that
 
-ウォレットを開くとロック画面が表示されます。作成時に決めたマスターパスワードを入力してロックを解除します。iPhone で Face ID をオンにした場合は、Face ID で開けます。
+The wallet opens on the lock screen. Enter the master password you set when you created it to unlock it. If you turned on Face ID on an iPhone, you can unlock with Face ID.
 
-パスワードを忘れたときは、シードフレーズを使ってウォレットを入れ直すことになります。
+If you've forgotten the password, you'll have to set the wallet up again with your seed phrase.

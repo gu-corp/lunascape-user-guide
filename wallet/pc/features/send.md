@@ -3,47 +3,47 @@ navigation:
   order: 100
 ---
 
-# 送金する
+# Send
 
-暗号資産を、ほかのアドレスへ送ります。送った取引は取り消せないので、送金先とネットワークをよく確かめてください。
+Send crypto to another address. A transaction you've sent cannot be reversed, so check the recipient and network carefully.
 
-## 手順
+## Steps
 
-1. [保有資産](assets.md) で、送りたいトークンのネットワーク名（各行の右下）を確認します。送金は、そのトークンのネットワークで行われます（画面上で選んでいるネットワークとは関係ありません）。
-2. メイン画面の **送信** を押します。トークンの詳細画面の **送信** からも始められます。
-3. **トークンを送信** に送金先を入力します。
+1. In [Assets in possession](assets.md), check the network of the token you want to send (shown at the bottom right of each row). The send happens on the token's network, whichever network is selected at the top.
+2. Press **Send** on the main screen. You can also start from **Send** on a token's detail screen.
+3. Enter the recipient under **Send To**.
 
-   - アドレス（`0x` で始まる 42 文字）を貼り付けます。
-   - 人のアイコンで [アドレス帳](accounts.md#アドレス帳) を開き、保存した連絡先を選べます。ここから連絡先を追加することもできます。
-   - QR コードのアイコンで、相手のアドレスの QR コードをカメラで読み取れます。
-   - ENS 名（`name.eth` など）も入力できます。ENS に対応していないネットワークでは使えません。
+   - Paste the address (42 characters starting with `0x`).
+   - Use the person icon to open the [address book](accounts.md#address-book) and pick a saved contact. You can also add a contact there.
+   - Use the QR code icon to scan the recipient's address with your camera.
+   - You can also enter an ENS name (such as `name.eth`). This doesn't work on networks without ENS.
 
-4. **トークン** で送るトークンを選び、**送金量** を入力します。
-5. **送信** を押し、送金先・金額・手数料（ガス代）を確認して確定します。
+4. Choose the token under **Token** and enter the **Transaction Amount**.
+5. Press **Send**, check the recipient, amount and fee (gas), and confirm.
 
-<img src="img/send.png" alt="送信画面。上に選んだトークン Ether の残高、その下にトークンを送信の送金先欄、トークンの選択、送金量の欄、送信ボタンが並ぶ" width="300" />
+<img src="img/send.png" alt="The send screen. At the top, the balance of the chosen token Ether; below it the Send To field, the token selector, the Transaction Amount field and the Send button" width="300" />
 
-送金が終わると通知が表示され、[利用履歴](assets.md#利用履歴) に記録されます。
+When the transaction finishes, a notification appears and it's recorded in [Transaction History](assets.md#transaction-history).
 
-## 手数料（ガス代）について
+## About fees (gas)
 
-ブロックチェーンに取引を送るには、手数料（ガス代）がかかります。手数料は、送るトークンとは別に、そのネットワークの基本の通貨で支払います。
+Sending a transaction to the blockchain costs a fee (gas). The fee is paid in the network's own currency, separately from the token you send.
 
-| ネットワーク | 手数料に使う通貨 |
+| Network | Fees paid in |
 | --- | --- |
 | Ethereum | ETH |
 | Japan Open Chain | JOC |
 
-たとえば Ethereum で USDC を送るときも、ETH が少し必要です。足りないと **手数料（ガス代）が不足しています** と表示され、送れません。送るトークンそのものの残高が足りないときは、**資金が不足しています** と表示されます。
+For example, sending USDC on Ethereum still needs a little ETH. If you don't have enough, the wallet shows **Fees (gas) are insufficient.** and won't send. If the token's own balance is too low, it shows **Your balance is insufficient**.
 
-## 送る前に確かめること
+## Check before you send
 
-- **ネットワーク**: 相手が受け取るネットワークと同じですか。違うネットワークに送ると、相手は受け取れないことがあります。
-- **アドレス**: 1 文字でも違うと、別の人に届きます。手入力せず、コピーと貼り付けか QR コードを使ってください。最初の数文字と最後の数文字を見比べると安心です。
-- **金額**: 小数点の位置を確かめてください。
+- **Network**: Is it the same network the recipient will receive on? If you send on a different network, they may not receive it.
+- **Address**: A single wrong character sends it to someone else. Don't type it — copy and paste it or scan the QR code. Comparing the first and last few characters helps.
+- **Amount**: Check where the decimal point is.
 
-初めての相手には、少額を送って届いたことを確かめてから、残りを送ると安全です。
+For a new recipient, it's safer to send a small amount first, confirm it arrived, then send the rest.
 
-## うまくいかないとき
+## If something goes wrong
 
-[送金・取引のトラブル](../troubleshooting/transactions.md) を参照してください。
+See [Sending and transaction problems](../troubleshooting/transactions.md).

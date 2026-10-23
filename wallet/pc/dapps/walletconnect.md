@@ -3,26 +3,26 @@ navigation:
   order: 200
 ---
 
-# WalletConnect で接続する
+# Connect with WalletConnect
 
-WalletConnect は、ウォレットとサイト・アプリを QR コードや URI で接続するしくみです。ブラウザーの拡張機能に対応していないサイトや、別の端末のサイトと接続するときに使います。
+WalletConnect connects a wallet to sites and apps with a QR code or URI. Use it for sites that don't work with browser extensions, or for a site on another device.
 
-## 有効にする
+## Turn it on
 
-WalletConnect は最初はオフです。ウォレットの **設定** > **高度な設定** で **WalletConnect** をオンにします。
+WalletConnect is off at first. Turn on **WalletConnect** under the wallet's **Settings** > **Advanced Options**.
 
-<img src="img/settings-advanced.png" alt="ウォレットの設定の高度な設定。接続に WalletConnect と ethereum.isMetaMask のスイッチ、実験的な機能に Tor ネットワーク経由でトランザクションを送信するのスイッチがある" width="560" />
+<img src="img/settings-advanced.png" alt="The Advanced Options page of the wallet's settings, with WalletConnect and Enable ethereum.is MetaMask switches under Connection, and a Sending transactions via the Tor network switch under Experimental Features" width="560" />
 
-## 接続する
+## Connect
 
-1. サイトで WalletConnect を選び、接続用の QR コードを表示させます。
-2. Lunascape Wallet が **WalletConnectに接続** の画面を案内します。表示中の QR コードを読み取るか、サイトがコピーさせる URI（`wc:` で始まる文字列）を **WCのURIを貼り付け** に貼り付けます。
-3. 接続の確認画面で、サイトを確かめて **接続する** を押します。接続すると、サイトにアカウントのアドレスが伝わります。
+1. On the site, choose WalletConnect so that it shows a connection QR code.
+2. Lunascape Wallet takes you to **Connect to WalletConnect**. Scan the QR code, or paste the URI the site lets you copy (a string starting with `wc:`) into **Paste the WC URI**.
+3. On the confirmation screen, check the site and press **Connect**. Connecting shares your account's address with the site.
 
-カメラで QR コードを読み取るには、**設定** > **セキュリティ** の **QRコード撮影のためにカメラの起動を許可する** をオンにします。
+To scan QR codes with your camera, turn on **Allow camera permission for QR code capture** under **Settings** > **Security & Privacy**.
 
-## 接続中のセッションを確認・切断する
+## Check or end sessions
 
-WalletConnect をオンにすると、**設定** > **高度な設定** に **WalletConnectセッション** が表示されます。ここで接続中のサイトを確認し、使わなくなった接続を切断できます。
+With WalletConnect on, **WalletConnect Sessions** appears under **Settings** > **Advanced Options**. See the sites you're connected to there, and disconnect the ones you no longer use.
 
-WalletConnect を使わないときは、オフにしておくことをおすすめします。
+We recommend leaving WalletConnect off when you're not using it.

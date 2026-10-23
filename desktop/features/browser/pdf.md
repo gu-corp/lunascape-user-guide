@@ -3,27 +3,27 @@ navigation:
   order: 800
 ---
 
-# PDF を表示する
+# PDFs
 
-PDF へのリンクを開くと、内蔵の PDF ビューアで表示されます。ダウンロードしなくてもそのまま読めます。
+A link to a PDF opens in the built-in viewer. You do not have to download it first.
 
-## ビューアでできること
+## In the viewer
 
-- ページの移動と拡大・縮小
-- ページ内のテキスト検索
-- 印刷
-- ファイルとして保存（ダウンロード）
+- Move between pages, zoom in and out
+- Search the text of the document
+- Print
+- Save the file (download it)
 
-## ログインが必要なサイトの PDF
+## PDFs behind a login
 
-社内システムなど、ログインが必要なサイトの PDF も、ログインした状態のまま表示できます。
+A PDF on a site you had to sign in to — an intranet, for example — opens with that session intact.
 
-## 表示できないときは
+## If it does not open
 
-- ページを再読み込みしてください。
-- 一度ダウンロードして、PC 上の PDF リーダーで開けるか確認してください。
-- それでも表示されない場合は[不具合の報告](../../troubleshooting/README.md)を参照してください。
+- Reload the page.
+- Download the file and check whether a PDF reader on your computer can open it.
+- If it still fails, see [Troubleshooting](../../troubleshooting/README.md).
 
-## 関連項目
+## Related topics
 
-- [ダウンロード](downloads.md)
+- [Downloads](downloads.md)

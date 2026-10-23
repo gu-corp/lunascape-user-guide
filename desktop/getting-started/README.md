@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: "はじめに"
+  title: "Getting Started"
   order: 200
 ---
 
-# はじめに
+# Getting Started
 
-インストールから、画面の見かた、既定のブラウザーへの設定、他のブラウザーからの移行、アップデートまで。
+From installing to knowing the window, making Lunascape the default, bringing your data over, and updating.
 
-- [インストールする](install.md) — Lunascape Desktop は公式サイトからダウンロードします。
-- [画面各部の名称](screen.md) — Lunascape のウィンドウは、上から順に次の要素で構成されています。
-- [他のブラウザーからデータを移行する](import.md) — Chrome などのブラウザーから、ブックマーク・履歴・パスワードを取り込めます。
-- [既定のブラウザーに設定する](default-browser.md) — 既定のブラウザーにすると、他のアプリで開いたリンクが Lunascape で開きます。
-- [アップデートする](update.md) — Lunascape は新しいバージョンを自動的に確認し、見つかると画面に知らせます。
+- [Set as the default browser](default-browser.md) — Once Lunascape is the default browser, links from other applications open in it.
+- [Import your data](import.md) — Bring bookmarks, history and passwords over from Chrome and other browsers.
+- [Install](install.md) — Download Lunascape Desktop from the official site.
+- [The browser window](screen.md) — The window is made up of these parts, from top to bottom.
+- [Update](update.md) — Lunascape checks for a new version on its own and tells you when it finds one.

@@ -3,29 +3,29 @@ navigation:
   order: 200
 ---
 
-# 受け取る
+# Receive
 
-自分のアドレスを相手に伝えて、暗号資産を送ってもらいます。アドレスは他人に知られても問題ありません（アドレスを知られても、資産を勝手に引き出されることはありません）。
+Give someone your address so they can send you crypto. It's fine for others to know your address — they can't take your assets with it.
 
-## 手順
+## Steps
 
-1. 相手が送ってくるネットワーク（Ethereum、Japan Open Chain など）を確かめておきます。
-2. メイン画面の **受け取る** を押します。
-3. 表示された QR コードを相手に読み取ってもらうか、**自分のアドレス** の横のコピーのアイコンでアドレスをコピーして伝えます。
-4. **完了** で閉じます。
+1. Find out which network (Ethereum, Japan Open Chain and so on) the sender will use.
+2. Press **Receive** on the main screen.
+3. Let the sender scan the QR code, or press the copy icon next to **My Address** and send them the address.
+4. Press **Done** to close.
 
-<img src="img/receive.png" alt="受け取る画面。QR コードと自分のアドレス、コピーのボタン、完了ボタンがある（QR コードとアドレスはぼかしてある）" width="300" />
+<img src="img/receive.png" alt="The receive screen, with a QR code, My Address with a copy button, and a Done button (the QR code and address are blurred)" width="300" />
 
-メイン画面のアカウント名の横にあるコピーのアイコンからも、アドレスをコピーできます。
+You can also copy your address with the copy icon next to the account name on the main screen.
 
-## 届いたか確かめる
+## Check that it arrived
 
-- 受け取ったトークンは [保有資産](assets.md) に表示されます。表示されないときは、右上の更新のアイコンを押します。
-- 一覧にないトークンを受け取ったときは、[トークンを追加](assets.md#トークンを追加する) すると表示されます。
-- 取引の状況は、相手から取引 ID（トランザクションハッシュ）を聞いて、ブロックエクスプローラー（Etherscan など）で確かめられます。
+- Tokens you receive appear in [Assets in possession](assets.md). If they don't, press the refresh icon at the top right.
+- If you received a token that isn't in the list, [add the token](assets.md#add-a-token) and it will appear.
+- To follow a transaction, ask the sender for the transaction ID (transaction hash) and look it up in a block explorer such as Etherscan.
 
-## 注意
+## Notes
 
-自分のアドレスは、Ethereum でも Japan Open Chain でも同じ文字列です。ただし資産はネットワークごとに別々に管理されます。保有資産の一覧では、トークンごとにネットワーク名が表示されます（同じ USDT でも、Ethereum 上のものと Japan Open Chain 上のものは別の資産です）。
+Your address is the same string on Ethereum and on Japan Open Chain, but assets are kept separately on each network. The asset list shows the network for each token (USDT on Ethereum and USDT on Japan Open Chain are different assets).
 
-テストネット（Sepolia Test Network など）の資産は、練習用で価値がありません。
+Assets on testnets (such as Sepolia Test Network) are for practice and have no value.

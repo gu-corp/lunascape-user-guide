@@ -3,81 +3,81 @@ navigation:
   order: 600
 ---
 
-# ウォレット設定
+# Wallet Settings
 
-アカウント、保存済みアドレス、ネットワーク、表示通貨、接続、セキュリティを管理します。
+Open Wallet Settings to manage accounts, saved addresses, networks, display currency, connections, and security options.
 
-> **重要:** アカウントの削除、ウォレットの置き換え、マスターパスワードの変更を行う前に、リカバリーフレーズと個別にインポートした秘密鍵をバックアップしてください。
+> **Important:** Back up the recovery phrase and any separately imported private keys before deleting accounts, replacing the wallet, or changing the master password.
 
-## アカウント
+## Account
 
-既存のアカウントと、現在選択中のアカウントを表示します。
+The account list shows existing accounts and the currently selected account.
 
-<img src="img/Screenshot_2025-09-24_at_17.41.46.png" alt="ウォレット設定の画面 1" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.41.46.png" alt="Wallet Settings screen 1" width="560" />
 
-アカウントは次の2つの方法で追加できます。
+You can add accounts in two ways:
 
-- **アカウントを作成**：現在のリカバリーフレーズから別のアカウントを生成します。
-- **秘密鍵をインポート**：別に管理されている秘密鍵からアカウントを追加します。
+- **Create Account**: derives another account from the recovery phrase already in use.
+- **Import Secret Key**: adds an account from a separate private key.
 
-<img src="img/Screenshot_2025-09-24_at_17.45.17.png" alt="ウォレット設定の画面 2" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.45.17.png" alt="Wallet Settings screen 2" width="560" />
 
-### アカウント詳細
+### Account details
 
-アカウント名、アドレス、秘密鍵を表示します。編集できるのはアカウント名だけです。アドレスと秘密鍵はコピーでき、アカウントの削除もできます。
+The details screen shows the account name, address, and private key. Only the account name can be edited. The address and private key can be copied, and the account can be deleted.
 
-<img src="img/Screenshot_2025-09-24_at_17.50.27.png" alt="ウォレット設定の画面 3" width="360" />
+<img src="img/Screenshot_2025-09-24_at_17.50.27.png" alt="Wallet Settings screen 3" width="360" />
 
-> **警告:** 秘密鍵を知っている人は、そのアカウントを完全に操作できます。必要な場合以外はコピーせず、Webサイト、メッセージ、サポート依頼へ貼り付けないでください。秘密鍵をバックアップせずにインポート済みアカウントを削除すると、永久にアクセスできなくなる場合があります。
+> **Warning:** A private key gives full control of that account. Do not copy it unless necessary, and never paste it into a website, message, or support request. Deleting an imported account without backing up its private key can permanently remove your access.
 
-## アドレス帳
+## Address Book
 
-よく使うアドレスに名前と説明を付けて保存します。
+The Address Book stores names and notes for frequently used addresses.
 
-<img src="img/Screenshot_2025-09-24_at_18.05.31.png" alt="ウォレット設定の画面 4" width="560" />
+<img src="img/Screenshot_2025-09-24_at_18.05.31.png" alt="Wallet Settings screen 4" width="560" />
 
-**連絡先を追加**
+**Add Contact**
 
-次の項目を入力します。
+Enter:
 
-- 名前
-- アドレス
-- 説明：連絡先の詳細な説明を追加
+- Name
+- Address
+- Description: add detailed description for contact
 
-<img src="img/Screenshot_2025-09-24_at_18.06.12.png" alt="ウォレット設定の画面 5" width="560" />
+<img src="img/Screenshot_2025-09-24_at_18.06.12.png" alt="Wallet Settings screen 5" width="560" />
 
-> **注意:** 保存した名前は、現在もそのアドレスが正しいことや、意図した相手のものであることを保証しません。送金ごとに完全なアドレスとネットワークを確認してください。
+> **Caution:** A saved name does not prove that an address is still correct or belongs to the intended person. Verify the full address and network before every transfer.
 
-## ネットワーク
+## Network
 
-設定済みのネットワークと、現在選択中のネットワークを表示します。
+The network list shows configured networks and the currently selected network.
 
-<img src="img/Screenshot_2025-09-25_at_14.20.08.png" alt="ウォレット設定の画面 6" width="560" />
+<img src="img/Screenshot_2025-09-25_at_14.20.08.png" alt="Wallet Settings screen 6" width="560" />
 
-ネットワークの選択、追加、編集ができます。
+You can select, add, or edit a network.
 
-### ネットワークを追加する
+### Add a network
 
-ネットワークの公式ドキュメントで次の情報を確認します。
+Obtain the following values from the network's official documentation:
 
-- ネットワーク名（必須）
-- RPC URL（必須）
-- チェーンID（必須。RPC URLから自動取得される場合があります）
-- ネイティブトークンのシンボル（必須）
-- ネイティブトークン名（必須）
-- ブロックエクスプローラーURL（任意）
+- Network name (required)
+- RPC URL (required)
+- Chain ID (required; it may be detected from the RPC URL)
+- Native-token symbol (required)
+- Native-token name (required)
+- Block Explorer URL (optional)
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-25_at_14.53.30.png" alt="ウォレット設定の画面 7" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-25_at_14.53.30.png" alt="Wallet Settings screen 7" width="360" />
 
-追加済みネットワークでは、ブロックエクスプローラーURLだけを編集できます。
+For an existing network, only the Block Explorer URL can be edited.
 
-> **警告:** 悪意あるRPCは、誤ったブロックチェーン情報を返したり、利用状況を追跡したりする可能性があります。RPC URLとチェーンIDをネットワークの公式ドキュメントで確認してください。
+> **Warning:** A malicious RPC endpoint can provide false blockchain data or track activity. Verify the RPC URL and chain ID with the network's official documentation.
 
-## 通貨変換
+## Currency Conversion
 
-推定残高の表示に使う法定通貨を選びます。
+Select the fiat currency used for estimated balance values.
 
-利用できる通貨：
+Available currencies:
 
 - USD
 - JPY
@@ -89,80 +89,80 @@ navigation:
 - KRW
 - SGD
 
-<img src="img/Screenshot_2025-09-25_at_15.53.37.png" alt="ウォレット設定の画面 8" width="360" />
+<img src="img/Screenshot_2025-09-25_at_15.53.37.png" alt="Wallet Settings screen 8" width="360" />
 
-法定通貨への換算額は推定値で、遅延・欠落する場合があります。
+Fiat values are estimates and may be delayed or unavailable.
 
 ## WalletConnect
 
-現在のWalletConnectセッションを表示します。**新しい接続**をタップしてDAppのQRコードを読み取れます。ホーム画面またはウォレットダッシュボードからスキャナーを開くこともできます。
+This list shows active WalletConnect sessions. Tap **New Connection** to scan a DApp's QR code. You can also start the scanner from the Home screen or Wallet Dashboard.
 
-セッションを削除すると、そのDAppとの接続が切断されます。使わなくなった接続や、覚えのない接続は削除してください。
+Delete a session to disconnect that DApp. Remove sessions you no longer recognize or use.
 
-<img src="img/Screenshot_2025-09-25_at_16.52.44.png" alt="ウォレット設定の画面 9" width="560" />
+<img src="img/Screenshot_2025-09-25_at_16.52.44.png" alt="Wallet Settings screen 9" width="560" />
 
-## 許可されたWebサイト
+## Permitted websites
 
-ウォレットへの接続を許可したWebサイトを、アカウントごとに表示します。
+This list shows websites allowed to connect to each wallet account.
 
-<img src="img/Screenshot_2025-09-25_at_16.03.10.png" alt="ウォレット設定の画面 10" width="560" />
+<img src="img/Screenshot_2025-09-25_at_16.03.10.png" alt="Wallet Settings screen 10" width="560" />
 
-DAppへの接続を承認すると、そのURLが一覧へ追加されます。次回以降は、接続確認なしで許可済みアカウントへ再接続できます。使わないサイトや信頼できないサイトは削除してください。**リストに追加**から手動登録もできます。
+After you approve a DApp connection, its URL is added here. On later visits, the listed site can reconnect to the approved account without another connection prompt. Remove sites you no longer use or trust. You can also add a site manually with **Add to List**.
 
-> **重要:** 接続許可だけで署名や取引が自動承認されるわけではありませんが、アカウントのアドレスがサイトへ伝わり、要求を送れる状態になります。許可前に、スペルを含む完全なドメインを確認してください。
+> **Important:** Permission to connect does not by itself authorize every signature or transaction, but it exposes the account address and lets the site send requests. Verify the full domain, including spelling, before allowing it.
 
-## シードフレーズをエクスポート
+## Export Seed Phrase
 
-バックアップ用にウォレットのリカバリーフレーズを表示します。
+Shows the wallet recovery phrase for backup.
 
-<img src="img/Screenshot_2025-09-25_at_16.44.42.png" alt="ウォレット設定の画面 11" width="560" />
+<img src="img/Screenshot_2025-09-25_at_16.44.42.png" alt="Wallet Settings screen 11" width="560" />
 
-> **危険:** リカバリーフレーズを見た人はウォレットの資産を操作できます。人目のない場所で表示し、正しい順序でオフラインに記録してください。Lunascapeのサポートを含む第三者へ共有したり、Webサイトへ入力したりしないでください。
+> **Danger:** Anyone who sees the recovery phrase can take the wallet's assets. View it only in private, record it offline in the correct order, and never share it with Lunascape support or enter it on a website.
 
-## マスターパスワードを変更
+## Change Master Password
 
-<img src="img/Screenshot_2025-09-25_at_17.04.04.png" alt="ウォレット設定の画面 12" width="560" />
+<img src="img/Screenshot_2025-09-25_at_17.04.04.png" alt="Wallet Settings screen 12" width="560" />
 
-マスターパスワードを変更すると、入力したリカバリーフレーズからウォレットが再作成されます。現在のウォレットに新しいパスワードを設定する場合と、別のウォレットへ置き換える場合に使います。
+Changing the master password recreates the wallet from a recovery phrase. It can be used to set a new password for the current wallet or to replace it with a different wallet.
 
-### 現在のウォレットのパスワードをリセットする
+### Reset the password for the current wallet
 
-生体認証でまだ開ける場合は、最初に現在のリカバリーフレーズと、個別にインポートした秘密鍵を安全にバックアップします。そのリカバリーフレーズを入力し、新しいパスワードを設定します。
+If biometric unlock still works, first export and securely back up the current recovery phrase and any separately imported private keys. Enter that recovery phrase and create a new password.
 
-- 現在のアカウント一覧、表示トークン、カスタムネットワーク、端末内の取引履歴は削除され、再構築されます。
-- **アカウントを作成**で追加したアカウントは、同じリカバリーフレーズから再生成できます。
-- **秘密鍵をインポート**で追加したアカウントは、そのフレーズに含まれません。秘密鍵を個別にバックアップしてください。
+- The current account list, displayed tokens, custom networks, and local transaction history are deleted and rebuilt.
+- Accounts created with **Create Account** can be derived again from the same recovery phrase.
+- Accounts added with **Import Secret Key** are not part of that recovery phrase. Back up each private key separately.
 
-### ウォレットを置き換える
+### Replace the wallet
 
-別のリカバリーフレーズを入力すると、現在のウォレットが置き換わり、新しいパスワードが設定されます。続行前に、現在のリカバリーフレーズ、インポートした秘密鍵、アドレス、カスタムネットワーク情報を保存してください。
+Entering a different recovery phrase replaces the current wallet and sets a new password. Back up the current recovery phrase, imported private keys, addresses, and custom network details before continuing.
 
-> **危険:** この操作では現在の端末内ウォレットデータが削除されます。必要なバックアップが完全で、読み取れることを確認するまで実行しないでください。
+> **Danger:** This operation removes current local wallet data. Do not proceed until you have tested that every required backup is complete and readable.
 
-## Face ID / Touch IDでロック解除（iOSのみ）
+## Unlock with Face ID / Touch ID (iOS only)
 
-Face IDまたはTouch IDでウォレットを開けるようにします。有効にしても、ウォレットパスワードとリカバリーフレーズの安全なバックアップを維持してください。
+Allows the wallet to be unlocked with Face ID or Touch ID. Keep a valid wallet password and recovery backup even when biometrics are enabled.
 
-## Face ID / Touch IDで取引を送信（iOSのみ）
+## Send transaction with Face ID / Touch ID (iOS only)
 
-取引ごとのパスワード入力の代わりに、Face IDまたはTouch IDで確定できるようにします。認証前に取引内容を必ず確認してください。
+Allows transaction confirmation with Face ID or Touch ID instead of entering the wallet password each time. Always review the transaction details before authenticating.
 
-## ethereum.isMetaMaskを有効にする
+## Enable ethereum.isMetaMask
 
-**初期値:** 無効
+**Default:** Off
 
-MetaMask互換ウォレットの検出に使われるプロバイダーフラグで、Lunascapeを識別させる互換設定です。
+This compatibility option makes Lunascape identify itself through the provider flag commonly checked for MetaMask-compatible wallets.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.08.19.png" alt="ウォレット設定の画面 13" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.08.19.png" alt="Wallet Settings screen 13" width="360" />
 
-一部のDAppではLunascapeが直接一覧に表示されず、MetaMaskだけが選択肢に表示されることがあります。
+Some DApps do not list Lunascape directly and only show a MetaMask option.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.14.31.png" alt="ウォレット設定の画面 14" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.14.31.png" alt="Wallet Settings screen 14" width="360" />
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.15.34.png" alt="ウォレット設定の画面 15" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.15.34.png" alt="Wallet Settings screen 15" width="360" />
 
-その場合はこの設定を有効にし、DApp側でMetaMaskを選びます。接続と承認の画面は引き続きLunascapeが表示します。
+In that case, enable this setting and select MetaMask in the DApp. The connection and approval screens still belong to the Lunascape wallet.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.18.21.png" alt="ウォレット設定の画面 16" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_11.18.21.png" alt="Wallet Settings screen 16" width="360" />
 
-> **注意:** この設定が変えるのは互換性のための検出方法だけです。MetaMaskがインストールされたり、ウォレットが移動したり、信頼できないDAppが安全になったりするものではありません。
+> **Note:** This setting changes compatibility detection only. It does not install MetaMask, move your wallet, or make an untrusted DApp safe.

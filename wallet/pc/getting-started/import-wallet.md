@@ -3,32 +3,32 @@ navigation:
   order: 300
 ---
 
-# ウォレットをインポートする
+# Import a wallet
 
-別のパソコンやブラウザー、ほかのウォレットアプリで使っていたウォレットを、12 語のシードフレーズで取り込みます。同じシードフレーズからは、同じアドレスと資産が表示されます。ただし、秘密鍵や Ledger で追加したアカウントは、シードフレーズでは戻りません。
+Bring in a wallet you used on another computer, in another browser or in another wallet app, using its 12-word seed phrase. The same seed phrase shows the same addresses and assets. Accounts added with a private key or a Ledger don't come back with the seed phrase, though.
 
-## はじめて開いたときに取り込む
+## When you first open the wallet
 
-1. **ローカルウォレットの作成** で **ウォレットをインポート** を選び、**次** を押します。
-2. 画面の案内に従って、シードフレーズの 12 語（それぞれ半角スペースで区切る）と、新しいマスターパスワード（8 文字以上）を入力します。
-3. 利用規約に同意すると、メイン画面が表示されます。
+1. On **Create a local wallet**, choose **Import your wallet.** and press **Next**.
+2. Follow the screens to enter the 12 words of the seed phrase (separated by single spaces) and a new master password (at least 8 characters).
+3. Accept the terms of use, and the main screen appears.
 
-## ロック画面から取り込む（入れ直す）
+## From the lock screen (setting it up again)
 
-マスターパスワードを忘れたときや、ウォレットを入れ直したいときは、ロック画面の **ウォレットを復元** から取り込めます。
+If you've forgotten the master password, or want to set the wallet up again, use **Restore Wallet** on the lock screen.
 
-1. ロック画面で **ウォレットを復元** を押します。
-2. **シードフレーズでアカウントを復元** に、シードフレーズと新しいパスワード（2 回）を入力します。
-3. **リストア** を押します。
+1. On the lock screen, press **Restore Wallet**.
+2. On **Restore your Account with Seed Phrase**, enter the seed phrase and a new password (twice).
+3. Press **Restore**.
 
-<img src="img/restore-wallet.png" alt="シードフレーズでアカウントを復元する画面。シードフレーズの入力欄、新規パスワードとパスワードの確認の欄、リストアボタンがある" width="300" />
+<img src="img/restore-wallet.png" alt="The Restore your Account with Seed Phrase screen, with a seed phrase box, new password and confirm password fields, and a Restore button" width="300" />
 
-## 注意
+## Notes
 
-- シードフレーズは、単語のつづりと順番が 1 つでも違うと取り込めません（**無効なシークレットリカバリーフレーズ** と表示されます。シークレットリカバリーフレーズは、シードフレーズのことです）。
-- 取り込むと、このブラウザーに入っていたウォレットは置き換わります。置き換える前のウォレットを残したいときは、先にそのシードフレーズを控えてください。
-- シードフレーズを入力するのは、Lunascape Wallet の画面の中だけにしてください。サイトやメール、チャットで「シードフレーズを入力して」と求められたら詐欺です。
+- If a single word is misspelled or out of order, the import fails (**Invalid secret recovery phrase** — the secret recovery phrase is the seed phrase).
+- Importing replaces the wallet that was in this browser. To keep that wallet, write down its seed phrase first.
+- Only ever type your seed phrase into Lunascape Wallet itself. A website, email or chat that asks you to "enter your seed phrase" is a scam.
 
-## 1 つのアカウントだけを取り込む
+## Import just one account
 
-シードフレーズではなく、特定のアカウントの秘密鍵だけを取り込むこともできます。[アカウントを管理する](../features/accounts.md) を参照してください。
+You can also import a single account with its private key instead of the seed phrase. See [Manage accounts](../features/accounts.md).

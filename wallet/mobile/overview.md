@@ -1,22 +1,22 @@
 ---
 navigation:
+  title: "Overview"
   order: 150
-  title: "概要"
 ---
 
-# ウォレットの概要
+# Wallet overview
 
-Lunascapeには、EthereumなどのEVM互換ネットワークで利用できるセルフカストディ型ウォレットがあります。ウォレット設定から対応するEVMネットワークを追加できます。BitcoinやSolanaなどの非EVMネットワークには対応していません。
+Lunascape includes a self-custody wallet for EVM-compatible networks, including Ethereum and compatible networks added in Wallet Settings. It does not support non-EVM networks such as Bitcoin or Solana.
 
-## はじめに
+## Get started
 
-| 操作 | ヘルプ |
+| Task | Help |
 | --- | --- |
-| ウォレットを作成する／リカバリーフレーズから復元する | [ウォレットを作成・インポートする](create-wallet.md) |
-| 残高や最近の操作を確認する | [ウォレットダッシュボード](wallet-dashboard.md) |
-| トークンを表示・追加・整理する | [アセット一覧](asset-list.md) |
-| アカウント、ネットワーク、セキュリティを管理する | [ウォレット設定](wallet-settings.md) |
-| QRコードやディープリンクでDAppに接続する | [WalletConnect](walletconnect.md) |
-| DAppへの接続、署名、ネットワーク切り替え、送金を行う | [DAppでのウォレット操作](wallet-operations.md) |
+| Create a wallet or import a recovery phrase | [Create or import a wallet](create-wallet.md) |
+| Check balances and recent activity | [Wallet Dashboard](wallet-dashboard.md) |
+| View, add, or organize tokens | [Asset List](asset-list.md) |
+| Manage accounts, networks, and security | [Wallet Settings](wallet-settings.md) |
+| Connect to a DApp by QR code or deep link | [WalletConnect](walletconnect.md) |
+| Connect, sign, switch networks, or send from a DApp | [Wallet operations with DApps](wallet-operations.md) |
 
-> **重要:** このウォレットは利用者自身が管理します。Lunascapeは、紛失したリカバリーフレーズを復元したり、ブロックチェーン上の取引を取り消したりできません。リカバリーフレーズ、秘密鍵、ウォレットパスワードは誰にも共有せず、承認前にネットワーク、アドレス、トークン、数量、手数料を確認してください。
+> **Important:** You control this wallet. Lunascape cannot recover a lost recovery phrase or reverse a blockchain transaction. Never share your recovery phrase, private key, or wallet password. Verify the network, address, token, amount, and fee before approving any request.

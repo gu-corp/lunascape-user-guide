@@ -3,29 +3,29 @@ navigation:
   order: 400
 ---
 
-# 既定のブラウザーに設定する
+# Set as the default browser
 
-既定のブラウザーにすると、他のアプリで開いたリンクが Lunascape で開きます。
+Once Lunascape is the default browser, links from other applications open in it.
 
-## Lunascape から設定する
+## From Lunascape
 
-Lunascape が既定のブラウザーでないと、画面上部に「Lunascape を既定のブラウザにすると、他のアプリで開いたリンクもここで開きます。」というバーが表示されます。
+While Lunascape is not the default browser, a bar at the top of the window says: "Make Lunascape your default browser and links from other apps will open here."
 
-- **既定にする**: Lunascape を既定のブラウザーにします。Windows では Windows の設定が開くので、そこで Lunascape を選びます。
-- **しばらく表示しない**: しばらくの間、バーを表示しません。
-- **閉じる**: バーを閉じます。
+- **Set as default**: makes Lunascape the default browser. On Windows, Windows Settings opens — choose Lunascape there.
+- **Remind me later**: hides the bar for a while.
+- **Dismiss**: closes the bar.
 
-あとから設定するときは、**設定** > **一般** の **既定のブラウザ** で **Lunascapeを既定のブラウザに設定する** を押します。
+To do it later, press **Set Lunascape as the default browser** under **Settings** > **General** > **Default browser**.
 
-## OS の設定から変更する
+## From the operating system
 
-バーが表示されない場合は、OS 側から変更します。
+If the bar is not shown, change it from the OS.
 
-- **Windows**: **設定** > **アプリ** > **既定のアプリ** で Lunascape を選び、`.htm` / `.html` / `HTTP` / `HTTPS` を Lunascape に割り当てます。
-- **macOS**: **システム設定** > **デスクトップとDock** > **デフォルトのWebブラウザ** で Lunascape を選びます。
+- **Windows**: **Settings** > **Apps** > **Default apps**, choose Lunascape, then assign `.htm`, `.html`, `HTTP` and `HTTPS` to it.
+- **macOS**: **System Settings** > **Desktop & Dock** > **Default web browser**, and choose Lunascape.
 
-> **注意:** Windows では、リンクの種類ごとに割り当てが分かれています。1 か所だけ変更しても、他の種類は前のブラウザーのままになることがあります。
+> **Note:** Windows assigns each link type separately. Changing one of them leaves the rest with the previous browser.
 
-## 関連項目
+## Related topics
 
-- [設定一覧](../settings/overview.md)
+- [Settings](../settings/overview.md)

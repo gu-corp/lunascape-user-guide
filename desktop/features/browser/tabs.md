@@ -3,38 +3,38 @@ navigation:
   order: 200
 ---
 
-# タブを操作する
+# Tabs
 
-## 開く・閉じる・切り替える
+## Open, close, switch
 
-- 新しいタブ: タブバー右端の **+**、または `Ctrl+T` / `Cmd+T`
-- タブを閉じる: タブの **×**、または `Ctrl+W` / `Cmd+W`
-- 閉じたタブを開き直す: `Ctrl+Shift+T` / `Cmd+Shift+T`
-- 隣のタブへ移動: `Ctrl+Tab`（前に戻るときは `Ctrl+Shift+Tab`）
-- 左右のタブへ移動: `Ctrl+1`〜`Ctrl+9` で 1〜9 番目のタブに切り替え
+- New tab: the **+** at the end of the tab bar, or `Ctrl+T` / `Cmd+T`
+- Close a tab: the **×** on the tab, or `Ctrl+W` / `Cmd+W`
+- Reopen the tab you just closed: `Ctrl+Shift+T` / `Cmd+Shift+T`
+- Next tab: `Ctrl+Tab` (previous tab: `Ctrl+Shift+Tab`)
+- Jump to the 1st–9th tab: `Ctrl+1` to `Ctrl+9`
 
-## 並べ替える・分離する
+## Reorder and detach
 
-- タブを左右へドラッグすると並び順を変えられます。
-- タブをタブバーの外へドラッグすると、そのタブだけの新しいウィンドウになります。
-- 分離したタブは、別のウィンドウのタブバーへドラッグすると元に戻せます。
-- ブックマークバーやサイドバーの上でドロップすると、そのタブをブックマークに追加できます。
+- Drag a tab left or right to reorder it.
+- Drag a tab out of the tab bar to give it a window of its own.
+- Drag a detached tab onto another window's tab bar to put it back.
+- Drop a tab on the bookmarks bar or the sidebar to bookmark it.
 
-## タブを右クリックしてできること
+## Right-click a tab
 
-タブを右クリックすると、次の操作ができます。
+Right-clicking a tab offers these actions:
 
-- 新しいタブを開く、このタブを新しいウィンドウで開く
-- 更新する、タブを複製する、タブをミュートする
-- タブをグループに追加する（[タブグループ](tab-groups.md)）
-- タブを閉じる、他のタブを閉じる
+- Open a new tab, or open this tab in a new window
+- Reload, duplicate or mute the tab
+- Add the tab to a group ([Tab groups](tab-groups.md))
+- Close the tab, or close the other tabs
 
-## 表示に関する設定
+## Appearance
 
-- タブにサイトのアイコンを表示するかどうかは **設定** > **外観** の **タブにアイコンを表示する** で変更できます。
-- アドレスバーに入力したページを新しいタブで開くかどうかは、**設定** > **一般** の **タブ** にある **アドレスバーから入力した際に新しいタブで開く** で切り替えます。
+- **Settings** > **Appearance** > **Show icons on tabs** controls the site icon on each tab.
+- Whether an address typed into the address bar opens in a new tab is set under **Settings** > **General** > **Tabs**.
 
-## 関連項目
+## Related topics
 
-- [タブグループ](tab-groups.md)
-- [キーボードショートカット](shortcuts.md)
+- [Tab groups](tab-groups.md)
+- [Keyboard shortcuts](shortcuts.md)

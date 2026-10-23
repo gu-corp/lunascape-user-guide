@@ -3,26 +3,26 @@ navigation:
   order: 200
 ---
 
-# サイトの権限
+# Site permissions
 
-サイトが位置情報・カメラ・マイク・通知を使おうとすると、画面に確認が表示されます。
+When a site wants your location, camera, microphone or notifications, a prompt appears.
 
-| 権限 | 確認の内容 |
+| Permission | What the site asks for |
 | --- | --- |
-| 位置情報 | ユーザーの現在地の認識 |
-| カメラとマイク | カメラとマイクの使用 |
-| 通知 | 通知を表示 |
+| Location | Knowing where you are |
+| Camera and microphone | Using the camera and microphone |
+| Notifications | Showing notifications |
 
-**許可** または **ブロック** を選ぶと、そのサイトの設定として記録されます。
+**Allow** or **Block** is remembered for that site.
 
-## あとから変更する
+## Change it later
 
-**設定** > **プライバシー** > **権限** で、サイトごとの許可・ブロックを確認して変更できます。
+**Settings** > **Privacy** > **Permissions** lists each site so you can review and change the answer.
 
-## 画面共有
+## Screen sharing
 
-Web 会議などで画面を共有するときは、共有する画面またはウィンドウを選ぶ画面が表示されます。macOS では、初回に OS の画面収録の許可が必要です。許可していない場合は、システム設定を開くよう案内されます。
+When you share your screen in a web meeting, a picker appears for choosing the screen or window. On macOS the system asks for screen-recording permission the first time; if it has not been granted, Lunascape points you at System Settings.
 
-## 関連項目
+## Related topics
 
-- [サイトデータ](site-data.md)
+- [Site data](site-data.md)

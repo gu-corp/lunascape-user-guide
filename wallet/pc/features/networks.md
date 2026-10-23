@@ -3,54 +3,54 @@ navigation:
   order: 400
 ---
 
-# ネットワークを切り替える
+# Switch networks
 
-ネットワーク（チェーン）は、暗号資産がやり取りされるブロックチェーンです。Lunascape Wallet は EVM 互換のネットワークに対応しています。Bitcoin や Solana など、EVM 互換でないネットワークには対応していません。
+A network (chain) is the blockchain your crypto moves on. Lunascape Wallet works with EVM-compatible networks. It doesn't support networks that aren't EVM-compatible, such as Bitcoin or Solana.
 
-画面上で選ぶネットワークは、主にサイトと接続するときに使うネットワークです。保有資産と送信のトークンは、選んだネットワークに関係なく、すべてのネットワークの分が表示されます（トークンごとにネットワーク名が表示されます）。
+The network you choose at the top is mainly the one used when you connect to sites. Your assets and the tokens you can send are shown for every network, whichever one you choose (each token shows its network name).
 
-## 切り替える
+## Switch
 
-画面上のネットワーク名を押し、**ネットワーク一覧** から選びます。選んでいるネットワークにはチェックが付きます。
+Press the network name at the top and choose from **Networks**. The current network has a check mark.
 
-<img src="img/networks.png" alt="ネットワーク一覧。Ethereum、Japan Open Chain、Sepolia Test Network、Japan Open Chain Testnet と、ネットワークを追加のボタンが並ぶ" width="300" />
+<img src="img/networks.png" alt="The Networks list with Ethereum, Japan Open Chain, Sepolia Test Network, Japan Open Chain Testnet and an Add Network button" width="300" />
 
-最初から使えるネットワークは次のとおりです。
+These networks are available from the start:
 
-| ネットワーク | 種類 |
+| Network | Kind |
 | --- | --- |
-| Ethereum | メインネット |
-| Japan Open Chain | メインネット |
-| Sepolia Test Network | テストネット（練習用） |
-| Japan Open Chain Testnet | テストネット（練習用） |
+| Ethereum | Mainnet |
+| Japan Open Chain | Mainnet |
+| Sepolia Test Network | Testnet (for practice) |
+| Japan Open Chain Testnet | Testnet (for practice) |
 
-テストネットは、ウォレットの **設定** > **ネットワーク一覧** の **テストネットを表示** がオンのときだけ一覧に出ます。テストネットの資産には価値がありません。
+Testnets appear in the list only when **Show Testnets** is on under the wallet's **Settings** > **Networks**. Assets on testnets have no value.
 
-> **注意:** ネットワークを切り替えると、送信中（保留中）の取引はすべてキャンセルされます。送金の完了を待ってから切り替えてください。
+> **Note:** Switching networks cancels all transactions that are still pending. Wait for a send to finish before you switch.
 
-## ネットワークを追加する
+## Add a network
 
-一覧にないネットワークを使うときは、追加します。
+To use a network that isn't in the list, add it.
 
-1. ネットワーク一覧の **ネットワークを追加** を押します（ウォレットの **設定** > **ネットワーク一覧** からも追加できます）。
-2. 次の項目を入力して **保存** を押します。
+1. Press **Add Network** in the list (you can also add one under the wallet's **Settings** > **Networks**).
+2. Fill in the fields below and press **Save**.
 
-<img src="img/settings-add-network.png" alt="ネットワークを追加のダイアログ。ネットワーク名、ネットワーク URL、通貨記号、通貨名、ブロックエクスプローラ URL、テストネットのスイッチ、キャンセルと保存のボタンがある" width="560" />
+<img src="img/settings-add-network.png" alt="The Add Network dialog, with Network Name, Network URL, Currency Symbol, Currency Name, Block Explorer URL, a Testnet switch, and Cancel and Save buttons" width="560" />
 
-| 項目 | 内容 |
+| Field | What to enter |
 | --- | --- |
-| ネットワーク名 | 一覧に表示する名前です |
-| ネットワーク URL | RPC URL です。ネットワークの公式サイトで確かめてください |
-| 通貨記号 / 通貨名 | 手数料に使う通貨（ETH など）です |
-| ブロックエクスプローラ URL | 取引を確認するサイトの URL です。`{txid}` と書いたところに取引 ID が入ります。書かないと末尾に付きます |
-| テストネット | テストネットのときにオンにします |
+| Network Name | The name shown in the list |
+| Network URL | The RPC URL. Check it on the network's official site |
+| Currency Symbol / Currency Name | The currency used for fees (such as ETH) |
+| Block Explorer URL | The site for checking transactions. The transaction ID goes where you write `{txid}`; without it, the ID is added at the end |
+| Testnet | Turn on for a testnet |
 
-信頼できない RPC URL を登録すると、残高が正しく表示されないなどの問題が起きることがあります。
+Registering an untrustworthy RPC URL can cause problems such as wrong balances.
 
-## サイトからネットワークの追加や切り替えを求められたとき
+## When a site asks to add or switch a network
 
-Web3 サイトが、ネットワークの追加や切り替えを求めてくることがあります。確認画面が開くので、ネットワーク名やチェーン ID を確かめてから許可してください。[サイトと接続する](../dapps/connect.md) を参照してください。
+A Web3 site may ask the wallet to add or switch to a network. A confirmation screen opens — check the network name and chain ID before you allow it. See [Connect to a site](../dapps/connect.md).
 
-## ネットワークを編集・削除する
+## Edit or delete a network
 
-ウォレットの **設定** > **ネットワーク一覧** で、ネットワークを押すと編集・削除できます。最初から入っているネットワークは削除できません。
+Under the wallet's **Settings** > **Networks**, press a network to edit or delete it. The built-in networks can't be deleted.

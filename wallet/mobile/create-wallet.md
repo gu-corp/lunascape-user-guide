@@ -1,43 +1,43 @@
 ---
 navigation:
+  title: "Create Wallet"
   order: 900
-  title: "ウォレット作成"
 ---
 
-# ウォレットを作成・インポートする
+# Create or import a wallet
 
-新しいセルフカストディ型ウォレットを作成するか、既存のウォレットをリカバリーフレーズからインポートできます。ウォレットパスワードは8〜64文字で設定します。
+You can create a new self-custody wallet or import an existing wallet with its recovery phrase. Choose a wallet password from 8 to 64 characters.
 
-## 始める前に
+## Before you begin
 
-- 推測されにくく、ほかで使っていないパスワードを用意します。
-- リカバリーフレーズを表示・入力するときは、周囲から画面が見えないことを確認します。
-- リカバリーフレーズをオフラインで記録する安全な場所を用意します。メール、チャット、保護されていないスクリーンショットには保存しないでください。
+- Use a password that is unique and difficult to guess.
+- Make sure nobody can see your screen when a recovery phrase is displayed or entered.
+- Prepare a secure offline place to record the recovery phrase. Do not store it in email, chat, or an unprotected screenshot.
 
-<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.11.36.png" alt="ウォレットを作成・インポートするの画面 1" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.11.36.png" alt="Create or import a wallet screen 1" width="360" />
 
-Lunascapeはセルフカストディ方式を採用しています。ウォレットの機密情報は端末の保護された認証情報領域に保存されますが、復元用のバックアップは利用者自身で管理する必要があります。
+Lunascape uses a self-custody model. Wallet secrets are stored in the device's protected credential storage, but you remain responsible for keeping a recovery copy.
 
-<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.18.56.png" alt="ウォレットを作成・インポートするの画面 2" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.18.56.png" alt="Create or import a wallet screen 2" width="360" />
 
-## 新しいウォレットを作成する
+## Create a new wallet
 
-1. **新しいウォレットを作成**を選びます。
-2. ウォレットパスワードを作成して確認します。
-3. リカバリーフレーズを正しい順番で記録し、オフラインで保管します。
-4. リカバリーフレーズの確認を完了します。
+1. Select **Create New Wallet**.
+2. Create and confirm your wallet password.
+3. Record the recovery phrase in the correct order and store it offline.
+4. Complete the recovery-phrase confirmation.
 
-<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.49.50.png" alt="ウォレットを作成・インポートするの画面 3" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.49.50.png" alt="Create or import a wallet screen 3" width="360" />
 
-## 既存のウォレットをインポートする
+## Import an existing wallet
 
-1. **ウォレットをインポート**を選びます。
-2. リカバリーフレーズを正しい順番で入力します。
-3. この端末で使うウォレットパスワードを作成して確認します。
-4. 送受信する前に、復元されたアカウントとネットワークを確認します。
+1. Select **Import Wallet**.
+2. Enter the recovery phrase in the correct order.
+3. Create and confirm a wallet password for this device.
+4. Check the imported account and network before receiving or sending assets.
 
-<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.49.59.png" alt="ウォレットを作成・インポートするの画面 4" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-15_at_17.49.59.png" alt="Create or import a wallet screen 4" width="360" />
 
-設定後はEthereum Mainnetが初期ネットワークとして選ばれます。
+After setup, Ethereum Mainnet is selected by default.
 
-> **重要:** リカバリーフレーズを知っている人は、ウォレットを操作できます。Lunascapeのサポートがフレーズを尋ねることはありません。端末内のデータとリカバリーフレーズの両方を失うと、資産へ永久にアクセスできなくなる可能性があります。
+> **Important:** Anyone with the recovery phrase can control the wallet. Lunascape support will never ask for it. Losing both the device data and the recovery phrase can permanently remove access to your assets.

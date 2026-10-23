@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: "設定"
+  title: "Settings"
   order: 500
 ---
 
-# 設定
+# Settings
 
-ウォレットの設定の開きかたと、すべての項目を説明します。
+How to open the wallet's settings, and every item in them.
 
-- [設定一覧](overview.md) — ウォレットのパネル右上の ⋮ から 設定 を開きます。
+- [All settings](overview.md) — Open Settings from the ⋮ at the top right of the wallet panel.

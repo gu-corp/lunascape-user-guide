@@ -3,55 +3,53 @@ navigation:
   order: 100
 ---
 
-# 拡張機能を追加・管理する
+# Add and manage extensions
 
-Lunascape は Chrome 拡張機能に対応しています。Chrome ウェブストアから追加できます。
+Lunascape runs Chrome extensions. You can add them from the Chrome Web Store.
 
-## 最初に Chrome 拡張サポートをオンにする
+## Turn on Chrome Extension Support first
 
-Chrome ウェブストアの拡張機能を追加するには、**設定** > **拡張機能** の **Chrome 拡張サポート** をオンにします。試験的な機能のため、初めはオフになっていることがあります。
+To add extensions from the Chrome Web Store, turn on **Chrome Extension Support** under **Settings** > **Extensions**. It is an experimental feature and may start out off.
 
-<img src="img/chrome-extension-support.png" alt="設定の拡張機能画面。システム拡張の一覧の下に、試験的と表示された Chrome 拡張サポートのスイッチがある" width="560" />
+While it is off, trying to add an extension shows **Cannot add extension**.
 
-オフのまま追加しようとすると、「拡張機能を追加できません」と表示されます。
+## Install
 
-## 追加する
+1. Open the extension's page in the Chrome Web Store.
+2. Press **Add to Chrome**.
+3. **Install Extension** lists the permissions it needs. Read them, then press **Install**.
 
-1. Chrome ウェブストアで使いたい拡張機能のページを開きます。
-2. **Chrome に追加** を押します。
-3. **拡張機能のインストール** の画面に、拡張機能が必要とする権限が表示されます。内容を確認して **インストール** を押します。
+Permissions include:
 
-権限には、次のようなものがあります。
-
-| 表示 | 意味 |
+| Shown as | What it means |
 | --- | --- |
-| 閲覧アクティビティの読み取り | 開いているタブの情報を読み取ります |
-| 閲覧履歴の読み取りと変更 | 履歴を読み書きします |
-| ブックマークの読み取りと変更 | ブックマークを読み書きします |
-| Cookieの読み取りと変更 | サイトのログイン状態などを読み書きします |
-| ダウンロードの管理 | ダウンロードを操作します |
-| アクセスしたウェブサイト上のすべてのデータの読み取りと変更 | 開いたページの内容を読み書きします |
+| Read your browsing activity | Reads information about your open tabs |
+| Read and change your browsing history | Reads and writes history |
+| Read and change your bookmarks | Reads and writes bookmarks |
+| Read and change cookies | Reads and writes cookies, including sign-in state |
+| Manage your downloads | Controls downloads |
+| Read and change all your data on websites you visit | Reads and writes the pages you open |
 
-> **注意:** 一部の拡張機能は、Lunascape が未対応の API を使うためインストールできません。その場合は **非対応の拡張機能** と表示され、必要な API が示されます。
+> **Note:** An extension that needs an API Lunascape does not support cannot be installed. **Extension Not Supported** appears and names the APIs it needs.
 
-あとから拡張機能が追加の権限を求めることもあります。そのときは **追加の権限を許可しますか？** と表示されるので、**許可する** か **許可しない** を選びます。
+An extension may later ask for more permissions. **Allow more permissions?** appears; choose **Allow** or **Deny**.
 
-## 管理する
+## Manage
 
-**設定** > **拡張機能** の **インストール済み拡張機能** で、追加した拡張機能のオン・オフと **削除** ができます。パソコン上のファイルを開いたページでも動かしたい拡張機能は、**ファイルの URL へのアクセスを許可する** にチェックを入れます。
+Under **Installed Extensions** in **Settings** > **Extensions**, turn each extension you added on or off, or **Remove** it. Tick **Allow access to file URLs** for an extension that should also run on files opened from your computer.
 
-拡張機能のボタンはツールバーに並びます。ボタンを押すとポップアップが開きます。
+Extension buttons sit in the toolbar; pressing one opens its popup.
 
-## 内蔵の拡張機能
+## Built-in extensions
 
-次の拡張機能は Lunascape に内蔵されています。**設定** > **拡張機能** の **システム拡張** で、個別にオフにできます。
+These come with Lunascape. Turn any of them off under **System Extensions** in **Settings** > **Extensions**.
 
-| 名前 | 説明 |
+| Name | See |
 | --- | --- |
 | Lunascape AI | [Lunascape AI](../ai/lunascape-ai.md) |
 | Lunascape Wallet | [Lunascape Wallet](wallet.md) |
-| Lunascape Password Manager | [パスワードマネージャー](password-manager.md) |
+| Lunascape Password Manager | [Password manager](password-manager.md) |
 
-## 関連項目
+## Related topics
 
-- [うまく動かない拡張機能がある](../../troubleshooting/extensions.md)
+- [An extension is not working](../../troubleshooting/extensions.md)

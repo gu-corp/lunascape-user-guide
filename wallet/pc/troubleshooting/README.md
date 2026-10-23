@@ -1,37 +1,37 @@
 ---
 navigation:
-  title: "困ったときは"
+  title: "Troubleshooting"
   order: 600
 ---
 
-# 困ったときは
+# Troubleshooting
 
-パスワード、送金、サイトとの接続 — 症状ごとの対処をまとめています。解決しないときは、最後の [お問い合わせの前に](#お問い合わせの前に) を確認してください。
+Passwords, sending, connecting to sites — what to do for each problem. If nothing here helps, see [Before you contact us](#before-you-contact-us) at the end.
 
-- [パスワードを忘れた・ロックを解除できない](password.md) — シードフレーズがあれば、ウォレットを入れ直せます。
-- [送金・取引のトラブル](transactions.md) — 手数料の不足、送金が終わらない、残高が表示されないなど。
-- [サイトに接続できない](connection.md) — 接続ボタンを押しても反応しない、ほかのウォレットが開くなど。
+- [Forgot your password or can't unlock](password.md) — With the seed phrase, you can set the wallet up again.
+- [Sending and transaction problems](transactions.md) — Not enough for fees, a send that won't finish, a balance that doesn't appear and more.
+- [Can't connect to a site](connection.md) — The connect button does nothing, another wallet opens and more.
 
-## よくある質問
+## Frequently asked questions
 
-| 質問 | 答え |
+| Question | Answer |
 | --- | --- |
-| シードフレーズをなくした | ロックを解除できるうちに、すぐ [エクスポート](../getting-started/backup.md) して控え直してください。ロックも解除できない場合、復元はできません |
-| 間違ったアドレスに送ってしまった | ブロックチェーンの取引は取り消せません。Lunascape でも取り戻せません。相手がわかる場合は、相手に返送を頼むしかありません |
-| サポートにシードフレーズを伝えてもよいか | 伝えないでください。Lunascape がシードフレーズ・秘密鍵・パスワードを尋ねることはありません。尋ねてくる相手は詐欺です |
-| 別のパソコンでも使いたい | 同じシードフレーズを、別のパソコンの Lunascape Wallet で [インポート](../getting-started/import-wallet.md) します |
-| どのネットワークに対応しているか | EVM 互換のネットワークです。最初から Ethereum と Japan Open Chain が使えます。[ネットワークを切り替える](../features/networks.md) |
-| 表示を英語にしたい | ウォレットの **設定** > **一般** の **言語** で変えます。ブラウザーの言語とは別の設定です |
+| I lost my seed phrase | While you can still unlock the wallet, [export it](../getting-started/backup.md) at once and write it down again. If you can't unlock the wallet either, it can't be restored |
+| I sent to the wrong address | Blockchain transactions can't be reversed, and Lunascape can't get them back. If you know who received it, the only option is to ask them to return it |
+| Can I give support my seed phrase? | Please don't. Lunascape will never ask for your seed phrase, private key or password. Anyone who asks is a scammer |
+| I want to use it on another computer | Import the same seed phrase into Lunascape Wallet on the other computer. See [Import a wallet](../getting-started/import-wallet.md) |
+| Which networks does it support? | EVM-compatible networks. Ethereum and Japan Open Chain work from the start. See [Switch networks](../features/networks.md) |
+| How do I switch the wallet to English? | With **Language** under the wallet's **Settings** > **General**. It's separate from the browser's language |
 
-## お問い合わせの前に
+## Before you contact us
 
-上の対処で解決しないときは、次の情報を添えてお問い合わせください。
+If the steps above don't solve it, contact us with the following:
 
-- 使っているブラウザー（Lunascape Desktop / Chrome など）とそのバージョン
-- Lunascape Wallet のバージョン（Lunascape Desktop では **設定** > **ウォレット** の **現在のバージョン**、Chrome では拡張機能の管理画面 `chrome://extensions`）
-- ネットワーク名、問題が起きた操作と、表示されたメッセージ
-- 取引に関する問題では、取引 ID（トランザクションハッシュ）
+- The browser you use (Lunascape Desktop, Chrome and so on) and its version
+- The Lunascape Wallet version (in Lunascape Desktop: **Current Version** under **Settings** > **Wallet**; in Chrome: the extensions page, `chrome://extensions`)
+- The network, what you were doing, and any message shown
+- For a transaction problem, the transaction ID (transaction hash)
 
-> **注意:** シードフレーズ・秘密鍵・パスワードは、お問い合わせに書かないでください。
+> **Caution:** Never include your seed phrase, private key or password.
 
-- [サポート](https://www.lunascape.org/ja/support)
+- [Support](https://www.lunascape.org/en/support)

@@ -3,24 +3,24 @@ navigation:
   order: 500
 ---
 
-# 画面の見かた
+# The wallet screen
 
-ウォレットのメイン画面は、上から順に次の要素で構成されています。
+The main wallet screen is made up of the following parts, from top to bottom.
 
-<img src="img/main.png" alt="ウォレットのメイン画面。上に接続状態のアイコン、ネットワーク、表示通貨、メニュー。その下にアカウントと合計残高、送信と受け取るのボタン、保有資産の一覧が並ぶ（アドレスはぼかしてある）" width="300" />
+<img src="img/main.png" alt="The main wallet screen. At the top: the connection icon, the network, the display currency and the menu. Below: the account and total balance, the Send and Receive buttons, and the list of assets (the address is blurred)" width="300" />
 
-| 名称 | 説明 |
+| Part | What it does |
 | --- | --- |
-| 接続状態のアイコン | 左上のプラグのアイコンです。表示中のサイトに接続を許可しているかを確認できます。[サイトと接続する](../dapps/connect.md) を参照してください |
-| ネットワーク | サイトと接続するときに使うネットワーク（チェーン）を選びます。保有資産と送信のトークンは、ここで選んだネットワークに関係なく、すべて表示されます。[ネットワークを切り替える](../features/networks.md) を参照してください |
-| 表示通貨 | 残高を表示する法定通貨（USD、JPY、EUR など）を選びます |
-| メニュー（⋮） | **アカウント** の切り替えや、ウォレットの **設定** を開く操作ができます |
-| アカウント | アカウント名とアドレスの先頭・末尾です。名前の横の **∨** で切り替え・追加、コピーのアイコンでアドレスをコピーします。右の更新のアイコンで残高を読み込み直します |
-| 合計残高 | 保有資産の合計を表示通貨で表示します。目のアイコンで、金額を隠したり表示したりできます |
-| 送信 / 受け取る | [送金する](../features/send.md) / [受け取る](../features/receive.md) |
-| 保有資産 | 持っているトークンと残高です。**すべて表示** で一覧（トークンと NFT）を開きます。[資産を確認する](../features/assets.md) を参照してください |
-| 利用履歴 | このアカウントの送金や受け取りの記録です |
+| Connection icon | The plug icon at the top left. Shows whether you've allowed the current site to connect. See [Connect to a site](../dapps/connect.md) |
+| Network | Chooses the network (chain) used when you connect to sites. Your assets and the tokens you can send are all shown whichever network you choose. See [Switch networks](../features/networks.md) |
+| Display currency | Chooses the fiat currency for balances (USD, JPY, EUR and so on) |
+| Menu (⋮) | Switch **Accounts** or open the wallet's **Settings** |
+| Account | The account name and the start and end of its address. Press **∨** next to the name to switch or add accounts, and the copy icon to copy the address. The refresh icon on the right reloads the balance |
+| Total Balance | The total of your assets in the display currency. The eye icon hides or shows the amount |
+| Send / Receive | [Send](../features/send.md) / [Receive](../features/receive.md) |
+| Assets in possession | The tokens you hold and their balances. **View all** opens the full list (tokens and NFTs). See [Check your assets](../features/assets.md) |
+| Transaction History | The record of what this account has sent and received |
 
-## ロックする
+## Locking
 
-ブラウザーを終了すると、ウォレットはロックされます。次に開くときにマスターパスワードが必要です。
+The wallet locks when you quit the browser. You need the master password the next time you open it.

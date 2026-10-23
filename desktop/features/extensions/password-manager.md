@@ -3,35 +3,33 @@ navigation:
   order: 200
 ---
 
-# パスワードマネージャー
+# Password manager
 
-Lunascape Password Manager は標準で入っている拡張機能です。ログイン情報を保存し、次回から自動で入力します。
+Lunascape Password Manager is bundled with the browser. It saves your logins and fills them in next time.
 
-## 保存する
+## Save a login
 
-ログインフォームを送信すると、保存するかどうかの確認が表示されます。保存すると、同じサイトを次に開いたときに候補として表示されます。
+Submitting a login form brings up a prompt to save it. Saved logins are offered the next time you open that site.
 
-## 呼び出す
+## Use a saved login
 
-- ログインフォームを選ぶと、保存済みの候補が表示されます。
-- ツールバーのパスワードマネージャーのアイコン（鍵のアイコン）からも一覧を開けます。
+- Select a login field to see the matching entries.
+- Or open the full list from the password-manager icon (the key) in the toolbar.
 
-## ロックと解除
+## Locking and unlocking
 
-保存したパスワードは端末の安全な領域に暗号化して保存されます。取り出すときは、端末の認証（macOS の Touch ID、Windows の Windows Hello）で確認します。認証したあとしばらくは、続けて使えます。
+Saved passwords are encrypted in the operating system's secure storage. Reading them asks for the device's own authentication — Touch ID on macOS, Windows Hello on Windows. After you authenticate, it stays unlocked for a while.
 
-ロックされているときに一覧を開くと、次のような確認が表示されます。Touch ID を使うか、パソコンのパスワードを入力して解除します。
+Opening the list while it is locked brings up the system prompt: use Touch ID, or type your computer's password, to unlock it.
 
-<img src="img/password-unlock.png" alt="macOS の確認画面。Lunascape のパスワードのロックを解除するために、Touch ID かパスワードを求めている" width="300" />
+## Alongside another password manager
 
-## 他のパスワード管理拡張機能と併用する
+If you use 1Password or Bitwarden, which replace the browser's own credential UI, Lunascape's password manager steps aside so the two do not compete on the same form.
 
-1Password や Bitwarden など、ブラウザー側の入力欄を自分で置き換える拡張機能を使っている場合、Lunascape のパスワードマネージャーは表示を控えます。同じフォームで両方が競合しません。
+## Bring passwords over
 
-## 他のブラウザーから移す
+**Import from a browser** under **Settings** > **Bookmarks** ([Import your data](../../getting-started/import.md)) brings passwords across too. Passwords are shared across profiles.
 
-**設定** > **ブックマーク** の **ブラウザからインポート**（[他のブラウザーからデータを移行する](../../getting-started/import.md)）で、パスワードもまとめて取り込めます。パスワードはプロファイルをまたいで共有されます。
+## Related topics
 
-## 関連項目
-
-- [プロファイル](../windows/profiles.md)
+- [Profiles](../windows/profiles.md)

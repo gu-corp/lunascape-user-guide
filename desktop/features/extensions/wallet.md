@@ -5,32 +5,32 @@ navigation:
 
 # Lunascape Wallet
 
-Lunascape Wallet は標準で入っている Web3 ウォレットの拡張機能です。EVM 互換のチェーンに対応し、Web3 サイト（DApp）と接続できます。
+Lunascape Wallet is the Web3 wallet bundled with the browser. It works with EVM-compatible chains and connects to Web3 sites (DApps).
 
-ウォレットの作成とバックアップ、送金と受け取り、サイトとの接続、設定、困ったときの対処は、[Lunascape Wallet ユーザガイド](https://help.lunascape.org/wallet/ja/)で詳しく説明しています。
-<!-- TODO: 上のリンクは仮の URL。公開先が決まったら差し替える -->
+Creating and backing up a wallet, sending and receiving, connecting to sites, settings and troubleshooting are covered in detail in the [Lunascape Wallet User Guide](https://help.lunascape.org/wallet/en/).
+<!-- TODO: provisional URL above; replace once the guide is published -->
 
-## 開きかた
+## Open the wallet
 
-ツールバーの Lunascape Wallet のアイコン（財布の形）を押すと、ウィンドウの右側にウォレットのパネルが開きます。もう一度アイコンを押すか、パネル右上の **×** で閉じます。
+Press the Lunascape Wallet button (the wallet shape) in the toolbar and the wallet opens in a panel on the right of the window. Press the button again, or the **×** at the top right of the panel, to close it.
 
-<img src="img/wallet-panel.png" alt="ツールバーの Lunascape Wallet のアイコンを押すと、ウィンドウの右側にウォレットのパネルが開き、ネットワーク、アカウントと合計残高、送信・受け取るボタン、保有資産が表示される（アドレスはぼかしてある）" width="300" />
+<img src="img/wallet-panel.png" alt="Pressing the Lunascape Wallet button in the toolbar opens the wallet panel on the right, showing the network, the account and total balance, the Send and Receive buttons, and the assets held (the address is blurred)" width="300" />
 
-はじめて開いたときはウォレットの作成画面が、2 回目からはロック画面が表示されます。
+The first time, the wallet shows the create screen; after that, it opens on the lock screen.
 
-> **注意:** 復元用のフレーズ（シードフレーズ）は、他人に知られると資産を失います。画面のスクリーンショットやチャットで送ることは避け、安全な場所に保管してください。Lunascape のサポートがフレーズを尋ねることはありません。
+> **Note:** Anyone who learns your seed phrase (recovery phrase) can take your assets. Don't keep it in a screenshot or photo, or send it in a chat — keep it somewhere safe. Lunascape support will never ask for it.
 
-## ブラウザー側の設定
+## Browser settings
 
-**設定** > **ウォレット** で、ウォレット拡張機能の **現在のバージョン** と **拡張機能のソース** を確認・変更できます。通常は既定のまま（**Chrome Web Store（推奨）** で **自動更新を有効にする** がオン）で使います。
+**Settings** > **Wallet** shows the wallet extension's **Current Version** and lets you change its **Extension Source**. Leave it on the default — **Chrome Web Store (recommended)** with **Enable auto-update** on.
 
-<img src="img/wallet-settings.png" alt="設定のウォレット。現在のバージョンが表示され、拡張機能のソースは Chrome Web Store（推奨）が選ばれ、自動更新を有効にするがオンになっている" width="560" />
+<img src="img/wallet-settings.png" alt="The Wallet page in Settings shows the current version, with Extension Source set to Chrome Web Store (recommended) and Enable auto-update on" width="560" />
 
-ウォレットそのものの設定（言語、ネットワーク、接続したサイトなど）は、ウォレットのパネル右上の **⋮** > **設定** で開きます。
+The wallet's own settings (language, networks, connected sites and more) open from **⋮** > **Settings** at the top right of the wallet panel.
 
-Lunascape Wallet を使わないときは、**設定** > **拡張機能** の **システム拡張** でオフにできます。
+To stop using Lunascape Wallet, turn it off under **Settings** > **Extensions** > **System Extensions**.
 
-## 関連項目
+## Related topics
 
-- [Lunascape Wallet ユーザガイド](https://help.lunascape.org/wallet/ja/)
-- [拡張機能を追加・管理する](manage.md)
+- [Lunascape Wallet User Guide](https://help.lunascape.org/wallet/en/)
+- [Add and manage extensions](manage.md)

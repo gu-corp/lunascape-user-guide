@@ -3,33 +3,33 @@ navigation:
   order: 100
 ---
 
-# Lunascape Wallet ユーザガイド
+# Lunascape Wallet User Guide
 
-Lunascape Wallet は、Lunascape の Web3 ウォレットです。Ethereum や Japan Open Chain などの EVM 互換チェーンで、暗号資産（トークン）を保管・送金し、Web3 サイト（DApp）に接続できます。
+Lunascape Wallet is Lunascape's Web3 wallet. On EVM-compatible chains such as Ethereum and Japan Open Chain, you can hold and send crypto assets (tokens) and connect to Web3 sites (DApps).
 
-## 3 つの使いかた
+## Three ways to use it
 
-Lunascape Wallet は、パソコンでもスマートフォンでも無料で使えます。使う端末に合わせて、どれか 1 つを選んでください。
+Lunascape Wallet is free on both computers and smartphones. Pick one, depending on the device you'll use.
 
-| 使う端末 | 種類 | はじめかた |
+| Device | Kind | Get started |
 | --- | --- | --- |
-| パソコン（Windows / Mac）で Google Chrome を使っている | Chrome 拡張機能 | [Chrome に追加する](pc/getting-started/install-chrome.md) |
-| パソコン（Windows / Mac）で Lunascape を使う | Lunascape Desktop に内蔵 | [Lunascape Desktop で使う](pc/getting-started/install-desktop.md) |
-| スマートフォン（iPhone / Android） | Lunascape Browser アプリに内蔵 | [インストールしてはじめる](mobile/install.md) |
+| A computer (Windows / Mac) with Google Chrome | Chrome extension | [Add to Chrome](pc/getting-started/install-chrome.md) |
+| A computer (Windows / Mac) with Lunascape | Built into Lunascape Desktop | [Use it in Lunascape Desktop](pc/getting-started/install-desktop.md) |
+| A smartphone (iPhone / Android) | Built into the Lunascape Browser app | [Install and get started](mobile/install.md) |
 
-Chrome 拡張機能と Lunascape Desktop のウォレットは同じもので、画面と操作も同じです。使いかたは [パソコン版（拡張機能）](pc/README.md) にまとめています。スマートフォン版は画面が異なるので、[スマホ版](mobile/README.md) を参照してください。
+The Chrome extension and the wallet in Lunascape Desktop are the same, with the same screens and operations. How to use them is in [Computer (extension)](pc/README.md). The smartphone version has different screens; see [Smartphone](mobile/README.md).
 
-どれを選んでも、最後にシードフレーズ（12 個の英単語）を紙に控えるところまで進めてください。
+Whichever you pick, go all the way to writing down your seed phrase (12 English words) on paper.
 
-## 大切なこと
+## Before you start
 
-Lunascape Wallet は、資産を動かすための鍵を、あなたの端末の中だけに保管するウォレットです。Lunascape の運営元も含め、誰も代わりに保管していません。
+Lunascape Wallet keeps the keys that move your assets only on your device. Nobody — including the company behind Lunascape — holds them for you.
 
-- シードフレーズを失うと、ウォレットを復元できません。作成したらすぐに紙に控えてください。
-- シードフレーズ・秘密鍵・パスワードは、誰にも教えないでください。Lunascape のサポートが尋ねることもありません。
-- ブロックチェーンに送った取引は取り消せません。送金先・ネットワーク・金額を確かめてから実行してください。
+- If you lose your seed phrase, the wallet cannot be restored. Write it down on paper as soon as you create the wallet.
+- Never tell anyone your seed phrase, private key or password. Lunascape support will never ask for them.
+- A transaction sent to the blockchain cannot be reversed. Check the recipient, network and amount before you send.
 
-## このガイドの読みかた
+## How to read this guide
 
-- 左の INDEX から項目を選ぶか、本文中のリンクをたどって読み進めます。
-- 画面に表示される項目名は **送信** のように太字で示します。
+- Pick a topic from the INDEX on the left, or follow the links in the text.
+- Names shown on screen are written in bold, like **Send**.

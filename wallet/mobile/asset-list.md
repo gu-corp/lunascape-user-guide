@@ -3,66 +3,66 @@ navigation:
   order: 300
 ---
 
-# アセット一覧
+# Asset List
 
-選択中のアカウントとネットワークにあるトークンと残高を表示します。
+The Asset List shows tokens and balances for the currently selected account and network.
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.16.01.png" alt="アセット一覧の画面 1" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.16.01.png" alt="Asset List screen 1" width="360" />
 
-## 総残高
+## Total balance
 
-ウォレット設定で選んだ法定通貨による推定合計額です。価格情報は遅延・欠落する場合があり、実際の売却価格を保証するものではありません。
+The estimated total is shown in the fiat currency selected in Wallet Settings. Market-price data can be delayed or unavailable and should not be treated as an exact sale value.
 
-## すべてのアセット
+## All Assets
 
-カード形式または一覧形式を選べます。
+Choose a card or list layout.
 
-カード形式：
+Card layout:
 
-<img src="img/Screenshot_2025-09-24_at_17.19.50.png" alt="アセット一覧の画面 2" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.19.50.png" alt="Asset List screen 2" width="560" />
 
-一覧形式：
+List layout:
 
-<img src="img/Screenshot_2025-09-24_at_17.20.11.png" alt="アセット一覧の画面 3" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.20.11.png" alt="Asset List screen 3" width="560" />
 
-次の順で並べ替えられます。
+You can sort assets by:
 
-- デフォルト：最近表示したトークンを上に表示
-- アルファベット順（A-Z）
-- 残高：推定法定通貨額の高い順
+- Default: recently viewed tokens first
+- Alphabetically (A-Z)
+- Balance: highest estimated fiat value first
 
-<img src="img/Screenshot_2025-09-24_at_17.24.08.png" alt="アセット一覧の画面 4" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.24.08.png" alt="Asset List screen 4" width="560" />
 
-トークンの表示設定を編集したり、一覧から削除したりできます。一覧から削除しても、ブロックチェーン上のトークンが移動・消失することはなく、後から再追加できます。
+You can edit or remove a token from the displayed list. Removing a token does not transfer or destroy it on the blockchain; you can add it again later.
 
-<img src="img/Screenshot_2025-09-24_at_17.26.33.png" alt="アセット一覧の画面 5" width="560" />
+<img src="img/Screenshot_2025-09-24_at_17.26.33.png" alt="Asset List screen 5" width="560" />
 
-## トークン詳細
+## Token details
 
-トークンをタップすると、次の情報を確認できます。
+Tap a token to view:
 
-- トークン名
-- トークンシンボル
-- トークン残高
-- 対応する法定通貨価値
-- トークンネットワーク
-- 取引履歴
+- Token name
+- Token symbol
+- Token balance
+- Corresponding fiat value
+- Token network
+- Transaction history
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.28.58.png" alt="アセット一覧の画面 6" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.28.58.png" alt="Asset List screen 6" width="360" />
 
-**送信**、**受信**、**スキャンして送信**も選べます。
+You can also select **Send**, **Receive**, or **Scan to Send**.
 
-- 送信
-- 受信
-- スキャンして送信
+- Send
+- Receive
+- Scan to Send
 
-## トークンを編集
+## Edit a token
 
-次の項目を変更できます。
+You can change:
 
-- 表示用の小数点以下桁数
-- カードカラー
+- Decimals for display
+- Card Color
 
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.33.59.png" alt="アセット一覧の画面 7" width="360" />
+<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-24_at_17.33.59.png" alt="Asset List screen 7" width="360" />
 
-> **注意:** 表示用の小数点以下桁数を変えると、数量の見え方が変わります。変更前に、トークン発行元の公式情報で正しい桁数を確認してください。
+> **Caution:** Changing display decimals affects how the amount is shown. Confirm the token's official decimal value before changing it.

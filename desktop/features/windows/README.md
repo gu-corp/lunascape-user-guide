@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "ウィンドウとプロファイル"
+  title: "Windows and profiles"
   order: 200
 ---
 
-# ウィンドウとプロファイル
+# Windows and profiles
 
-シークレットウィンドウと、用途ごとに使い分けるプロファイルについて説明します。
+Private windows, and profiles for keeping uses apart.
 
-- [シークレットウィンドウ](private-window.md) — シークレットウィンドウで開いたページは、閲覧履歴・Cookie・フォームの入力内容が端末に残りません。
-- [プロファイル](profiles.md) — プロファイルを分けると、ブックマーク・履歴・Cookie・拡張機能の状態を別々に持てます。
+- [Private windows](private-window.md) — Pages opened in a private window leave no history, cookies or form entries on the computer.
+- [Profiles](profiles.md) — Separate profiles keep bookmarks, history, cookies and extension state apart — one for work and one for personal use, for example.
