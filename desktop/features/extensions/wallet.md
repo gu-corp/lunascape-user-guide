@@ -7,8 +7,7 @@ navigation:
 
 Lunascape Wallet is the Web3 wallet bundled with the browser. It works with EVM-compatible chains and connects to Web3 sites (DApps).
 
-Creating and backing up a wallet, sending and receiving, connecting to sites, settings and troubleshooting are covered in detail in the [Lunascape Wallet User Guide](https://help.lunascape.org/wallet/en/).
-<!-- TODO: provisional URL above; replace once the guide is published -->
+Creating and backing up a wallet, sending and receiving, connecting to sites, settings and troubleshooting are covered in detail in the [Lunascape Wallet User Guide](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/pc/README.md).
 
 ## Open the wallet
 
@@ -32,5 +31,5 @@ To stop using Lunascape Wallet, turn it off under **Settings** > **Extensions** 
 
 ## Related topics
 
-- [Lunascape Wallet User Guide](https://help.lunascape.org/wallet/en/)
+- [Lunascape Wallet User Guide](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/pc/README.md)
 - [Add and manage extensions](manage.md)

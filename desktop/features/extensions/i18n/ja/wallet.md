@@ -2,8 +2,7 @@
 
 Lunascape Wallet は標準で入っている Web3 ウォレットの拡張機能です。EVM 互換のチェーンに対応し、Web3 サイト（DApp）と接続できます。
 
-ウォレットの作成とバックアップ、送金と受け取り、サイトとの接続、設定、困ったときの対処は、[Lunascape Wallet ユーザガイド](https://help.lunascape.org/wallet/ja/)で詳しく説明しています。
-<!-- TODO: 上のリンクは仮の URL。公開先が決まったら差し替える -->
+ウォレットの作成とバックアップ、送金と受け取り、サイトとの接続、設定、困ったときの対処は、[Lunascape Wallet ユーザガイド](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/pc/README.md)で詳しく説明しています。
 
 ## 開きかた
 
@@ -27,5 +26,5 @@ Lunascape Wallet を使わないときは、**設定** > **拡張機能** の **
 
 ## 関連項目
 
-- [Lunascape Wallet ユーザガイド](https://help.lunascape.org/wallet/ja/)
+- [Lunascape Wallet ユーザガイド](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/pc/README.md)
 - [拡張機能を追加・管理する](manage.md)
