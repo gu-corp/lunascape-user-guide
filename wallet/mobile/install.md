@@ -46,7 +46,7 @@ Tap **Set up wallet**. Tapping it means you agree to the Privacy Policy and Term
 
 Enter the same password in **New Password** and **Confirm password**, then press **Create**. The password must be 8 to 64 characters.
 
-On an iPhone, if a switch for unlocking with Face ID appears, turn it on to open the wallet with Face ID from then on.
+On an iPhone, if a switch for unlocking with Face ID appears, turn it on to open the wallet with Face ID from then on. If it doesn't appear, the app may ask you later, on the lock screen, whether to register Face ID.
 
 <img src="img/mobile-password.png" alt="The Registering a master password screen, with New Password and Confirm password fields and a Create button" width="300" />
 
@@ -103,3 +103,9 @@ Your wallet address is what you give others so they can send you crypto. Sharing
 The wallet opens on the lock screen. Enter the master password you set when you created it to unlock it. If you turned on Face ID on an iPhone, you can unlock with Face ID.
 
 If you've forgotten the password, you'll have to set the wallet up again with your seed phrase.
+
+## Read next
+
+- [The wallet screen](screen.md)
+- [Send and receive](send-receive.md)
+- [Connect to sites](dapps.md)

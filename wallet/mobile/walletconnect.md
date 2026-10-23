@@ -1,94 +1,37 @@
 ---
 navigation:
-  order: 500
+  order: 800
 ---
 
 # WalletConnect
 
-WalletConnect is an open protocol that lets a wallet exchange connection, signature, and transaction requests with a DApp through a QR code or deep link. The DApp does not receive your private key, but you must still inspect every request.
+WalletConnect connects the wallet to a site with a QR code. Use it when the site is open on another device, such as a computer.
 
-For protocol details, see the [WalletConnect website](https://walletconnect.network/).
+## Connect
 
-Lunascape supports WalletConnect connections by QR code and deep link.
+1. On the site, choose WalletConnect so that it shows a QR code.
+2. In the wallet's settings, open **WalletConnect** and tap **New Connection**.
 
-> **Important:** A WalletConnect code can contain a request from an untrusted site. Verify the DApp domain, requested account, and network before connecting. Never enter a recovery phrase or private key to complete a WalletConnect connection.
+   <img src="img/mobile-settings-walletconnect.png" alt="The WalletConnect settings with a New Connection button and an empty WalletConnect Sessions list" width="300" />
 
-## Connect by QR code
+3. The first time, iOS asks for permission to use the camera. Tap **Allow**.
 
-1. On the DApp, choose **WalletConnect**. The DApp displays a QR code.
+   <img src="img/mobile-camera-permission.png" alt="iOS asking to allow Lunascape to access the camera to scan QR codes, with Don't Allow and Allow" width="300" />
 
-<img src="img/Screenshot_2025-09-26_at_13.23.25.png" alt="WalletConnect screen 1" width="560" />
+4. Point the camera at the QR code on the site.
 
-2. In Lunascape, tap the QR scanner on the Home screen:
+   <img src="img/mobile-qr-scan.png" alt="The QR scanner with a frame, a close button and a light button" width="300" />
 
-<img src="img/Screenshot_2025-09-26_at_13.28.15.png" alt="WalletConnect screen 2" width="560" />
+5. **Connect using WalletConnect?** appears. Check the site's URL and the account, then tap **Approve**.
 
-   Or on the Wallet Dashboard:
+   <img src="img/mobile-walletconnect-request.png" alt="Connect using WalletConnect? with the site's URL, Account 1 (address blurred), and Cancel and Approve buttons" width="300" />
 
-<img src="img/Screenshot_2025-09-26_at_13.29.08.png" alt="WalletConnect screen 3" width="560" />
+## Check or end sessions
 
-3. Scan the QR code.
-4. Verify the DApp name and domain, account, network, and requested permissions.
-5. Confirm the connection.
+Connected sites are listed under **WalletConnect Sessions**. To disconnect, tap **⋯** next to the site and choose **Delete**.
 
-<img src="img/IMG_0823.png" alt="WalletConnect screen 4" width="360" />
+<img src="img/mobile-walletconnect-sessions.png" alt="WalletConnect Sessions listing one connected site" width="300" />
 
-## Connect by deep link
+<img src="img/mobile-walletconnect-delete.png" alt="The ⋯ menu of a session with Delete" width="300" />
 
-1. In the DApp's wallet list, select **Lunascape**.
-
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_13.42.00.png" alt="WalletConnect screen 5" width="360" />
-
-2. When prompted to open Lunascape, tap **Open**.
-
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_13.42.59.png" alt="WalletConnect screen 6" width="360" />
-
-3. In Lunascape, verify the request and confirm the connection.
-
-<img src="img/Simulator_Screenshot_-_iPhone_16_-_2025-09-26_at_13.43.10.png" alt="WalletConnect screen 7" width="360" />
-
-## WalletConnect Sessions
-
-A successful connection creates a session. Open **Wallet** > **Settings** > **WalletConnect** to review active sessions.
-
-<img src="img/Screenshot_2025-09-26_at_14.01.56.png" alt="WalletConnect screen 8" width="560" />
-
-Delete a session to disconnect the DApp. Disconnecting from the DApp also removes its session from Lunascape.
-
-> **Tip:** Remove sessions you no longer use or do not recognize.
-
-## Sign a message
-
-Lunascape can display requests using these signature methods:
-
-- Personal Sign
-
-<img src="img/Screenshot_2025-09-26_at_15.41.37.png" alt="WalletConnect screen 9" width="560" />
-
-- Sign Typed Data
-
-<img src="img/Screenshot_2025-09-26_at_15.41.54.png" alt="WalletConnect screen 10" width="560" />
-
-- Sign Typed Data V3
-
-<img src="img/Screenshot_2025-09-26_at_15.42.13.png" alt="WalletConnect screen 11" width="560" />
-
-- Sign Typed Data V4
-
-<img src="img/Screenshot_2025-09-26_at_15.42.29.png" alt="WalletConnect screen 12" width="560" />
-
-> **Warning:** A signature can authorize account access or token actions. Reject an unexpected request or a message you cannot understand.
-
-## Confirm a transaction
-
-When a connected DApp requests a transaction, Lunascape displays a confirmation. Verify the network, destination or contract, amount, token permissions, and fee before approving it.
-
-<img src="img/IMG_0869.png" alt="WalletConnect screen 13" width="360" />
-
-> **Important:** A confirmed blockchain transaction usually cannot be canceled or reversed.
-
-## Switch Network
-
-When a DApp requests a different network, Lunascape shows the requested network for confirmation. Reject the request if it does not match the task you intended to perform.
-
-<img src="img/IMG_0870.png" alt="WalletConnect screen 14" width="360" />
+Disconnect sites you no longer use, and any you don't recognize.
