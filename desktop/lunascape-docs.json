@@ -9,10 +9,10 @@
     "en": "The desktop browser for Windows and macOS: tabs and bookmarks, ad blocking, extensions, the password manager, AI integration and Lunascape Wallet."
   },
   "startPage": "introduction.md",
-  "defaultLocale": "ja",
+  "defaultLocale": "en",
   "locales": [
-    "ja",
-    "en"
+    "en",
+    "ja"
   ],
   "tree": {
     "showFileNames": false,

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "設定"
+  title: "Settings"
   order: 400
 ---
 
-# 設定
+# Settings
 
-設定画面の一覧と、外部の AI との連携（MCP）について説明します。
+The settings, and connecting an external AI (MCP).
 
-- [設定一覧](overview.md) — メニュー（≡）から 設定 を開きます。
-- [外部の AI と連携する（MCP）](ai-integration.md) — 設定 > AI 連携 では、MCP サーバーを通じて外部の AI アシスタントから Lunascape を操作させられます。
+- [Settings](overview.md) — Open Settings from the menu (≡) and pick a section on the left.
+- [Connect an external AI (MCP)](ai-integration.md) — Settings > AI integration lets an AI assistant outside the browser drive Lunascape through an MCP server.

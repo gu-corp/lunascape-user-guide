@@ -6,7 +6,7 @@ navigation:
 
 # AI
 
-Lunascape に内蔵の AI と、外部の AI との連携について説明します。
+The AI built into Lunascape, and connecting an outside AI.
 
-- [Lunascape AI](lunascape-ai.md) — 表示中のページについて質問したり、ブラウザーの操作を AI に任せたりできます。
-- [外部の AI と連携する（MCP）](../../settings/ai-integration.md) — Claude Code などの外部の AI から、MCP サーバーを通じて Lunascape を操作させます。
+- [Lunascape AI](lunascape-ai.md) — Ask about the page you are on, or let an AI work the browser for you.
+- [Connect an external AI (MCP)](../../settings/ai-integration.md) — Let an outside AI such as Claude Code drive Lunascape through an MCP server.

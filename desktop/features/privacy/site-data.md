@@ -3,23 +3,21 @@ navigation:
   order: 300
 ---
 
-# サイトデータと閲覧データ
+# Site data and browsing data
 
-## サイトごとのデータを見る・消す
+## One site at a time
 
-アドレスバー左端の盾のアイコンを押し、パネルの一番下にある **サイトデータを管理** を開くと、そのサイトが保存している Cookie などのデータを確認して削除できます。削除すると、そのサイトからはログアウトされることがあります。
+Press the shield icon at the left end of the address bar and choose **Manage site data** at the bottom of the panel. There you can see and delete what that site has stored, cookies included. Deleting it usually signs you out of the site.
 
-<img src="img/site-info-popup.png" alt="盾のアイコンを押すと開くパネル。一番下にサイトデータを管理がある" width="360" />
+## Clear your browsing history
 
-## 閲覧履歴を消す
+Delete browsing history by period from the history screen. See [History](../browser/history.md).
 
-閲覧履歴は、履歴の画面で期間を指定してまとめて削除できます。詳しくは[履歴](../browser/history.md)を参照してください。
+**Settings** > **Privacy** > **History retention days** sets how many days are kept (365 by default).
 
-**設定** > **プライバシー** の **履歴保存日数** で、閲覧履歴を保持する日数も設定できます（初期値は 365 日）。
+Site data and history belong to each profile, so deleting affects only the profile you are using.
 
-サイトデータと閲覧履歴はプロファイルごとに独立しています。削除の対象は、いま使っているプロファイルだけです。
+## Related topics
 
-## 関連項目
-
-- [履歴](../browser/history.md)
-- [プロファイル](../windows/profiles.md)
+- [History](../browser/history.md)
+- [Profiles](../windows/profiles.md)

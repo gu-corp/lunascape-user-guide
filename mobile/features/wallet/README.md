@@ -6,12 +6,8 @@ navigation:
 
 # Wallet
 
-The built-in self-custody Web3 wallet: creating it, reading the dashboard, managing assets and connections, and approving requests safely.
+Lunascape Browser includes Lunascape Wallet, a self-custody Web3 wallet for EVM-compatible networks such as Ethereum and Japan Open Chain. Tap **Wallet** on the home screen to open it.
 
-- [Overview](overview.md) — Lunascape includes a self-custody wallet for EVM-compatible networks, including Ethereum and compatible networks added in Wallet Settings.
-- [Create Wallet](create-wallet.md) — You can create a new self-custody wallet or import an existing wallet with its recovery phrase.
-- [Wallet Dashboard](wallet-dashboard.md) — The Dashboard summarizes the selected account, network, estimated balance, assets, and recent outgoing transactions.
-- [Asset List](asset-list.md) — The Asset List shows tokens and balances for the currently selected account and network.
-- [Wallet Settings](wallet-settings.md) — Open Wallet Settings to manage accounts, saved addresses, networks, display currency, connections, and security options.
-- [WalletConnect](walletconnect.md) — WalletConnect is an open protocol that lets a wallet exchange connection, signature, and transaction requests with a DApp through a QR code or deep link.
-- [Wallet Operations](wallet-operations.md) — This page explains requests a DApp can send to Lunascape.
+How to set up and use the wallet — creating it, writing down the seed phrase, sending and receiving, connecting to sites and its settings — is covered in the [Lunascape Wallet User Guide](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/mobile/README.md).
+
+> **Important:** You control this wallet. Lunascape cannot recover a lost seed phrase or reverse a blockchain transaction. Never share your seed phrase, private key or wallet password.

@@ -31,4 +31,4 @@ navigation:
 ## 関連項目
 
 - [検索設定](../../../settings/i18n/ja/search.md)
-- [WalletConnect](../../../wallet/i18n/ja/walletconnect.md)
+- [ウォレット](../../../wallet/i18n/ja/README.md)

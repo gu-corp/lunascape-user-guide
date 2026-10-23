@@ -3,47 +3,45 @@ navigation:
   order: 500
 ---
 
-# ブックマーク
+# Bookmarks
 
-## 追加する
+## Add one
 
-- アドレスバー右の星アイコンを押します。
-- タブをブックマークバーへドラッグしても追加できます。
+- Press the star at the right of the address bar.
+- Or drag a tab onto the bookmarks bar.
 
-## ブックマークバー
+## The bookmarks bar
 
-よく使うブックマークを、ツールバーの下に並べて表示します。
+Your frequently used bookmarks, shown under the toolbar.
 
-- 表示・非表示: **設定** > **外観** の **ブックマークバーを表示する**、またはメニューバーの **表示** > **ブックマークバーを表示する**
-- アイコンの表示: **設定** > **外観** の **ブックマークバーにアイコンを表示する**
-- ブックマークバーが空のときは、タブをバーへドラッグすると置けます。
+- Show or hide: **Settings** > **Appearance** > **Show Bookmarks Bar**, or **View** > **Show Bookmarks Bar** in the menu bar
+- Icons: **Settings** > **Appearance** > **Show favicon on Bookmark items**
+- While the bar is empty, drag a tab onto it to keep it there.
 
-## ブックマークマネージャ
+## The Bookmark Manager
 
-メニュー（≡）から **ブックマークマネージャ** を開くと、フォルダー単位でまとめて整理できます。
+Open **Bookmark Manager** from the menu (≡) to organise everything by folder.
 
-- フォルダーの作成、名前の変更、削除
-- ドラッグでの並べ替えと移動
-- 右クリックから **新しいタブで開く** / **新しいウィンドウで開く**
-- 他のブラウザーからの[インポート](../../getting-started/import.md)と、HTML への書き出し
+- Create, rename and delete folders
+- Drag to reorder and move
+- Right-click for **Open in new tab** / **Open in new window**
+- [Import](../../getting-started/import.md) from another browser, and export to HTML
 
-## 書き出す
+## Export
 
-**設定** > **ブックマーク** の **HTMLでエクスポート** で、ブックマークを HTML ファイルに書き出せます。Chrome・Firefox・Safari・Edge で取り込める形式です。
+**Settings** > **Bookmarks** > **Export to HTML** writes your bookmarks to an HTML file that Chrome, Firefox, Safari and Edge can import.
 
-## バックアップから戻す
+## Restore from a backup
 
-ブックマーク全体のバックアップが、次のときに自動で作られます。直近の 5 件まで残ります。
+A backup of your whole bookmark tree is taken automatically, and the last five are kept:
 
-- Lunascape の起動時
-- AI（Lunascape AI や MCP でつないだ外部の AI）がブックマークを変更する前
-- **今すぐバックアップ** を押したとき（前回から変更がなければ作られません）
+- when Lunascape starts
+- before an AI (Lunascape AI, or an outside AI connected over MCP) changes your bookmarks
+- when you press **Back up now** (skipped if nothing changed since the last one)
 
-戻すときは、**設定** > **ブックマーク** の **バックアップ** の一覧から選んで **復元** を押します。
+To go back, pick one from **Backups** in **Settings** > **Bookmarks** and press **Restore**.
 
-<img src="img/bookmark-backup.png" alt="設定のブックマーク画面。インポート / エクスポートと、バックアップの今すぐバックアップのボタンがある" width="560" />
+## Related topics
 
-## 関連項目
-
-- [データの移行](../../getting-started/import.md)
-- [履歴](history.md)
+- [Import your data](../../getting-started/import.md)
+- [History](history.md)

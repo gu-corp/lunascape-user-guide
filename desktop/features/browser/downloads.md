@@ -3,22 +3,22 @@ navigation:
   order: 700
 ---
 
-# ダウンロード
+# Downloads
 
-## ダウンロードする
+## Download a file
 
-ファイルへのリンクを選ぶと、ダウンロードが始まり、画面下部にダウンロードバーが表示されます。バーの **すべて表示** を押すと、ダウンロード履歴が開きます。
+Choosing a link to a file starts the download and shows the download bar at the bottom of the window. **Show all** on that bar opens the download history.
 
-ダウンロード履歴は、メニュー（≡）の **ダウンロード**、または `Ctrl+Shift+J` / `Cmd+Shift+J` でも開けます。
+You can also open the download history from **Downloads** in the menu (≡), or with `Ctrl+Shift+J` / `Cmd+Shift+J`.
 
-## 一時停止と再開
+## Pause and resume
 
-進行中のダウンロードは、履歴の一覧から **一時停止** と **再実行** ができます。失敗したダウンロードは **再実行** でやり直せます。
+A download in progress can be paused and resumed from the list. A failed download can be retried from the same place.
 
-## 保存先を変える
+## Where files are saved
 
-**設定** > **ダウンロード** で保存先フォルダーを変更できます。**ダウンロード前に各ファイルの保存場所を確認する** を有効にすると、毎回保存先を選べます。
+**Settings** > **Downloads** sets the folder. Turn on **Ask where to save each file before downloading** to choose the location every time.
 
-## 関連項目
+## Related topics
 
-- [設定一覧](../../settings/overview.md)
+- [Settings](../../settings/overview.md)

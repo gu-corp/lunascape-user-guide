@@ -3,96 +3,96 @@ navigation:
   order: 100
 ---
 
-# 設定一覧
+# Settings
 
-メニュー（≡）の **設定** か、左のサイドバーの **設定** から開きます。左側の一覧から項目を選びます。
+Open **Settings** from the menu (≡) or from the sidebar on the left, and pick a section on the left.
 
-| 項目 | 内容 |
+| Section | What it covers |
 | --- | --- |
-| 一般 | 既定のブラウザー、言語、タブ |
-| 外観 | 表示するツールバーやブラウザー要素、ナビゲーションの並び順 |
-| 検索 | 検索エンジンの管理と既定の設定 |
-| プライバシー | 広告ブロック、サイトの権限、履歴の保存日数 |
-| ダウンロード | ダウンロードしたファイルの保存先 |
-| ブックマーク | ブックマークの書き出し・取り込み、バックアップ |
-| ウォレット | 内蔵暗号資産ウォレット（Lunascape Wallet）の設定 |
-| 拡張機能 | 内蔵の拡張機能と、追加した拡張機能の管理 |
-| テーマ | ダッシュボードの背景と、ダッシュボードに表示するアプリ |
-| プロファイル | プロファイルの管理と、リンクを開くプロファイル |
-| AI連携 | Lunascape AI のツール権限、MCP サーバー、監査ログ |
-| About | バージョン、リリースノート、更新チャンネル |
+| General | The default browser, language, tabs |
+| Appearance | Which toolbars and browser elements are shown, and the order of the navigation entries |
+| Search | Manage search engines and choose the default |
+| Privacy | Ad blocking, site permissions, how long history is kept |
+| Downloads | Where downloaded files are saved |
+| Bookmarks | Exporting and importing bookmarks, and backups |
+| Wallet | The built-in crypto wallet (Lunascape Wallet) |
+| Extensions | The built-in extensions and the ones you added |
+| Theme | The dashboard background and the apps on the dashboard |
+| Profiles | Managing profiles, and which profile opens links |
+| AI Integration | Lunascape AI tool permissions, the MCP server, the audit log |
+| About | Version, release notes, update channel |
 
-## 一般
+## General
 
-- **既定のブラウザ**: Lunascape を既定のブラウザーにします。詳しくは[既定のブラウザーに設定する](../getting-started/default-browser.md)を参照してください。
-- **言語**: ブラウザーの表示言語を選びます。
-- **タブ**: **アドレスバーから入力した際に新しいタブで開く** を選べます。**新しいタブで表示するページ** で、新しいタブを開いたときにダッシュボードの代わりに表示する URL を指定できます。
+- **Default browser**: makes Lunascape the default browser. See [Set as the default browser](../getting-started/default-browser.md).
+- **Languages**: the language of the browser interface.
+- **Tabs**: whether what you type in the address bar opens in a new tab. **New tab page** sets a URL to open in new tabs instead of the dashboard.
 
-## 外観
+## Appearance
 
-- **表示**: 次の項目の表示・非表示を切り替えます。
-  - ブックマークバーにアイコンを表示する
-  - タブにアイコンを表示する
-  - ブックマークバーを表示する
-  - ツールバーにダッシュボードボタンを表示する
-  - タブバーにタブグループ名を表示する
-  - ツールバーに検索バーを表示する
-- **ナビゲーションの並び順**: サイドバーの項目とツールバー左のボタンの並び順を、矢印のボタンで変えます。**既定に戻す** で元の順に戻ります。
+- **Display**: show or hide these:
+  - favicons on bookmark items
+  - favicons on the tab bar
+  - the bookmarks bar
+  - the dashboard button in the toolbar
+  - tab group names in the tab bar
+  - the search bar in the toolbar
+- **Order of the navigation entries**: reorder the sidebar entries and the buttons on the left of the toolbar with the arrow buttons. **Reset to default** restores the original order.
 
-## 検索
+## Search
 
-検索エンジンが、一般・開発・動画・ショッピングなどのカテゴリーごとに並びます。詳しくは[検索とアドレスバー](../features/browser/search.md)を参照してください。
+Search engines are listed by category: general, developer, video, shopping and so on. See [Search and the address bar](../features/browser/search.md).
 
-## プライバシー
+## Privacy
 
-- **広告ブロック**: 広告ブロックの有効・無効と、使う **フィルターリスト**、広告を許可するサイトの **許可リスト** を設定します。詳しくは[広告ブロック](../features/privacy/ad-blocking.md)を参照してください。
-- **権限**: サイトごとに許可・ブロックした位置情報・カメラとマイク・通知の権限を確認できます。
-- **履歴保存日数**: 閲覧履歴を残す日数です。初期値は 365 日です。
+- **Ad Block**: turn ad blocking on or off, and choose the **Filter Lists** and the sites in the **Allowlist**. See [Ad blocking](../features/privacy/ad-blocking.md).
+- **Permissions**: the location, camera and microphone, and notification permissions you allowed or blocked for each site.
+- **History retention days**: how many days of browsing history to keep. The default is 365.
 
-## ダウンロード
+## Downloads
 
-保存先の **場所** と、**ダウンロード前に各ファイルの保存場所を確認する** を設定します。
+Set the **Location** to save to, and **Ask where to save each file before downloading**.
 
-## ブックマーク
+## Bookmarks
 
-- **インポート / エクスポート**: **HTMLでエクスポート** で、ブックマークを Chrome・Firefox・Safari・Edge で取り込める HTML ファイルに書き出します。**ブラウザからインポート** で、他のブラウザーから取り込みます。
-- **バックアップ**: ブックマーク全体のバックアップです。詳しくは[ブックマーク](../features/browser/bookmarks.md#バックアップから戻す)を参照してください。
+- **Import / Export**: **Export to HTML** writes your bookmarks to an HTML file that Chrome, Firefox, Safari and Edge can import. **Import from a browser** brings bookmarks in from another browser.
+- **Backups**: backups of your whole bookmark tree. See [Bookmarks](../features/browser/bookmarks.md#restore-from-a-backup).
 
-## ウォレット
+## Wallet
 
-Lunascape Wallet の **現在のバージョン** と、**拡張機能のソース** を確認・変更します。通常は **Chrome Web Store（推奨）** と **自動更新を有効にする** のままで使います。
+Shows the **Current Version** of Lunascape Wallet and its **Extension Source**. Normally leave it on **Chrome Web Store (recommended)** with **Enable auto-update** on.
 
-## 拡張機能
+## Extensions
 
-- **システム拡張**: Lunascape に内蔵の拡張機能（Lunascape AI、Lunascape Wallet、Lunascape Password Manager）を、個別にオン・オフできます。
-- **Chrome 拡張サポート**: Chrome ウェブストアの拡張機能を追加できるようにします（試験的な機能です）。
-- **インストール済み拡張機能**: 追加した拡張機能の有効・無効の切り替えと削除をします。
+- **System Extensions**: turn the built-in extensions (Lunascape AI, Lunascape Wallet, Lunascape Password Manager) on or off one by one.
+- **Chrome Extension Support**: lets you add extensions from the Chrome Web Store (experimental).
+- **Installed Extensions**: enable, disable or remove the extensions you added.
 
-詳しくは[拡張機能を追加・管理する](../features/extensions/manage.md)を参照してください。
+See [Add and manage extensions](../features/extensions/manage.md).
 
-## テーマ
+## Theme
 
-- **ダッシュボード背景**: ダッシュボードの背景を、用意された画像から選びます。**カスタム画像を選択…** で手持ちの画像も使えます。
-- **アプリ**: ダッシュボードのアプリ一覧に表示するブックマークフォルダーを選びます。
+- **Dashboard Background**: pick a background for the dashboard, or use your own with **Choose custom image…**.
+- **Apps**: the bookmark folder shown as apps on the dashboard.
 
-## プロファイル
+## Profiles
 
-プロファイルの追加・名前の変更・削除と、**リンクを開くプロファイル** を設定します。詳しくは[プロファイル](../features/windows/profiles.md)を参照してください。
+Add, rename and delete profiles, and set **Profile for links**. See [Profiles](../features/windows/profiles.md).
 
-## AI連携
+## AI Integration
 
-**ツール権限**・**MCP**・**監査ログ** の 3 つのタブがあります。**ツール権限** は [Lunascape AI](../features/ai/lunascape-ai.md) に許す操作、**MCP** と **監査ログ** は[外部の AI との連携](ai-integration.md)の設定です。
+Three tabs: **Tool permissions**, **MCP** and **Audit log**. **Tool permissions** is what [Lunascape AI](../features/ai/lunascape-ai.md) may do; **MCP** and **Audit log** are for [connecting an outside AI](ai-integration.md).
 
 ## About
 
-- **バージョン**: 使っている Lunascape と Electron のバージョンを確認できます。**リリースノート** で更新内容を開きます。
-- **更新チャンネル**: 受け取るバージョンの種類（stable・beta・dev）を選びます。詳しくは[アップデート](../getting-started/update.md)を参照してください。
+- **Version**: the Lunascape and Electron versions you are running. **Release notes** opens what changed.
+- **Update channel**: which kind of build you receive (stable, beta or dev). See [Update](../getting-started/update.md).
 
-## 設定を初期化する
+## Reset
 
-設定画面の右上の **︙** から **すべての設定を初期化** を選ぶと、すべての設定が既定値に戻ります。取り消せません。
+Choose **Reset all settings** from the **︙** at the top right of the settings screen to put every setting back to its default. This cannot be undone.
 
-## 関連項目
+## Related topics
 
-- [外部の AI と連携する（MCP）](ai-integration.md)
+- [Connect an external AI (MCP)](ai-integration.md)
 - [Lunascape AI](../features/ai/lunascape-ai.md)

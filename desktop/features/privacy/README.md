@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: "プライバシー"
+  title: "Privacy"
   order: 300
 ---
 
-# プライバシー
+# Privacy
 
-広告ブロック、サイトの権限、サイトが保存するデータの管理について説明します。
+Ad blocking, site permissions, and managing the data sites keep.
 
-- [広告ブロック](ad-blocking.md) — 広告とトラッカーをブロックして、表示を軽くし、通信量を減らします。
-- [サイトの権限](permissions.md) — サイトが位置情報・カメラ・マイク・通知を使おうとすると、画面に確認が表示されます。
-- [サイトデータと閲覧データ](site-data.md) — アドレスバー左のアイコンから サイトデータを管理 を開くと、そのサイトが保存している Cookie などのデータを確認して削除できます。
+- [Ad blocking](ad-blocking.md) — Blocking advertisements and trackers makes pages lighter and cuts the data they pull in.
+- [Site permissions](permissions.md) — When a site wants your location, camera, microphone or notifications, a prompt appears.
+- [Site data and browsing data](site-data.md) — The icon at the left of the address bar opens Manage site data, where you can see and delete what that site has stored, cookies included.

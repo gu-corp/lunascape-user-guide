@@ -3,41 +3,36 @@ navigation:
   order: 200
 ---
 
-# プロファイル
+# Profiles
 
-プロファイルを分けると、ブックマーク・履歴・Cookie・拡張機能の状態を別々に持てます。仕事用と個人用を切り替えたいときに使います。
+Separate profiles keep bookmarks, history, cookies and extension state apart — one for work and one for personal use, for example.
 
-## プロファイルを追加する
+## Add a profile
 
-1. ツールバー右端の人型のアイコンを押し、**プロファイルを管理…** を選びます。
+1. Press the person icon at the right end of the toolbar and choose **Manage profiles…**.
+2. The **Profiles** page of the settings opens. Press **Add profile**.
+3. Type a name and press `Enter`. Two profiles cannot share a name.
 
-   <img src="img/profile-menu.png" alt="人型のアイコンを押すと、プロファイルの一覧とプロファイルを管理が表示される" width="240" />
+## Switch
 
-2. 設定の **プロファイル** 画面が開きます。**プロファイルを追加** を押します。
-3. プロファイル名を入力して `Enter` を押します。同じ名前は使えません。
+Pick a profile from the person icon's list, or press **Open** next to it on the **Profiles** settings page, to open a window for it. Each window belongs to one profile, and its name appears in the title bar.
 
-<img src="img/profiles-settings.png" alt="設定のプロファイル画面。プロファイルごとに開く・名前を変更・削除のボタンがあり、下にプロファイルを追加がある" width="560" />
+## Delete
 
-## 切り替える
+Press **Delete** next to the profile on the **Profiles** settings page. Its browsing data is removed from this computer for good, so export any bookmarks you want to keep first.
 
-人型のアイコンの一覧からプロファイルを選ぶか、設定の **プロファイル** 画面で **開く** を押すと、そのプロファイルのウィンドウが開きます。ウィンドウごとにプロファイルが決まり、タイトルバーにプロファイル名が表示されます。
+> **Note:** Passwords saved in the password manager are shared across every profile.
 
-## 削除する
+## Choose the profile a site opens in
 
-設定の **プロファイル** 画面で **削除** を押します。**このプロファイルの閲覧データはこの端末から完全に削除されます。** 取り消せないため、必要なブックマークは先に書き出してください。
+Links opened by other apps or by an outside AI (MCP) normally open in the profile you are using. To send a site to a particular profile, add a rule:
 
-> **注意:** パスワードマネージャーに保存したパスワードは、すべてのプロファイルで共有されます。
+1. Go to **Profile for links** under **Settings** > **Profiles**.
+2. Enter the site's host name (for example `figma.com`), choose the profile and press **Add**.
 
-## サイトごとに開くプロファイルを決める
+Links that Lunascape AI opens ignore these rules and open in the window you are chatting in.
 
-他のアプリや外部の AI（MCP）から開いたリンクは、ふだんはいま使っているプロファイルで開きます。特定のサイトを決まったプロファイルで開きたいときは、規則を追加します。
+## Related topics
 
-1. **設定** > **プロファイル** の **リンクを開くプロファイル** を開きます。
-2. サイトのホスト名（例: `figma.com`）を入力し、開くプロファイルを選んで **追加** を押します。
-
-Lunascape AI が開くリンクは、この規則によらず、AI と会話しているウィンドウで開きます。
-
-## 関連項目
-
-- [データの移行](../../getting-started/import.md)
-- [パスワードマネージャー](../extensions/password-manager.md)
+- [Import your data](../../getting-started/import.md)
+- [Password manager](../extensions/password-manager.md)

@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: "機能"
+  title: "Features"
   order: 300
 ---
 
-# 機能
+# Features
 
-Lunascape Desktop の機能を、ブラウジング、ウィンドウとプロファイル、プライバシー、拡張機能、AI の 5 つに分けて説明します。
+The features of Lunascape Desktop, in five groups: browsing, windows and profiles, privacy, extensions, and AI.
 
-- [ブラウジング](browser/README.md) — 毎日のブラウジングでよく使う操作をまとめています。
-- [ウィンドウとプロファイル](windows/README.md) — シークレットウィンドウと、用途ごとに使い分けるプロファイルについて説明します。
-- [プライバシー](privacy/README.md) — 広告ブロック、サイトの権限、サイトが保存するデータの管理について説明します。
-- [拡張機能](extensions/README.md) — Lunascape に同梱されている拡張機能と、Chrome 拡張機能の追加・管理について説明します。
-- [AI](ai/README.md) — Lunascape に内蔵の AI と、外部の AI との連携について説明します。
+- [AI](ai/README.md) — The AI built into Lunascape, and connecting an outside AI.
+- [Browsing](browser/README.md) — The everyday browsing tasks.
+- [Extensions](extensions/README.md) — The extensions bundled with Lunascape, and adding and managing Chrome extensions.
+- [Privacy](privacy/README.md) — Ad blocking, site permissions, and managing the data sites keep.
+- [Windows and profiles](windows/README.md) — Private windows, and profiles for keeping uses apart.

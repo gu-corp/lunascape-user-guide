@@ -24,5 +24,4 @@ When enabled, Browser Wallet features are shown in the app. When disabled, those
 
 ## Related topics
 
-- [Wallet overview](../wallet/overview.md)
-- [Wallet settings](../wallet/wallet-settings.md)
+- [Wallet](../wallet/README.md)

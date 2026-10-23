@@ -3,31 +3,29 @@ navigation:
   order: 600
 ---
 
-# 履歴
+# History
 
-## 履歴を見る
+## See where you have been
 
-メニュー（≡）の **履歴**、またはメニューバーの **履歴** > **履歴** を選びます。今日・昨日・日付ごとに、開いたページが新しい順に並びます。
+Choose **History** from the menu (≡), or **History** > **History** in the menu bar. Pages are listed newest first, under Today, Yesterday and each date.
 
-<img src="img/history.png" alt="履歴の画面。右上に時間を選択と削除があり、日付ごとにページが並ぶ。各行の左にチェックボックス、右に︙がある" width="760" />
+The **︙** at the right of each row offers:
 
-各行の右の **︙** から、次の操作ができます。
+- **Remove from history**: deletes that row.
+- **More from this site**: shows only the history for that site.
 
-- **履歴から削除**: その行を削除します。
-- **このサイトの他のページ**: 同じサイトの履歴だけを表示します。
+## Delete history
 
-## 履歴を削除する
+- **Pick entries**: tick the boxes on the left of the rows you want gone, then press **Delete** at the top right.
+- **By period**: choose a period from **Select time** at the top right, then press **Delete**. Choose the last hour, 8 hours, day, week or month, or **Delete all**.
 
-- **選んで削除する**: 消したい行の左のチェックボックスに印を付け、右上の **削除** を押します。
-- **期間を指定して削除する**: 右上の **時間を選択** から期間を選び、**削除** を押します。過去 1 時間・8 時間・1 日・7 日・1 か月と、**すべての履歴を削除** から選べます。
+## How long history is kept
 
-## 保存期間を変える
+**Settings** > **Privacy** > **History retention days** sets how many days history is kept. The default is 365. Anything older is deleted automatically.
 
-**設定** > **プライバシー** の **履歴保存日数** で、履歴を保持する日数を設定できます。初期値は 365 日です。期間を過ぎた履歴は自動的に削除されます。
+> **Note:** Pages opened in a private window are not recorded in history.
 
-> **注意:** シークレットウィンドウで開いたページは履歴に残りません。
+## Related topics
 
-## 関連項目
-
-- [シークレットウィンドウ](../windows/private-window.md)
-- [サイトデータ](../privacy/site-data.md)
+- [Private windows](../windows/private-window.md)
+- [Site data](../privacy/site-data.md)

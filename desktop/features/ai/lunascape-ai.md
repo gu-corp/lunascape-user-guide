@@ -5,47 +5,43 @@ navigation:
 
 # Lunascape AI
 
-Lunascape AI は、ブラウザーに内蔵の AI アシスタントです。表示中のページについて質問したり、タブやブックマークの操作を任せたりできます。使うには、AI のプロバイダー（Claude の API キーなど）を設定します。
+Lunascape AI is the AI assistant built into the browser. Ask it about the page you are on, or hand it work with your tabs and bookmarks. To use it, set up an AI provider, such as a Claude API key.
 
-## 使える場所
+## Where to find it
 
-| 場所 | 開きかた | できること |
+| Where | How to open it | What it is for |
 | --- | --- | --- |
-| ページチャット | ツールバー右のロボットのアイコン | 表示中のページについて質問します。ウィンドウの右側にパネルが開きます |
+| Page chat | The robot icon on the right of the toolbar | Ask about the page you are on. A panel opens on the right of the window |
 
-<img src="img/page-chat.png" alt="ウィンドウの右側に Lunascape AI のパネルが開き、下に「このページについて質問...」の入力欄がある" width="760" />
+## Set it up first
 
-## はじめに設定する
+Until an AI is set up, the panel says the AI is not configured.
 
-AI がまだ設定されていないと、パネルに「AI が未設定です」と表示されます。
+1. Press **Open settings** in the panel. The **AI Sidebar** settings open in a new tab.
+2. Open **AI Settings** and choose the **Claude** or **OpenAI compatible** tab.
+3. Enter the API key, choose a model and press **Save**. Get a Claude API key from the Anthropic Console.
+4. Under **General** > **AI provider**, choose the provider you set up.
 
-1. パネルの **設定を開く** を押します。**AI サイドバー** の設定画面が新しいタブで開きます。
-2. **AI設定** を開き、**Claude** か **OpenAI 互換** のタブを選びます。
-3. API キーを入力し、モデルを選んで **保存** を押します。Claude の API キーは Anthropic Console で取得できます。
-4. **一般** の **AI プロバイダー** で、設定したプロバイダーを選びます。
+> **Note:** AI usage is billed by the service that issued the API key. **History & cost** shows what you have used so far.
 
-<img src="img/ai-settings.png" alt="AI サイドバーの設定画面。AI設定に Claude と OpenAI 互換のタブがあり、Claude API キー、モデル、拡張思考、エフォートを設定する" width="560" />
+## Ask a question
 
-> **ご注意:** AI の利用料は、API キーを発行したサービスから請求されます。**履歴とコスト** で、これまでの利用状況を確認できます。
+1. With a page open, press the robot icon on the right of the toolbar.
+2. Type your question and send it.
 
-## 質問する
+At the bottom left of the input box, choose which tabs the AI reads (for example **All tabs**). At the bottom right, switch the provider and model for this conversation.
 
-1. ページを開いた状態で、ツールバー右のロボットのアイコンを押します。
-2. 入力欄に質問を書いて送信します。
+## Choose what the AI may do
 
-入力欄の左下で、AI に読ませるタブ（**すべてのタブ** など）を選べます。右下では、この会話で使うプロバイダーとモデルを切り替えられます。
+Decide what the AI may do in the browser, item by item, on the **Tool permissions** tab of **Settings** > **AI Integration**. Interacting with pages (clicking, typing and so on), the permissions for downloaded files, and reading debug data are off by default.
 
-## AI に許す操作を選ぶ
+**Confirmation frequency**, under **General** in the AI Sidebar settings, sets which actions ask you first. Read-only actions never ask; opening a downloaded file always does.
 
-AI がブラウザーで何をしてよいかは、**設定** > **AI連携** の **ツール権限** タブで項目ごとに選びます。初期状態では、ページを操作する（クリック・入力など）権限、ダウンロードしたファイルに関する権限、デバッグデータの読み取りはオフです。
+## Turn it off
 
-AI サイドバーの設定画面の **一般** にある **確認の頻度** で、AI が操作する前に確認を求める範囲も選べます。読むだけの操作は確認しません。ダウンロードしたファイルを開く操作は、常に確認します。
+Turn off **Lunascape AI** under **System Extensions** in **Settings** > **Extensions**, and the page chat and its toolbar button go away.
 
-## オフにする
+## Related topics
 
-**設定** > **拡張機能** の **システム拡張** で **Lunascape AI** をオフにすると、ページチャットとツールバーのボタンが消えます。
-
-## 関連項目
-
-- [外部の AI と連携する（MCP）](../../settings/ai-integration.md)
-- [画面各部の名称](../../getting-started/screen.md)
+- [Connect an external AI (MCP)](../../settings/ai-integration.md)
+- [The browser window](../../getting-started/screen.md)

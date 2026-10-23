@@ -5,12 +5,8 @@ navigation:
 
 # ウォレット
 
-内蔵のセルフカストディ型 Web3 ウォレット — 作成、ダッシュボード、資産と接続の管理、要求の安全な承認。
+Lunascape Browser には、Lunascape Wallet が入っています。Ethereum や Japan Open Chain などの EVM 互換ネットワークで使える、セルフカストディ型の Web3 ウォレットです。ホーム画面の **ウォレット** をタップすると開きます。
 
-- [概要](overview.md) — Lunascapeには、EthereumなどのEVM互換ネットワークで利用できるセルフカストディ型ウォレットがあります。
-- [アセット一覧](asset-list.md) — 選択中のアカウントとネットワークにあるトークンと残高を表示します。
-- [ウォレット作成](create-wallet.md) — 新しいセルフカストディ型ウォレットを作成するか、既存のウォレットをリカバリーフレーズからインポートできます。
-- [ウォレットダッシュボード](wallet-dashboard.md) — 選択中のアカウント、ネットワーク、推定残高、アセット、最近の送信取引をまとめて確認できます。
-- [ウォレット操作](wallet-operations.md) — DAppからLunascapeへ送られる接続、署名、取引などの要求について説明します。
-- [ウォレット設定](wallet-settings.md) — アカウント、保存済みアドレス、ネットワーク、表示通貨、接続、セキュリティを管理します。
-- [WalletConnect](walletconnect.md) — WalletConnectは、QRコードまたはディープリンクを使い、ウォレットとDAppの間で接続、署名、取引の要求をやり取りするオープンプロトコルです。
+ウォレットの作成、シードフレーズの控えかた、送金と受け取り、サイトとの接続、設定などの使いかたは、[Lunascape Wallet ユーザガイド](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/wallet/mobile/README.md) で説明しています。
+
+> **重要:** このウォレットは利用者自身が管理します。Lunascape は、紛失したシードフレーズを復元したり、ブロックチェーン上の取引を取り消したりできません。シードフレーズ、秘密鍵、ウォレットのパスワードは誰にも教えないでください。

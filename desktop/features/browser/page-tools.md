@@ -3,36 +3,36 @@ navigation:
   order: 900
 ---
 
-# ページの操作
+# Working with a page
 
-## ページ内を検索する
+## Find on the page
 
-`Ctrl+F` / `Cmd+F` で検索バーが開きます。入力すると、一致する箇所が順に表示されます。
+`Ctrl+F` / `Cmd+F` opens the find bar. Matches are highlighted as you type.
 
-## 拡大・縮小する
+## Zoom
 
-| 操作 | キー |
+| Action | Keys |
 | --- | --- |
-| 拡大 | `Ctrl++` / `Cmd++` |
-| 縮小 | `Ctrl+-` / `Cmd+-` |
-| 元の大きさに戻す | `Ctrl+0` / `Cmd+0` |
+| Zoom in | `Ctrl++` / `Cmd++` |
+| Zoom out | `Ctrl+-` / `Cmd+-` |
+| Back to 100% | `Ctrl+0` / `Cmd+0` |
 
-## 印刷する
+## Print
 
-`Ctrl+P` / `Cmd+P` で印刷ダイアログを開きます。
+`Ctrl+P` / `Cmd+P` opens the print dialog.
 
-## ページを保存する
+## Save the page
 
-`Ctrl+S` / `Cmd+S` でページを保存します。保存形式は HTML、テキスト、画像などから選べます。
+`Ctrl+S` / `Cmd+S` saves the page. You can save it as HTML, text or an image.
 
-## ファイルを開く
+## Open a local file
 
-`Ctrl+O` / `Cmd+O` で、PC 上の HTML ファイルや PDF をタブで開けます。
+`Ctrl+O` / `Cmd+O` opens an HTML file or a PDF from your computer in a tab.
 
-## 全画面表示
+## Full screen
 
-`F11`（Windows）/ `Ctrl+Cmd+F`（macOS）で全画面表示を切り替えます。
+`F11` (Windows) or `Ctrl+Cmd+F` (macOS) toggles full screen.
 
-## 関連項目
+## Related topics
 
-- [キーボードショートカット](shortcuts.md)
+- [Keyboard shortcuts](shortcuts.md)

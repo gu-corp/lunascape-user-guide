@@ -3,36 +3,36 @@ navigation:
   order: 100
 ---
 
-# インストールする
+# Install
 
-Lunascape Desktop は公式サイトからダウンロードします。
+Download Lunascape Desktop from the official site.
 
-- [Lunascape をダウンロード](https://www.lunascape.org/ja/download)
+- [Download Lunascape](https://www.lunascape.org/en/download)
 
-| 対応 OS | 形式 |
+| Supported OS | File |
 | --- | --- |
-| Windows 10 / 11（64bit） | `Lunascape-<バージョン>.Setup.exe` |
-| macOS（Apple silicon / Intel） | `Lunascape-<バージョン>-universal.dmg` |
+| Windows 10 / 11 (64-bit) | `Lunascape-<version>.Setup.exe` |
+| macOS (Apple silicon / Intel) | `Lunascape-<version>-universal.dmg` |
 
-## Windows にインストールする
+## Install on Windows
 
-1. ダウンロードした `Setup.exe` をダブルクリックします。
-2. インストールが終わると、Lunascape が自動的に起動します。
-3. 2 回目以降は、スタートメニューまたはデスクトップのショートカットから起動します。
+1. Double-click the downloaded `Setup.exe`.
+2. Lunascape starts on its own once the install finishes.
+3. After that, start it from the Start menu or the desktop shortcut.
 
-インストール先はユーザーフォルダー内（`%LOCALAPPDATA%\Lunascape`）です。管理者権限は必要ありません。
+It installs inside your user folder (`%LOCALAPPDATA%\Lunascape`) and needs no administrator rights.
 
-## macOS にインストールする
+## Install on macOS
 
-1. ダウンロードした `.dmg` を開きます。
-2. **Lunascape** を **アプリケーション** フォルダーへドラッグします。
-3. Launchpad またはアプリケーションフォルダーから起動します。
+1. Open the downloaded `.dmg`.
+2. Drag **Lunascape** into the **Applications** folder.
+3. Start it from Launchpad or the Applications folder.
 
-## 起動しないときは
+## If it does not start
 
-インストールは成功したのにウィンドウが出ない場合は、[起動できない](../troubleshooting/startup.md)を参照してください。
+If the install reports success but no window appears, see [Lunascape does not start](../troubleshooting/startup.md).
 
-## 関連項目
+## Related topics
 
-- [画面各部の名称](screen.md)
-- [データの移行](import.md)
+- [The browser window](screen.md)
+- [Import your data](import.md)
