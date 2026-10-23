@@ -36,7 +36,7 @@ Lunascape Wallet は、資産を動かすための鍵を、あなたのパソコ
 
 | やりたいこと | 参照先 |
 | --- | --- |
-| ウォレットを開く | [入手して開く](getting-started/install.md) |
+| ウォレットを開く | [インストールしてはじめる](getting-started/install.md) |
 | 新しくウォレットを作る | [ウォレットを作成する](getting-started/create-wallet.md) |
 | 別のパソコンやブラウザーのウォレットを使う | [ウォレットをインポートする](getting-started/import-wallet.md) |
 | シードフレーズを控える | [シードフレーズをバックアップする](getting-started/backup.md) |

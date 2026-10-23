@@ -31,7 +31,7 @@ Lunascape Wallet keeps the keys that move your assets only on your computer. Nob
 
 | I want to | See |
 | --- | --- |
-| Open the wallet | [Get and open the wallet](../../getting-started/i18n/en/install.md) |
+| Open the wallet | [Install and get started](../../getting-started/i18n/en/install.md) |
 | Create a new wallet | [Create a wallet](../../getting-started/i18n/en/create-wallet.md) |
 | Use a wallet from another computer or browser | [Import a wallet](../../getting-started/i18n/en/import-wallet.md) |
 | Write down my seed phrase | [Back up your seed phrase](../../getting-started/i18n/en/backup.md) |
