@@ -26,6 +26,8 @@ See [Install](https://docs.lunascape.org/github/gu-corp/lunascape-user-guide/des
 
 Press the Lunascape Wallet button (the wallet shape) in the toolbar. The wallet opens in a panel on the right of the window. Press the button again, or the **×** at the top right of the panel, to close it.
 
+<img src="img/desktop-wallet-panel.png" alt="The Lunascape window with the Lunascape Wallet panel open on the right, after pressing the wallet button in the toolbar" width="760" />
+
 If you can't find the button, check that Lunascape Wallet is on under **Settings** > **Extensions** > **System Extensions** in Lunascape.
 
 The first time, the wallet shows the create screen.

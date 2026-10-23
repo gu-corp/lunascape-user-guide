@@ -21,6 +21,8 @@ Lunascape Desktop には Lunascape Wallet が最初から入っています。�
 
 ツールバーの Lunascape Wallet のアイコン（財布の形）を押します。ウィンドウの右側にウォレットのパネルが開きます。もう一度アイコンを押すか、パネル右上の **×** で閉じます。
 
+<img src="img/desktop-wallet-panel.png" alt="ツールバーのウォレットのアイコンを押して、Lunascape のウィンドウの右側に Lunascape Wallet のパネルが開いた状態" width="760" />
+
 アイコンが見つからないときは、Lunascape の **設定** > **拡張機能** の **システム拡張** で、Lunascape Wallet がオンになっているか確認してください。
 
 はじめて開くと、ウォレットの作成画面が表示されます。
