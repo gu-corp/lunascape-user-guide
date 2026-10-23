@@ -5,8 +5,8 @@
     "en": "Lunascape Wallet User Guide"
   },
   "description": {
-    "ja": "Web3 ウォレット拡張機能。作成とバックアップ、送金と受け取り、トークンと NFT、サイトとの接続、設定、困ったときの対処。",
-    "en": "The Web3 wallet extension: creating and backing up a wallet, sending and receiving, tokens and NFTs, connecting to sites, settings and troubleshooting."
+    "ja": "Lunascape の Web3 ウォレット。Chrome 拡張機能、Lunascape Desktop、スマートフォンアプリの 3 つの使いかたと、作成とバックアップ、送金と受け取り、サイトとの接続、設定、困ったときの対処。",
+    "en": "Lunascape's Web3 wallet, as a Chrome extension, in Lunascape Desktop and in the smartphone app: creating and backing up a wallet, sending and receiving, connecting to sites, settings and troubleshooting."
   },
   "startPage": "introduction.md",
   "defaultLocale": "ja",
