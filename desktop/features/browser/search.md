@@ -3,30 +3,30 @@ navigation:
   order: 400
 ---
 
-# 検索とアドレスバー
+# Search and the address bar
 
-## アドレスバー
+## The address bar
 
-アドレスバーは、URL の入力と検索を兼ねています。
+The address bar takes both addresses and searches.
 
-- URL を入力すると、そのページを開きます。
-- 語句を入力すると、既定の検索エンジンで検索します。
-- 入力中は、履歴やブックマークから候補が表示されます。
-- キーボードでアドレスバーへ移動: `Alt+D`（Windows）/ `Cmd+L`（macOS）
+- Type a URL to open that page.
+- Type words to search with your default search engine.
+- As you type, suggestions come from your history and bookmarks.
+- Jump to it with `Alt+D` (Windows) or `Cmd+L` (macOS).
 
-## 検索バー
+## The search bar
 
-ツールバーの検索バーからは、検索エンジンを選んで検索できます。キーボードで移動するには `Ctrl+K` / `Cmd+K` を押します。
+The search bar in the toolbar searches with a search engine you pick. Jump to it with `Ctrl+K` / `Cmd+K`.
 
-検索バーを表示するかどうかは **設定** > **外観** の **ツールバーに検索バーを表示する** で切り替えます。
+Show or hide it in **Settings** > **Appearance** > **Show the search bar in the toolbar**.
 
-## 検索エンジンを変更する
+## Change the search engine
 
-1. **設定** > **検索** を開きます。
-2. 使いたいエンジンの **既定にする** を押します。
+1. Open **Settings** > **Search**.
+2. Press **Make default** on the engine you want.
 
-同じ画面から検索エンジンの追加と削除もできます。初期状態に戻したいときは **検索エンジンを既定に戻す** を実行します。追加したエンジンは削除されます。
+The same screen adds and removes engines. **Reset search engines** puts the defaults back and deletes the ones you added.
 
-## 関連項目
+## Related topics
 
-- [設定一覧](../../settings/overview.md)
+- [Settings](../../settings/overview.md)

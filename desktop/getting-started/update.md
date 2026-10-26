@@ -3,39 +3,39 @@ navigation:
   order: 500
 ---
 
-# アップデートする
+# Update
 
-Lunascape は新しいバージョンを自動的に確認し、見つかると画面に知らせます。
+Lunascape checks for a new version on its own and tells you when it finds one.
 
-## 手動で確認する
+## Check by hand
 
-1. メニュー（≡）から **アップデートを確認** を選びます。
-2. 新しいバージョンがある場合は、「最新版のLunascapeがあります。最新版にアップデートしますか？」と表示されます。**はい** を選ぶとダウンロードが始まります。ダウンロードには 1〜2 分かかることがあります。
-3. ダウンロードが終わると **新しいバージョンを利用できます** と表示されます。**今すぐ再起動** を選ぶと、再起動して更新が適用されます。**後で** を選んだ場合は、次回の起動時に適用されます。
+1. Choose **Check for updates** from the menu (≡).
+2. If a newer version exists, you are asked whether to update. Choose **Yes** to start the download, which can take a minute or two.
+3. When the download finishes, **New Version Available** appears. **Restart now** applies the update immediately; **Later** applies it the next time you start Lunascape.
 
-すでに最新の場合は **既に最新版です。** と表示されます。
+If you are already up to date, it says so instead.
 
-> **ご注意:**
+> **Note:**
 >
-> - **新しいバージョンを利用できます** の画面は、ウィンドウの左上に小さく表示されます。見落とすと更新が適用されないままになります。
-> - macOS で、ダウンロードしたディスクイメージ（`.dmg`）から直接起動していると、自動で更新できません。Lunascape を「アプリケーション」フォルダーに移動してから起動してください。
+> - **New Version Available** appears small, at the top left of the window. Miss it and the update is not applied.
+> - On macOS, Lunascape cannot update itself while it runs from the downloaded disk image (`.dmg`). Move it to the Applications folder and start it from there.
 
-## 更新チャンネル
+## Update channel
 
-**設定** > **About** の **更新チャンネル** で、受け取るバージョンの種類を選べます。
+**Settings** > **About** > **Update channel** decides which kind of build you receive.
 
-| チャンネル | 受け取るバージョン |
+| Channel | Builds you receive |
 | --- | --- |
-| stable | 安定版（初期設定） |
-| beta | ベータ版。新しい機能を先に試せます |
-| dev | 開発版 |
+| stable | Stable releases (the default) |
+| beta | Beta releases, with new features earlier |
+| dev | Development builds |
 
-通常は stable のままで構いません。チャンネルを変えたあとは、**アップデートを確認** を実行してください。
+Leave it on stable unless you have a reason not to. After changing the channel, run **Check for updates**.
 
-## 更新内容を見る
+## What changed
 
-更新後は、リリースノートのページが自動的に開きます。あとから読み直すときは **設定** > **About** > **リリースノート** を開いてください。
+The release notes open on their own after an update. To read them again later, open **Settings** > **About** > **Release notes**.
 
-## 関連項目
+## Related topics
 
-- [アップデートできない](../troubleshooting/updates.md)
+- [Lunascape will not update](../troubleshooting/updates.md)

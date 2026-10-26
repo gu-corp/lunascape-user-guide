@@ -22,6 +22,6 @@ Lunascape can connect supported Web3 DApps to the built-in wallet. A DApp may re
 
 <img src="img/Simulator_Screenshot_-_iPhone_15_-_2025-09-10_at_11.00.50.png" alt="Web3 DApp Support screen" width="360" />
 
-Some DApps list compatible connection methods by another wallet or provider name. See [Wallet Operations](../wallet/wallet-operations.md) and [WalletConnect](../wallet/walletconnect.md) for detailed procedures.
+Some DApps list compatible connection methods by another wallet or provider name. See [Wallet](../wallet/README.md) for detailed procedures.
 
 > **Important:** Connecting a wallet does not require sharing a seed phrase or private key. If a website asks for either one, stop and leave the site.

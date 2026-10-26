@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: "拡張機能"
+  title: "Extensions"
   order: 400
 ---
 
-# 拡張機能
+# Extensions
 
-Lunascape に同梱されている拡張機能と、Chrome 拡張機能の追加・管理について説明します。
+The extensions bundled with Lunascape, and adding and managing Chrome extensions.
 
-- [拡張機能を追加・管理する](manage.md) — Lunascape は Chrome 拡張機能に対応しています。
-- [パスワードマネージャー](password-manager.md) — Lunascape Password Manager は標準で入っている拡張機能です。
-- [Lunascape Wallet](wallet.md) — Lunascape Wallet は標準で入っている Web3 ウォレットの拡張機能です。
+- [Add and manage extensions](manage.md) — Lunascape runs Chrome extensions.
+- [Password manager](password-manager.md) — Lunascape Password Manager is bundled with the browser.
+- [Lunascape Wallet](wallet.md) — Lunascape Wallet is the Web3 wallet bundled with the browser.

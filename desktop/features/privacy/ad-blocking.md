@@ -3,27 +3,25 @@ navigation:
   order: 100
 ---
 
-# 広告ブロック
+# Ad blocking
 
-広告とトラッカーをブロックして、表示を軽くし、通信量を減らします。アドレスバー左端の盾のアイコンを押すと、そのページでブロックした数を確認できます。
+Blocking advertisements and trackers makes pages lighter and cuts the data they pull in. Press the shield icon at the left end of the address bar to see how many were blocked on the page.
 
-<img src="img/site-info-popup.png" alt="盾のアイコンを押すと開くパネル。ブロックした広告の数、広告ブロックを有効にする、このサイトの広告を許可、サイトデータを管理が並ぶ" width="360" />
+## Turn it on or off
 
-## 有効・無効を切り替える
+Use **Enable ad blocking** in the panel the shield icon opens, or **Settings** > **Privacy** > **Enable ad blocking**.
 
-盾のアイコンから開くパネルの **広告ブロックを有効にする** で切り替えます。**設定** > **プライバシー** の **広告ブロックを有効にする** でも切り替えられます。
+## Allow ads on one site
 
-## 特定のサイトだけ許可する
+When ad blocking stops a site from working, add that site to the allowlist.
 
-広告ブロックが原因でサイトが正しく動かないときは、そのサイトを許可リストに追加します。
+- Turn on **Allow ads on this site** in the panel the shield icon opens, or
+- Add the site under **Settings** > **Privacy** > **Allowlist**.
 
-- 盾のアイコンから開くパネルで **このサイトの広告を許可** をオンにする
-- または **設定** > **プライバシー** > **許可リスト** にサイトを追加する
+Reload the page afterwards.
 
-追加したあとは、ページを再読み込みしてください。
+> **Note:** Not every advertisement can be blocked. If a page looks or behaves oddly, add it to the allowlist first and see whether that explains it.
 
-> **注意:** すべての広告を必ずブロックできるわけではありません。ページの表示や動作がおかしいときは、まず許可リストに追加して確認してください。
+## Related topics
 
-## 関連項目
-
-- [サイトの権限](permissions.md)
+- [Site permissions](permissions.md)

@@ -3,42 +3,42 @@ navigation:
   order: 1000
 ---
 
-# キーボードショートカット
+# Keyboard shortcuts
 
-Windows は `Ctrl`、macOS は `Cmd` を使います。異なる場合は両方を記載しています。
+Windows uses `Ctrl`, macOS uses `Cmd`. Where they differ, both are listed.
 
-## タブとウィンドウ
+## Tabs and windows
 
-| 操作 | キー |
+| Action | Keys |
 | --- | --- |
-| 新しいタブ | `Ctrl+T` / `Cmd+T` |
-| タブを閉じる | `Ctrl+W` / `Cmd+W` |
-| 閉じたタブを開き直す | `Ctrl+Shift+T` / `Cmd+Shift+T` |
-| 次のタブ / 前のタブ | `Ctrl+Tab` / `Ctrl+Shift+Tab` |
-| 1〜9 番目のタブへ | `Ctrl+1`〜`Ctrl+9` |
-| 新しいウィンドウ | `Ctrl+N` / `Cmd+N` |
-| 新しいシークレットウィンドウ | `Ctrl+Shift+N` / `Cmd+Shift+N` |
-| ウィンドウを閉じる | `Ctrl+Shift+W` / `Cmd+Shift+W` |
+| New tab | `Ctrl+T` / `Cmd+T` |
+| Close tab | `Ctrl+W` / `Cmd+W` |
+| Reopen closed tab | `Ctrl+Shift+T` / `Cmd+Shift+T` |
+| Next / previous tab | `Ctrl+Tab` / `Ctrl+Shift+Tab` |
+| Jump to tab 1–9 | `Ctrl+1` to `Ctrl+9` |
+| New window | `Ctrl+N` / `Cmd+N` |
+| New private window | `Ctrl+Shift+N` / `Cmd+Shift+N` |
+| Close window | `Ctrl+Shift+W` / `Cmd+Shift+W` |
 
-## ページ
+## The page
 
-| 操作 | キー |
+| Action | Keys |
 | --- | --- |
-| 再読み込み | `Ctrl+R` / `Cmd+R` |
-| ページ内検索 | `Ctrl+F` / `Cmd+F` |
-| 拡大 / 縮小 / 等倍 | `Ctrl++` / `Ctrl+-` / `Ctrl+0` |
-| 印刷 | `Ctrl+P` / `Cmd+P` |
-| ページを保存 | `Ctrl+S` / `Cmd+S` |
-| ファイルを開く | `Ctrl+O` / `Cmd+O` |
-| 全画面表示 | `F11` / `Ctrl+Cmd+F` |
+| Reload | `Ctrl+R` / `Cmd+R` |
+| Find on page | `Ctrl+F` / `Cmd+F` |
+| Zoom in / out / reset | `Ctrl++` / `Ctrl+-` / `Ctrl+0` |
+| Print | `Ctrl+P` / `Cmd+P` |
+| Save page | `Ctrl+S` / `Cmd+S` |
+| Open file | `Ctrl+O` / `Cmd+O` |
+| Full screen | `F11` / `Ctrl+Cmd+F` |
 
-## 移動と表示
+## Getting around
 
-| 操作 | キー |
+| Action | Keys |
 | --- | --- |
-| アドレスバーへ移動 | `Alt+D` / `Cmd+L` |
-| 検索バーへ移動 | `Ctrl+K` / `Cmd+K` |
-| 履歴 | `Ctrl+H` / `Cmd+H` |
-| ダウンロード | `Ctrl+Shift+J` / `Cmd+Shift+J` |
-| ブックマークのインポート | `Ctrl+I` / `Cmd+I` |
-| 開発者ツール | `F12` / `Alt+Cmd+I` |
+| Address bar | `Alt+D` / `Cmd+L` |
+| Search bar | `Ctrl+K` / `Cmd+K` |
+| History | `Ctrl+H` / `Cmd+H` |
+| Downloads | `Ctrl+Shift+J` / `Cmd+Shift+J` |
+| Import bookmarks | `Ctrl+I` / `Cmd+I` |
+| Developer tools | `F12` / `Alt+Cmd+I` |

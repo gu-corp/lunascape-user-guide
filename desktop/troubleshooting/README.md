@@ -1,14 +1,14 @@
 ---
 navigation:
-  title: "困ったときは"
+  title: "Troubleshooting"
   order: 500
 ---
 
-# 困ったときは
+# Troubleshooting
 
-起動、アップデート、動作の重さ、拡張機能の不調 — 症状ごとの対処をまとめています。
+What to do when Lunascape will not start, will not update, slows down, or an extension misbehaves.
 
-- [起動できない](startup.md) — インストールが途中で終わっている可能性があります。
-- [アップデートできない](updates.md) — 設定 > About の 更新チャンネル を確認してください。
-- [うまく動かない拡張機能がある](extensions.md) — 拡張機能の内部処理が停止している可能性があります。
-- [動作が重い・応答しなくなる](performance.md) — そのタブを閉じて、症状が収まるか確認してください。
+- [An extension is not working](extensions.md) — The extension's background worker may have stopped.
+- [It is slow or stops responding](performance.md) — Close that tab and see whether things settle.
+- [Lunascape does not start](startup.md) — The install may have stopped partway.
+- [Lunascape will not update](updates.md) — Check Settings > About > Update channel.

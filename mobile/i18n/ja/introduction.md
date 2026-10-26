@@ -89,7 +89,7 @@ Lunascape Mobile は、従来の Web ブラウジングと Web3 ウォレット�
 ### クイックスタート
 
 1. **ダウンロードとインストール** — 端末のアプリストアから Lunascape Mobile を入手します（[ダウンロードとインストール](../../getting-started/i18n/ja/download.md)）
-2. **ウォレットの設定** — 新しいウォレットを作成するか、既存のウォレットをインポートします（[ウォレットの作成](../../features/wallet/i18n/ja/create-wallet.md)）
+2. **ウォレットの設定** — 新しいウォレットを作成するか、既存のウォレットをインポートします（[ウォレットの作成](../../features/wallet/i18n/ja/README.md)）
 3. **好みに合わせて設定** — ニュースソース、プライバシー、表示を設定します（[設定](../../features/settings/i18n/ja/overview.md)）
 4. **ブラウジング開始** — Web と Web3 を安心して楽しみます（[ブラウザ](../../features/browser/i18n/ja/overview.md)）
 
@@ -148,16 +148,9 @@ Lunascape Mobile を好みに合わせてカスタマイズします。
 - [サポート](../../features/settings/i18n/ja/support.md) — ヘルプの入手とサポートへの連絡
 - [リセット](../../features/settings/i18n/ja/reset-to-default.md) — 既定の設定に戻す
 
-### [ウォレット](../../features/wallet/i18n/ja/overview.md)
+### [ウォレット](../../features/wallet/i18n/ja/README.md)
 
-統合 Web3 ウォレットで暗号資産を管理する方法を説明します。
-
-- [ウォレットの作成](../../features/wallet/i18n/ja/create-wallet.md) — 新しいウォレットの作成、または既存ウォレットのインポート
-- [ウォレットダッシュボード](../../features/wallet/i18n/ja/wallet-dashboard.md) — 資産と取引の概要
-- [資産管理](../../features/wallet/i18n/ja/asset-list.md) — トークンと暗号資産の管理
-- [ウォレット設定](../../features/wallet/i18n/ja/wallet-settings.md) — アカウント、ネットワーク、セキュリティの設定
-- [WalletConnect](../../features/wallet/i18n/ja/walletconnect.md) — 外部ウォレットや DApp への接続
-- [ウォレット操作](../../features/wallet/i18n/ja/wallet-operations.md) — 取引の実行と資産の管理
+統合 Web3 ウォレットで暗号資産を管理する方法です。設定と使いかたは Lunascape Wallet ユーザガイドで説明しています。リンクは [ウォレット](../../features/wallet/i18n/ja/README.md) を参照してください。
 
 ## 目標
 

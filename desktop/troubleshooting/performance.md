@@ -3,22 +3,22 @@ navigation:
   order: 400
 ---
 
-# 動作が重い・応答しなくなる
+# It is slow or stops responding
 
-## 特定のサイトを開くと重くなる
+## One site makes it heavy
 
-そのタブを閉じて、症状が収まるか確認してください。ページ側の処理が繰り返し失敗していると、CPU 使用率が上がることがあります。改善しない場合は、Lunascape を再起動してください。
+Close that tab and see whether things settle. A page whose own background work keeps failing can drive the CPU up. If it does not settle, restart Lunascape.
 
-## タブが多いと重い
+## Too many tabs
 
-使っていないタブを閉じるか、[タブグループ](../features/browser/tab-groups.md)にまとめて折りたたんでください。
+Close the ones you are not using, or collect them into a [tab group](../features/browser/tab-groups.md) and collapse it.
 
-## 拡張機能を疑う
+## Suspect an extension
 
-**設定** > **拡張機能** で拡張機能をすべて無効にし、症状が変わるかを確認します。変わる場合は、1 つずつ有効に戻して原因を特定してください。
+Disable every extension in **Settings** > **Extensions** and see whether the symptom changes. If it does, enable them one at a time to find the culprit.
 
-## それでも改善しないとき
+## If none of that helps
 
-再現するサイトと手順、OS、バージョン（**設定** > **About**）を添えてご連絡ください。
+Send us the site and the steps that reproduce it, your OS, and the version from **Settings** > **About**.
 
-- [サポート](https://www.lunascape.org/ja/support)
+- [Support](https://www.lunascape.org/en/support)

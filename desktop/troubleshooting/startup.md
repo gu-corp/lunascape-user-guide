@@ -3,29 +3,29 @@ navigation:
   order: 100
 ---
 
-# 起動できない
+# Lunascape does not start
 
-## Windows でダブルクリックしても何も起きない
+## Nothing happens when you double-click it on Windows
 
-インストールが途中で終わっている可能性があります。次の手順で入れ直してください。
+The install may have stopped partway. Install it again:
 
-1. 公式サイトから最新版の `Setup.exe` をダウンロードします。
-2. そのまま実行します（アンインストールは不要です）。
-3. スタートメニューのショートカットから起動します。
+1. Download the latest `Setup.exe` from the official site.
+2. Run it. You do not have to uninstall first.
+3. Start Lunascape from the Start-menu shortcut.
 
-再インストールしても起動しない場合は、[不具合の報告](#不具合を報告する)を参照してください。
+If it still does not start, see [Report a problem](#report-a-problem).
 
-## macOS で「開発元を確認できない」と表示される
+## macOS says the developer cannot be verified
 
-ダウンロードした `.dmg` から **アプリケーション** フォルダーへコピーしたうえで、Finder でアイコンを右クリックして **開く** を選んでください。
+Copy the app from the `.dmg` into **Applications** first, then right-click its icon in Finder and choose **Open**.
 
-## 起動が非常に遅い、途中で止まる
+## It starts very slowly, or hangs on the way up
 
-- 一度アプリを終了し、もう一度起動してください。
-- 拡張機能を一時的にすべて無効にして、症状が変わるか確認してください（[うまく動かない拡張機能がある](extensions.md)）。
+- Quit and start it again.
+- Disable every extension for a moment and see whether that changes anything ([An extension is not working](extensions.md)).
 
-## 不具合を報告する
+## Report a problem
 
-再現する手順、OS、バージョン（**設定** > **About** で確認できます）を添えてご連絡ください。
+Tell us the steps that reproduce it, your OS, and the version from **Settings** > **About**.
 
-- [サポート](https://www.lunascape.org/ja/support)
+- [Support](https://www.lunascape.org/en/support)

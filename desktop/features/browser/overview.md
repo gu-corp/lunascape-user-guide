@@ -3,20 +3,20 @@ navigation:
   order: 100
 ---
 
-# ブラウジングの概要
+# Browsing overview
 
-日常の操作は、次のページにまとめています。
+The everyday tasks are covered on these pages.
 
-| やりたいこと | 参照先 |
+| What you want to do | Where to look |
 | --- | --- |
-| タブを開く・閉じる・切り替える | [タブを操作する](tabs.md) |
-| タブをまとめて整理する | [タブグループ](tab-groups.md) |
-| Web を検索する・検索エンジンを変える | [検索とアドレスバー](search.md) |
-| サイトを保存して整理する | [ブックマーク](bookmarks.md) |
-| 見たページを探す・消す | [履歴](history.md) |
-| ファイルを保存する | [ダウンロード](downloads.md) |
-| PDF を読む | [PDF を表示する](pdf.md) |
-| ページ内検索・拡大・印刷・保存 | [ページの操作](page-tools.md) |
-| キーボードで操作する | [キーボードショートカット](shortcuts.md) |
+| Open, close and switch tabs | [Tabs](tabs.md) |
+| Keep related tabs together | [Tab groups](tab-groups.md) |
+| Search the web, change search engines | [Search and the address bar](search.md) |
+| Save and organise sites | [Bookmarks](bookmarks.md) |
+| Find or clear pages you visited | [History](history.md) |
+| Save files | [Downloads](downloads.md) |
+| Read a PDF | [PDFs](pdf.md) |
+| Find on page, zoom, print, save | [Working with a page](page-tools.md) |
+| Use the keyboard | [Keyboard shortcuts](shortcuts.md) |
 
-> **ヒント:** 設定を変えてもページの表示が変わらないときは、そのページを再読み込みしてください。
+> **Tip:** If a page does not reflect a setting you changed, reload it.

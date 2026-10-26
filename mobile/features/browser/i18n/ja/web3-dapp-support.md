@@ -23,5 +23,4 @@ WalletConnect、MetaMask、Coinbase Walletなど、DApp側が提示する対応�
 
 ## 関連項目
 
-- [WalletConnect](../../../wallet/i18n/ja/walletconnect.md)
-- [ウォレット操作](../../../wallet/i18n/ja/wallet-operations.md)
+- [ウォレット](../../../wallet/i18n/ja/README.md)

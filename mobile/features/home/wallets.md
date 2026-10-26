@@ -24,5 +24,4 @@ If no wallet exists, Lunascape asks you to create or import one before showing a
 
 ## Related topics
 
-- [Create a wallet](../wallet/create-wallet.md)
-- [Wallet Dashboard](../wallet/wallet-dashboard.md)
+- [Wallet](../wallet/README.md)

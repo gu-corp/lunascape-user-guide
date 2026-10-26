@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: "ブラウジング"
+  title: "Browsing"
   order: 100
 ---
 
-# ブラウジング
+# Browsing
 
-毎日のブラウジングでよく使う操作をまとめています。
+The everyday browsing tasks.
 
-- [ブラウジングの概要](overview.md) — 日常の操作は、次のページにまとめています。
-- [タブを操作する](tabs.md) — タブを右クリックすると、次のような操作ができます。
-- [タブグループ](tab-groups.md) — 関連するタブをまとめて、色と名前を付けて管理できます。
-- [検索とアドレスバー](search.md) — アドレスバーは、URL の入力と検索を兼ねています。
-- [ブックマーク](bookmarks.md) — よく使うブックマークを、ツールバーの下に並べて表示します。
-- [履歴](history.md) — 開いたページを見る、期間を指定して消す。
-- [ダウンロード](downloads.md) — ファイルへのリンクを選ぶと、ダウンロードが始まり、画面下部にダウンロードバーが表示されます。
-- [PDF を表示する](pdf.md) — PDF へのリンクを開くと、内蔵の PDF ビューアで表示されます。
-- [ページの操作](page-tools.md)
-- [キーボードショートカット](shortcuts.md) — Windows は `Ctrl`、macOS は `Cmd` を使います。
+- [Browsing overview](overview.md) — The everyday tasks are covered on these pages.
+- [Bookmarks](bookmarks.md) — Your frequently used bookmarks, shown under the toolbar.
+- [Downloads](downloads.md) — Choosing a link to a file starts the download and shows the download bar at the bottom of the window.
+- [History](history.md) — See the pages you opened, and delete them by period.
+- [Working with a page](page-tools.md)
+- [PDFs](pdf.md) — A link to a PDF opens in the built-in viewer.
+- [Search and the address bar](search.md) — The address bar takes both addresses and searches.
+- [Keyboard shortcuts](shortcuts.md) — Windows uses `Ctrl`, macOS uses `Cmd`.
+- [Tab groups](tab-groups.md) — Keep related tabs together under a name and a colour — one group per thing you are working on.
+- [Tabs](tabs.md) — Right-clicking a tab offers actions such as:

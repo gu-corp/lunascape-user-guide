@@ -3,32 +3,32 @@ navigation:
   order: 100
 ---
 
-# Lunascape Desktop ユーザガイド
+# Lunascape Desktop User Guide
 
-Lunascape Desktop は、Windows と macOS で動くデスクトップブラウザーです。日常のブラウジングに、広告ブロック、Chrome 拡張機能、パスワードマネージャー、AI 連携、Web3 ウォレットを組み合わせて使えます。
+Lunascape Desktop is a desktop browser for Windows and macOS. It combines everyday browsing with ad blocking, Chrome extensions, a password manager, AI integration and a Web3 wallet.
 
-## 主な機能
+## Main features
 
-- 広告とトラッカーをブロックし、通信量を減らします。
-- Chrome ウェブストアの拡張機能をそのまま使えます。
-- パスワードマネージャーを内蔵し、Touch ID や Windows Hello で保護できます。
-- 内蔵の Lunascape AI に、表示中のページについて質問したり、作業を任せたりできます。
-- MCP サーバーを通じて、外部の AI アシスタントからブラウザーを操作できます。
-- Lunascape Wallet を標準搭載し、Web3 サイトに接続できます。
-- 新しいタブは、検索とアプリをまとめたダッシュボードとして開きます。
+- Blocks advertisements and trackers, and reduces the data a page pulls in.
+- Runs extensions from the Chrome Web Store.
+- Includes a password manager protected by Touch ID or Windows Hello.
+- Has Lunascape AI built in: ask about the page you are on, or hand it tasks.
+- Lets an external AI assistant drive the browser through an MCP server.
+- Ships with Lunascape Wallet for connecting to Web3 sites.
+- Opens each new tab as a dashboard with search and your apps.
 
-## このガイドの読みかた
+## How to read this guide
 
-- 左の INDEX から項目を選ぶか、本文中のリンクをたどって読み進めます。
-- 画面に表示される項目名は **設定** のように太字で示します。
-- キー操作は Windows / macOS の順に `Ctrl+T` / `Cmd+T` のように示します。
+- Pick a topic from the INDEX on the left, or follow the links in the text.
+- Names shown on screen are written in bold, like **Settings**.
+- Keyboard shortcuts are written Windows first, then macOS: `Ctrl+T` / `Cmd+T`.
 
-## はじめての方へ
+## Start here
 
-| やりたいこと | 参照先 |
+| What you want to do | Where to look |
 | --- | --- |
-| インストールする | [インストール](getting-started/install.md) |
-| 画面の見かたを知る | [画面各部の名称](getting-started/screen.md) |
-| 他のブラウザーからデータを移す | [データの移行](getting-started/import.md) |
-| 既定のブラウザーにする | [既定のブラウザーに設定する](getting-started/default-browser.md) |
-| 最新版に更新する | [アップデート](getting-started/update.md) |
+| Install the browser | [Install](getting-started/install.md) |
+| Learn the parts of the window | [The browser window](getting-started/screen.md) |
+| Bring data over from another browser | [Import your data](getting-started/import.md) |
+| Make it your default browser | [Set as the default browser](getting-started/default-browser.md) |
+| Update to the latest version | [Update](getting-started/update.md) |

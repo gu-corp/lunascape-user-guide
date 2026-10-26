@@ -3,29 +3,29 @@ navigation:
   order: 300
 ---
 
-# うまく動かない拡張機能がある
+# An extension is not working
 
-## ボタンを押しても反応しない
+## Its button does nothing
 
-拡張機能の内部処理が停止している可能性があります。次の順に試してください。
+The extension's background worker may have stopped. Try these in order.
 
-1. 拡張機能のボタンをもう一度押します。
-2. 表示中のページを再読み込みします。
-3. **設定** > **拡張機能** で、その拡張機能をいったん無効にして、もう一度有効にします。
+1. Press the extension's button again.
+2. Reload the page you are on.
+3. In **Settings** > **Extensions**, disable the extension and enable it again.
 
-## ポップアップが白いまま表示される
+## The popup opens blank
 
-ページを再読み込みしてから、もう一度ボタンを押してください。改善しない場合は、拡張機能を入れ直してください。
+Reload the page, then press the button again. If that does not help, reinstall the extension.
 
-## インストールできない
+## It will not install
 
-- **拡張機能を追加できません** と表示される: **設定** > **拡張機能** の **Chrome 拡張サポート** がオフになっています。オンにしてから、もう一度追加してください。
-- **非対応の拡張機能** と表示される: Lunascape が未対応の API を必要とする拡張機能です。この場合は利用できません。
+- **Cannot add extension**: **Chrome Extension Support** under **Settings** > **Extensions** is off. Turn it on and try again.
+- **Extension Not Supported**: the extension needs an API Lunascape does not support, so it cannot be used.
 
-## サイトの表示が崩れる
+## A site looks broken
 
-広告ブロックが原因のことがあります。そのサイトを[許可リスト](../features/privacy/ad-blocking.md)に追加して、再読み込みしてください。
+Ad blocking is a common cause. Add the site to the [allowlist](../features/privacy/ad-blocking.md) and reload.
 
-## 関連項目
+## Related topics
 
-- [拡張機能を追加・管理する](../features/extensions/manage.md)
+- [Add and manage extensions](../features/extensions/manage.md)
